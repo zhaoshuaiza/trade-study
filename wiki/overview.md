@@ -39,6 +39,6 @@ CLAUDE.md  schema 层规则
 
 ## 相关文件
 
-- 维护规范：[[CLAUDE]]（仓库根目录）
+- 维护规范：仓库根目录的 `CLAUDE.md`（schema 层）
 - 总索引：[[index]]
 - 近期上下文：[[hot]]
