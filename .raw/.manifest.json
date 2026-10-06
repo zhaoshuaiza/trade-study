@@ -26,6 +26,37 @@
         "wiki/claims/观点-RAG不彻底解决幻觉.md",
         "wiki/claims/观点-中间遗忘是上下文排序的硬约束.md"
       ]
+    },
+    "2023-liu-lost-in-the-middle.md": {
+      "hash": "a1555c45066a79ef",
+      "ingested": "2026-10-06",
+      "pages": [
+        "wiki/sources/2023-liu-lost-in-the-middle.md",
+        "wiki/entities/LostInTheMiddle2023.md",
+        "wiki/concepts/中间遗忘.md",
+        "wiki/concepts/阅读器饱和.md",
+        "wiki/claims/观点-中间遗忘是上下文排序的硬约束.md"
+      ],
+      "upgraded": [
+        {
+          "page": "wiki/concepts/中间遗忘.md",
+          "field": "status",
+          "from": "uncertain",
+          "to": "verified"
+        },
+        {
+          "page": "wiki/claims/观点-中间遗忘是上下文排序的硬约束.md",
+          "field": "verifiable",
+          "from": "uncertain",
+          "to": "verified"
+        }
+      ],
+      "revised": [
+        "wiki/concepts/重排序.md",
+        "wiki/concepts/RAG.md",
+        "wiki/comparisons/RAG三代范式对比.md",
+        "wiki/syntheses/RAG三年演进的核心逻辑.md"
+      ]
     }
   }
 }
