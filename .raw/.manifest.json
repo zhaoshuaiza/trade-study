@@ -85,6 +85,43 @@
         "2024-2025年模型的位置敏感性实证",
         "RAG 与长上下文窗口扩展的边界"
       ]
+    },
+    "2026-position-bias-mechanism.md": {
+      "hash": "8f43ea40a643801c",
+      "ingested": "2026-10-07",
+      "kind": "机制解释（两篇论文，回答「为什么」）",
+      "components": [
+        "Found in the Middle (Hsieh et al., ACL Findings 2024, arXiv 2406.16008)",
+        "Lost in the Middle at Birth (Chowdhury, arXiv 2603.10123, 预印本未评审)"
+      ],
+      "pages": [
+        "wiki/sources/2026-position-bias-mechanism.md",
+        "wiki/entities/FoundInTheMiddle2024.md",
+        "wiki/entities/LostInTheMiddleAtBirth2026.md",
+        "wiki/concepts/U型注意力偏置.md",
+        "wiki/concepts/拓扑U型.md"
+      ],
+      "revised": [
+        "wiki/concepts/中间遗忘.md",
+        "wiki/claims/观点-中间遗忘是上下文排序的硬约束.md"
+      ],
+      "corrections": [
+        {
+          "page": "wiki/concepts/中间遗忘.md",
+          "from": "模型看不到中间（注意力完全缺席）",
+          "to": "模型看到了但被首尾注意力尖峰淹没",
+          "reason": "Found in the Middle的 Attn ≈ rel + bias 诊断"
+        },
+        {
+          "page": "wiki/concepts/中间遗忘.md",
+          "from": "上下文越长，退化越严重",
+          "to": "死区宽度随网络深度 H 扩张；越长则落入死区的token 越多，非长度直接导致",
+          "reason": "拓扑U型的阶乘死区 O(1/(H-1)!) 与 RoPE 外推衰减是两条不同路径"
+        }
+      ],
+      "closed_gaps": [
+        "位置注意力偏置的机制解释（因果链闭环）"
+      ]
     }
   }
 }
