@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows/macOS 混用时产生大量无意义 diff
+* text=auto eol=lf
+
+# 二进制文件不处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.mp3 binary
+*.mp4 binary
+*.zip binary
