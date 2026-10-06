@@ -1,0 +1,39 @@
+# ===== Obsidian 本地状态（因人因机器而异，不入库）=====
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# ===== 操作系统垃圾文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*.bak
+*.orig
+.merge_working_tree
+
+# ===== 敏感信息（重要！不要提交）=====
+.env
+.env.*
+*.key
+*.pem
+*_token*
+*_secret*
+*_apikey*
+*.credentials.*
+
+# 注意：.obsidian/ 下的 app.json、appearance.json 等配置**建议入库**，
+# 因为它们是知识库的视觉设置，换机器时需要复现。
+# 仅排除 workspace.json 等纯本地状态。

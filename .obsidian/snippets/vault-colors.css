@@ -1,0 +1,26 @@
+/*按类型给wiki 目录着色，让文件浏览器一眼区分页面职能 */
+
+.nav-folder-title:not(.nav-folder-title[data-path^=".raw"]),
+.nav-folder-title:not(.nav-folder-title[data-path^=".obsidian"]),
+.nav-folder-title:not(.nav-folder-title[data-path^="templates"]) {
+  color: var(--text-normal);
+}
+
+/* 概念 —— 蓝 */
+.nav-folder-title[data-path$="concepts"] { color: #378ADD; }
+/* 实体 —— 紫 */
+.nav-folder-title[data-path$="entities"] { color: #7F77DD; }
+/* 来源 —— 绿 */
+.nav-folder-title[data-path$="sources"] { color: #1D9E75; }
+/* 观点 —— 橙 */
+.nav-folder-title[data-path$="claims"] { color: #EF9F27; }
+/* 对比 —— 青 */
+.nav-folder-title[data-path$="comparisons"] { color: #5DCAA5; }
+/* 综合 —— 粉 */
+.nav-folder-title[data-path$="syntheses"] { color: #ED93B1; }
+/* 问答 —— 黄 */
+.nav-folder-title[data-path$="questions"] { color: #FAC775; }
+/* 原始资料 —— 灰，且弱化 */
+.nav-folder-title[data-path$=".raw"] { color: #888780; }
+/* 报告 —— 浅灰 */
+.nav-folder-title[data-path$="lint"] { color: #B4B2A9; }
