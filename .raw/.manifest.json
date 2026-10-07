@@ -7,9 +7,22 @@
       "path": "E:/笔记Obsidian/电子书/道氏理论.pdf",
       "size": "33MB",
       "type": "pdf",
-      "compiled": false,
-      "chapters_done": [],
-      "text_layer": "待检测"
+      "compiled": true,
+      "chapters_done": [
+        1,
+        223
+      ],
+      "text_layer": false,
+      "pages": 223,
+      "ocr": {
+        "engine": "rapidocr_onnxruntime",
+        "dpi": 200,
+        "status": "done",
+        "elapsed_sec": 660,
+        "script": "ocr_dow.py"
+      },
+      "note": "1931年Rhea著，繁体扫描件，已OCR+繁转简",
+      "extracted": ".raw/distilled/道氏理论-OCR-简体.txt"
     },
     "【波浪理论精典教学课程】.pdf": {
       "path": "E:/笔记Obsidian/电子书/【波浪理论精典教学课程】.pdf",
