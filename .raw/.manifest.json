@@ -8,14 +8,23 @@
       "size": "33MB",
       "type": "pdf",
       "compiled": false,
-      "chapters_done": []
+      "chapters_done": [],
+      "text_layer": "待检测"
     },
     "【波浪理论精典教学课程】.pdf": {
       "path": "E:/笔记Obsidian/电子书/【波浪理论精典教学课程】.pdf",
       "size": "0.6MB",
       "type": "pdf",
-      "compiled": false,
-      "chapters_done": []
+      "compiled": true,
+      "chapters_done": [
+        1,
+        24
+      ],
+      "pages": 24,
+      "words": 17607,
+      "text_layer": true,
+      "extracted": ".raw/distilled/波浪理论-全文.txt",
+      "note": "已完整编译"
     },
     "缠论108课详解.pdf": {
       "path": "E:/笔记Obsidian/电子书/缠论108课详解 扫地僧读缠论108课札记(高清).pdf",
