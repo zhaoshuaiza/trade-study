@@ -3,10 +3,43 @@
   "created": "2026-10-07",
   "note": "资料源在 E://笔记Obsidian//电子书//，本库不存PDF，只记编译状态",
   "sources": {
-    "道氏理论.pdf": { "path": "E://笔记Obsidian//电子书//道氏理论.pdf", "size": "33MB", "compiled": false, "chapters_done": [] },
-    "【波浪理论精典教学课程】.pdf": { "path": "E://笔记Obsidian//电子书//【波浪理论精典教学课程】.pdf", "size": "0.6MB", "compiled": false, "chapters_done": [] },
-    "缠论108课详解.pdf": { "path": "E://笔记Obsidian//电子书//缠论108课详解 扫地僧读缠论108课札记(高清).pdf", "size": "186MB", "compiled": false, "chapters_done": [], "note": "体积大，建议分批" },
-    "海龟交易法则.pdf": { "path": "E://笔记Obsidian//电子书//海龟交易法则(无水印高清晰版）.pdf", "size": "38MB", "compiled": false, "chapters_done": [], "note": "hedge库012已有蒸馏，勿重复" },
-    "黑马王子系列": { "path": "E://笔记Obsidian//电子书//黑马王子系列//", "books": 7, "compiled": false, "chapters_done": [] }
-  }
+    "道氏理论.pdf": {
+      "path": "E:/笔记Obsidian/电子书/道氏理论.pdf",
+      "size": "33MB",
+      "type": "pdf",
+      "compiled": false,
+      "chapters_done": []
+    },
+    "【波浪理论精典教学课程】.pdf": {
+      "path": "E:/笔记Obsidian/电子书/【波浪理论精典教学课程】.pdf",
+      "size": "0.6MB",
+      "type": "pdf",
+      "compiled": false,
+      "chapters_done": []
+    },
+    "缠论108课详解.pdf": {
+      "path": "E:/笔记Obsidian/电子书/缠论108课详解 扫地僧读缠论108课札记(高清).pdf",
+      "size": "186MB",
+      "type": "pdf",
+      "compiled": false,
+      "chapters_done": [],
+      "note": "体积大，建议分批"
+    },
+    "海龟交易法则.pdf": {
+      "path": "E:/笔记Obsidian/电子书/海龟交易法则(无水印高清晰版）.pdf",
+      "size": "38MB",
+      "type": "pdf",
+      "compiled": false,
+      "chapters_done": [],
+      "note": "hedge库012已有蒸馏，勿重复"
+    },
+    "黑马王子系列": {
+      "path": "E:/笔记Obsidian/电子书/黑马王子系列/",
+      "type": "pdf_series",
+      "books": 7,
+      "compiled": false,
+      "chapters_done": []
+    }
+  },
+  "path_convention": "用正斜杠 /，避免 JSON 转义问题"
 }
