@@ -1,0 +1,29 @@
+=== 第81页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第82页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第83页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第84页 ===
+[OCR失败 dpi降级后仍失败: MemoryError: Unable to allocate 33.3 MiB for an array with shape (2112, 1]
+
+=== 第85页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第86页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第87页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第88页 ===
+[OCR失败 dpi降级后仍失败: ONNXRuntimeError: ONNXRuntime inferece failed.]
+
+=== 第89页 ===
+[OCR失败 dpi降级后仍失败: MemoryError: Unable to allocate 33.3 MiB for an array with shape (2112, 1]
+
+=== 第90页 ===
+[OCR失败 dpi降级后仍失败: MemoryError: Unable to allocate 33.3 MiB for an array with shape (2112, 1]

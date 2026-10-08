@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+"""通用 OCR 脚本 —— 分片 + 断点续传 + 降dpi/切半图重试。
+
+用法:
+  python ocr_book.py量柱擒涨停
+  python ocr_book.py 战胜华尔街
+会按关键字在 E:/笔记Obsidian/电子书/ 下递归找 PDF。
+"""
+import pymupdf, io, os, time, json, sys, glob, re
+
+BASE = 'E:/Work Buddy/交易学习/.raw/distilled'
+SRC_DIRS = ['E:/笔记Obsidian/电子书',
+            'E:/笔记Obsidian/电子书/黑马王子系列']
+
+DPI = 160
+CHUNK = 10
+
+kw = sys.argv[1]
+START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+END = int(sys.argv[3]) if len(sys.argv) > 3 else 99999
+
+def find_pdf(k):
+    for d in SRC_DIRS:
+        for root, _, files in os.walk(d):
+            for fn in files:
+                if k in fn and fn.lower().endswith('.pdf'):
+                    return os.path.join(root, fn)
+    return None
+
+pdf = find_pdf(kw)
+if not pdf:
+    print(f'未找到含「{kw}」的 PDF'); sys.exit(1)
+
+doc = pymupdf.open(pdf)
+TOTAL = doc.page_count
+END = min(END, TOTAL)
+
+safe = re.sub(r'[^\w\u4e00-\u9fff]', '', kw)
+SHARD_DIR = f'{BASE}/shards_{safe}'
+os.makedirs(SHARD_DIR, exist_ok=True)
+TMP = f'{BASE}/_tmp_{safe}.png'
+PROGRESS = f'{BASE}/_ocr_{safe}_progress.json'
+FULL = f'{BASE}/{kw}-OCR-简体.txt'
+
+print(f'《{kw}》共 {TOTAL} 页，本次 {START}~{END}', flush=True)
+
+from rapidocr_onnxruntime import RapidOCR
+try:
+    import opencc
+    cc = opencc.OpenCC('t2s')
+except Exception:
+    cc = None
+ocr = RapidOCR()
+
+def ocr_page(i):
+    """降 dpi + 切半图，逐级尝试。返回文本或 None。"""
+    for d in (DPI, 130, 100):
+        try:
+            pix = doc[i].get_pixmap(dpi=d)
+            pix.save(TMP)
+            res, _ = ocr(TMP)
+            if res:
+                lines = [r[1].strip() for r in res if len(r[1].strip()) > 1]
+                if lines:
+                    return '\n'.join(lines)
+        except Exception:
+            pass
+    # 切半 / 三分
+    for parts in (2, 3):
+        try:
+            rect = doc[i].rect
+            got = []
+            for k in range(parts):
+                clip = pymupdf.Rect(0, rect.height*k/parts, rect.width, rect.height*(k+1)/parts)
+                pix = doc[i].get_pixmap(dpi=100, clip=clip)
+                pix.save(TMP)
+                res, _ = ocr(TMP)
+                if res:
+                    got += [r[1].strip() for r in res if len(r[1].strip()) > 1]
+            if got:
+                return '\n'.join(got)
+        except Exception:
+            pass
+    return None
+
+def shard_path(p):
+    return f'{SHARD_DIR}/p{p:04d}-{min(p+CHUNK-1, END):04d}.txt'
+
+buf, chunk_start, done, failed = [], START, 0, []
+t0 = time.time()
+
+for i in range(START-1, END):
+    pg = i + 1
+    text = ocr_page(i)
+    if text is None:
+        buf.append(f'=== 第{pg}页 ===\n[OCR失败]')
+        failed.append(pg)
+    else:
+        if cc:
+            text = cc.convert(text)
+        buf.append(f'=== 第{pg}页 ===\n{text}')
+    done += 1
+
+    if done % CHUNK == 0 or pg == END:
+        with io.open(shard_path(chunk_start), 'w', encoding='utf-8') as f:
+            f.write('\n\n'.join(buf))
+        el = time.time() - t0
+        eta = el/done*(END-pg)
+        json.dump({'done': pg, 'total': END, 'elapsed': round(el),
+                   'eta_sec': round(eta), 'failed': len(failed)},
+                  io.open(PROGRESS, 'w'), ensure_ascii=False)
+        print(f'  {pg}/{END}  {el:.0f}s  ETA {eta:.0f}s  失败{len(failed)}', flush=True)
+        buf, chunk_start = [], pg + 1
+
+# 合并
+parts = []
+for sp in sorted(glob.glob(f'{SHARD_DIR}/p*.txt')):
+    parts.append(io.open(sp, encoding='utf-8').read())
+io.open(FULL, 'w', encoding='utf-8').write('\n\n'.join(parts))
+print(f'\n✓ 完成 -> {FULL}', flush=True)
+print(f'耗时 {time.time()-t0:.0f}s，失败 {len(failed)} 页: {failed[:30]}', flush=True)
