@@ -53,3 +53,22 @@
 - 上级说明：[../README.md]
 - 编译规则：[../../CLAUDE.md]
 - 来源页登记：[../../wiki/sources/README.md]
+
+---
+
+## ✅ Web Clipper 已配好（2026-10-09）
+
+已成功剪藏测试通过。配置如下：
+
+- **保管库名称**：`交易学习`（⚠️ **只填库名，不是路径**）
+- **笔记位置**：`raw/articles/`
+- **勾选**：保存笔记但不打开
+
+**报 `Vault not found` 的原因**：保管库填了整条路径 → 扩展发不出 `vault=` 参数。
+详见 → [[从这里开始]] 的「Web Clipper 配置踩坑记录」。
+
+**编译新素材**：
+```bash
+python compile_raw.py --scan
+```
+然后跟 AI 说「编译 raw/」。
