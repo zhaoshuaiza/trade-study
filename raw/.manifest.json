@@ -205,5 +205,18 @@
   "path_convention": "用正斜杠 /，避免 JSON 转义问题",
   "compiled_count": 5,
   "total_books": 18,
-  "concepts_total": 26
+  "concepts_total": 26,
+  "compiled": {
+    "articles/著名的海龟式期货交易系统完整版来了！值得收藏！.md": {
+      "date": "2026-10-09",
+      "pages_updated": [
+        "concepts/止损的争议.md",
+        "concepts/ATR与N值.md",
+        "concepts/唐奇安通道.md",
+        "claims/三种止损方法的适用边界.md"
+      ],
+      "source_url": "https://mp.weixin.qq.com/s/uAUndsMOzX8fOyYY2Hz6yQ",
+      "note": "费思原文系统对比章节。核心产出：不加止损MAR最高的实测证据 + 突破法交易者效应"
+    }
+  }
 }
