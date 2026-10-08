@@ -24,7 +24,7 @@
 - 目录改名：`llm-wiki-claude-v2` → `交易学习`
 - 提交 RAG阶段存档（8 次提交历史完整保留，可随时找回）
 - `CLAUDE.md` **完全重写**为交易版规则
-- 清空 `wiki/` 与 `.raw/`，重建目录骨架
+- 清空 `wiki/` 与 `raw/`，重建目录骨架
 
 ### 新建文件
 
@@ -73,17 +73,17 @@
 
 | 目录 | 用途 |
 |---|---|
-| `.raw/articles/` | 网页文章（Web Clipper 一键剪藏） |
-| `.raw/clips/` | 短片段：观点、数据、案例 |
-| `.raw/academic/` | 论文、学术报告、技术文档 |
-| `.raw/distilled/` | 中间产物（AI 自动写，可删可重建） |
-| `.raw/README.md` | 素材层说明与收录标准 |
+| `raw/articles/` | 网页文章（Web Clipper 一键剪藏） |
+| `raw/clips/` | 短片段：观点、数据、案例 |
+| `raw/academic/` | 论文、学术报告、技术文档 |
+| `raw/distilled/` | 中间产物（AI 自动写，可删可重建） |
+| `raw/README.md` | 素材层说明与收录标准 |
 
 ### 修改
 
 - `CLAUDE.md` 第一章：素材层从「单一索引」扩为「两类分开管理」
   - 交易书籍 → `E://笔记Obsidian//电子书//`（只索引）
-  - 动态新增 → `.raw/` 四入口（库内）
+  - 动态新增 → `raw/` 四入口（库内）
 - `CLAUDE.md` 编译流程：增加「网页文章特殊处理」
   - 必须保留原文链接与时间元信息
   - **单篇文章不构成 `syntheses/` 依据**（综合需跨体系或2 份以上）
@@ -92,7 +92,7 @@
 
 ### 修了一个隐蔽bug
 
-`.raw/.manifest.json` 的路径用反斜杠写入JSON，
+`raw/.manifest.json` 的路径用反斜杠写入JSON，
 读取时 `\` 被当转义符吃掉，实际读出`E://笔记Obsidian//电子书//...`，
 **5 条路径全部失效**。已全部改为正斜杠，并加 `path_convention` 字段说明。
 
@@ -103,9 +103,9 @@
 
 素材分两类管理：
 - **书籍 PDF** 留在库外（`电子书`），避免 1.2GB 双份，且保证单一份源
-- **动态资料** 放库内 `.raw/`，因为网页文章需要 Web Clipper 一键存入
+- **动态资料** 放库内 `raw/`，因为网页文章需要 Web Clipper 一键存入
 
-原 CLAUDE.md 只说「.raw/ 放文本化摘录不放PDF」，**没有说网页文章放哪**，
+原 CLAUDE.md 只说「raw/ 放文本化摘录不放PDF」，**没有说网页文章放哪**，
 这是缺口，已补。
 
 ## 2026-10-07 · 补齐全库目录说明（18 个 README）
@@ -126,10 +126,10 @@
 | `wiki/questions/` | 必须有「依据」段 + 复用前需核实 |
 | `wiki/meta/` | 交易库特有两项检查（参数被改、冲突未处理） |
 | `wiki/meta/lint/` | 报告结构模板 + 只报告不修改原则 |
-| `.raw/articles/` | Web Clipper 操作步骤 + 收录标准 + 交易库特别注意 |
-| `.raw/clips/` | 自己的推测不要放这里 |
-| `.raw/academic/` | 书籍 PDF 不放这 + 论文适用边界必须记录 |
-| `.raw/distilled/` | 可删可重建，与其他三个目录的本质区别 |
+| `raw/articles/` | Web Clipper 操作步骤 + 收录标准 + 交易库特别注意 |
+| `raw/clips/` | 自己的推测不要放这里 |
+| `raw/academic/` | 书籍 PDF 不放这 + 论文适用边界必须记录 |
+| `raw/distilled/` | 可删可重建，与其他三个目录的本质区别 |
 | `templates/` | 七模板对应关系 + 交易库新增字段 |
 | `.attachments/` | 附件不参与知识层 |
 
@@ -157,7 +157,7 @@
 ### 图的内容
 
 自上而下七层：
-1. **素材层** —— `.raw/` 四入口 + 库外书籍 PDF + 编译入口
+1. **素材层** —— `raw/` 四入口 + 库外书籍 PDF + 编译入口
 2. **知识层** —— `wiki/` 八类分型 + 根目录三文件
 3. **三问决策** —— 分不清放哪时：三问定去向
 4. **五套体系** —— 关系图 + 方法论分野
@@ -169,7 +169,7 @@
 
 - `README.md`（顶部）
 - `wiki/README.md`
-- `.raw/README.md`
+- `raw/README.md`
 
 用 `![[目录导航图.png]]` 双链语法，图片在 `.attachments/`（Obsidian 默认附件目录），能被识别。
 
@@ -204,9 +204,9 @@ matplotlib 3.11.2 装在 `E://Work Buddy\runtimes\python-envs\default\`（未污
 | `wiki/concepts/调整浪形态.md` | 四类调整、交替准则、变异型态态度 |
 | `wiki/concepts/斐波那契比率.md` | 六大比率、三个用法、失效判据 |
 | `wiki/学习系统-四周上手计划.md` | ⭐ 四周计划 + 勾选清单 + 阶段验收 |
-| `.raw/distilled/波浪理论-全文.txt` | 提取产物（清洗掉水印） |
+| `raw/distilled/波浪理论-全文.txt` | 提取产物（清洗掉水印） |
 
-**更新**：`entities/波浪理论.md`、`sources/波浪理论.md`、`wiki/index.md`、`wiki/hot.md`、`.raw/.manifest.json`
+**更新**：`entities/波浪理论.md`、`sources/波浪理论.md`、`wiki/index.md`、`wiki/hot.md`、`raw/.manifest.json`
 
 ### ⚠️ 重要发现：3 本主力 PDF 是扫描版
 
@@ -284,14 +284,14 @@ matplotlib 3.11.2 装在 `E://Work Buddy\runtimes\python-envs\default\`（未污
 
 用户问「这些英文目录都是什么意思，给每个目录下建立一个说明书」。
 
-**排查结果**：19 个目录中只有 `.raw/distilled/chan_shards/` 缺 README
+**排查结果**：19 个目录中只有 `raw/distilled/chan_shards/` 缺 README
 （上次建 README 时尚未创建该目录）。
 
 **新增**：
 - `wiki/目录英文名对照表.md` —— ⭐ 顶层 4 个目录 + wiki 八类分型 +
-  .raw 四入口 + meta 子目录 + 零散英文（README/CLAUDE/index/hot/log）
+  raw 四入口 + meta 子目录 + 零散英文（README/CLAUDE/index/hot/log）
   + 文件名前缀，每条都有中文对照和「你要做什么」
-- `.raw/distilled/chan_shards/README.md`
+- `raw/distilled/chan_shards/README.md`
 
 **修改**：README.md、wiki/README.md、wiki/index.md 加入口链接
 
@@ -319,7 +319,7 @@ matplotlib 3.11.2 装在 `E://Work Buddy\runtimes\python-envs\default\`（未污
 
 **最终成果**：
 ```
-.raw/distilled/缠论108课详解-OCR-简体.txt   593 页 / 426484 字
+raw/distilled/缠论108课详解-OCR-简体.txt   593 页 / 426484 字
 ```
 （修复前 357492 字 → 修复后 426484 字，增加 7 万字）
 
@@ -330,7 +330,7 @@ matplotlib 3.11.2 装在 `E://Work Buddy\runtimes\python-envs\default\`（未污
 走势中枢｜走势级别与递归｜三类买卖点｜背驰与力度比较｜走势的多义性｜均线吻与转折
 
 同步更新：`entities/缠论.md`（draft→verified）、`sources/缠论108课.md`、
-`index.md`、`hot.md`、`README.md`、`.raw/.manifest.json`
+`index.md`、`hot.md`、`README.md`、`raw/.manifest.json`
 
 ### 四、⭐⭐ 编译中最有价值的发现
 

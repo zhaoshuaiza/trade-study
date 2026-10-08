@@ -26,7 +26,7 @@ from datetime import datetime
 
 ROOT = r"E:\Work Buddy\交易学习"
 WIKI = os.path.join(ROOT, "wiki")
-MANIFEST = os.path.join(ROOT, ".raw", ".manifest.json")
+MANIFEST = os.path.join(ROOT, "raw", ".manifest.json")
 
 # 蒸馏源 → 知识层目标 的映射表
 SOURCES = [

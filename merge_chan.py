@@ -2,11 +2,11 @@
 """合并缠论 OCR 分片为完整文本，并做基础清洗。
 
 用法: python merge_chan.py
-输出: .raw/distilled/缠论108课详解-OCR-简体.txt
+输出: raw/distilled/缠论108课详解-OCR-简体.txt
 """
 import io, os, glob, re, json
 
-BASE = 'E:/Work Buddy/交易学习/.raw/distilled'
+BASE = 'E:/Work Buddy/交易学习/raw/distilled'
 SHARD_DIR = f'{BASE}/chan_shards'
 OUT = f'{BASE}/缠论108课详解-OCR-简体.txt'
 PROGRESS = f'{BASE}/_ocr_chan_progress.json'

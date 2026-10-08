@@ -2,11 +2,11 @@
 """提取有文字层 PDF 的全文，自动清理页眉页脚噪声。
 
 用法: python extract_text.py
-输出: .raw/distilled/<书名>-全文.txt
+输出: raw/distilled/<书名>-全文.txt
 """
 import pymupdf, io, os, re, sys
 
-BASE = 'E:/Work Buddy/交易学习/.raw/distilled'
+BASE = 'E:/Work Buddy/交易学习/raw/distilled'
 os.makedirs(BASE, exist_ok=True)
 
 BOOKS = [

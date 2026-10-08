@@ -4,12 +4,12 @@
 用法:
   python ocr_chan.py 1 20      # 跑第 1~20 页
   python ocr_chan.py 1 593     # 全量
-分片输出到 .raw/distilled/chan_shards/, 每 10 页一个文件, 可断点续跑。
+分片输出到 raw/distilled/chan_shards/, 每 10 页一个文件, 可断点续跑。
 """
 import pymupdf, io, os, time, json, sys
 
 PDF = 'E:/笔记Obsidian/电子书/缠论108课详解 扫地僧读缠论108课札记(高清).pdf'
-BASE = 'E:/Work Buddy/交易学习/.raw/distilled'
+BASE = 'E:/Work Buddy/交易学习/raw/distilled'
 SHARD_DIR = f'{BASE}/chan_shards'
 TMP = f'{BASE}/_tmp_chan.png'
 PROGRESS = f'{BASE}/_ocr_chan_progress.json'

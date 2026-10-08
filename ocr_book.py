@@ -8,7 +8,7 @@
 """
 import pymupdf, io, os, time, json, sys, glob, re
 
-BASE = 'E:/Work Buddy/交易学习/.raw/distilled'
+BASE = 'E:/Work Buddy/交易学习/raw/distilled'
 SRC_DIRS = ['E:/笔记Obsidian/电子书',
             'E:/笔记Obsidian/电子书/黑马王子系列']
 
@@ -35,10 +35,9 @@ doc = pymupdf.open(pdf)
 TOTAL = doc.page_count
 END = min(END, TOTAL)
 
-safe = re.sub(r'[^\w\u4e00-\u9fff]', '', kw)
+safe = re.sub(r'[^\w]', '_', kw)   # 纯 ASCII，避免中文路径在shell 中出问题
 SHARD_DIR = f'{BASE}/shards_{safe}'
-os.makedirs(SHARD_DIR, exist_ok=True)
-TMP = f'{BASE}/_tmp_{safe}.png'
+TMP = f'{BASE}/_tmp_ocr.png'
 PROGRESS = f'{BASE}/_ocr_{safe}_progress.json'
 FULL = f'{BASE}/{kw}-OCR-简体.txt'
 
@@ -102,6 +101,7 @@ for i in range(START-1, END):
     done += 1
 
     if done % CHUNK == 0 or pg == END:
+        os.makedirs(SHARD_DIR, exist_ok=True)   # 目录可能被外部清理，每片自愈
         with io.open(shard_path(chunk_start), 'w', encoding='utf-8') as f:
             f.write('\n\n'.join(buf))
         el = time.time() - t0

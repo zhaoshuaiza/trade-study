@@ -68,5 +68,5 @@
 ## 相关
 
 - 上级说明：[../README.md]
-- 素材收件箱：[../../.raw/README.md]
+- 素材收件箱：[../../raw/README.md]
 - 规则：[../../CLAUDE.md]

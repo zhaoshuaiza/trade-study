@@ -11,7 +11,7 @@
 import pymupdf, io, os, time, json, sys
 
 PDF = 'E:/笔记Obsidian/电子书/缠论108课详解 扫地僧读缠论108课札记(高清).pdf'
-BASE = 'E:/Work Buddy/交易学习/.raw/distilled'
+BASE = 'E:/Work Buddy/交易学习/raw/distilled'
 SHARD_DIR = f'{BASE}/chan_shards'
 TMP = f'{BASE}/_tmp_retry.png'
 FAILED = f'{BASE}/_ocr_chan_failed.json'

@@ -75,7 +75,7 @@ updated: 2026-10-07
 > 2. 后台进程会静默退出 → **必须设`OPENBLAS_NUM_THREADS=1`**，
 >    否则报 `OpenBLAS error: Memory allocation still failed`
 >
-> 📌 **电子书目录已从 11 本增至 18 个文件**，详见 `.raw/.manifest.json`。
+> 📌 **电子书目录已从 11 本增至 18 个文件**，详见 `raw/.manifest.json`。
 
 ---
 
