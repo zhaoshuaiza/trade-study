@@ -10,8 +10,10 @@ from collections import defaultdict
 ROOT = r'E:/Work Buddy/交易学习'
 WIKI = os.path.join(ROOT, 'wiki')
 
-# 收集所有 md（含库根目录，CLAUDE.md / 从这里开始.md 等真实存在）
-EXCLUDE_DIRS = {'.obsidian', '.git'}
+# ⭐ 只查知识层，不查 raw/ 素材层（2026-10-10 修正）
+# 原因：raw/ 是只读原始资料，没有双链是正常的。
+#把它算进来会让"孤立页面"被几十篇原始资料刷屏，真正的孤立知识页被淹没。
+EXCLUDE_DIRS = {'.obsidian', '.git', 'raw', '.raw'}
 pages = {}
 for base_dir in (WIKI, ROOT):
     for dirpath, dirnames, filenames in os.walk(base_dir):
