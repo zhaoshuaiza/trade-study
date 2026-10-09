@@ -29,6 +29,28 @@ for base_dir in (WIKI, ROOT):
                 continue
             pages[rel] = io.open(full, encoding='utf-8').read()
 
+RESOURCE_STEMS = set()
+
+# ⭐ 收集非md 资源（2026-10-10 修正）
+# .attachments/ 是点开头的附件目录，原先没登记，
+# 导致 [[目录导航图.png]] 这类图片链接被误判为死链。
+# 注意：只登记进 resources（供死链判定），**不登记进 pages**——
+# 否则 png 会被当成 md 页面，进而误报"无 frontmatter"和"孤立页面"。
+for _attach in (os.path.join(ROOT, '.attachments'),):
+    if os.path.isdir(_attach):
+        for _fn in os.listdir(_attach):
+            if _fn.endswith('.md'):
+                _p = os.path.join(_attach, _fn)
+                _rel = f'.attachments/{_fn}'
+                if _rel not in pages:
+                    try:
+                        pages[_rel] = io.open(_p, encoding='utf-8').read()
+                    except Exception:
+                        pass
+            else:
+                assets_names = os.path.splitext(_fn)[0]
+                RESOURCE_STEMS.add(assets_names)
+
 # 非 md 资源（图片等），链接到它们不算死链
 assets = set()
 for dirpath, dirnames, filenames in os.walk(ROOT):
@@ -52,6 +74,14 @@ def resolve(target):
     if t.endswith('.md'):
         t = t[:-3]
     base = os.path.basename(t)
+    # ⭐ 图片等资源：Obsidian 里写作 [[目录导航图.png]]（2026-10-10 修正）
+    # 原先只比对 assets（assets 存的是不带扩展名的 stem），
+    # 导致 [[xxx.png]] 这种带扩展名的写法一律判成死链。
+    for ext in ('.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.pdf'):
+        if base.lower().endswith(ext):
+            if base[:-len(ext)] in assets:
+                return 'ASSET'
+            break
     # 非 md 资源（图片等）视为存在
     if base in assets:
         return 'ASSET'
@@ -65,13 +95,42 @@ def resolve(target):
 PLACEHOLDER = {'页面名', '某页面', '双向链接', 'claims', 'concepts', 'entities',
                'sources', 'wiki/questions', '从这里开始'}
 
+# ⭐ 不参与死链判定的文件（2026-10-10 修正）
+# log.md 是操作流水，里面写的 [[xxx]] 是"我修了哪些链接"的记录文本，
+# 不是真实链接；把它算进死链会让报告被自己的修复记录刷屏。
+# 同理 wiki/meta/lint/ 是体检报告本身。
+# ⭐ 无需 frontmatter 的操作性文件（2026-10-10）
+# 这些是规则/流水/报告文件，不是知识页，不该被要求带元信息。
+NO_FRONTMATTER_CHECK = {
+    'CLAUDE.md', 'wiki/log.md',
+    '从这里开始.md', '新手上手指南.md',
+    'wiki/目录英文名对照表.md', 'wiki/index.md', 'wiki/hot.md',
+}
+
+NO_DEADLINK_CHECK = {'wiki/log.md'}
+for _rel in pages:
+    if _rel.startswith('wiki/meta/lint/'):
+        NO_DEADLINK_CHECK.add(_rel)
+
+# ⭐ 工具产出/历史页，不是知识页（2026-10-10 修正）
+# meta/lint/ 是体检报告本身；superseded 页是历史存档。
+# 两者都不该被要求"无孤立""有 frontmatter""登记进索引"。
+NO_KNOWLEDGE_CHECK = {'wiki/log.md', 'wiki/hot.md'}
+def is_tool_output(rel):
+    return rel.startswith('wiki/meta/lint/')
+
 outlinks = defaultdict(set)
 deadlinks = defaultdict(list)
 for rel, txt in pages.items():
     if not rel.startswith('wiki/'):
         continue
+    if rel in NO_DEADLINK_CHECK:
+        continue
     for m in LINK.finditer(txt):
         target = m.group(1)
+        # 省略号占位（[[...]]、[[concepts/…]]）—— 记录里的示意，不是链接
+        if '…' in target or target.strip() == '...':
+            continue
         if target.strip() in PLACEHOLDER:
             continue
         r = resolve(target)
@@ -96,6 +155,9 @@ print('\n【1】孤立页面（无入链且无出链）')
 iso = []
 for rel in pages:
     if os.path.basename(rel) == 'README.md':
+        continue
+    # ⭐ 工具产出/历史页/模板 不是知识页，孤立是正常的（2026-10-10）
+    if is_tool_output(rel) or rel in NO_FRONTMATTER_CHECK or rel.startswith('templates/'):
         continue
     if not inlinks.get(rel) and not outlinks.get(rel):
         iso.append(rel)
@@ -128,6 +190,9 @@ missing = []
 for rel, txt in pages.items():
     if os.path.basename(rel) == 'README.md':
         continue
+    # ⭐ 操作性文件不是知识页，不要求带元信息（2026-10-10）
+    if rel in NO_FRONTMATTER_CHECK or rel.startswith('templates/') or is_tool_output(rel):
+        continue
     if not txt.startswith('---'):
         missing.append((rel, '无 frontmatter'))
         continue
@@ -145,6 +210,14 @@ else:
 print('\n【4】占位页（仍有"待编译"）')
 ph = []
 for rel, txt in pages.items():
+    # ⭐ 历史存档页提到"待编译"是描述过去的状态，不是当前占位（2026-10-10）
+    if re.search(r'^status:\s*superseded', txt, flags=re.M):
+        continue
+    if is_tool_output(rel):
+        continue
+    # 进度表/记录里出现"待编译"是描述现状，不是占位
+    if rel in ('从这里开始.md', 'wiki/index.md', 'wiki/log.md'):
+        continue
     if '待编译' in txt or 'compiled_from: pending' in txt:
         ph.append(rel)
 if ph:
