@@ -214,10 +214,46 @@
       "extracted": "raw/distilled/量线捉涨停-OCR-简体.txt",
       "concepts_extracted": 2,
       "note": "2010年股市天经之二，量柱的姊妹篇，讲顶底线与真底真顶"
+    },
+    "龙头、价值与赛道_我对投资哲学与逻辑的深度思考.epub": {
+      "path": "E:/笔记Obsidian/电子书/龙头、价值与赛道_我对投资哲学与逻辑的深度思考.epub",
+      "type": "epub",
+      "compiled": true,
+      "chapters": 82,
+      "words": 181272,
+      "compiled_at": "2026-10-09",
+      "pages_extracted": 1
+    },
+    "走出幻觉走向成熟 金融帝国.pdf": {
+      "path": "E:/笔记Obsidian/电子书/走出幻觉走向成熟 金融帝国.pdf",
+      "type": "pdf",
+      "compiled": true,
+      "pages": 316,
+      "words": 230883,
+      "text_layer": true,
+      "compiled_at": "2026-10-09"
+    },
+    "一个农民的亿万传奇.pdf": {
+      "path": "E:/笔记Obsidian/电子书/一个农民的亿万传奇.pdf",
+      "type": "pdf",
+      "compiled": true,
+      "pages": 176,
+      "words": 193676,
+      "text_layer": true,
+      "compiled_at": "2026-10-09"
+    },
+    "传奇投资人的智慧（全7册）.pdf": {
+      "path": "E:/笔记Obsidian/电子书/传奇投资人的智慧（全7册）.pdf",
+      "type": "pdf",
+      "compiled": true,
+      "pages": 694,
+      "words": 393365,
+      "text_layer": true,
+      "compiled_at": "2026-10-09"
     }
   },
   "path_convention": "用正斜杠 /，避免 JSON 转义问题",
-  "compiled_count": 6,
+  "compiled_count": 10,
   "total_books": 18,
   "concepts_total": 61,
   "compiled": {
