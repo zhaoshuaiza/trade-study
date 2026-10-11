@@ -1,7 +1,7 @@
 {
   "version": 2,
   "created": "2026-10-07",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "note": "资料源在E:/笔记Obsidian/电子书/，本库不存PDF，只记编译状态",
   "sources": {
     "道氏理论.pdf": {
@@ -129,11 +129,33 @@
       "note": "2026-08 新增待处理。扫描版290页，尚未OCR"
     },
     "教你炒股票全3册.azw3": {
-      "path": "E:/笔记Obsidian/电子书/A10328. 教你炒股票（全 3 册）：市场哲学的数学原理【“全球第一博客”博主 、博客点击量过亿 — 缠中说禅“教你炒股票”系列原文完整收录】.B08ZRTQMN5.azw3",
-      "size": "48MB",
+      "path": "E:/笔记Obsidian/电子书/A10328. 教你炒股票（全 3 册）：市场哲学的数学原理....azw3",
+      "size": "49MB(azw3) -> 40MB(epub)",
       "type": "azw3",
-      "compiled": false,
-      "note": "2026-10-08 新增待处理。**缠师原文（非札记版）**，azw3 格式需转换。价值高：可与现有详解版对照"
+      "compiled": true,
+      "note": "纯原文无评注，可用于分清作者本人主张与评注者观点。原详解版PDF593页需78分钟OCR，本书0秒0OCR。",
+      "converted": "E:/Work Buddy/电子书/转换/教你炒股票全3册.epub",
+      "pages": "3册/114章",
+      "words": 529792,
+      "text_layer": true,
+      "ocr": null,
+      "extract_method": "calibre ebook-convert -> 按 OPF spine 顺序抽纯文本",
+      "extracted": "raw/distilled/教你炒股票全3册-全文.txt",
+      "concepts_updated": [
+        "分型笔与线段",
+        "三类买卖点",
+        "均线吻与转折",
+        "走势的多义性"
+      ],
+      "synthesis": [
+        "缠师原文核查·说话人结案"
+      ],
+      "source_page": "wiki/sources/教你炒股票全3册.md",
+      "author": "缠中说禅",
+      "publisher": "中国财富出版社",
+      "edition": "2019-11",
+      "isbn": "978-7-5047-7029-5",
+      "compiled_at": "2026-10-11"
     },
     "炒股的智慧（全文）.doc": {
       "path": "E:/笔记Obsidian/电子书/炒股的智慧（全文）.doc",
