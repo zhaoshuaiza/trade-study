@@ -27,9 +27,11 @@ if not pdf:
 
 doc = pymupdf.open(pdf)
 TOTAL = doc.page_count
-safe = re.sub(r'[^\w\u4e00-\u9fff]', '', kw)
+# ⚠️ 必须与 ocr_book.py 的命名规则完全一致，否则找不到分片目录
+safe = re.sub(r'[^\w]', '_', kw)
 SHARD_DIR = f'{BASE}/shards_{safe}'
 TMP = f'{BASE}/_tmp_fix_{safe}.png'
+FULL = f'{BASE}/{kw}-OCR-简体.txt'
 
 from rapidocr_onnxruntime import RapidOCR
 try:
@@ -110,10 +112,23 @@ for sp, pages in by_shard.items():
 parts = []
 for sp2 in sorted(glob.glob(f'{SHARD_DIR}/p*.txt')):
     parts.append(io.open(sp2, encoding='utf-8').read())
-FULL = f'{BASE}/{kw}-OCR-简体.txt'
-io.open(FULL, 'w', encoding='utf-8').write('\n\n'.join(parts))
+
+# ⛔ 防护：分片为空时绝不覆盖全文（否则会把已有成果清零）
+if not parts:
+    print(f'\n⛔⛔ 中止：未找到任何分片（目录 {SHARD_DIR}）', flush=True)
+    print(f'   为避免清空 {FULL}，已跳过合并。', flush=True)
+    print(f'   请检查 kw 参数与ocr_book.py 是否一致。', flush=True)
+    sys.exit(1)
+
+merged = '\n\n'.join(parts)
+if len(merged.strip()) < 100:
+    print(f'\n⛔⛔ 中止：分片合并后内容过短（{len(merged)} 字节），疑似异常', flush=True)
+    print(f'   为避免清空 {FULL}，已跳过合并。', flush=True)
+    sys.exit(1)
+
+io.open(FULL, 'w', encoding='utf-8').write(merged)
 print(f'\n✓ 修复 {len(fixed)} 页，仍失败 {len(still)} 页: {still}', flush=True)
 if fixed:
     print(f'  修复页: {sorted(fixed)}', flush=True)
-print(f'✓ 已重新合并 -> {FULL}', flush=True)
+print(f'✓ 已重新合并 -> {FULL}（{len(merged)} 字符，{len(parts)} 片）', flush=True)
 print(f'耗时 {time.time()-t0:.0f}s', flush=True)
