@@ -37,3 +37,6 @@ $RECYCLE.BIN/
 # 注意：.obsidian/ 下的 app.json、appearance.json 等配置**建议入库**，
 # 因为它们是知识库的视觉设置，换机器时需要复现。
 # 仅排除 workspace.json 等纯本地状态。
+
+# ===== 个人持仓数据（不入库）=====
+raw/bonds.json
