@@ -85,11 +85,20 @@ def ocr_page(i):
 def shard_path(p):
     return f'{SHARD_DIR}/p{p:04d}-{min(p+CHUNK-1, END):04d}.txt'
 
-buf, chunk_start, done, failed = [], START, 0, []
+buf, chunk_start, done, failed, skipped = [], START, 0, [], 0
 t0 = time.time()
 
 for i in range(START-1, END):
     pg = i + 1
+    # ⭐ 断点续跑：若该分片已存在且非空，则跳过整片（避免从头重跑）
+    sp = shard_path(chunk_start)
+    if chunk_start == pg and os.path.exists(sp) \
+       and os.path.getsize(sp) > 100:
+        skipped += 1
+        done += CHUNK
+        buf, chunk_start = [], pg + 1
+        continue
+
     text = ocr_page(i)
     if text is None:
         buf.append(f'=== 第{pg}页 ===\n[OCR失败]')
@@ -118,4 +127,6 @@ for sp in sorted(glob.glob(f'{SHARD_DIR}/p*.txt')):
     parts.append(io.open(sp, encoding='utf-8').read())
 io.open(FULL, 'w', encoding='utf-8').write('\n\n'.join(parts))
 print(f'\n✓ 完成 -> {FULL}', flush=True)
+if skipped:
+    print(f'⏭跳过 {skipped} 个已有分片（断点续跑）', flush=True)
 print(f'耗时 {time.time()-t0:.0f}s，失败 {len(failed)} 页: {failed[:30]}', flush=True)
