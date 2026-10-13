@@ -392,3 +392,173 @@ python scan_library.py --add     # 确认后登记进manifest
 ---
 
 *本库是学习材料，不是投资建议。所有参数须核对原始资料。*
+
+---
+
+## 自动页面清单
+
+<!-- AUTO_PAGES:START -->
+
+> 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
+
+### 抽象概念（`concepts/`，78 页）
+
+- [[concepts/ATR与N值]]
+- [[concepts/三好股票框架]]
+- [[concepts/三日原则与量性]]
+- [[concepts/三类买卖点]]
+- [[concepts/下修博弈]]
+- [[concepts/两个平均指数相互确认]]
+- [[concepts/主力控盘与对敲识破]]
+- [[concepts/亏损与回本的非线性]]
+- [[concepts/五套体系的适用市场]]
+- [[concepts/仓位管理]]
+- [[concepts/价值投资四原则]]
+- [[concepts/供求关系与主要矛盾]]
+- [[concepts/全球分散与逆向投资]]
+- [[concepts/农产品期货七条规律]]
+- [[concepts/分型笔与线段]]
+- [[concepts/双阴出货]]
+- [[concepts/可转债三大经典策略]]
+- [[concepts/可转债三大误区]]
+- [[concepts/可转债三市适用策略]]
+- [[concepts/可转债交易成本与税负]]
+- [[concepts/可转债价格区间与风险等级]]
+- [[concepts/可转债优势与局限]]
+- [[concepts/可转债债性指标]]
+- [[concepts/可转债复合资产特性]]
+- [[concepts/可转债定价模型]]
+- [[concepts/唐奇安通道]]
+- [[concepts/均线吻与转折]]
+- [[concepts/太极线]]
+- [[concepts/峰谷线]]
+- [[concepts/峰顶线与平衡线总纲]]
+- [[concepts/平均价格指数消溶一切]]
+- [[concepts/平衡线]]
+- [[concepts/弹性价值]]
+- [[concepts/推动浪五浪结构]]
+- [[concepts/攻守冲防]]
+- [[concepts/斐波那契比率]]
+- [[concepts/斜衡线]]
+- [[concepts/斜衡线与通道线]]
+- [[concepts/权威的泥潭效应]]
+- [[concepts/止损的争议]]
+- [[concepts/正法模型与龙头九则]]
+- [[concepts/正确率与赔率的互损原则]]
+- [[concepts/波浪嵌套与级别]]
+- [[concepts/涨停基因]]
+- [[concepts/灯塔线]]
+- [[concepts/现场直憨]]
+- [[concepts/盘口与风险优先原则]]
+- [[concepts/真底真顶与量线七元素]]
+- [[concepts/精准线]]
+- [[concepts/组合热度]]
+- [[concepts/背驰与力度比较]]
+- [[concepts/背驰与转折]]
+- [[concepts/胜率不是越高越好]]
+- [[concepts/获利机会的绝对分类]]
+- [[concepts/表象规律与本质规律]]
+- [[concepts/调整浪形态]]
+- [[concepts/谷底线]]
+- [[concepts/资金管理优先于仓位管理]]
+- [[concepts/资金管理的减震器作用]]
+- [[concepts/走势中枢]]
+- [[concepts/走势的多义性]]
+- [[concepts/走势级别与递归]]
+- [[concepts/通道线]]
+- [[concepts/道氏理论的适用边界]]
+- [[concepts/道氏的三种运动]]
+- [[concepts/量价关系与陷阱]]
+- [[concepts/量柱三先规律]]
+- [[concepts/量柱六元素]]
+- [[concepts/量线七元素]]
+- [[concepts/量线系统]]
+- [[concepts/面值高价折扣法与三条安全线]]
+- [[concepts/黄金仓]]
+- [[concepts/黄金六层面]]
+- [[concepts/黄金劫与凹口淘金]]
+- [[concepts/黄金柱]]
+- [[concepts/黄金梯]]
+- [[concepts/黄金线]]
+- [[concepts/黄金道]]
+
+### 具体体系（`entities/`，10 页）
+
+- [[entities/传奇投资人的智慧]]
+- [[entities/傅海棠·一个农民的亿万传奇]]
+- [[entities/波浪理论]]
+- [[entities/海龟法则]]
+- [[entities/缠论]]
+- [[entities/道氏理论]]
+- [[entities/金融帝国·走出幻觉]]
+- [[entities/高胜算操盘]]
+- [[entities/黑马王子]]
+- [[entities/龙头价值赛道]]
+
+### 一本资料一页（`sources/`，18 页）
+
+- [[sources/一个农民的亿万传奇]]
+- [[sources/传奇投资人的智慧]]
+- [[sources/可转债投资魔法书]]
+- [[sources/可转债每日掘金]]
+- [[sources/教你炒股票全3册]]
+- [[sources/新手学炒股一本就够]]
+- [[sources/波浪理论]]
+- [[sources/海龟交易法则]]
+- [[sources/盘口解读技术]]
+- [[sources/缠论108课]]
+- [[sources/走出幻觉走向成熟]]
+- [[sources/道氏理论]]
+- [[sources/量柱擒涨停]]
+- [[sources/量线捉涨停]]
+- [[sources/高胜算操盘]]
+- [[sources/黑马王子操盘手记]]
+- [[sources/黑马王子系列]]
+- [[sources/龙头价值与赛道]]
+
+### 方法论冲突（`claims/`，3 页）
+
+- [[claims/三种止损方法的适用边界]]
+- [[claims/五套体系的仓位与风控对照]]
+- [[claims/缠论能否量化]]
+
+### 差异（`comparisons/`，1 页）
+
+- [[comparisons/五套体系总览对比]]
+
+### 跨体系（`syntheses/`，12 页）
+
+- [[syntheses/九套体系冲突全解·根因与优劣]]
+- [[syntheses/五套体系的共识与分歧]]
+- [[syntheses/体系适用性矩阵·股票与期货]]
+- [[syntheses/六套体系横向对比·共识与冲突]]
+- [[syntheses/可转债体系总览]]
+- [[syntheses/实盘验证清单]]
+- [[syntheses/方法论对比·五条路线九套体系]]
+- [[syntheses/离场判据总纲]]
+- [[syntheses/缠师原文核查·说话人结案]]
+- [[syntheses/缠论108课-完整蒸馏与学习指南]]
+- [[syntheses/转债量柱实证验证框架]]
+- [[syntheses/量柱体系在可转债上的适用性]]
+
+### 问答（`questions/`，1 页）
+
+- [[questions/问答与纠错机制]]
+
+### 治理/体检（`meta/`，3 页）
+
+- [[meta/未完成清单]]
+- [[meta/素材分流判定]]
+- [[meta/编译队列]]
+
+### 治理 / lint 报告（`meta/lint/`，2 页）
+
+- [[meta/lint/2026-10-09-首次完整体检]]
+- [[meta/lint/2026-10-10-结构借鉴与修复]]
+
+### 入口页（`_root/`，2 页）
+
+- [[_root/从这里开始]]
+- [[_root/新手上手指南]]
+
+<!-- AUTO_PAGES:END -->

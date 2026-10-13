@@ -242,6 +242,9 @@ drift = []
 for rel in pages:
     if rel in ('wiki/index.md',):
         continue
+    # 以下不是内容页，不应登记进索引
+    if rel.startswith('templates/') or rel == 'wiki/hot.md':
+        continue
     stem = os.path.splitext(os.path.basename(rel))[0]
     if stem in ('README',):
         continue

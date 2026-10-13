@@ -1,7 +1,7 @@
 {
   "version": 2,
   "created": "2026-10-07",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "note": "资料源在E:/笔记Obsidian/电子书/，本库不存PDF，只记编译状态",
   "sources": {
     "道氏理论.pdf": {
@@ -82,7 +82,9 @@
       "compiled": false,
       "text_layer": false,
       "pages": 272,
-      "note": "hedge库012已有完整蒸馏，无需OCR"
+      "note": "hedge库012已有完整蒸馏，无需OCR",
+      "on_hold": true,
+      "routed_note": "内容属本库，但用户只做A股单边/转债不能做期货→参数不可用，挂起不排期；思想已在syntheses/体系适用性矩阵登记"
     },
     "黑马王子系列": {
       "path": "E:/笔记Obsidian/电子书/黑马王子系列/",
@@ -117,7 +119,9 @@
       "words": 93074,
       "text_layer": true,
       "extracted": "raw/distilled/数据分析实战-全文.txt",
-      "note": "2026-10-08新增。EXCEL/SPSS 数据处理，非交易方法论，暂不编译"
+      "note": "2026-10-08新增。EXCEL/SPSS 数据处理，非交易方法论，暂不编译",
+      "routed": "none",
+      "routed_note": "CLAUDE.md明列：通用工具书，非交易方法论"
     },
     "战胜华尔街.pdf": {
       "path": "E:/笔记Obsidian/电子书/战胜华尔街—全美头号职业炒手的股票经.pdf",
@@ -126,7 +130,13 @@
       "compiled": false,
       "text_layer": false,
       "pages": 290,
-      "note": "2026-08 新增待处理。扫描版290页，尚未OCR"
+      "note": "2026-08 新增待处理。扫描版290页，尚未OCR",
+      "ocr": {
+        "status": "running",
+        "script": "ocr_book.py",
+        "started": "2026-10-14"
+      },
+      "routed_note": "本库主线，290页纯图片件，2026-10-14 启动OCR"
     },
     "教你炒股票全3册.azw3": {
       "path": "E:/笔记Obsidian/电子书/A10328. 教你炒股票（全 3 册）：市场哲学的数学原理....azw3",
@@ -162,21 +172,27 @@
       "size": "0.3MB",
       "type": "doc",
       "compiled": false,
-      "note": "2026-08 新增待处理。doc 格式需转换"
+      "note": "2026-08 新增待处理。doc 格式需转换",
+      "routed": "none",
+      "routed_note": "短文且与已有体系重叠，不单独建页"
     },
     "反脆弱.mobi": {
       "path": "E:/笔记Obsidian/电子书/反脆弱：学习从无序和不确定中获利.mobi",
       "size": "1.2MB",
       "type": "mobi",
       "compiled": false,
-      "note": "2026-08 新增待处理。塔勒布，与缠论多义性/反量化有呼应"
+      "note": "2026-08 新增待处理。塔勒布，与缠论多义性/反量化有呼应",
+      "routed": "hedge",
+      "routed_note": "CLAUDE.md零之一：思维模型类，非交易应用，不入交易库"
     },
     "HowToLiveBetter.epub": {
       "path": "E:/笔记Obsidian/电子书/HowToLiveBetter.epub",
       "size": "1MB",
       "type": "epub",
       "compiled": false,
-      "note": "2026-08 新增待处理。与交易关系待确认"
+      "note": "2026-08 新增待处理。与交易关系待确认",
+      "routed": "hedge",
+      "routed_note": "生活哲学类，不能落成看盘动作"
     },
     "股市天经之一 量柱擒涨停.pdf": {
       "path": "E:/笔记Obsidian/电子书/黑马王子系列/股市天经之二  量线捉涨停 全新彩印版(高清).pdf等多个文件/股市天经之一 量柱擒涨停  全新彩印版(高清).pdf",
