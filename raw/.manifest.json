@@ -1,7 +1,7 @@
 {
   "version": 2,
   "created": "2026-10-07",
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "note": "资料源在E:/笔记Obsidian/电子书/，本库不存PDF，只记编译状态",
   "sources": {
     "道氏理论.pdf": {
@@ -300,6 +300,28 @@
         14
       ],
       "note": "⭐ 补本库\"胜率与赔率\"线。⚠️ 译名误导: 英文High Probability(高概率)vs中文\"高胜算\", 原文定义是\"风险报酬比低\"非\"胜率高\""
+    },
+    "盘口解读技术.pdf": {
+      "path": "E:/笔记Obsidian/电子书/盘口解读技术.pdf",
+      "pages": 292,
+      "words": 166079,
+      "text_layer": false,
+      "compiled": true,
+      "extract_method": "pymupdf 160dpi → rapidocr → opencc",
+      "extracted": "raw/distilled/盘口解读-OCR-简体.txt",
+      "shards": "raw/distilled/shards_盘口解读/",
+      "ocr": {
+        "failed": 0,
+        "dedup": true
+      },
+      "concepts": [
+        "盘口与风险优先原则"
+      ],
+      "source_page": "wiki/sources/盘口解读技术.md",
+      "author": "Christopher Schumacher / Vadym Graifer",
+      "translator": "李书路",
+      "note": "执行层体系(非信号体系)。核心原则与海龟同源。需Level-2数据，本库无。",
+      "compiled_at": "2026-10-13"
     }
   },
   "path_convention": "用正斜杠 /，避免 JSON 转义问题",
