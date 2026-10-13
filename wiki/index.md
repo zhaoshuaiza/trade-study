@@ -401,7 +401,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，78 页）
+### 抽象概念（`concepts/`，81 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/三好股票框架]]
@@ -433,6 +433,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/太极线]]
 - [[concepts/峰谷线]]
 - [[concepts/峰顶线与平衡线总纲]]
+- [[concepts/常识选股与画不出来的公司]]
 - [[concepts/平均价格指数消溶一切]]
 - [[concepts/平衡线]]
 - [[concepts/弹性价值]]
@@ -442,6 +443,8 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/斜衡线]]
 - [[concepts/斜衡线与通道线]]
 - [[concepts/权威的泥潭效应]]
+- [[concepts/林奇12条准则]]
+- [[concepts/林奇25条黄金规则]]
 - [[concepts/止损的争议]]
 - [[concepts/正法模型与龙头九则]]
 - [[concepts/正确率与赔率的互损原则]]
@@ -495,12 +498,13 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，18 页）
+### 一本资料一页（`sources/`，19 页）
 
 - [[sources/一个农民的亿万传奇]]
 - [[sources/传奇投资人的智慧]]
 - [[sources/可转债投资魔法书]]
 - [[sources/可转债每日掘金]]
+- [[sources/战胜华尔街]]
 - [[sources/教你炒股票全3册]]
 - [[sources/新手学炒股一本就够]]
 - [[sources/波浪理论]]
@@ -516,10 +520,12 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/黑马王子系列]]
 - [[sources/龙头价值与赛道]]
 
-### 方法论冲突（`claims/`，3 页）
+### 方法论冲突（`claims/`，5 页）
 
 - [[claims/三种止损方法的适用边界]]
 - [[claims/五套体系的仓位与风控对照]]
+- [[claims/基金能否跑赢指数]]
+- [[claims/离场理由分歧·量价离场vs 基本面离场]]
 - [[claims/缠论能否量化]]
 
 ### 差异（`comparisons/`，1 页）

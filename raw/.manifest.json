@@ -127,16 +127,27 @@
       "path": "E:/笔记Obsidian/电子书/战胜华尔街—全美头号职业炒手的股票经.pdf",
       "size": "6MB",
       "type": "pdf",
-      "compiled": false,
+      "compiled": true,
       "text_layer": false,
       "pages": 290,
-      "note": "2026-08 新增待处理。扫描版290页，尚未OCR",
+      "note": "彼得林奇《One Up on Wall Street》中译本，第23章25条黄金规则 + 书内12条准则",
       "ocr": {
-        "status": "running",
-        "script": "ocr_book.py",
-        "started": "2026-10-14"
+        "engine": "rapidocr_onnxruntime",
+        "dpi": 160,
+        "status": "done",
+        "elapsed_sec": 1679,
+        "failed_pages": 0,
+        "script": "ocr_book.py"
       },
-      "routed_note": "本库主线，290页纯图片件，2026-10-14 启动OCR"
+      "routed_note": "本库主线，290页纯图片件，2026-10-14 启动OCR",
+      "chapters_done": [
+        1,
+        290
+      ],
+      "words": 126301,
+      "extracted": "raw/distilled/战胜华尔街-OCR-简体.txt",
+      "concepts_extracted": 3,
+      "claims_extracted": 2
     },
     "教你炒股票全3册.azw3": {
       "path": "E:/笔记Obsidian/电子书/A10328. 教你炒股票（全 3 册）：市场哲学的数学原理....azw3",
