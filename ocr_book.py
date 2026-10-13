@@ -125,8 +125,21 @@ for i in range(START-1, END):
 parts = []
 for sp in sorted(glob.glob(f'{SHARD_DIR}/p*.txt')):
     parts.append(io.open(sp, encoding='utf-8').read())
-io.open(FULL, 'w', encoding='utf-8').write('\n\n'.join(parts))
-print(f'\n✓ 完成 -> {FULL}', flush=True)
+merged = '\n\n'.join(parts)
+
+# ⛔ 防护：校验页号无重复且覆盖完整（历史教训：bug 期重跑产生重叠分片）
+_pg = re.findall(r'^=== 第(\d+)页 ===', merged, re.M)
+if len(_pg) != len(set(_pg)):
+    from collections import Counter
+    dup = [p for p, c in Counter(_pg).items() if c > 1]
+    print(f'\n⛔⛔ 中止：合并后有 {len(dup)} 个重复页号（分片区间重叠）', flush=True)
+    print(f'   重复页号示例: {sorted(dup, key=int)[:10]}', flush=True)
+    print(f'   分片目录: {SHARD_DIR}', flush=True)
+    print('   → 需人工清理重叠分片后重跑，本次未写出全文。', flush=True)
+    sys.exit(1)
+
+io.open(FULL, 'w', encoding='utf-8').write(merged)
+print(f'\n✓ 完成 -> {FULL}（{len(_pg)} 页）', flush=True)
 if skipped:
     print(f'⏭跳过 {skipped} 个已有分片（断点续跑）', flush=True)
 print(f'耗时 {time.time()-t0:.0f}s，失败 {len(failed)} 页: {failed[:30]}', flush=True)
