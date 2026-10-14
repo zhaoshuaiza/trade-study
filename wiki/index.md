@@ -401,7 +401,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，81 页）
+### 抽象概念（`concepts/`，82 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/三好股票框架]]
@@ -452,6 +452,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/涨停基因]]
 - [[concepts/灯塔线]]
 - [[concepts/现场直憨]]
+- [[concepts/百日低量与百日低量群]]
 - [[concepts/盘口与风险优先原则]]
 - [[concepts/真底真顶与量线七元素]]
 - [[concepts/精准线]]
@@ -551,9 +552,10 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[questions/问答与纠错机制]]
 
-### 治理/体检（`meta/`，3 页）
+### 治理/体检（`meta/`，4 页）
 
 - [[meta/未完成清单]]
+- [[meta/术语溯源三分类]]
 - [[meta/素材分流判定]]
 - [[meta/编译队列]]
 
