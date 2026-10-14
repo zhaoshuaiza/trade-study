@@ -539,7 +539,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[comparisons/五套体系总览对比]]
 
-### 跨体系（`syntheses/`，12 页）
+### 跨体系（`syntheses/`，13 页）
 
 - [[syntheses/九套体系冲突全解·根因与优劣]]
 - [[syntheses/五套体系的共识与分歧]]
@@ -548,6 +548,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[syntheses/可转债体系总览]]
 - [[syntheses/实盘验证清单]]
 - [[syntheses/方法论对比·五条路线九套体系]]
+- [[syntheses/时间窗与数量参数总纲]]
 - [[syntheses/离场判据总纲]]
 - [[syntheses/缠师原文核查·说话人结案]]
 - [[syntheses/缠论108课-完整蒸馏与学习指南]]
