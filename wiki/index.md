@@ -401,10 +401,11 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，95 页）
+### 抽象概念（`concepts/`，96 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
+- [[concepts/_涨停密码·黄金三角与新判据]]
 - [[concepts/_黑马王子6-9册·新判据提取]]
 - [[concepts/一剑封喉]]
 - [[concepts/三好股票框架]]
@@ -568,10 +569,11 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[questions/问答与纠错机制]]
 
-### 治理/体检（`meta/`，6 页）
+### 治理/体检（`meta/`，7 页）
 
 - [[meta/完成状态清单]]
 - [[meta/新素材库分流判定]]
+- [[meta/新素材编译计划]]
 - [[meta/未完成清单]]
 - [[meta/术语溯源三分类]]
 - [[meta/素材分流判定]]

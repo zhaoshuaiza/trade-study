@@ -1,0 +1,810 @@
+{
+ "1": {
+  "idx": 1,
+  "name": "黑马王子操盘手记(六-九)",
+  "batch": "B1",
+  "status": "done",
+  "note": "已提取12术语+5矛盾，见 _黑马王子6-9册",
+  "done_date": ""
+ },
+ "2": {
+  "idx": 2,
+  "name": "伏击涨停+涨停密码",
+  "batch": "B1",
+  "status": "pending",
+  "note": "凹底淘金正式出处；待编《涨停密码》黄金三角",
+  "done_date": ""
+ },
+ "3": {
+  "idx": 3,
+  "name": "攻守：可转债投资实用手册",
+  "batch": "B1",
+  "status": "done",
+  "note": "已出转债四大策略页；第五章88问答待编",
+  "done_date": ""
+ },
+ "4": {
+  "idx": 4,
+  "name": "可转债投资魔法书(第2版)",
+  "batch": "B1",
+  "status": "pending",
+  "note": "需先核实与旧版是否同书",
+  "done_date": ""
+ },
+ "5": {
+  "idx": 5,
+  "name": "一本书搞懂龙头股战法",
+  "batch": "B1",
+  "status": "pending",
+  "note": "已抽全文，222页PDF有文字层",
+  "done_date": ""
+ },
+ "6": {
+  "idx": 6,
+  "name": "股市极客思考录",
+  "batch": "B1",
+  "status": "pending",
+  "note": "已抽，3.4万字，短",
+  "done_date": ""
+ },
+ "7": {
+  "idx": 7,
+  "name": "cisの股票交易术",
+  "batch": "B1",
+  "status": "pending",
+  "note": "已抽，与主力的思维同源",
+  "done_date": ""
+ },
+ "8": {
+  "idx": 8,
+  "name": "主力的思維",
+  "batch": "B1",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "9": {
+  "idx": 9,
+  "name": "华尔街幽灵",
+  "batch": "B1",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "10": {
+  "idx": 10,
+  "name": "量价分析 量价分析创始人威科夫",
+  "batch": "B2",
+  "status": "pending",
+  "note": "威科夫1，已抽8.3万字",
+  "done_date": ""
+ },
+ "11": {
+  "idx": 11,
+  "name": "新威科夫操盘法",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽全文，待精读编译",
+  "done_date": "2026-10-14"
+ },
+ "12": {
+  "idx": 12,
+  "name": "威科夫操盘理论在中国股市的实战",
+  "batch": "B2",
+  "status": "ocr",
+  "note": "258页需OCR",
+  "done_date": ""
+ },
+ "13": {
+  "idx": 13,
+  "name": "行为金融学：洞察非理性投资心理",
+  "batch": "B2",
+  "status": "pending",
+  "note": "蒙蒂尔，已抽，本库0页",
+  "done_date": ""
+ },
+ "14": {
+  "idx": 14,
+  "name": "行为投资学手册",
+  "batch": "B2",
+  "status": "pending",
+  "note": "蒙蒂尔，已抽，本库0页",
+  "done_date": ""
+ },
+ "15": {
+  "idx": 15,
+  "name": "以交易为生（原书第2版）",
+  "batch": "B2",
+  "status": "pending",
+  "note": "埃尔德，已抽真文本",
+  "done_date": ""
+ },
+ "16": {
+  "idx": 16,
+  "name": "以交易为生II：卖出的艺术",
+  "batch": "B2",
+  "status": "pending",
+  "note": "埃尔德，已抽",
+  "done_date": ""
+ },
+ "17": {
+  "idx": 17,
+  "name": "走进我的交易室",
+  "batch": "B2",
+  "status": "pending",
+  "note": "埃尔德，已抽",
+  "done_date": ""
+ },
+ "18": {
+  "idx": 18,
+  "name": "史丹•温斯坦称傲牛熊市的秘密",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽，量价可与黑马王子对照",
+  "done_date": ""
+ },
+ "19": {
+  "idx": 19,
+  "name": "短线交易秘诀（原书第2版）",
+  "batch": "B2",
+  "status": "pending",
+  "note": "拉里威廉斯，已抽",
+  "done_date": ""
+ },
+ "20": {
+  "idx": 20,
+  "name": "笑傲股市(原書第4版",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽，与利弗莫尔并读",
+  "done_date": ""
+ },
+ "21": {
+  "idx": 21,
+  "name": "股票大作手操盘术",
+  "batch": "B2",
+  "status": "pending",
+  "note": "利弗莫尔，已抽",
+  "done_date": ""
+ },
+ "22": {
+  "idx": 22,
+  "name": "股市趋势技术分析（原书第10版",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "23": {
+  "idx": 23,
+  "name": "分时图实战",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽，日内形态",
+  "done_date": ""
+ },
+ "24": {
+  "idx": 24,
+  "name": "看盘方法与技巧一本通",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "25": {
+  "idx": 25,
+  "name": "交易之路：如何构建",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "26": {
+  "idx": 26,
+  "name": "交易圣经：系统交易赢利要诀",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "27": {
+  "idx": 27,
+  "name": "一小时漫画缠论实战法",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽2.2万字，缠论补充",
+  "done_date": ""
+ },
+ "28": {
+  "idx": 28,
+  "name": "100倍超级强势股",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "29": {
+  "idx": 29,
+  "name": "股票魔法师纵横天下股市的奥秘",
+  "batch": "B2",
+  "status": "pending",
+  "note": "记忆记为伪文字层，mobi可秒抽→需重验",
+  "done_date": ""
+ },
+ "30": {
+  "idx": 30,
+  "name": "股票魔法师Ⅱ",
+  "batch": "B2",
+  "status": "ocr",
+  "note": "278页",
+  "done_date": ""
+ },
+ "31": {
+  "idx": 31,
+  "name": "股票魔法师3趋势交易圆桌访谈",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "32": {
+  "idx": 32,
+  "name": "日本蜡烛图技术（第二版）",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽，K线经典",
+  "done_date": ""
+ },
+ "33": {
+  "idx": 33,
+  "name": "海龟交易法则（珍藏版）",
+  "batch": "B2",
+  "status": "skip",
+  "note": "⭐用户约束不能做期货→只登记思想",
+  "done_date": ""
+ },
+ "34": {
+  "idx": 34,
+  "name": "趋势跟踪（原书第5版）",
+  "batch": "B2",
+  "status": "skip",
+  "note": "⭐期货为主→只登记动量思想",
+  "done_date": ""
+ },
+ "35": {
+  "idx": 35,
+  "name": "趋势永存：打败市场的动量策略",
+  "batch": "B2",
+  "status": "pending",
+  "note": "动量思想可登记",
+  "done_date": ""
+ },
+ "36": {
+  "idx": 36,
+  "name": "构建量化动量选股系统",
+  "batch": "B2",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "37": {
+  "idx": 37,
+  "name": "期货狙击手",
+  "batch": "B2",
+  "status": "skip",
+  "note": "⭐期货→挂起",
+  "done_date": ""
+ },
+ "38": {
+  "idx": 38,
+  "name": "可转债投资黄金宝典",
+  "batch": "B3",
+  "status": "ocr",
+  "note": "218页，与转债策略互补",
+  "done_date": ""
+ },
+ "39": {
+  "idx": 39,
+  "name": "可转债：投资小白躺赚指南",
+  "batch": "B3",
+  "status": "ocr",
+  "note": "300页",
+  "done_date": ""
+ },
+ "40": {
+  "idx": 40,
+  "name": "指数基金投资指南",
+  "batch": "B3",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "41": {
+  "idx": 41,
+  "name": "躺着赚钱的漫画基金书",
+  "batch": "B3",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "42": {
+  "idx": 42,
+  "name": "白话投资：基金入门与进阶",
+  "batch": "B3",
+  "status": "ocr",
+  "note": "298页",
+  "done_date": ""
+ },
+ "43": {
+  "idx": 43,
+  "name": "巴菲特的护城河",
+  "batch": "B4",
+  "status": "pending",
+  "note": "⭐交易词169次最高，本库0页",
+  "done_date": ""
+ },
+ "44": {
+  "idx": 44,
+  "name": "聪明的投资者(投资圣经)",
+  "batch": "B4",
+  "status": "pending",
+  "note": "⭐安全边际+防御/进攻组合",
+  "done_date": ""
+ },
+ "45": {
+  "idx": 45,
+  "name": "祖鲁法则",
+  "batch": "B4",
+  "status": "pending",
+  "note": "⭐阙值+增长率选股法，本库无",
+  "done_date": ""
+ },
+ "46": {
+  "idx": 46,
+  "name": "投资最重要的事",
+  "batch": "B4",
+  "status": "pending",
+  "note": "⭐周期钟、风险是赚来的",
+  "done_date": ""
+ },
+ "47": {
+  "idx": 47,
+  "name": "周期 (霍华德·马克斯",
+  "batch": "B4",
+  "status": "pending",
+  "note": "已抽全文，待精读编译",
+  "done_date": "2026-10-14"
+ },
+ "48": {
+  "idx": 48,
+  "name": "邓普顿教你逆向投资",
+  "batch": "B4",
+  "status": "pending",
+  "note": "逆向择时可落成动作",
+  "done_date": ""
+ },
+ "49": {
+  "idx": 49,
+  "name": "戴维斯王朝",
+  "batch": "B4",
+  "status": "pending",
+  "note": "估值扩张/收缩",
+  "done_date": ""
+ },
+ "50": {
+  "idx": 50,
+  "name": "大钱细思",
+  "batch": "B4",
+  "status": "pending",
+  "note": "已抽全文，待精读编译",
+  "done_date": "2026-10-14"
+ },
+ "51": {
+  "idx": 51,
+  "name": "投资中最简单的事",
+  "batch": "B4",
+  "status": "pending",
+  "note": "邱国鹭估值判据",
+  "done_date": ""
+ },
+ "52": {
+  "idx": 52,
+  "name": "价值投资实战手册",
+  "batch": "B4",
+  "status": "pending",
+  "note": "唐朝，财报造假识别",
+  "done_date": ""
+ },
+ "53": {
+  "idx": 53,
+  "name": "手把手教你读财报2",
+  "batch": "B4",
+  "status": "pending",
+  "note": "唐朝",
+  "done_date": ""
+ },
+ "54": {
+  "idx": 54,
+  "name": "学会估值，轻松投资",
+  "batch": "B4",
+  "status": "pending",
+  "note": "达摩达兰",
+  "done_date": ""
+ },
+ "55": {
+  "idx": 55,
+  "name": "漫步华尔街（原书第11版）",
+  "batch": "B4",
+  "status": "pending",
+  "note": "有效市场→影响择时有效性",
+  "done_date": ""
+ },
+ "56": {
+  "idx": 56,
+  "name": "林园炒股秘籍",
+  "batch": "B4",
+  "status": "pending",
+  "note": "有仓位判据",
+  "done_date": ""
+ },
+ "57": {
+  "idx": 57,
+  "name": "股市进阶之道",
+  "batch": "B4",
+  "status": "pending",
+  "note": "李杰，散户自我修养",
+  "done_date": ""
+ },
+ "58": {
+  "idx": 58,
+  "name": "复利信徒",
+  "batch": "B4",
+  "status": "pending",
+  "note": "李杰",
+  "done_date": ""
+ },
+ "59": {
+  "idx": 59,
+  "name": "慢慢变富",
+  "batch": "B4",
+  "status": "pending",
+  "note": "张居营",
+  "done_date": ""
+ },
+ "60": {
+  "idx": 60,
+  "name": "一个投资家的20年",
+  "batch": "B4",
+  "status": "pending",
+  "note": "杨天南实战札记",
+  "done_date": ""
+ },
+ "61": {
+  "idx": 61,
+  "name": "彼得林奇投资经典全集",
+  "batch": "B4",
+  "status": "pending",
+  "note": "⚠含战胜华尔街(已有)→只补另两册",
+  "done_date": ""
+ },
+ "62": {
+  "idx": 62,
+  "name": "怎样选择成长股",
+  "batch": "B4",
+  "status": "pending",
+  "note": "费舍，交易词6次偏低",
+  "done_date": ""
+ },
+ "63": {
+  "idx": 63,
+  "name": "价值 (张磊",
+  "batch": "B4",
+  "status": "pending",
+  "note": "交易词7次偏低",
+  "done_date": ""
+ },
+ "64": {
+  "idx": 64,
+  "name": "证券投机的艺术",
+  "batch": "B5",
+  "status": "pending",
+  "note": "科斯托拉尼",
+  "done_date": ""
+ },
+ "65": {
+  "idx": 65,
+  "name": "金融怪杰",
+  "batch": "B5",
+  "status": "pending",
+  "note": "已抽",
+  "done_date": ""
+ },
+ "66": {
+  "idx": 66,
+  "name": "韭菜的自我修养",
+  "batch": "B5",
+  "status": "pending",
+  "note": "交易词28次高密度",
+  "done_date": ""
+ },
+ "67": {
+  "idx": 67,
+  "name": "周金涛理论大集",
+  "batch": "B5",
+  "status": "pending",
+  "note": "已抽94万字，周期理论",
+  "done_date": ""
+ },
+ "68": {
+  "idx": 68,
+  "name": "追寻价值之路",
+  "batch": "B5",
+  "status": "ocr",
+  "note": "532页",
+  "done_date": ""
+ },
+ "69": {
+  "idx": 69,
+  "name": "美股70年",
+  "batch": "B5",
+  "status": "ocr",
+  "note": "496页",
+  "done_date": ""
+ },
+ "70": {
+  "idx": 70,
+  "name": "江恩华尔街45年",
+  "batch": "B5",
+  "status": "ocr",
+  "note": "244页，本库完全缺失江恩体系",
+  "done_date": ""
+ },
+ "71": {
+  "idx": 71,
+  "name": "股票魔法师纵横天下股市的奥秘.重复",
+  "batch": "B5",
+  "status": "skip",
+  "note": "占位",
+  "done_date": ""
+ },
+ "72": {
+  "idx": 72,
+  "name": "乌合之众",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测0次交易词→hedge",
+  "done_date": ""
+ },
+ "73": {
+  "idx": 73,
+  "name": "小狗钱钱",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测0次→hedge",
+  "done_date": ""
+ },
+ "74": {
+  "idx": 74,
+  "name": "小岛经济学",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测0次→hedge",
+  "done_date": ""
+ },
+ "75": {
+  "idx": 75,
+  "name": "繁荣与衰退",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测0次→hedge",
+  "done_date": ""
+ },
+ "76": {
+  "idx": 76,
+  "name": "赢：有钱人",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测1次→hedge",
+  "done_date": ""
+ },
+ "77": {
+  "idx": 77,
+  "name": "伟大的博弈",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测1次→hedge",
+  "done_date": ""
+ },
+ "78": {
+  "idx": 78,
+  "name": "大癫狂",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测1次→hedge",
+  "done_date": ""
+ },
+ "79": {
+  "idx": 79,
+  "name": "一本书掌握财务技巧",
+  "batch": "B0",
+  "status": "skip",
+  "note": "会计教材→hedge",
+  "done_date": ""
+ },
+ "80": {
+  "idx": 80,
+  "name": "穷查理宝典",
+  "batch": "B0",
+  "status": "skip",
+  "note": "思维模型→hedge",
+  "done_date": ""
+ },
+ "81": {
+  "idx": 81,
+  "name": "价值投资之茅台大博弈",
+  "batch": "B0",
+  "status": "skip",
+  "note": "单一案例→hedge",
+  "done_date": ""
+ },
+ "82": {
+  "idx": 82,
+  "name": "奥马哈之雾",
+  "batch": "B0",
+  "status": "pending",
+  "note": "交易词97次，留交易库待精读",
+  "done_date": ""
+ },
+ "83": {
+  "idx": 83,
+  "name": "巴菲特致股东的信",
+  "batch": "B4",
+  "status": "pending",
+  "note": "已抽，偏向阅读",
+  "done_date": ""
+ },
+ "84": {
+  "idx": 84,
+  "name": "财报就像一本故事书",
+  "batch": "B0",
+  "status": "skip",
+  "note": "财报科普→不入库",
+  "done_date": ""
+ },
+ "85": {
+  "idx": 85,
+  "name": "非对称风险",
+  "batch": "B0",
+  "status": "skip",
+  "note": "塔勒布思维模型→hedge",
+  "done_date": ""
+ },
+ "86": {
+  "idx": 86,
+  "name": "机构投资的创新之路",
+  "batch": "B0",
+  "status": "skip",
+  "note": "机构配置→落不到看盘动作",
+  "done_date": ""
+ },
+ "87": {
+  "idx": 87,
+  "name": "赌客信条",
+  "batch": "B0",
+  "status": "skip",
+  "note": "科普且与蒙蒂尔重复",
+  "done_date": ""
+ },
+ "88": {
+  "idx": 88,
+  "name": "价值评估 公司价值的衡量与管理",
+  "batch": "B4",
+  "status": "ocr",
+  "note": "640页，价值评估权威",
+  "done_date": ""
+ },
+ "89": {
+  "idx": 89,
+  "name": "价值投资从格雷厄姆到巴菲特",
+  "batch": "B4",
+  "status": "ocr",
+  "note": "264页",
+  "done_date": ""
+ },
+ "90": {
+  "idx": 90,
+  "name": "像欧奈尔信徒一样交易",
+  "batch": "B2",
+  "status": "ocr",
+  "note": "355页",
+  "done_date": ""
+ },
+ "91": {
+  "idx": 91,
+  "name": "像欧奈尔信徒一样交易（二）",
+  "batch": "B2",
+  "status": "ocr",
+  "note": "315页",
+  "done_date": ""
+ },
+ "92": {
+  "idx": 92,
+  "name": "半小时漫画股票实战法",
+  "batch": "B2",
+  "status": "ocr",
+  "note": "628页",
+  "done_date": ""
+ },
+ "93": {
+  "idx": 93,
+  "name": "交易心理分析",
+  "batch": "B2",
+  "status": "ocr",
+  "note": "272页，道格拉斯，⭐重要",
+  "done_date": ""
+ },
+ "94": {
+  "idx": 94,
+  "name": "时间的玫瑰但斌投资札记",
+  "batch": "B5",
+  "status": "pending",
+  "note": "但斌，已抽",
+  "done_date": ""
+ },
+ "95": {
+  "idx": 95,
+  "name": "股市长线法宝（原书第5版）",
+  "batch": "B4",
+  "status": "pending",
+  "note": "西格尔，长期指数vs个股，已抽",
+  "done_date": ""
+ },
+ "96": {
+  "idx": 96,
+  "name": "股票魔法师3趋势交易圆桌访谈",
+  "batch": "B2",
+  "status": "pending",
+  "note": "⚠与#74重复登记，去重后保留一条",
+  "done_date": ""
+ },
+ "97": {
+  "idx": 97,
+  "name": "教你炒股票108课 (缠中说禅 mobi版)",
+  "batch": "B2",
+  "status": "skip",
+  "note": "⚠本库已有原著52.9万字，mobi仅备份不重编",
+  "done_date": ""
+ },
+ "98": {
+  "idx": 98,
+  "name": "客户的游艇在哪里",
+  "batch": "B0",
+  "status": "skip",
+  "note": "实测7次→hedge",
+  "done_date": ""
+ },
+ "99": {
+  "idx": 99,
+  "name": "财报就像一本兵法书",
+  "batch": "B0",
+  "status": "skip",
+  "note": "财报科普→不入库",
+  "done_date": ""
+ },
+ "100": {
+  "idx": 100,
+  "name": "价值投资 从格雷厄姆到巴菲特的头号投资法则",
+  "batch": "B4",
+  "status": "ocr",
+  "note": "264页",
+  "done_date": ""
+ },
+ "101": {
+  "idx": 101,
+  "name": "价值评估 公司价值的衡量与管理 第四版",
+  "batch": "B4",
+  "status": "ocr",
+  "note": "640页，价值评估权威",
+  "done_date": ""
+ }
+}
