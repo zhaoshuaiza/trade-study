@@ -107,9 +107,9 @@
   "idx": 14,
   "name": "行为投资学手册",
   "batch": "B2",
-  "status": "pending",
-  "note": "蒙蒂尔，已抽，本库0页",
-  "done_date": ""
+  "status": "done",
+  "note": "蒙蒂尔姊妹篇100%覆盖，46事象，与行为金融学去重17项",
+  "done_date": "2026-10-14"
  },
  "15": {
   "idx": 15,
@@ -171,9 +171,9 @@
   "idx": 22,
   "name": "股市趋势技术分析（原书第10版",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "⚠️非墨菲著而是爱德华兹-迈吉；63判据/19形态；缺口vs窗口同源",
+  "done_date": "2026-10-14"
  },
  "23": {
   "idx": 23,
@@ -187,9 +187,9 @@
   "idx": 24,
   "name": "看盘方法与技巧一本通",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "填A股盘口空白，62判据+13话术；第6章新股未读",
+  "done_date": "2026-10-14"
  },
  "25": {
   "idx": 25,
@@ -283,9 +283,9 @@
   "idx": 36,
   "name": "构建量化动量选股系统",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "全库第一本动量书，FIP公式；作者自己把超额收益归零",
+  "done_date": "2026-10-14"
  },
  "37": {
   "idx": 37,

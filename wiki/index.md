@@ -74,6 +74,10 @@ updated: 2026-10-07
 | ⭐⭐⭐ [股票魔法师三册·SEPA与趋势模板](concepts/股票魔法师三册·SEPA与趋势模板.md) | **趋势模板8条+VCP9条+止损11条** —— 已做成可直接复核的伪码 |
 | ⭐⭐⭐ [利弗莫尔·关键点与情绪控制](concepts/利弗莫尔·关键点与情绪控制.md) | **投机大师层首次进入本库** —— ⚠️ 网上4条流行说法本译本查无出处 |
 | ⭐⭐⭐ [拉里威廉斯·周期与指标参数](concepts/拉里威廉斯·周期与指标参数.md) | ⭐ **威廉斯自己否定了时间周期** —— 7组样本外测试证伪 |
+| ⭐⭐⭐ [爱德华兹迈吉股市趋势技术分析·形态与指标](concepts/爱德华兹迈吉股市趋势技术分析·形态与指标.md) | **63条判据/19组形态** —— ⚠️ **这本书不是墨菲写的**；⭐ **缺口vs窗口是同源不同代** |
+| ⭐⭐⭐ [看盘方法与技巧一本通·盘口与量价判据](concepts/看盘方法与技巧一本通·盘口与量价判据.md) | **★ 填补本库唯一空白：A股盘口层** —— 集合竞价撤单限制/涨停三类型 |
+| ⭐⭐⭐ [行为投资学手册·独有事象与检验清单](concepts/行为投资学手册·独有事象与检验清单.md) | 46条事象 —— 事先承诺/杀死公司九条/过程问责矩阵 |
+| ⭐⭐⭐ [构建量化动量选股系统·核心判据与对照](concepts/构建量化动量选股系统·核心判据与对照.md) | **全库第一本动量书** —— ⭐ FIP公式；⚠️ **作者自己把超额收益归零** |
 | ⭐⭐⭐ [可转债体系总览](syntheses/可转债体系总览.md) | **★ 转债9 页一图看完** —— 四条铁律 + 三市速查 + 14条阈值 |
 | [可转债投资黄金宝典（阿秋）](sources/可转债投资黄金宝典.md) | **218页OCR** · 强赎制霸+回售摸彩两个实盘组合 |
 | ⭐⭐⭐ **胜率不是越高越好**（本库最大缺口的补齐） | [[concepts/胜率不是越高越好]] ⭐⭐⭐ |
@@ -414,7 +418,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，108 页）
+### 抽象概念（`concepts/`，112 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
@@ -471,6 +475,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/斜衡线与通道线]]
 - [[concepts/日本蜡烛图技术·形态与判据]]
 - [[concepts/权威的泥潭效应]]
+- [[concepts/构建量化动量选股系统·核心判据与对照]]
 - [[concepts/林奇12条准则]]
 - [[concepts/林奇25条黄金规则]]
 - [[concepts/欧奈尔CANSLIM与 cup with handle 判据]]
@@ -482,11 +487,13 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/涨停密码·新判据与黄金三角缺证]]
 - [[concepts/温斯坦·阶段与量价判据]]
 - [[concepts/灯塔线]]
+- [[concepts/爱德华兹迈吉股市趋势技术分析·形态与指标]]
 - [[concepts/特殊类型转债]]
 - [[concepts/王牌柱三级]]
 - [[concepts/现场直憨]]
 - [[concepts/百日低量与百日低量群]]
 - [[concepts/盘口与风险优先原则]]
+- [[concepts/看盘方法与技巧一本通·盘口与量价判据]]
 - [[concepts/真底真顶与量线七元素]]
 - [[concepts/精准线]]
 - [[concepts/组合热度]]
@@ -495,6 +502,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/背驰与转折]]
 - [[concepts/胜率不是越高越好]]
 - [[concepts/获利机会的绝对分类]]
+- [[concepts/行为投资学手册·独有事象与检验清单]]
 - [[concepts/行为金融学·蒙蒂尔心理偏差清单]]
 - [[concepts/表象规律与本质规律]]
 - [[concepts/调整浪形态]]
@@ -538,7 +546,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，27 页）
+### 一本资料一页（`sources/`，31 页）
 
 - [[sources/一个农民的亿万传奇]]
 - [[sources/传奇投资人的智慧]]
@@ -551,13 +559,17 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/教你炒股票全3册]]
 - [[sources/新手学炒股一本就够]]
 - [[sources/日本蜡烛图技术（尼森）]]
+- [[sources/构建量化动量选股系统（格雷沃格尔）]]
 - [[sources/波浪理论]]
 - [[sources/海龟交易法则]]
 - [[sources/盘口解读技术]]
+- [[sources/看盘方法与技巧一本通（老牛）]]
 - [[sources/短线交易秘诀（拉里威廉斯）]]
 - [[sources/缠论108课]]
+- [[sources/股市趋势技术分析（爱德华兹迈吉）]]
 - [[sources/股票大作手操盘术（利弗莫尔）]]
 - [[sources/股票魔法师系列（Minervini）]]
+- [[sources/行为投资学手册（蒙蒂尔）]]
 - [[sources/行为金融学（蒙蒂尔）]]
 - [[sources/走出幻觉走向成熟]]
 - [[sources/道氏理论]]
