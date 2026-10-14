@@ -562,8 +562,9 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[questions/问答与纠错机制]]
 
-### 治理/体检（`meta/`，4 页）
+### 治理/体检（`meta/`，5 页）
 
+- [[meta/完成状态清单]]
 - [[meta/未完成清单]]
 - [[meta/术语溯源三分类]]
 - [[meta/素材分流判定]]
