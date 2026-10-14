@@ -11,9 +11,9 @@
   "idx": 2,
   "name": "伏击涨停+涨停密码",
   "batch": "B1",
-  "status": "pending",
-  "note": "凹底淘金正式出处；待编《涨停密码》黄金三角",
-  "done_date": ""
+  "status": "done",
+  "note": "已出2概念页(伏击涨停·PTALT模型与十八技法 + 涨停密码·牛股三绝与涨停板基因)+2sources",
+  "done_date": "2026-10-14"
  },
  "3": {
   "idx": 3,
@@ -27,49 +27,49 @@
   "idx": 4,
   "name": "可转债投资魔法书(第2版)",
   "batch": "B1",
-  "status": "pending",
-  "note": "需先核实与旧版是否同书",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(制度风险与强赎机制核查)+sources扩写专项核查",
+  "done_date": "2026-10-14"
  },
  "5": {
   "idx": 5,
   "name": "一本书搞懂龙头股战法",
   "batch": "B1",
-  "status": "pending",
-  "note": "已抽全文，222页PDF有文字层",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(曹明成龙头股战法)",
+  "done_date": "2026-10-14"
  },
  "6": {
   "idx": 6,
   "name": "股市极客思考录",
   "batch": "B1",
-  "status": "pending",
-  "note": "已抽，3.4万字，短",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(题材与热点判据)+1sources",
+  "done_date": "2026-10-14"
  },
  "7": {
   "idx": 7,
   "name": "cisの股票交易术",
   "batch": "B1",
-  "status": "pending",
-  "note": "已抽，与主力的思维同源",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(顺势操作与效率判据)+1sources; 与主力的思維同原稿,已建entity/cis交易体系",
+  "done_date": "2026-10-14"
  },
  "8": {
   "idx": 8,
   "name": "主力的思維",
   "batch": "B1",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(庄家与筹码判据)+1sources; 核实与cis股票交易术为同一原稿两个译本",
+  "done_date": "2026-10-14"
  },
  "9": {
   "idx": 9,
   "name": "华尔街幽灵",
   "batch": "B1",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(华尔街幽灵·三条交易规则与仓位纪律)+1sources",
+  "done_date": "2026-10-14"
  },
  "10": {
   "idx": 10,
@@ -115,9 +115,9 @@
   "idx": 15,
   "name": "以交易为生（原书第2版）",
   "batch": "B2",
-  "status": "pending",
-  "note": "埃尔德书1仅读12%，待补（已入三书合并页）",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(三重滤网动力系统与市场宽度)",
+  "done_date": "2026-10-14"
  },
  "16": {
   "idx": 16,

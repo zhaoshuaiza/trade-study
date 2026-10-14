@@ -447,12 +447,13 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，130 页）
+### 抽象概念（`concepts/`，139 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
 - [[concepts/_黑马王子6-9册·新判据提取]]
+- [[concepts/cis股票交易术·顺势操作与效率判据]]
 - [[concepts/一剑封喉]]
 - [[concepts/一小时漫画缠论实战法·判据与出处判定]]
 - [[concepts/三好股票框架]]
@@ -462,12 +463,14 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/两个平均指数相互确认]]
 - [[concepts/中枢级别扩张]]
 - [[concepts/主力控盘与对敲识破]]
+- [[concepts/主力的思維·庄家与筹码判据]]
 - [[concepts/亏损与回本的非线性]]
 - [[concepts/五套体系的适用市场]]
 - [[concepts/交易之路·构建交易系统的步骤]]
 - [[concepts/交易圣经·系统化交易判据]]
 - [[concepts/交易心理分析·心理状态与操作纪律]]
 - [[concepts/仓位管理]]
+- [[concepts/以交易为生·三重滤网动力系统与市场宽度]]
 - [[concepts/价值投资四原则]]
 - [[concepts/供求关系与主要矛盾]]
 - [[concepts/倍量伸缩]]
@@ -479,6 +482,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/分型笔与线段]]
 - [[concepts/分时图实战·日内形态判据]]
 - [[concepts/利弗莫尔·关键点与情绪控制]]
+- [[concepts/华尔街幽灵·三条交易规则与仓位纪律]]
 - [[concepts/双阴出货]]
 - [[concepts/可转债三大经典策略]]
 - [[concepts/可转债三大误区]]
@@ -490,6 +494,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/可转债债性指标]]
 - [[concepts/可转债复合资产特性]]
 - [[concepts/可转债定价模型]]
+- [[concepts/可转债投资魔法书·制度风险与强赎机制核查]]
 - [[concepts/可转债躺赚指南·独有判据]]
 - [[concepts/可转债黄金宝典·阿秋独有判据]]
 - [[concepts/唐奇安通道]]
@@ -501,7 +506,6 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/峰顶线与平衡线总纲]]
 - [[concepts/巴菲特护城河·护城河类型与判据]]
 - [[concepts/常识选股与画不出来的公司]]
-- [[concepts/曹明成龙头股战法·龙头识别与买卖判据]] ⭐（2026-10-15 新增，龙头股/突破+回调/均价线）
 - [[concepts/平均价格指数消溶一切]]
 - [[concepts/平衡线]]
 - [[concepts/弹性价值]]
@@ -513,6 +517,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/斜衡线]]
 - [[concepts/斜衡线与通道线]]
 - [[concepts/日本蜡烛图技术·形态与判据]]
+- [[concepts/曹明成龙头股战法·龙头识别与买卖判据]]
 - [[concepts/权威的泥潭效应]]
 - [[concepts/李杰股市进阶之道·散户自我修养与交易体系]]
 - [[concepts/构建量化动量选股系统·核心判据与对照]]
@@ -525,8 +530,8 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/正确率与赔率的互损原则]]
 - [[concepts/波浪嵌套与级别]]
 - [[concepts/涨停基因]]
-- [[concepts/涨停密码·牛股三绝与涨停板基因]] ⭐（2026-10-15 新增，极阴次阳量化表/基因→密码转化）
 - [[concepts/涨停密码·新判据与黄金三角缺证]]
+- [[concepts/涨停密码·牛股三绝与涨停板基因]]
 - [[concepts/温斯坦·阶段与量价判据]]
 - [[concepts/漫步华尔街·有效市场与指数投资]]
 - [[concepts/灯塔线]]
@@ -541,6 +546,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/神奇支撑线]]
 - [[concepts/精准线]]
 - [[concepts/组合热度]]
+- [[concepts/股市极客思考录·题材与热点判据]]
 - [[concepts/股票魔法师三册·SEPA与趋势模板]]
 - [[concepts/背驰与力度比较]]
 - [[concepts/背驰与转折]]
@@ -570,7 +576,6 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/量柱六元素]]
 - [[concepts/量线七元素]]
 - [[concepts/量线系统]]
-- [[concepts/黑马王子伏击涨停·PTALT模型与十八技法]] ⭐（2026-10-15 新增，十二字令/量柱七因子/PTALT）
 - [[concepts/长腿踩线]]
 - [[concepts/霍华德马克斯周期·周期钟与钟摆]]
 - [[concepts/面值高价折扣法与三条安全线]]
@@ -582,9 +587,11 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/黄金梯]]
 - [[concepts/黄金线]]
 - [[concepts/黄金道]]
+- [[concepts/黑马王子伏击涨停·PTALT模型与十八技法]]
 
-### 具体体系（`entities/`，10 页）
+### 具体体系（`entities/`，11 页）
 
+- [[entities/cis交易体系]]
 - [[entities/传奇投资人的智慧]]
 - [[entities/傅海棠·一个农民的亿万传奇]]
 - [[entities/波浪理论]]
@@ -596,16 +603,22 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，48 页）
+### 一本资料一页（`sources/`，56 页）
 
 - [[sources/100倍超级强势股（Stine）]]
+- [[sources/cis股票交易术]]
 - [[sources/一个农民的亿万传奇]]
 - [[sources/一小时漫画缠论实战法（管鹏）]]
+- [[sources/一本书搞懂龙头股战法曹明成]]
+- [[sources/主力の思維]]
 - [[sources/交易之路（陈凯）]]
 - [[sources/交易圣经（范撒普）]]
+- [[sources/以交易为生（亚历山大埃尔德）]]
+- [[sources/伏击涨停黑马王子]]
 - [[sources/传奇投资人的智慧]]
 - [[sources/像欧奈尔信徒一样交易二（莫拉雷斯卡彻）]]
 - [[sources/分时图实战（杨金）]]
+- [[sources/华尔街幽灵（辛普森）]]
 - [[sources/可转债投资小白躺赚指南]]
 - [[sources/可转债投资魔法书]]
 - [[sources/可转债投资黄金宝典]]
@@ -624,12 +637,14 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/构建量化动量选股系统（格雷沃格尔）]]
 - [[sources/波浪理论]]
 - [[sources/海龟交易法则]]
+- [[sources/涨停密码黑马王子]]
 - [[sources/漫步华尔街（马尔基尔）]]
 - [[sources/盘口解读技术]]
 - [[sources/看盘方法与技巧一本通（老牛）]]
 - [[sources/短线交易秘诀（拉里威廉斯）]]
 - [[sources/缠论108课]]
 - [[sources/聪明的投资者（格雷厄姆）]]
+- [[sources/股市极客思考录]]
 - [[sources/股市趋势技术分析（爱德华兹迈吉）]]
 - [[sources/股市进阶之道（李杰）]]
 - [[sources/股票大作手操盘术（利弗莫尔）]]
@@ -643,9 +658,6 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/量柱擒涨停]]
 - [[sources/量线捉涨停]]
 - [[sources/高胜算操盘]]
-- [[sources/伏击涨停黑马王子]] ⭐（2026-10-15 新增）
-- [[sources/涨停密码黑马王子]] ⭐（2026-10-15 新增）
-- [[sources/一本书搞懂龙头股战法曹明成]] ⭐（2026-10-15 新增）
 - [[sources/黑马王子操盘手记]]
 - [[sources/黑马王子系列]]
 - [[sources/龙头价值与赛道]]
