@@ -116,32 +116,32 @@
   "name": "以交易为生（原书第2版）",
   "batch": "B2",
   "status": "pending",
-  "note": "埃尔德，已抽真文本",
+  "note": "埃尔德书1仅读12%，待补（已入三书合并页）",
   "done_date": ""
  },
  "16": {
   "idx": 16,
   "name": "以交易为生II：卖出的艺术",
   "batch": "B2",
-  "status": "pending",
-  "note": "埃尔德，已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "卖出艺术50%，已出10类离场判据",
+  "done_date": "2026-10-14"
  },
  "17": {
   "idx": 17,
   "name": "走进我的交易室",
   "batch": "B2",
-  "status": "pending",
-  "note": "埃尔德，已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "走进我的交易室85%",
+  "done_date": "2026-10-14"
  },
  "18": {
   "idx": 18,
   "name": "史丹•温斯坦称傲牛熊市的秘密",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽，量价可与黑马王子对照",
-  "done_date": ""
+  "status": "done",
+  "note": "温斯坦第1-7章63%，已出与量柱体系对照(比值vs方向)",
+  "done_date": "2026-10-14"
  },
  "19": {
   "idx": 19,
@@ -155,9 +155,9 @@
   "idx": 20,
   "name": "笑傲股市(原書第4版",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽，与利弗莫尔并读",
-  "done_date": ""
+  "status": "done",
+  "note": "欧奈尔原著第4版，CANSLIM七要素+杯柄平底",
+  "done_date": "2026-10-14"
  },
  "21": {
   "idx": 21,
@@ -739,9 +739,9 @@
   "idx": 93,
   "name": "交易心理分析",
   "batch": "B2",
-  "status": "ocr",
-  "note": "272页，道格拉斯，⭐重要",
-  "done_date": ""
+  "status": "done",
+  "note": "Mark Douglas 272页OCR，本库第一份交易心理页",
+  "done_date": "2026-10-14"
  },
  "94": {
   "idx": 94,

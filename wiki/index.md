@@ -67,6 +67,10 @@ updated: 2026-10-07
 | ⭐⭐⭐ [行为金融学·蒙蒂尔心理偏差清单](concepts/行为金融学·蒙蒂尔心理偏差清单.md) | **33个偏差，但只有4个给了对策** —— 实证金融学，不是心理自助书 |
 | ⭐⭐⭐ [可转债躺赚指南·独有判据](concepts/可转债躺赚指南·独有判据.md) | **27条判据（22条独有）** —— 条款操作层+20%利息税；⚠️ **「躺赚」是话术非机制** |
 | ⭐⭐⭐ [日本蜡烛图技术·形态与判据](concepts/日本蜡烛图技术·形态与判据.md) | **80形态 / 含数值门槛仅4条** —— ⭐ **Nison 自己说「单一信号不足以入市」** |
+| ⭐⭐⭐ [欧奈尔CANSLIM与cup with handle判据](concepts/欧奈尔CANSLIM与%20cup%20with%20handle%20判据.md) | **CANSLIM七要素+杯柄平底形态** —— 有买点有7~8%止损 |
+| ⭐⭐⭐ [温斯坦·阶段与量价判据](concepts/温斯坦·阶段与量价判据.md) | **温斯坦 vs 量柱体系对照** —— ⭐ **「比值判据 vs 方向判据」的结构差异** |
+| ⭐⭐⭐ [埃尔德三书·三重入场与三重止损](concepts/埃尔德三书·三重入场与三重止损.md) | **三重滤网+7类止损+10类离场** —— ⭐ **本库离场判据补齐** |
+| ⭐⭐⭐ [交易心理分析·心理状态与操作纪律](concepts/交易心理分析·心理状态与操作纪律.md) | **★ 本库第一份交易心理页** —— 272页OCR / 概率思维 |
 | ⭐⭐⭐ [可转债体系总览](syntheses/可转债体系总览.md) | **★ 转债9 页一图看完** —— 四条铁律 + 三市速查 + 14条阈值 |
 | [可转债投资黄金宝典（阿秋）](sources/可转债投资黄金宝典.md) | **218页OCR** · 强赎制霸+回售摸彩两个实盘组合 |
 | ⭐⭐⭐ **胜率不是越高越好**（本库最大缺口的补齐） | [[concepts/胜率不是越高越好]] ⭐⭐⭐ |
@@ -407,7 +411,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，101 页）
+### 抽象概念（`concepts/`，105 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
@@ -422,6 +426,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/主力控盘与对敲识破]]
 - [[concepts/亏损与回本的非线性]]
 - [[concepts/五套体系的适用市场]]
+- [[concepts/交易心理分析·心理状态与操作纪律]]
 - [[concepts/仓位管理]]
 - [[concepts/价值投资四原则]]
 - [[concepts/供求关系与主要矛盾]]
@@ -445,6 +450,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/可转债黄金宝典·阿秋独有判据]]
 - [[concepts/唐奇安通道]]
 - [[concepts/均线吻与转折]]
+- [[concepts/埃尔德三书·三重入场与三重止损]]
 - [[concepts/太极线]]
 - [[concepts/威科夫体系·吸筹派发判据]]
 - [[concepts/峰谷线]]
@@ -462,12 +468,14 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/权威的泥潭效应]]
 - [[concepts/林奇12条准则]]
 - [[concepts/林奇25条黄金规则]]
+- [[concepts/欧奈尔CANSLIM与 cup with handle 判据]]
 - [[concepts/止损的争议]]
 - [[concepts/正法模型与龙头九则]]
 - [[concepts/正确率与赔率的互损原则]]
 - [[concepts/波浪嵌套与级别]]
 - [[concepts/涨停基因]]
 - [[concepts/涨停密码·新判据与黄金三角缺证]]
+- [[concepts/温斯坦·阶段与量价判据]]
 - [[concepts/灯塔线]]
 - [[concepts/特殊类型转债]]
 - [[concepts/王牌柱三级]]
