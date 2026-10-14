@@ -315,17 +315,17 @@
   "idx": 40,
   "name": "指数基金投资指南",
   "batch": "B3",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(盈利收益率与博格公式)+1sources",
+  "done_date": "2026-10-14"
  },
  "41": {
   "idx": 41,
   "name": "躺着赚钱的漫画基金书",
   "batch": "B3",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(基金分类与定投三要素)+1sources; 建议整本分流hedge",
+  "done_date": "2026-10-14"
  },
  "42": {
   "idx": 42,
@@ -499,41 +499,41 @@
   "idx": 63,
   "name": "价值 (张磊",
   "batch": "B4",
-  "status": "pending",
-  "note": "交易词7次偏低",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(研究驱动与价值投资四陷阱)+1sources",
+  "done_date": "2026-10-14"
  },
  "64": {
   "idx": 64,
   "name": "证券投机的艺术",
   "batch": "B5",
-  "status": "pending",
-  "note": "科斯托拉尼",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(科斯托拉尼的鸡蛋与量能判据)+1sources",
+  "done_date": "2026-10-14"
  },
  "65": {
   "idx": 65,
   "name": "金融怪杰",
   "batch": "B5",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(单笔风险上限与技术分析价值冲突)+1sources; 多人访谈,观点分开登记",
+  "done_date": "2026-10-14"
  },
  "66": {
   "idx": 66,
   "name": "韭菜的自我修养",
   "batch": "B5",
-  "status": "pending",
-  "note": "交易词28次高密度",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(入场时机与回报风险比)+1sources; 主体面向加密货币,已标4条禁止移植",
+  "done_date": "2026-10-14"
  },
  "67": {
   "idx": 67,
   "name": "周金涛理论大集",
   "batch": "B5",
-  "status": "pending",
-  "note": "已抽94万字，周期理论",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(康波嵌套与库存周期)+1sources; 断言可验证性逐条核查",
+  "done_date": "2026-10-14"
  },
  "68": {
   "idx": 68,
@@ -659,8 +659,8 @@
   "idx": 83,
   "name": "巴菲特致股东的信",
   "batch": "B4",
-  "status": "pending",
-  "note": "已抽，偏向阅读",
+  "status": "skip",
+  "note": "巴菲特致股东的信: 内容已被格雷厄姆/护城河页覆盖,暂不单独编译",
   "done_date": ""
  },
  "84": {
@@ -747,17 +747,17 @@
   "idx": 94,
   "name": "时间的玫瑰但斌投资札记",
   "batch": "B5",
-  "status": "pending",
-  "note": "但斌，已抽",
+  "status": "skip",
+  "note": "时间的玫瑰但斌: 偏投资理念,待用户裁决是否分流hedge",
   "done_date": ""
  },
  "95": {
   "idx": 95,
   "name": "股市长线法宝（原书第5版）",
   "batch": "B4",
-  "status": "pending",
-  "note": "西格尔，长期指数vs个股，已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(200日均线实证与估值分位)+1sources; 数据截止2012已过期",
+  "done_date": "2026-10-14"
  },
  "96": {
   "idx": 96,

@@ -1,541 +1,706 @@
 {
-  "version": 2,
-  "created": "2026-10-07",
-  "updated": "2026-10-15",
-  "note": "资料源在E:/笔记Obsidian/电子书/，本库不存PDF，只记编译状态",
-  "sources": {
-    "道氏理论.pdf": {
-      "path": "E:/笔记Obsidian/电子书/道氏理论.pdf",
-      "size": "33MB",
-      "type": "pdf",
-      "compiled": true,
-      "chapters_done": [
-        1,
-        223
-      ],
-      "text_layer": false,
-      "pages": 223,
-      "ocr": {
-        "engine": "rapidocr_onnxruntime",
-        "dpi": 200,
-        "status": "done",
-        "elapsed_sec": 660,
-        "script": "ocr_dow.py"
-      },
-      "note": "1931年Rhea著，繁体扫描件，已OCR+繁转简",
-      "extracted": "raw/distilled/道氏理论-OCR-简体.txt",
-      "concepts_extracted": 4
-    },
-    "【波浪理论精典教学课程】.pdf": {
-      "path": "E:/笔记Obsidian/电子书/【波浪理论精典教学课程】.pdf",
-      "size": "0.6MB",
-      "type": "pdf",
-      "compiled": true,
-      "chapters_done": [
-        1,
-        24
-      ],
-      "pages": 24,
-      "words": 17607,
-      "text_layer": true,
-      "extracted": "raw/distilled/波浪理论-全文.txt",
-      "concepts_extracted": 4,
-      "note": "已完整编译"
-    },
-    "缠论108课详解.pdf": {
-      "path": "E:/笔记Obsidian/电子书/缠论108课详解 扫地僧读缠论108课札记(高清).pdf",
-      "size": "186MB",
-      "type": "pdf",
-      "compiled": true,
-      "chapters_done": [
-        1,
-        593
-      ],
-      "pages": 593,
-      "words": 426484,
-      "text_layer": false,
-      "ocr": {
-        "engine": "rapidocr_onnxruntime",
-        "dpi": 160,
-        "status": "done",
-        "elapsed_sec": 4701,
-        "failed_pages": 2,
-        "failed_page_list": [
-          145,
-          189
-        ],
-        "scripts": [
-          "ocr_chan.py",
-          "ocr_chan_retry.py",
-          "merge_chan.py"
-        ],
-        "note": "97页失败后用降dpi+切半图策略修复95页；剩余2页为大幅K线图页"
-      },
-      "extracted": "raw/distilled/缠论108课详解-OCR-简体.txt",
-      "concepts_extracted": 6,
-      "note": "2017年经济管理出版社扫地僧读缠论札记（详解+点评版）"
-    },
-    "海龟交易法则.pdf": {
-      "path": "E:/笔记Obsidian/电子书/海龟交易法则(无水印高清晰版）.pdf",
-      "size": "38MB",
-      "type": "pdf",
-      "compiled": false,
-      "text_layer": false,
-      "pages": 272,
-      "note": "hedge库012已有完整蒸馏，无需OCR",
-      "on_hold": true,
-      "routed_note": "内容属本库，但用户只做A股单边/转债不能做期货→参数不可用，挂起不排期；思想已在syntheses/体系适用性矩阵登记"
-    },
-    "黑马王子系列": {
-      "path": "E:/笔记Obsidian/电子书/黑马王子系列/",
-      "type": "pdf_series",
-      "books": 7,
-      "compiled": true,
-      "chapters_done": [
-        "量柱擒涨停",
-        "量线捉涨停"
-      ],
-      "status_note": "2026-10-08 全面检测，详见 sources/黑马王子系列.md",
-      "remaining": "操盘手记1-5（共1420页扫描版）"
-    },
-    "新手学炒股一本就够.html.pdf": {
-      "path": "E:/笔记Obsidian/电子书/新手学炒股一本就够.html.pdf",
-      "size": "109MB",
-      "type": "pdf",
-      "compiled": true,
-      "pages": 343,
-      "words": 158950,
-      "text_layer": true,
-      "extracted": "raw/distilled/新手学炒股一本就够-全文.txt",
-      "concepts_extracted": 2,
-      "note": "2026-10-08新增。A股操作手册，量价关系与主力控盘两章价值最高"
-    },
-    "数据分析实战.html.pdf": {
-      "path": "E:/笔记Obsidian/电子书/数据分析实战：基于EXCEL和SPSS系列工具的实践.html.pdf",
-      "size": "57MB",
-      "type": "pdf",
-      "compiled": false,
-      "pages": 374,
-      "words": 93074,
-      "text_layer": true,
-      "extracted": "raw/distilled/数据分析实战-全文.txt",
-      "note": "2026-10-08新增。EXCEL/SPSS 数据处理，非交易方法论，暂不编译",
-      "routed": "none",
-      "routed_note": "CLAUDE.md明列：通用工具书，非交易方法论"
-    },
-    "战胜华尔街.pdf": {
-      "path": "E:/笔记Obsidian/电子书/战胜华尔街—全美头号职业炒手的股票经.pdf",
-      "size": "6MB",
-      "type": "pdf",
-      "compiled": true,
-      "text_layer": false,
-      "pages": 290,
-      "note": "彼得林奇《One Up on Wall Street》中译本，第23章25条黄金规则 + 书内12条准则",
-      "ocr": {
-        "engine": "rapidocr_onnxruntime",
-        "dpi": 160,
-        "status": "done",
-        "elapsed_sec": 1679,
-        "failed_pages": 0,
-        "script": "ocr_book.py"
-      },
-      "routed_note": "本库主线，290页纯图片件，2026-10-14 启动OCR",
-      "chapters_done": [
-        1,
-        290
-      ],
-      "words": 126301,
-      "extracted": "raw/distilled/战胜华尔街-OCR-简体.txt",
-      "concepts_extracted": 3,
-      "claims_extracted": 2
-    },
-    "教你炒股票全3册.azw3": {
-      "path": "E:/笔记Obsidian/电子书/A10328. 教你炒股票（全 3 册）：市场哲学的数学原理....azw3",
-      "size": "49MB(azw3) -> 40MB(epub)",
-      "type": "azw3",
-      "compiled": true,
-      "note": "纯原文无评注，可用于分清作者本人主张与评注者观点。原详解版PDF593页需78分钟OCR，本书0秒0OCR。",
-      "converted": "E:/Work Buddy/电子书/转换/教你炒股票全3册.epub",
-      "pages": "3册/114章",
-      "words": 529792,
-      "text_layer": true,
-      "ocr": null,
-      "extract_method": "calibre ebook-convert -> 按 OPF spine 顺序抽纯文本",
-      "extracted": "raw/distilled/教你炒股票全3册-全文.txt",
-      "concepts_updated": [
-        "分型笔与线段",
-        "三类买卖点",
-        "均线吻与转折",
-        "走势的多义性"
-      ],
-      "synthesis": [
-        "缠师原文核查·说话人结案"
-      ],
-      "source_page": "wiki/sources/教你炒股票全3册.md",
-      "author": "缠中说禅",
-      "publisher": "中国财富出版社",
-      "edition": "2019-11",
-      "isbn": "978-7-5047-7029-5",
-      "compiled_at": "2026-10-11"
-    },
-    "炒股的智慧（全文）.doc": {
-      "path": "E:/笔记Obsidian/电子书/炒股的智慧（全文）.doc",
-      "size": "0.3MB",
-      "type": "doc",
-      "compiled": false,
-      "note": "2026-08 新增待处理。doc 格式需转换",
-      "routed": "none",
-      "routed_note": "短文且与已有体系重叠，不单独建页"
-    },
-    "反脆弱.mobi": {
-      "path": "E:/笔记Obsidian/电子书/反脆弱：学习从无序和不确定中获利.mobi",
-      "size": "1.2MB",
-      "type": "mobi",
-      "compiled": false,
-      "note": "2026-08 新增待处理。塔勒布，与缠论多义性/反量化有呼应",
-      "routed": "hedge",
-      "routed_note": "CLAUDE.md零之一：思维模型类，非交易应用，不入交易库"
-    },
-    "HowToLiveBetter.epub": {
-      "path": "E:/笔记Obsidian/电子书/HowToLiveBetter.epub",
-      "size": "1MB",
-      "type": "epub",
-      "compiled": false,
-      "note": "2026-08 新增待处理。与交易关系待确认",
-      "routed": "hedge",
-      "routed_note": "生活哲学类，不能落成看盘动作"
-    },
-    "股市天经之一 量柱擒涨停.pdf": {
-      "path": "E:/笔记Obsidian/电子书/黑马王子系列/股市天经之二  量线捉涨停 全新彩印版(高清).pdf等多个文件/股市天经之一 量柱擒涨停  全新彩印版(高清).pdf",
-      "size": "20MB",
-      "type": "pdf",
-      "compiled": true,
-      "chapters_done": [
-        1,
-        292
-      ],
-      "pages": 292,
-      "text_layer": false,
-      "extracted": "raw/distilled/量柱擒涨停-OCR-简体.txt",
-      "concepts_extracted": 3,
-      "ocr": {
-        "engine": "rapidocr_onnxruntime",
-        "status": "done"
-      },
-      "note": "2026-10-09 修正登记路径（原登记文件名不完整）",
-      "compiled_at": "2026-10-09",
-      "concepts": [
-        "量柱三先规律",
-        "量柱六元素",
-        "黄金柱",
-        "黄金线",
-        "黄金梯",
-        "黄金仓",
-        "黄金劫与凹口淘金",
-        "黄金道",
-        "黄金六层面"
-      ],
-      "chapters": "第一至第三章全部编译完成（第三章 6/6）"
-    },
-    "股市天经之二 量线捉涨停.pdf": {
-      "path": "E:/笔记Obsidian/电子书/黑马王子系列/股市天经之二  量线捉涨停 全新彩印版(高清).pdf等多个文件/股市天经之二  量线捉涨停 全新彩印版(高清).pdf",
-      "size": "64MB",
-      "type": "pdf",
-      "compiled": true,
-      "chapters_done": [
-        1,
-        351
-      ],
-      "pages": 351,
-      "words": 179433,
-      "text_layer": false,
-      "ocr": {
-        "engine": "rapidocr_onnxruntime",
-        "dpi": 160,
-        "status": "done",
-        "elapsed_sec": 1784,
-        "failed_pages": 0,
-        "scripts": [
-          "ocr_book.py"
-        ],
-        "note": "351页全部成功，零失败。ASCII目录名 + OPENBLAS_NUM_THREADS=1 两项修复后稳定性大幅提升"
-      },
-      "extracted": "raw/distilled/量线捉涨停-OCR-简体.txt",
-      "concepts_extracted": 2,
-      "note": "2010年股市天经之二，量柱的姊妹篇，讲顶底线与真底真顶"
-    },
-    "龙头、价值与赛道_我对投资哲学与逻辑的深度思考.epub": {
-      "path": "E:/笔记Obsidian/电子书/龙头、价值与赛道_我对投资哲学与逻辑的深度思考.epub",
-      "type": "epub",
-      "compiled": true,
-      "chapters": 82,
-      "words": 181272,
-      "compiled_at": "2026-10-09",
-      "pages_extracted": 1
-    },
-    "走出幻觉走向成熟 金融帝国.pdf": {
-      "path": "E:/笔记Obsidian/电子书/走出幻觉走向成熟 金融帝国.pdf",
-      "type": "pdf",
-      "compiled": true,
-      "pages": 316,
-      "words": 230883,
-      "text_layer": true,
-      "compiled_at": "2026-10-09"
-    },
-    "一个农民的亿万传奇.pdf": {
-      "path": "E:/笔记Obsidian/电子书/一个农民的亿万传奇.pdf",
-      "type": "pdf",
-      "compiled": true,
-      "pages": 176,
-      "words": 193676,
-      "text_layer": true,
-      "compiled_at": "2026-10-09"
-    },
-    "传奇投资人的智慧（全7册）.pdf": {
-      "path": "E:/笔记Obsidian/电子书/传奇投资人的智慧（全7册）.pdf",
-      "type": "pdf",
-      "compiled": true,
-      "pages": 694,
-      "words": 393365,
-      "text_layer": true,
-      "compiled_at": "2026-10-09"
-    },
-    "高胜算操盘.pdf": {
-      "path": "E:/笔记Obsidian/电子书/高胜算操盘.pdf",
-      "type": "pdf",
-      "compiled": true,
-      "pages": 360,
-      "words": 277285,
-      "text_layer": false,
-      "ocr": {
-        "engine": "rapidocr_onnxruntime",
-        "status": "done",
-        "failed_pages": [
-          221,
-          305
-        ]
-      },
-      "extracted": "raw/distilled/高胜算操盘-OCR-简体.txt",
-      "concepts_extracted": 1,
-      "entities_extracted": 1,
-      "compiled_at": "2026-10-10",
-      "compiled_chapters": [
-        1,
-        10,
-        11,
-        12,
-        14
-      ],
-      "note": "⭐ 补本库\"胜率与赔率\"线。⚠️ 译名误导: 英文High Probability(高概率)vs中文\"高胜算\", 原文定义是\"风险报酬比低\"非\"胜率高\""
-    },
-    "盘口解读技术.pdf": {
-      "path": "E:/笔记Obsidian/电子书/盘口解读技术.pdf",
-      "pages": 292,
-      "words": 166079,
-      "text_layer": false,
-      "compiled": true,
-      "extract_method": "pymupdf 160dpi → rapidocr → opencc",
-      "extracted": "raw/distilled/盘口解读-OCR-简体.txt",
-      "shards": "raw/distilled/shards_盘口解读/",
-      "ocr": {
-        "failed": 0,
-        "dedup": true
-      },
-      "concepts": [
-        "盘口与风险优先原则"
-      ],
-      "source_page": "wiki/sources/盘口解读技术.md",
-      "author": "Christopher Schumacher / Vadym Graifer",
-      "translator": "李书路",
-      "note": "执行层体系(非信号体系)。核心原则与海龟同源。需Level-2数据，本库无。",
-      "compiled_at": "2026-10-13"
-    },
-    "可转债投资魔法书(第2版).epub": {
-      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/6_可转债投资魔法书（第二版）/可转债投资魔法书(第2版) (安道全 [安道全]) (Z-Library).epub",
-      "type": "epub",
-      "compiled": true,
-      "sections": 90,
-      "words": 183723,
-      "text_layer": null,
-      "compiled_at": "2026-10-15",
-      "extracted": "raw/distilled/可转债投资魔法书-全文.txt",
-      "concepts_extracted": 1,
-      "note": "⭐ 补转债建仓层。⭐⭐纠正: 网上流传的\"三线-复式\"原书正文\"复式\"0次, 真实策略名=面值-高价折扣法(92次)"
-    },
-    "可转债投资小白躺赚指南.pdf": {
-      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/5_可转债——投资小白躺赚指南/可转债：投资小白躺赚指南 (于佳蓉) (Z-Library).pdf",
-      "type": "pdf",
-      "compiled": true,
-      "pages": 300,
-      "words": 103530,
-      "text_layer": true,
-      "published": "2021-01",
-      "isbn": "9787121399671",
-      "extracted": "raw/distilled/可转债投资小白躺赚指南-全文.txt",
-      "concepts_extracted": 2,
-      "compiled_at": "2026-10-15",
-      "compiled_chapters": [
-        5
-      ],
-      "note": "⭐补一级市场(信用打新)与策略全景(10种,4种库内无)。⚠️数据为2021年,打新收益已变化"
-    },
-    "可转债投资黄金宝典.pdf": {
-      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf",
-      "type": "pdf",
-      "compiled": false,
-      "pages": 218,
-      "text_layer": false,
-      "reason": "伪文字层: 每页仅一行「公众号：财金视界」, 正文0字",
-      "registered_at": "2026-10-15"
-    },
-    "攻守-可转债投资实用手册.mobi": {
-      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/7_攻守--可转债投资实用手册/攻守：可转债投资实用手册（饕餮海、定风波、优美著，雪球大V带你全流程玩转可转债... (Z-Library).mobi",
-      "type": "mobi",
-      "compiled": false,
-      "reason": "mobi非zip结构, 需专用工具解析"
-    },
-    "伏击涨停+涨停密码(套装共2册).txt": {
-      "path": "raw/distilled/新素材/03游资超短/伏击涨停+涨停密码(套装共2册) (黑马王子  张得一 [黑马王子]).txt",
-      "type": "txt/套装合订本",
-      "size": "586KB",
-      "words": 223304,
-      "text_layer": true,
-      "md5": "3c65dfde5949",
-      "author": "黑马王子(张得一)",
-      "compiled": true,
-      "compiled_at": "2026-10-15",
-      "compiled_chapters": [
-        "《伏击涨停》第1、3、4、5、6、7、8、9、11、12、16、17章",
-        "《涨停密码》前言、第1、4、5、11、12、15章"
-      ],
-      "line_ranges": {
-        "伏击涨停正文": "1-4684",
-        "涨停密码书介/代序/前言": "4685-5401",
-        "涨停密码正文18章": "5402-8795"
-      },
-      "concepts_extracted": 2,
-      "concepts": [
-        "黑马王子伏击涨停·PTALT模型与十八技法",
-        "涨停密码·牛股三绝与涨停板基因"
-      ],
-      "sources_pages": [
-        "sources/伏击涨停黑马王子",
-        "sources/涨停密码黑马王子"
-      ],
-      "note": "⭐ 黑马王子同作者续作2册合订。⚠️既有 concepts/涨停密码·新判据与黄金三角缺证.md(2026-10-14) 已收录9条判据，本次刻意不重复，只做增量对照。⚠️《涨停密码》前言承诺的『黄金三角』全书未兑现。⚠️ txt 仅存图题行，约18795张插图内标注全部丢失"
-    },
-    "一本书搞懂龙头股战法.txt": {
-      "path": "raw/distilled/新素材/03游资超短/一本书搞懂龙头股战法 (曹明成).txt",
-      "type": "txt",
-      "size": "203KB",
-      "words": 82242,
-      "text_layer": true,
-      "md5": "d82f04ca8d37",
-      "author": "曹明成",
-      "compiled": true,
-      "compiled_at": "2026-10-15",
-      "compiled_chapters": [
-        "序一",
-        "第1章第一二节",
-        "第2章",
-        "第3章第一二节",
-        "第4章开头与分时追击片段",
-        "第5章",
-        "第6章第四~六节"
-      ],
-      "concepts_extracted": 1,
-      "concepts": [
-        "曹明成龙头股战法·龙头识别与买卖判据"
-      ],
-      "sources_pages": [
-        "sources/一本书搞懂龙头股战法曹明成"
-      ],
-      "note": "⭐ 本库第三套短线体系（非量学、非缠论）。⚠️序言『我不讲价值投资』与第1章基本面筛选直接矛盾，已登记。⛔『曹氏八线』序言提及但本书未展开；止损体系完全缺失"
-    }
+ "version": 2,
+ "created": "2026-10-07",
+ "updated": "2026-10-15",
+ "note": "资料源在E:/笔记Obsidian/电子书/，本库不存PDF，只记编译状态",
+ "sources": {
+  "道氏理论.pdf": {
+   "path": "E:/笔记Obsidian/电子书/道氏理论.pdf",
+   "size": "33MB",
+   "type": "pdf",
+   "compiled": true,
+   "chapters_done": [
+    1,
+    223
+   ],
+   "text_layer": false,
+   "pages": 223,
+   "ocr": {
+    "engine": "rapidocr_onnxruntime",
+    "dpi": 200,
+    "status": "done",
+    "elapsed_sec": 660,
+    "script": "ocr_dow.py"
+   },
+   "note": "1931年Rhea著，繁体扫描件，已OCR+繁转简",
+   "extracted": "raw/distilled/道氏理论-OCR-简体.txt",
+   "concepts_extracted": 4
   },
-  "path_convention": "用正斜杠 /，避免 JSON 转义问题",
-  "compiled_count": 19,
-  "total_books": 20,
-  "concepts_total": 64,
-  "compiled": {
-    "articles/著名的海龟式期货交易系统完整版来了！值得收藏！.md": {
-      "date": "2026-10-09",
-      "pages_updated": [
-        "concepts/止损的争议.md",
-        "concepts/ATR与N值.md",
-        "concepts/唐奇安通道.md",
-        "claims/三种止损方法的适用边界.md"
-      ],
-      "source_url": "https://mp.weixin.qq.com/s/uAUndsMOzX8fOyYY2Hz6yQ",
-      "note": "费思原文系统对比章节。核心产出：不加止损MAR最高的实测证据 + 突破法交易者效应"
-    },
-    "新素材/02趋势技术/华尔街幽灵 (（美）阿瑟·L.txt": {
-      "date": "2026-10-15",
-      "book": "华尔街幽灵",
-      "author": "[美] 阿瑟·L·辛普森（Arthur L. Simpson）",
-      "translator": "张志浩、关磊",
-      "publisher": "中国社会科学出版社",
-      "published": "2008-03",
-      "isbn": "978-7-5004-6682-6",
-      "status": "compiled",
-      "coverage": "12/17 章 + 前后言（约 70%）",
-      "copyright_page": "✅ 已取得",
-      "pages_updated": [
-        "concepts/华尔街幽灵·三条交易规则与仓位纪律.md",
-        "sources/华尔街幽灵（辛普森）.md"
-      ],
-      "note": "规则一/二/三。唯一具体加码比例 3:2:1；规则三「极高成交量」阈值零处给出。期货含量最高，CIP 即「Ⅲ.期货交易—经验—美国」，登记 11 项对用户不适用。14 条矛盾 L1~L14 + 12 条结构性空白 B1~B12。⚠️ 源文件名被截断，建议重命名。"
-    },
-    "新素材/02趋势技术/以交易为生（原书第2版） (【美】亚历山大·埃尔德（Alexander Elder）).txt": {
-      "date": "2026-10-15",
-      "book": "以交易为生（原书第2版）",
-      "author": "[美] 亚历山大·埃尔德（Alexander Elder）",
-      "publisher": "🔴 未取得",
-      "published": "⚠️ 推定 2013 年前后",
-      "status": "compiled",
-      "coverage": "约 30%（第 18/23/34/39/40/41/50/54/55/56 节）",
-      "copyright_page": "🔴 未取得（源文件行 1~600 为乱序抽文本）",
-      "pages_updated": [
-        "concepts/以交易为生·三重滤网动力系统与市场宽度.md",
-        "sources/以交易为生（亚历山大埃尔德）.md",
-        "concepts/埃尔德三书·三重入场与三重止损.md（补链）"
-      ],
-      "note": "填补已有页缺口：通道公式（上通道线=EMA+系数×EMA，95%/100根）、NH-NL ±100 与尖峰 −500。表 39-1 与图 50-1 表体为空行，结构性缺失。17 条矛盾 L1~L17。台账 #15 由 pending 改已编译。"
-    },
-    "新素材/04基金、可转债/可转债投资魔法书(第2版) (安道全 [安道全]).txt": {
-      "date": "2026-10-15",
-      "book": "可转债投资魔法书（第2版）",
-      "author": "安道全",
-      "status": "compiled",
-      "coverage": "约 35%（第 14/32/33/38/44~48/52/57/59/64/65/83 节 + 关键 grep）",
-      "copyright_page": "🔴 未取得",
-      "pages_updated": [
-        "concepts/可转债投资魔法书·制度风险与强赎机制核查.md",
-        "concepts/面值高价折扣法与三条安全线.md（补链）",
-        "sources/可转债投资魔法书.md（扩写 §六）"
-      ],
-      "note": "⭐本库最重要（用户主战场=可转债）。强赎参数书内自相矛盾 M1（30中20 vs 30中15）；转债日涨跌幅±20%/无涨跌停板/首日+57.3%/-43.3%/最小变动0.001元 全部零记载（B1~B4）；T+0 有记载但未区分「T+0≠可做空」（B5）。17 条矛盾 M1~M17 + 8 条空白 B1~B8。"
-    }
+  "【波浪理论精典教学课程】.pdf": {
+   "path": "E:/笔记Obsidian/电子书/【波浪理论精典教学课程】.pdf",
+   "size": "0.6MB",
+   "type": "pdf",
+   "compiled": true,
+   "chapters_done": [
+    1,
+    24
+   ],
+   "pages": 24,
+   "words": 17607,
+   "text_layer": true,
+   "extracted": "raw/distilled/波浪理论-全文.txt",
+   "concepts_extracted": 4,
+   "note": "已完整编译"
   },
-  "library_scope": {
-    "rule": "本库只放交易类内容",
-    "decision_date": "2026-10-09",
-    "this_library": "E:/Work Buddy/交易学习",
-    "this_library_scope": "只放交易技术分析/方法论/纪律/心理的可执行判据、行情结构、量价关系、风险控制",
-    "sibling_library": "E:/笔记Obsidian/hedge",
-    "sibling_library_scope": "个人成长：法律、权谋、人性、职场、决策、心智、传记、纪律",
-    "test": "能不能落成「看盘时用得上的动作」？能→交易库；不能→hedge 库",
-    "diverted": {
-      "你不可不知的人性(全二册).pdf": {
-        "target_library": "E:/笔记Obsidian/hedge",
-        "target_dir": "014-你不可不知的人性/",
-        "pdf_stays_at": "E:/笔记Obsidian/电子书/个人成长/你不可不知的人性(全二册).pdf",
-        "reason": "刘墉纯小说集，实测买入/卖出/盈利/风险全书各 0 次，无可执行交易判据"
-      },
-      "数据分析实战：基于EXCEL和SPSS系列工具的实践.html.pdf": {
-        "target_library": null,
-        "reason": "Excel/SPSS 工具书，非交易方法论，不入两个知识库"
-      }
-    }
+  "缠论108课详解.pdf": {
+   "path": "E:/笔记Obsidian/电子书/缠论108课详解 扫地僧读缠论108课札记(高清).pdf",
+   "size": "186MB",
+   "type": "pdf",
+   "compiled": true,
+   "chapters_done": [
+    1,
+    593
+   ],
+   "pages": 593,
+   "words": 426484,
+   "text_layer": false,
+   "ocr": {
+    "engine": "rapidocr_onnxruntime",
+    "dpi": 160,
+    "status": "done",
+    "elapsed_sec": 4701,
+    "failed_pages": 2,
+    "failed_page_list": [
+     145,
+     189
+    ],
+    "scripts": [
+     "ocr_chan.py",
+     "ocr_chan_retry.py",
+     "merge_chan.py"
+    ],
+    "note": "97页失败后用降dpi+切半图策略修复95页；剩余2页为大幅K线图页"
+   },
+   "extracted": "raw/distilled/缠论108课详解-OCR-简体.txt",
+   "concepts_extracted": 6,
+   "note": "2017年经济管理出版社扫地僧读缠论札记（详解+点评版）"
+  },
+  "海龟交易法则.pdf": {
+   "path": "E:/笔记Obsidian/电子书/海龟交易法则(无水印高清晰版）.pdf",
+   "size": "38MB",
+   "type": "pdf",
+   "compiled": false,
+   "text_layer": false,
+   "pages": 272,
+   "note": "hedge库012已有完整蒸馏，无需OCR",
+   "on_hold": true,
+   "routed_note": "内容属本库，但用户只做A股单边/转债不能做期货→参数不可用，挂起不排期；思想已在syntheses/体系适用性矩阵登记"
+  },
+  "黑马王子系列": {
+   "path": "E:/笔记Obsidian/电子书/黑马王子系列/",
+   "type": "pdf_series",
+   "books": 7,
+   "compiled": true,
+   "chapters_done": [
+    "量柱擒涨停",
+    "量线捉涨停"
+   ],
+   "status_note": "2026-10-08 全面检测，详见 sources/黑马王子系列.md",
+   "remaining": "操盘手记1-5（共1420页扫描版）"
+  },
+  "新手学炒股一本就够.html.pdf": {
+   "path": "E:/笔记Obsidian/电子书/新手学炒股一本就够.html.pdf",
+   "size": "109MB",
+   "type": "pdf",
+   "compiled": true,
+   "pages": 343,
+   "words": 158950,
+   "text_layer": true,
+   "extracted": "raw/distilled/新手学炒股一本就够-全文.txt",
+   "concepts_extracted": 2,
+   "note": "2026-10-08新增。A股操作手册，量价关系与主力控盘两章价值最高"
+  },
+  "数据分析实战.html.pdf": {
+   "path": "E:/笔记Obsidian/电子书/数据分析实战：基于EXCEL和SPSS系列工具的实践.html.pdf",
+   "size": "57MB",
+   "type": "pdf",
+   "compiled": false,
+   "pages": 374,
+   "words": 93074,
+   "text_layer": true,
+   "extracted": "raw/distilled/数据分析实战-全文.txt",
+   "note": "2026-10-08新增。EXCEL/SPSS 数据处理，非交易方法论，暂不编译",
+   "routed": "none",
+   "routed_note": "CLAUDE.md明列：通用工具书，非交易方法论"
+  },
+  "战胜华尔街.pdf": {
+   "path": "E:/笔记Obsidian/电子书/战胜华尔街—全美头号职业炒手的股票经.pdf",
+   "size": "6MB",
+   "type": "pdf",
+   "compiled": true,
+   "text_layer": false,
+   "pages": 290,
+   "note": "彼得林奇《One Up on Wall Street》中译本，第23章25条黄金规则 + 书内12条准则",
+   "ocr": {
+    "engine": "rapidocr_onnxruntime",
+    "dpi": 160,
+    "status": "done",
+    "elapsed_sec": 1679,
+    "failed_pages": 0,
+    "script": "ocr_book.py"
+   },
+   "routed_note": "本库主线，290页纯图片件，2026-10-14 启动OCR",
+   "chapters_done": [
+    1,
+    290
+   ],
+   "words": 126301,
+   "extracted": "raw/distilled/战胜华尔街-OCR-简体.txt",
+   "concepts_extracted": 3,
+   "claims_extracted": 2
+  },
+  "教你炒股票全3册.azw3": {
+   "path": "E:/笔记Obsidian/电子书/A10328. 教你炒股票（全 3 册）：市场哲学的数学原理....azw3",
+   "size": "49MB(azw3) -> 40MB(epub)",
+   "type": "azw3",
+   "compiled": true,
+   "note": "纯原文无评注，可用于分清作者本人主张与评注者观点。原详解版PDF593页需78分钟OCR，本书0秒0OCR。",
+   "converted": "E:/Work Buddy/电子书/转换/教你炒股票全3册.epub",
+   "pages": "3册/114章",
+   "words": 529792,
+   "text_layer": true,
+   "ocr": null,
+   "extract_method": "calibre ebook-convert -> 按 OPF spine 顺序抽纯文本",
+   "extracted": "raw/distilled/教你炒股票全3册-全文.txt",
+   "concepts_updated": [
+    "分型笔与线段",
+    "三类买卖点",
+    "均线吻与转折",
+    "走势的多义性"
+   ],
+   "synthesis": [
+    "缠师原文核查·说话人结案"
+   ],
+   "source_page": "wiki/sources/教你炒股票全3册.md",
+   "author": "缠中说禅",
+   "publisher": "中国财富出版社",
+   "edition": "2019-11",
+   "isbn": "978-7-5047-7029-5",
+   "compiled_at": "2026-10-11"
+  },
+  "炒股的智慧（全文）.doc": {
+   "path": "E:/笔记Obsidian/电子书/炒股的智慧（全文）.doc",
+   "size": "0.3MB",
+   "type": "doc",
+   "compiled": false,
+   "note": "2026-08 新增待处理。doc 格式需转换",
+   "routed": "none",
+   "routed_note": "短文且与已有体系重叠，不单独建页"
+  },
+  "反脆弱.mobi": {
+   "path": "E:/笔记Obsidian/电子书/反脆弱：学习从无序和不确定中获利.mobi",
+   "size": "1.2MB",
+   "type": "mobi",
+   "compiled": false,
+   "note": "2026-08 新增待处理。塔勒布，与缠论多义性/反量化有呼应",
+   "routed": "hedge",
+   "routed_note": "CLAUDE.md零之一：思维模型类，非交易应用，不入交易库"
+  },
+  "HowToLiveBetter.epub": {
+   "path": "E:/笔记Obsidian/电子书/HowToLiveBetter.epub",
+   "size": "1MB",
+   "type": "epub",
+   "compiled": false,
+   "note": "2026-08 新增待处理。与交易关系待确认",
+   "routed": "hedge",
+   "routed_note": "生活哲学类，不能落成看盘动作"
+  },
+  "股市天经之一 量柱擒涨停.pdf": {
+   "path": "E:/笔记Obsidian/电子书/黑马王子系列/股市天经之二  量线捉涨停 全新彩印版(高清).pdf等多个文件/股市天经之一 量柱擒涨停  全新彩印版(高清).pdf",
+   "size": "20MB",
+   "type": "pdf",
+   "compiled": true,
+   "chapters_done": [
+    1,
+    292
+   ],
+   "pages": 292,
+   "text_layer": false,
+   "extracted": "raw/distilled/量柱擒涨停-OCR-简体.txt",
+   "concepts_extracted": 3,
+   "ocr": {
+    "engine": "rapidocr_onnxruntime",
+    "status": "done"
+   },
+   "note": "2026-10-09 修正登记路径（原登记文件名不完整）",
+   "compiled_at": "2026-10-09",
+   "concepts": [
+    "量柱三先规律",
+    "量柱六元素",
+    "黄金柱",
+    "黄金线",
+    "黄金梯",
+    "黄金仓",
+    "黄金劫与凹口淘金",
+    "黄金道",
+    "黄金六层面"
+   ],
+   "chapters": "第一至第三章全部编译完成（第三章 6/6）"
+  },
+  "股市天经之二 量线捉涨停.pdf": {
+   "path": "E:/笔记Obsidian/电子书/黑马王子系列/股市天经之二  量线捉涨停 全新彩印版(高清).pdf等多个文件/股市天经之二  量线捉涨停 全新彩印版(高清).pdf",
+   "size": "64MB",
+   "type": "pdf",
+   "compiled": true,
+   "chapters_done": [
+    1,
+    351
+   ],
+   "pages": 351,
+   "words": 179433,
+   "text_layer": false,
+   "ocr": {
+    "engine": "rapidocr_onnxruntime",
+    "dpi": 160,
+    "status": "done",
+    "elapsed_sec": 1784,
+    "failed_pages": 0,
+    "scripts": [
+     "ocr_book.py"
+    ],
+    "note": "351页全部成功，零失败。ASCII目录名 + OPENBLAS_NUM_THREADS=1 两项修复后稳定性大幅提升"
+   },
+   "extracted": "raw/distilled/量线捉涨停-OCR-简体.txt",
+   "concepts_extracted": 2,
+   "note": "2010年股市天经之二，量柱的姊妹篇，讲顶底线与真底真顶"
+  },
+  "龙头、价值与赛道_我对投资哲学与逻辑的深度思考.epub": {
+   "path": "E:/笔记Obsidian/电子书/龙头、价值与赛道_我对投资哲学与逻辑的深度思考.epub",
+   "type": "epub",
+   "compiled": true,
+   "chapters": 82,
+   "words": 181272,
+   "compiled_at": "2026-10-09",
+   "pages_extracted": 1
+  },
+  "走出幻觉走向成熟 金融帝国.pdf": {
+   "path": "E:/笔记Obsidian/电子书/走出幻觉走向成熟 金融帝国.pdf",
+   "type": "pdf",
+   "compiled": true,
+   "pages": 316,
+   "words": 230883,
+   "text_layer": true,
+   "compiled_at": "2026-10-09"
+  },
+  "一个农民的亿万传奇.pdf": {
+   "path": "E:/笔记Obsidian/电子书/一个农民的亿万传奇.pdf",
+   "type": "pdf",
+   "compiled": true,
+   "pages": 176,
+   "words": 193676,
+   "text_layer": true,
+   "compiled_at": "2026-10-09"
+  },
+  "传奇投资人的智慧（全7册）.pdf": {
+   "path": "E:/笔记Obsidian/电子书/传奇投资人的智慧（全7册）.pdf",
+   "type": "pdf",
+   "compiled": true,
+   "pages": 694,
+   "words": 393365,
+   "text_layer": true,
+   "compiled_at": "2026-10-09"
+  },
+  "高胜算操盘.pdf": {
+   "path": "E:/笔记Obsidian/电子书/高胜算操盘.pdf",
+   "type": "pdf",
+   "compiled": true,
+   "pages": 360,
+   "words": 277285,
+   "text_layer": false,
+   "ocr": {
+    "engine": "rapidocr_onnxruntime",
+    "status": "done",
+    "failed_pages": [
+     221,
+     305
+    ]
+   },
+   "extracted": "raw/distilled/高胜算操盘-OCR-简体.txt",
+   "concepts_extracted": 1,
+   "entities_extracted": 1,
+   "compiled_at": "2026-10-10",
+   "compiled_chapters": [
+    1,
+    10,
+    11,
+    12,
+    14
+   ],
+   "note": "⭐ 补本库\"胜率与赔率\"线。⚠️ 译名误导: 英文High Probability(高概率)vs中文\"高胜算\", 原文定义是\"风险报酬比低\"非\"胜率高\""
+  },
+  "盘口解读技术.pdf": {
+   "path": "E:/笔记Obsidian/电子书/盘口解读技术.pdf",
+   "pages": 292,
+   "words": 166079,
+   "text_layer": false,
+   "compiled": true,
+   "extract_method": "pymupdf 160dpi → rapidocr → opencc",
+   "extracted": "raw/distilled/盘口解读-OCR-简体.txt",
+   "shards": "raw/distilled/shards_盘口解读/",
+   "ocr": {
+    "failed": 0,
+    "dedup": true
+   },
+   "concepts": [
+    "盘口与风险优先原则"
+   ],
+   "source_page": "wiki/sources/盘口解读技术.md",
+   "author": "Christopher Schumacher / Vadym Graifer",
+   "translator": "李书路",
+   "note": "执行层体系(非信号体系)。核心原则与海龟同源。需Level-2数据，本库无。",
+   "compiled_at": "2026-10-13"
+  },
+  "可转债投资魔法书(第2版).epub": {
+   "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/6_可转债投资魔法书（第二版）/可转债投资魔法书(第2版) (安道全 [安道全]) (Z-Library).epub",
+   "type": "epub",
+   "compiled": true,
+   "sections": 90,
+   "words": 183723,
+   "text_layer": null,
+   "compiled_at": "2026-10-15",
+   "extracted": "raw/distilled/可转债投资魔法书-全文.txt",
+   "concepts_extracted": 1,
+   "note": "⭐ 补转债建仓层。⭐⭐纠正: 网上流传的\"三线-复式\"原书正文\"复式\"0次, 真实策略名=面值-高价折扣法(92次)"
+  },
+  "可转债投资小白躺赚指南.pdf": {
+   "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/5_可转债——投资小白躺赚指南/可转债：投资小白躺赚指南 (于佳蓉) (Z-Library).pdf",
+   "type": "pdf",
+   "compiled": true,
+   "pages": 300,
+   "words": 103530,
+   "text_layer": true,
+   "published": "2021-01",
+   "isbn": "9787121399671",
+   "extracted": "raw/distilled/可转债投资小白躺赚指南-全文.txt",
+   "concepts_extracted": 2,
+   "compiled_at": "2026-10-15",
+   "compiled_chapters": [
+    5
+   ],
+   "note": "⭐补一级市场(信用打新)与策略全景(10种,4种库内无)。⚠️数据为2021年,打新收益已变化"
+  },
+  "可转债投资黄金宝典.pdf": {
+   "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf",
+   "type": "pdf",
+   "compiled": false,
+   "pages": 218,
+   "text_layer": false,
+   "reason": "伪文字层: 每页仅一行「公众号：财金视界」, 正文0字",
+   "registered_at": "2026-10-15"
+  },
+  "攻守-可转债投资实用手册.mobi": {
+   "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/7_攻守--可转债投资实用手册/攻守：可转债投资实用手册（饕餮海、定风波、优美著，雪球大V带你全流程玩转可转债... (Z-Library).mobi",
+   "type": "mobi",
+   "compiled": false,
+   "reason": "mobi非zip结构, 需专用工具解析"
+  },
+  "伏击涨停+涨停密码(套装共2册).txt": {
+   "path": "raw/distilled/新素材/03游资超短/伏击涨停+涨停密码(套装共2册) (黑马王子  张得一 [黑马王子]).txt",
+   "type": "txt/套装合订本",
+   "size": "586KB",
+   "words": 223304,
+   "text_layer": true,
+   "md5": "3c65dfde5949",
+   "author": "黑马王子(张得一)",
+   "compiled": true,
+   "compiled_at": "2026-10-15",
+   "compiled_chapters": [
+    "《伏击涨停》第1、3、4、5、6、7、8、9、11、12、16、17章",
+    "《涨停密码》前言、第1、4、5、11、12、15章"
+   ],
+   "line_ranges": {
+    "伏击涨停正文": "1-4684",
+    "涨停密码书介/代序/前言": "4685-5401",
+    "涨停密码正文18章": "5402-8795"
+   },
+   "concepts_extracted": 2,
+   "concepts": [
+    "黑马王子伏击涨停·PTALT模型与十八技法",
+    "涨停密码·牛股三绝与涨停板基因"
+   ],
+   "sources_pages": [
+    "sources/伏击涨停黑马王子",
+    "sources/涨停密码黑马王子"
+   ],
+   "note": "⭐ 黑马王子同作者续作2册合订。⚠️既有 concepts/涨停密码·新判据与黄金三角缺证.md(2026-10-14) 已收录9条判据，本次刻意不重复，只做增量对照。⚠️《涨停密码》前言承诺的『黄金三角』全书未兑现。⚠️ txt 仅存图题行，约18795张插图内标注全部丢失"
+  },
+  "一本书搞懂龙头股战法.txt": {
+   "path": "raw/distilled/新素材/03游资超短/一本书搞懂龙头股战法 (曹明成).txt",
+   "type": "txt",
+   "size": "203KB",
+   "words": 82242,
+   "text_layer": true,
+   "md5": "d82f04ca8d37",
+   "author": "曹明成",
+   "compiled": true,
+   "compiled_at": "2026-10-15",
+   "compiled_chapters": [
+    "序一",
+    "第1章第一二节",
+    "第2章",
+    "第3章第一二节",
+    "第4章开头与分时追击片段",
+    "第5章",
+    "第6章第四~六节"
+   ],
+   "concepts_extracted": 1,
+   "concepts": [
+    "曹明成龙头股战法·龙头识别与买卖判据"
+   ],
+   "sources_pages": [
+    "sources/一本书搞懂龙头股战法曹明成"
+   ],
+   "note": "⭐ 本库第三套短线体系（非量学、非缠论）。⚠️序言『我不讲价值投资』与第1章基本面筛选直接矛盾，已登记。⛔『曹氏八线』序言提及但本书未展开；止损体系完全缺失"
+  },
+  "韭菜的自我修养（2019） (李笑来).txt": {
+   "path": "raw/distilled/新素材/05其他/韭菜的自我修养（2019） (李笑来).txt",
+   "type": "txt",
+   "size": "145KB",
+   "words": null,
+   "text_layer": true,
+   "md5": "6b3960ba1eb1",
+   "author": "李笑来",
+   "published": "2019",
+   "compiled": true,
+   "compiled_at": "2026-10-15",
+   "compiled_chapters": [
+    "第2节",
+    "第5节",
+    "第8节",
+    "第9节",
+    "第10节",
+    "第11节",
+    "第12节",
+    "第13章",
+    "第14章",
+    "第15章",
+    "第16节",
+    "第17章",
+    "第18节",
+    "第19章",
+    "第20章",
+    "第21章",
+    "第22节",
+    "附录1",
+    "附录2"
+   ],
+   "coverage": "全文 100%（1,855 行）",
+   "concepts_extracted": 1,
+   "concepts": [
+    "韭菜的自我修养·入场时机与回报风险比"
+   ],
+   "sources_pages": [
+    "sources/韭菜的自我修养（2019）"
+   ],
+   "note": "⭐ 词频核验：比特币 117/币 176/区块链 50 vs 股票 12/A股 3/可转债 0 → 主体面向加密货币，不能整体分流 hedge。三层 7/9/17。可落成核心=回报风险比算例(26/20/22/18 元、500 元、25 单位) + 止损线须宽于日常波动幅度(25%→比如 40%) + 上海涨停敢死队三段式(A 股原生)。🚫4 条禁止移植。8 条矛盾 + 16 条存疑。无可转债内容。",
+   "diverted_pending_user_confirm": [
+    "第15章 人怎样变坏的就会怎样变傻的（个人恩怨叙事）",
+    "第19章 韭菜没有生活甚至没有性生活",
+    "第20章 孤独是成功交易者最宝贵的品质",
+    "第21章 生活之外还必须有工作和学习"
+   ]
+  },
+  "证券投机的艺术 (大投机家科斯托拉尼精选集) (安德烈·科斯托拉尼).txt": {
+   "path": "raw/distilled/新素材/05其他/证券投机的艺术 (大投机家科斯托拉尼精选集) (安德烈·科斯托拉尼).txt",
+   "type": "txt",
+   "size": "355KB",
+   "words": null,
+   "text_layer": true,
+   "md5": "4801684f3e08",
+   "author": "[德] 安德烈·科斯托拉尼（Andre Kostolany）",
+   "published": null,
+   "compiled": true,
+   "compiled_at": "2026-10-15",
+   "compiled_chapters": [
+    "第1章 金钱的魅力",
+    "第2章 我眼中的交易界",
+    "第3章 投机靠什么",
+    "第4章（仅定位边界）",
+    "第5章 是什么使股市波动",
+    "第6章 市场长期的影响因素",
+    "第7章 市场中期的影响因素",
+    "第8章 股市心理",
+    "第9章 在信息丛林中",
+    "第10章 从股市中赚钱",
+    "第11章 资金管理者",
+    "第12章 为投机新手而写",
+    "十要",
+    "十诫"
+   ],
+   "coverage": "约 98%（1,625 行；第 4 章仅定位章节边界，行 504-580）",
+   "concepts_extracted": 1,
+   "concepts": [
+    "证券投机的艺术·科斯托拉尼的鸡蛋与量能判据"
+   ],
+   "sources_pages": [
+    "sources/证券投机的艺术（大投机家科斯托拉尼精选集）"
+   ],
+   "note": "⭐ 本库独有判据=成交额×持股人数三阶段(科斯托拉尼的鸡蛋 A1-A3/B1-B3 + 四步操作映射，行 894-905，原文自述适用于「所有市场，包括股票」)。另有量能-持续性反向关系、过度买/卖、连升连降、M/W 规则、单只 vs 指数禁止规则(体温图类比)、大市优先+20 年例外、「有钱」=无负债、十要十诫全文。三层 11/12/14。⚠️与本库量能判据方向相反；与海龟退出依据冲突。🚫14 项不适用(第 3 章债券/外汇/商品期货/有形资产/不动产；对冲基金原文「禁止投入」)。5 条矛盾 + 15 条存疑。缺口：「持股人数」A 股个股普遍不可得。"
+  },
+  "金融怪杰：华尔街的顶级交易员（典藏版） ( etc.txt": {
+   "path": "raw/distilled/新素材/05其他/金融怪杰：华尔街的顶级交易员（典藏版） ( etc.txt",
+   "type": "txt",
+   "size": "1029KB",
+   "words": null,
+   "text_layer": true,
+   "md5": "19424d90169d",
+   "author": "[美] 杰克·施瓦格（Jack D. Schwager）；访谈者埃德·塞勒等",
+   "published": null,
+   "compiled": true,
+   "compiled_at": "2026-10-15",
+   "compiled_chapters": [
+    "译者序与目录",
+    "导读第一二章",
+    "第三章 迈克尔·马库斯",
+    "第四章 布鲁斯·科夫纳",
+    "第五章 理查德·丹尼斯（部分）",
+    "第六章 保罗·都铎·琼斯",
+    "第七章 盖瑞·贝弗德",
+    "第八章 艾迪·塞柯塔",
+    "第九章 拉里·海特",
+    "第十章 迈克尔·斯坦哈特（部分）",
+    "第十一章 威廉·欧奈尔",
+    "第十二章 大卫·瑞安",
+    "第十三章 马丁·舒华兹（部分）",
+    "第十四章 吉姆·罗杰斯",
+    "第十五章 马克·温斯坦",
+    "第十九章 范 K. 撒普（部分）",
+    "第二十章",
+    "第二十一章"
+   ],
+   "coverage": "约 72%（4,188 行；21 章中 15 章已读。未读：第十六~十八章、附录A/B、术语表、索普节录）",
+   "concepts_extracted": 1,
+   "concepts": [
+    "金融怪杰·单笔风险上限与技术分析价值冲突"
+   ],
+   "sources_pages": [
+    "sources/金融怪杰：华尔街的顶级交易员（典藏版）"
+   ],
+   "note": "⭐⭐ 多人访谈合集(19 位受访者+施瓦格自述)，全部按受访者独立登记，禁止合并为「作者认为」。译者序行 151 明示本书设计意图即呈现分歧。三层 14/13/18。核心资产=冲突谱系：①单笔风险 9 条(海特 1%/琼斯 1%/塞柯塔 5%/欧奈尔 7%/瑞安 7%/施瓦格转述 0.1%/科夫纳建议 1%-2%/贝弗德月度 10%/丹尼斯熔断 50%，分 4 种口径互不换算，禁止取平均)；②技术分析价值 4 种立场；③顺势 7 条并列(行 1,362 明确并列贝弗德宽止损与琼斯窄止损未裁决)；④趋势占比 15%(琼斯) vs 几乎总能提前(温斯坦)。最适用=欧奈尔(美股)。🚫18 项不适用；温斯坦「涨跌停极为愚蠢」与 A 股制度直接冲突。8 条矛盾 + 23 条存疑 + 跨书冲突(与科斯托拉尼量能方向相反)。"
   }
+ },
+ "path_convention": "用正斜杠 /，避免 JSON 转义问题",
+ "compiled_count": 22,
+ "total_books": 23,
+ "concepts_total": 67,
+ "compiled": {
+  "articles/著名的海龟式期货交易系统完整版来了！值得收藏！.md": {
+   "date": "2026-10-09",
+   "pages_updated": [
+    "concepts/止损的争议.md",
+    "concepts/ATR与N值.md",
+    "concepts/唐奇安通道.md",
+    "claims/三种止损方法的适用边界.md"
+   ],
+   "source_url": "https://mp.weixin.qq.com/s/uAUndsMOzX8fOyYY2Hz6yQ",
+   "note": "费思原文系统对比章节。核心产出：不加止损MAR最高的实测证据 + 突破法交易者效应"
+  },
+  "新素材/02趋势技术/华尔街幽灵 (（美）阿瑟·L.txt": {
+   "date": "2026-10-15",
+   "book": "华尔街幽灵",
+   "author": "[美] 阿瑟·L·辛普森（Arthur L. Simpson）",
+   "translator": "张志浩、关磊",
+   "publisher": "中国社会科学出版社",
+   "published": "2008-03",
+   "isbn": "978-7-5004-6682-6",
+   "status": "compiled",
+   "coverage": "12/17 章 + 前后言（约 70%）",
+   "copyright_page": "✅ 已取得",
+   "pages_updated": [
+    "concepts/华尔街幽灵·三条交易规则与仓位纪律.md",
+    "sources/华尔街幽灵（辛普森）.md"
+   ],
+   "note": "规则一/二/三。唯一具体加码比例 3:2:1；规则三「极高成交量」阈值零处给出。期货含量最高，CIP 即「Ⅲ.期货交易—经验—美国」，登记 11 项对用户不适用。14 条矛盾 L1~L14 + 12 条结构性空白 B1~B12。⚠️ 源文件名被截断，建议重命名。"
+  },
+  "新素材/02趋势技术/以交易为生（原书第2版） (【美】亚历山大·埃尔德（Alexander Elder）).txt": {
+   "date": "2026-10-15",
+   "book": "以交易为生（原书第2版）",
+   "author": "[美] 亚历山大·埃尔德（Alexander Elder）",
+   "publisher": "🔴 未取得",
+   "published": "⚠️ 推定 2013 年前后",
+   "status": "compiled",
+   "coverage": "约 30%（第 18/23/34/39/40/41/50/54/55/56 节）",
+   "copyright_page": "🔴 未取得（源文件行 1~600 为乱序抽文本）",
+   "pages_updated": [
+    "concepts/以交易为生·三重滤网动力系统与市场宽度.md",
+    "sources/以交易为生（亚历山大埃尔德）.md",
+    "concepts/埃尔德三书·三重入场与三重止损.md（补链）"
+   ],
+   "note": "填补已有页缺口：通道公式（上通道线=EMA+系数×EMA，95%/100根）、NH-NL ±100 与尖峰 −500。表 39-1 与图 50-1 表体为空行，结构性缺失。17 条矛盾 L1~L17。台账 #15 由 pending 改已编译。"
+  },
+  "新素材/04基金、可转债/可转债投资魔法书(第2版) (安道全 [安道全]).txt": {
+   "date": "2026-10-15",
+   "book": "可转债投资魔法书（第2版）",
+   "author": "安道全",
+   "status": "compiled",
+   "coverage": "约 35%（第 14/32/33/38/44~48/52/57/59/64/65/83 节 + 关键 grep）",
+   "copyright_page": "🔴 未取得",
+   "pages_updated": [
+    "concepts/可转债投资魔法书·制度风险与强赎机制核查.md",
+    "concepts/面值高价折扣法与三条安全线.md（补链）",
+    "sources/可转债投资魔法书.md（扩写 §六）"
+   ],
+   "note": "⭐本库最重要（用户主战场=可转债）。强赎参数书内自相矛盾 M1（30中20 vs 30中15）；转债日涨跌幅±20%/无涨跌停板/首日+57.3%/-43.3%/最小变动0.001元 全部零记载（B1~B4）；T+0 有记载但未区分「T+0≠可做空」（B5）。17 条矛盾 M1~M17 + 8 条空白 B1~B8。"
+  },
+  "新素材/05其他/韭菜的自我修养（2019） (李笑来).txt": {
+   "date": "2026-10-15",
+   "book": "韭菜的自我修养（2019）",
+   "author": "李笑来",
+   "status": "compiled",
+   "coverage": "全文 100%（1,855 行）",
+   "copyright_page": "🔴 未取得",
+   "pages_updated": [
+    "concepts/韭菜的自我修养·入场时机与回报风险比.md",
+    "sources/韭菜的自我修养（2019）"
+   ],
+   "note": "⭐ 词频核验：比特币 117/币 176/区块链 50 vs 股票 12/A股 3/可转债 0 → 主体面向加密货币，不能整体分流 hedge。三层 7/9/17。可落成核心=回报风险比算例(26/2…（完整见 sources 页）"
+  },
+  "新素材/05其他/证券投机的艺术 (大投机家科斯托拉尼精选集) (安德烈·科斯托拉尼).txt": {
+   "date": "2026-10-15",
+   "book": "证券投机的艺术（大投机家科斯托拉尼精选集）",
+   "author": "[德] 安德烈·科斯托拉尼（Andre Kostolany）",
+   "status": "compiled",
+   "coverage": "约 98%（1,625 行；第 4 章仅定位章节边界，行 504-580）",
+   "copyright_page": "🔴 未取得",
+   "pages_updated": [
+    "concepts/证券投机的艺术·科斯托拉尼的鸡蛋与量能判据.md",
+    "sources/证券投机的艺术（大投机家科斯托拉尼精选集）"
+   ],
+   "note": "⭐ 本库独有判据=成交额×持股人数三阶段(科斯托拉尼的鸡蛋 A1-A3/B1-B3 + 四步操作映射，行 894-905，原文自述适用于「所有市场，包括股票」)。另有量能-持续性反向关系、过度买/卖、…（完整见 sources 页）"
+  },
+  "新素材/05其他/金融怪杰：华尔街的顶级交易员（典藏版） ( etc.txt": {
+   "date": "2026-10-15",
+   "book": "金融怪杰：华尔街的顶级交易员（典藏版）",
+   "author": "[美] 杰克·施瓦格（Jack D. Schwager）；访谈者埃德·塞勒等",
+   "status": "compiled",
+   "coverage": "约 72%（4,188 行；21 章中 15 章已读。未读：第十六~十八章、附录A/B、术语表、索普节录）",
+   "copyright_page": "🔴 未取得",
+   "pages_updated": [
+    "concepts/金融怪杰·单笔风险上限与技术分析价值冲突.md",
+    "sources/金融怪杰：华尔街的顶级交易员（典藏版）"
+   ],
+   "note": "⭐⭐ 多人访谈合集(19 位受访者+施瓦格自述)，全部按受访者独立登记，禁止合并为「作者认为」。译者序行 151 明示本书设计意图即呈现分歧。三层 14/13/18。核心资产=冲突谱系：①单笔风险 9…（完整见 sources 页）"
+  }
+ },
+ "library_scope": {
+  "rule": "本库只放交易类内容",
+  "decision_date": "2026-10-09",
+  "this_library": "E:/Work Buddy/交易学习",
+  "this_library_scope": "只放交易技术分析/方法论/纪律/心理的可执行判据、行情结构、量价关系、风险控制",
+  "sibling_library": "E:/笔记Obsidian/hedge",
+  "sibling_library_scope": "个人成长：法律、权谋、人性、职场、决策、心智、传记、纪律",
+  "test": "能不能落成「看盘时用得上的动作」？能→交易库；不能→hedge 库",
+  "diverted": {
+   "你不可不知的人性(全二册).pdf": {
+    "target_library": "E:/笔记Obsidian/hedge",
+    "target_dir": "014-你不可不知的人性/",
+    "pdf_stays_at": "E:/笔记Obsidian/电子书/个人成长/你不可不知的人性(全二册).pdf",
+    "reason": "刘墉纯小说集，实测买入/卖出/盈利/风险全书各 0 次，无可执行交易判据"
+   },
+   "数据分析实战：基于EXCEL和SPSS系列工具的实践.html.pdf": {
+    "target_library": null,
+    "reason": "Excel/SPSS 工具书，非交易方法论，不入两个知识库"
+   }
+  }
+ }
 }
