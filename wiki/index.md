@@ -401,10 +401,12 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，92 页）
+### 抽象概念（`concepts/`，95 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
+- [[concepts/_黑马王子6-9册·新判据提取]]
+- [[concepts/一剑封喉]]
 - [[concepts/三好股票框架]]
 - [[concepts/三日原则与量性]]
 - [[concepts/三类买卖点]]
@@ -421,6 +423,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/假阳真阴]]
 - [[concepts/全球分散与逆向投资]]
 - [[concepts/农产品期货七条规律]]
+- [[concepts/凹底淘金]]
 - [[concepts/分型笔与线段]]
 - [[concepts/双阴出货]]
 - [[concepts/可转债三大经典策略]]
@@ -543,7 +546,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[comparisons/五套体系总览对比]]
 
-### 跨体系（`syntheses/`，14 页）
+### 跨体系（`syntheses/`，15 页）
 
 - [[syntheses/九套体系冲突全解·根因与优劣]]
 - [[syntheses/五套体系的共识与分歧]]
@@ -557,6 +560,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[syntheses/缠师原文核查·中枢扩展与级别扩张]]
 - [[syntheses/缠师原文核查·说话人结案]]
 - [[syntheses/缠论108课-完整蒸馏与学习指南]]
+- [[syntheses/转债四大策略·双低与低溢价与摊大饼与下修博弈]]
 - [[syntheses/转债量柱实证验证框架]]
 - [[syntheses/量柱体系在可转债上的适用性]]
 
@@ -564,9 +568,10 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[questions/问答与纠错机制]]
 
-### 治理/体检（`meta/`，5 页）
+### 治理/体检（`meta/`，6 页）
 
 - [[meta/完成状态清单]]
+- [[meta/新素材库分流判定]]
 - [[meta/未完成清单]]
 - [[meta/术语溯源三分类]]
 - [[meta/素材分流判定]]
