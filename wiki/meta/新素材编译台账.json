@@ -147,9 +147,9 @@
   "idx": 19,
   "name": "短线交易秘诀（原书第2版）",
   "batch": "B2",
-  "status": "pending",
-  "note": "拉里威廉斯，已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "威廉斯正文全读，17组参数+13矛盾+7项认输",
+  "done_date": "2026-10-14"
  },
  "20": {
   "idx": 20,
@@ -163,9 +163,9 @@
   "idx": 21,
   "name": "股票大作手操盘术",
   "batch": "B2",
-  "status": "pending",
-  "note": "利弗莫尔，已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "利弗莫尔全文通读，16判据+12情绪+6矛盾",
+  "done_date": "2026-10-14"
  },
  "22": {
   "idx": 22,
@@ -227,25 +227,25 @@
   "idx": 29,
   "name": "股票魔法师纵横天下股市的奥秘",
   "batch": "B2",
-  "status": "pending",
-  "note": "记忆记为伪文字层，mobi可秒抽→需重验",
-  "done_date": ""
+  "status": "done",
+  "note": "股票魔法师Ⅰ 98%，趋势模板8条+VCP9+止损11",
+  "done_date": "2026-10-14"
  },
  "30": {
   "idx": 30,
   "name": "股票魔法师Ⅱ",
   "batch": "B2",
-  "status": "ocr",
-  "note": "278页",
+  "status": "blocked",
+  "note": "源PDF不在磁盘，OCR无法启动",
   "done_date": ""
  },
  "31": {
   "idx": 31,
   "name": "股票魔法师3趋势交易圆桌访谈",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽",
-  "done_date": ""
+  "status": "done",
+  "note": "股票魔法师3 85%",
+  "done_date": "2026-10-14"
  },
  "32": {
   "idx": 32,
@@ -763,8 +763,8 @@
   "idx": 96,
   "name": "股票魔法师3趋势交易圆桌访谈",
   "batch": "B2",
-  "status": "pending",
-  "note": "⚠与#74重复登记，去重后保留一条",
+  "status": "skip",
+  "note": "与#31同书重复，已排除",
   "done_date": ""
  },
  "97": {

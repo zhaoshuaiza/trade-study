@@ -71,6 +71,9 @@ updated: 2026-10-07
 | ⭐⭐⭐ [温斯坦·阶段与量价判据](concepts/温斯坦·阶段与量价判据.md) | **温斯坦 vs 量柱体系对照** —— ⭐ **「比值判据 vs 方向判据」的结构差异** |
 | ⭐⭐⭐ [埃尔德三书·三重入场与三重止损](concepts/埃尔德三书·三重入场与三重止损.md) | **三重滤网+7类止损+10类离场** —— ⭐ **本库离场判据补齐** |
 | ⭐⭐⭐ [交易心理分析·心理状态与操作纪律](concepts/交易心理分析·心理状态与操作纪律.md) | **★ 本库第一份交易心理页** —— 272页OCR / 概率思维 |
+| ⭐⭐⭐ [股票魔法师三册·SEPA与趋势模板](concepts/股票魔法师三册·SEPA与趋势模板.md) | **趋势模板8条+VCP9条+止损11条** —— 已做成可直接复核的伪码 |
+| ⭐⭐⭐ [利弗莫尔·关键点与情绪控制](concepts/利弗莫尔·关键点与情绪控制.md) | **投机大师层首次进入本库** —— ⚠️ 网上4条流行说法本译本查无出处 |
+| ⭐⭐⭐ [拉里威廉斯·周期与指标参数](concepts/拉里威廉斯·周期与指标参数.md) | ⭐ **威廉斯自己否定了时间周期** —— 7组样本外测试证伪 |
 | ⭐⭐⭐ [可转债体系总览](syntheses/可转债体系总览.md) | **★ 转债9 页一图看完** —— 四条铁律 + 三市速查 + 14条阈值 |
 | [可转债投资黄金宝典（阿秋）](sources/可转债投资黄金宝典.md) | **218页OCR** · 强赎制霸+回售摸彩两个实盘组合 |
 | ⭐⭐⭐ **胜率不是越高越好**（本库最大缺口的补齐） | [[concepts/胜率不是越高越好]] ⭐⭐⭐ |
@@ -411,7 +414,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，105 页）
+### 抽象概念（`concepts/`，108 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
@@ -436,6 +439,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/农产品期货七条规律]]
 - [[concepts/凹底淘金]]
 - [[concepts/分型笔与线段]]
+- [[concepts/利弗莫尔·关键点与情绪控制]]
 - [[concepts/双阴出货]]
 - [[concepts/可转债三大经典策略]]
 - [[concepts/可转债三大误区]]
@@ -459,6 +463,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/平均价格指数消溶一切]]
 - [[concepts/平衡线]]
 - [[concepts/弹性价值]]
+- [[concepts/拉里威廉斯·周期与指标参数]]
 - [[concepts/推动浪五浪结构]]
 - [[concepts/攻守冲防]]
 - [[concepts/斐波那契比率]]
@@ -485,6 +490,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/真底真顶与量线七元素]]
 - [[concepts/精准线]]
 - [[concepts/组合热度]]
+- [[concepts/股票魔法师三册·SEPA与趋势模板]]
 - [[concepts/背驰与力度比较]]
 - [[concepts/背驰与转折]]
 - [[concepts/胜率不是越高越好]]
@@ -532,7 +538,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，24 页）
+### 一本资料一页（`sources/`，27 页）
 
 - [[sources/一个农民的亿万传奇]]
 - [[sources/传奇投资人的智慧]]
@@ -548,7 +554,10 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/波浪理论]]
 - [[sources/海龟交易法则]]
 - [[sources/盘口解读技术]]
+- [[sources/短线交易秘诀（拉里威廉斯）]]
 - [[sources/缠论108课]]
+- [[sources/股票大作手操盘术（利弗莫尔）]]
+- [[sources/股票魔法师系列（Minervini）]]
 - [[sources/行为金融学（蒙蒂尔）]]
 - [[sources/走出幻觉走向成熟]]
 - [[sources/道氏理论]]
