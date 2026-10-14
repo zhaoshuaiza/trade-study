@@ -91,6 +91,10 @@ updated: 2026-10-07
 | ⭐⭐⭐ [神奇支撑线](concepts/神奇支撑线.md) | **★ 与主流突破派最尖锐的分歧** —— 「等回调不买突破」；每股专属一条周均线 |
 | ⭐⭐⭐ [像欧奈尔信徒一样交易·IBD门徒实战判据](concepts/像欧奈尔信徒一样交易·IBD门徒实战判据.md) | ⭐⭐ **「口袋支点」本库全新判据** —— 书名「18000%」经核实是话术 |
 | ⭐⭐⭐ [格雷厄姆聪明的投资者·安全边际与防御组合](concepts/格雷厄姆聪明的投资者·安全边际与防御组合.md) | **★ 价值投资层首次进入本库** —— 25%/75% + 50:50 + 55%/45%触发1-11再平衡 |
+| ⭐⭐⭐ [漫步华尔街·有效市场与指数投资](concepts/漫步华尔街·有效市场与指数投资.md) | ⭐⭐ **路线冲突页** —— 358只→仅84只可追踪；**指数胜出不需要EMH前提** |
+| ⭐⭐⭐ [彼得林奇·十五倍与四大股票分类](concepts/彼得林奇·十五倍与四大股票分类.md) | **六大股票类型+PEG** —— ⚠️ **原文没有「15倍市盈率门槛」这说法** |
+| ⭐⭐⭐ [李杰股市进阶之道·散户自我修养与交易体系](concepts/李杰股市进阶之道·散户自我修养与交易体系.md) | ⭐ **本库唯一「不设价格止损」的体系**（止损/割肉/择时全0次） |
+| ⭐⭐⭐ [达摩达兰·估值方法与模型参数](concepts/达摩达兰·估值方法与模型参数.md) | **回归倍数+中位数不用平均数** —— ⭐ 转债真判据：「低PE正股+低溢价=周期顶」 |
 | ⭐⭐⭐ [霍华德马克斯周期·周期钟与钟摆](concepts/霍华德马克斯周期·周期钟与钟摆.md) | 16条周期定位标志 —— ⚠️ **「周期钟」原书0次命中，刻度表是误传** |
 | ⭐⭐⭐ [巴菲特护城河·护城河类型与判据](concepts/巴菲特护城河·护城河类型与判据.md) | **护城河5种穷尽** —— ⚠️ 作者是多尔西不是巴菲特；⚠️ 判断信号依赖财报不可得 |
 | ⭐⭐⭐ [邓普顿逆向投资·逆向买入判据](concepts/邓普顿逆向投资·逆向买入判据.md) | 28条判据+5组信号 —— ⚠️ 书名「稳赚」经核实**无依据** |
@@ -437,7 +441,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，124 页）
+### 抽象概念（`concepts/`，130 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -476,6 +480,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/可转债交易成本与税负]]
 - [[concepts/可转债价格区间与风险等级]]
 - [[concepts/可转债优势与局限]]
+- [[concepts/可转债信用打新]]
 - [[concepts/可转债债性指标]]
 - [[concepts/可转债复合资产特性]]
 - [[concepts/可转债定价模型]]
@@ -493,6 +498,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/平均价格指数消溶一切]]
 - [[concepts/平衡线]]
 - [[concepts/弹性价值]]
+- [[concepts/彼得林奇·十五倍与四大股票分类]]
 - [[concepts/拉里威廉斯·周期与指标参数]]
 - [[concepts/推动浪五浪结构]]
 - [[concepts/攻守冲防]]
@@ -501,6 +507,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/斜衡线与通道线]]
 - [[concepts/日本蜡烛图技术·形态与判据]]
 - [[concepts/权威的泥潭效应]]
+- [[concepts/李杰股市进阶之道·散户自我修养与交易体系]]
 - [[concepts/构建量化动量选股系统·核心判据与对照]]
 - [[concepts/林奇12条准则]]
 - [[concepts/林奇25条黄金规则]]
@@ -513,6 +520,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/涨停基因]]
 - [[concepts/涨停密码·新判据与黄金三角缺证]]
 - [[concepts/温斯坦·阶段与量价判据]]
+- [[concepts/漫步华尔街·有效市场与指数投资]]
 - [[concepts/灯塔线]]
 - [[concepts/爱德华兹迈吉股市趋势技术分析·形态与指标]]
 - [[concepts/特殊类型转债]]
@@ -543,6 +551,8 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/趋势永存Clenow·波动率标准化与期货参数登记]]
 - [[concepts/转债术语速查]]
 - [[concepts/转债条款博弈]]
+- [[concepts/转债策略全景对照]]
+- [[concepts/达摩达兰·估值方法与模型参数]]
 - [[concepts/通道线]]
 - [[concepts/道氏理论的适用边界]]
 - [[concepts/道氏的三种运动]]
@@ -577,7 +587,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，42 页）
+### 一本资料一页（`sources/`，48 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/一个农民的亿万传奇]]
@@ -587,13 +597,17 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/传奇投资人的智慧]]
 - [[sources/像欧奈尔信徒一样交易二（莫拉雷斯卡彻）]]
 - [[sources/分时图实战（杨金）]]
+- [[sources/可转债投资小白躺赚指南]]
 - [[sources/可转债投资魔法书]]
 - [[sources/可转债投资黄金宝典]]
+- [[sources/可转债投资黄金宝典·待OCR]]
 - [[sources/可转债每日掘金]]
 - [[sources/可转债躺赚指南（于佳蓉）]]
 - [[sources/周期（霍华德马克斯）]]
 - [[sources/威科夫体系（库林+孟洪涛）]]
+- [[sources/学会估值轻松投资（达摩达兰）]]
 - [[sources/巴菲特的护城河（多尔西）]]
+- [[sources/彼得林奇投资经典全集]]
 - [[sources/战胜华尔街]]
 - [[sources/教你炒股票全3册]]
 - [[sources/新手学炒股一本就够]]
@@ -601,12 +615,14 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/构建量化动量选股系统（格雷沃格尔）]]
 - [[sources/波浪理论]]
 - [[sources/海龟交易法则]]
+- [[sources/漫步华尔街（马尔基尔）]]
 - [[sources/盘口解读技术]]
 - [[sources/看盘方法与技巧一本通（老牛）]]
 - [[sources/短线交易秘诀（拉里威廉斯）]]
 - [[sources/缠论108课]]
 - [[sources/聪明的投资者（格雷厄姆）]]
 - [[sources/股市趋势技术分析（爱德华兹迈吉）]]
+- [[sources/股市进阶之道（李杰）]]
 - [[sources/股票大作手操盘术（利弗莫尔）]]
 - [[sources/股票魔法师系列（Minervini）]]
 - [[sources/行为投资学手册（蒙蒂尔）]]
@@ -656,8 +672,9 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[questions/问答与纠错机制]]
 
-### 治理/体检（`meta/`，7 页）
+### 治理/体检（`meta/`，8 页）
 
+- [[meta/OCR与编译踩坑记录]]
 - [[meta/完成状态清单]]
 - [[meta/新素材库分流判定]]
 - [[meta/新素材编译计划]]

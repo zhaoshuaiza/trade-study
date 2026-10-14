@@ -427,17 +427,17 @@
   "idx": 54,
   "name": "学会估值，轻松投资",
   "batch": "B4",
-  "status": "pending",
-  "note": "达摩达兰",
-  "done_date": ""
+  "status": "done",
+  "note": "回归倍数+中位数不用平均数；⭐转债判据：低PE正股+低溢价=周期顶",
+  "done_date": "2026-10-14"
  },
  "55": {
   "idx": 55,
   "name": "漫步华尔街（原书第11版）",
   "batch": "B4",
-  "status": "pending",
-  "note": "有效市场→影响择时有效性",
-  "done_date": ""
+  "status": "done",
+  "note": "⭐⭐路线冲突页；358只→84只可追踪；数据距今12年待复核",
+  "done_date": "2026-10-14"
  },
  "56": {
   "idx": 56,
@@ -451,9 +451,9 @@
   "idx": 57,
   "name": "股市进阶之道",
   "batch": "B4",
-  "status": "pending",
-  "note": "李杰，散户自我修养",
-  "done_date": ""
+  "status": "done",
+  "note": "⭐本库唯一不设价格止损的体系(止损/割肉/择时全0次)；PB↔ROE论证",
+  "done_date": "2026-10-14"
  },
  "58": {
   "idx": 58,
@@ -483,9 +483,9 @@
   "idx": 61,
   "name": "彼得林奇投资经典全集",
   "batch": "B4",
-  "status": "pending",
-  "note": "⚠含战胜华尔街(已有)→只补另两册",
-  "done_date": ""
+  "status": "done",
+  "note": "⭐原文无「15倍PE门槛」；六大类型非四大；44判据",
+  "done_date": "2026-10-14"
  },
  "62": {
   "idx": 62,
