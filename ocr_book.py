@@ -28,12 +28,48 @@ START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
 END = int(sys.argv[3]) if len(sys.argv) > 3 else 99999
 
 def find_pdf(k):
+    """⚠️ 2026-10-14 修正：原实现对「系列多册同名」会命中错误的一册。
+    事故：《像欧奈尔信徒一样交易》与《像欧奈尔信徒一样交易（二）》书名高度重叠，
+    用短名搜会命中第二册（目录 10_ 排在 9_ 之前被遍历到），
+    导致两次 OCR 跑的其实是同一册，第一册从未处理。
+    修法：收集全部候选，按「文件名去掉括号后缀后与关键词完全相等」优先精确匹配，
+    仍不唯一则报错退出，绝不静默选第一个。
+    """
+    hits = []
     for d in SRC_DIRS:
         for root, _, files in os.walk(d):
             for fn in files:
                 if k in fn and fn.lower().endswith('.pdf'):
-                    return os.path.join(root, fn)
-    return None
+                    hits.append(os.path.join(root, fn))
+    # ⚠️ 同一本书可能同时存在于多个源目录（路径分隔符不同但内容同一），
+    # 按 realpath 去重，避免被误判为「多册歧义」。
+    uniq, seen = [], set()
+    for h in hits:
+        rp = os.path.realpath(h).replace('\\', '/')
+        if rp not in seen:
+            seen.add(rp); uniq.append(h)
+    hits = uniq
+    if not hits:
+        return None
+    if len(hits) == 1:
+        return hits[0]
+
+    # 精确匹配优先：书名主体（去掉 （一）（二）等后缀）等于关键词
+    def stem(fn):
+        base = os.path.splitext(os.path.basename(fn))[0]
+        base = re.sub(r'[（(][^）)]*[）)]\s*$', '', base)   # 去尾部括号
+        base = re.sub(r'\s*\(.*?\)\s*', ' ', base)          # 去 Z-Library 的 (作者) 段
+        return re.sub(r'[\s_]+', '', base)
+    exact = [h for h in hits if stem(h) == re.sub(r'[\s_]+', '', k)]
+    if len(exact) == 1:
+        return exact[0]
+    if len(exact) > 1:
+        print(f'⚠️ 关键词「{k}」精确匹配到 {len(exact)} 个候选，无法判定：')
+        for e in exact: print('   ', e)
+        print('   请用更完整的书名（含册次）重试。'); sys.exit(1)
+    print(f'⚠️ 关键词「{k}」命中 {len(hits)} 个候选，无法判定，请用更完整的书名：')
+    for h in hits: print('   ', h)
+    sys.exit(1)
 
 pdf = find_pdf(kw)
 if not pdf:
