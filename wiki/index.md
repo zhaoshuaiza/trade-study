@@ -401,9 +401,10 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，91 页）
+### 抽象概念（`concepts/`，92 页）
 
 - [[concepts/ATR与N值]]
+- [[concepts/A股分板块交易制度差异]]
 - [[concepts/三好股票框架]]
 - [[concepts/三日原则与量性]]
 - [[concepts/三类买卖点]]
@@ -542,7 +543,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[comparisons/五套体系总览对比]]
 
-### 跨体系（`syntheses/`，13 页）
+### 跨体系（`syntheses/`，14 页）
 
 - [[syntheses/九套体系冲突全解·根因与优劣]]
 - [[syntheses/五套体系的共识与分歧]]
@@ -553,6 +554,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[syntheses/方法论对比·五条路线九套体系]]
 - [[syntheses/时间窗与数量参数总纲]]
 - [[syntheses/离场判据总纲]]
+- [[syntheses/缠师原文核查·中枢扩展与级别扩张]]
 - [[syntheses/缠师原文核查·说话人结案]]
 - [[syntheses/缠论108课-完整蒸馏与学习指南]]
 - [[syntheses/转债量柱实证验证框架]]
