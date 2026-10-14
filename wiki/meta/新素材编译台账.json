@@ -355,17 +355,17 @@
   "idx": 45,
   "name": "祖鲁法则",
   "batch": "B4",
-  "status": "pending",
-  "note": "⭐阙值+增长率选股法，本库无",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(祖鲁法则·市盈增长比率与三道筛选)+1sources",
+  "done_date": "2026-10-14"
  },
  "46": {
   "idx": 46,
   "name": "投资最重要的事",
   "batch": "B4",
-  "status": "pending",
-  "note": "⭐周期钟、风险是赚来的",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(投资最重要的事·周期判断与风险分层)+1sources",
+  "done_date": "2026-10-14"
  },
  "47": {
   "idx": 47,
@@ -387,41 +387,41 @@
   "idx": 49,
   "name": "戴维斯王朝",
   "batch": "B4",
-  "status": "pending",
-  "note": "估值扩张/收缩",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(戴维斯双击与选股检查清单)+1sources; 实为约翰·罗斯柴尔德著",
+  "done_date": "2026-10-14"
  },
  "50": {
   "idx": 50,
   "name": "大钱细思",
   "batch": "B4",
-  "status": "pending",
-  "note": "已抽全文，待精读编译",
+  "status": "done",
+  "note": "1概念页(大钱细思·内在价值四要素)+1sources; 实为乔尔·蒂林哈斯特著",
   "done_date": "2026-10-14"
  },
  "51": {
   "idx": 51,
   "name": "投资中最简单的事",
   "batch": "B4",
-  "status": "pending",
-  "note": "邱国鹭估值判据",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(三问框架与行业格局判据)+1sources",
+  "done_date": "2026-10-14"
  },
  "52": {
   "idx": 52,
   "name": "价值投资实战手册",
   "batch": "B4",
-  "status": "pending",
-  "note": "唐朝，财报造假识别",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(唐朝体系)+1sources+扩写sources",
+  "done_date": "2026-10-14"
  },
  "53": {
   "idx": 53,
   "name": "手把手教你读财报2",
   "batch": "B4",
-  "status": "pending",
-  "note": "唐朝",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(银行业财报判据与九步阅读流程)+1sources",
+  "done_date": "2026-10-14"
  },
  "54": {
   "idx": 54,
@@ -443,9 +443,9 @@
   "idx": 56,
   "name": "林园炒股秘籍",
   "batch": "B4",
-  "status": "pending",
-  "note": "有仓位判据",
-  "done_date": ""
+  "status": "done",
+  "note": "实为《财报掘金》王洪/张晓曦著,非林园著; 页名与素材均已纠正",
+  "done_date": "2026-10-14"
  },
  "57": {
   "idx": 57,
@@ -459,25 +459,25 @@
   "idx": 58,
   "name": "复利信徒",
   "batch": "B4",
-  "status": "pending",
-  "note": "李杰",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(李杰·PB=PE×ROE)+1sources",
+  "done_date": "2026-10-14"
  },
  "59": {
   "idx": 59,
   "name": "慢慢变富",
   "batch": "B4",
-  "status": "pending",
-  "note": "张居营",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(八不投与5性九刀估值)+1sources",
+  "done_date": "2026-10-14"
  },
  "60": {
   "idx": 60,
   "name": "一个投资家的20年",
   "batch": "B4",
-  "status": "pending",
-  "note": "杨天南实战札记",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(杨天南·模拟组合与卖出三理由)+1sources",
+  "done_date": "2026-10-14"
  },
  "61": {
   "idx": 61,
@@ -491,9 +491,9 @@
   "idx": 62,
   "name": "怎样选择成长股",
   "batch": "B4",
-  "status": "pending",
-  "note": "费舍，交易词6次偏低",
-  "done_date": ""
+  "status": "done",
+  "note": "1概念页(费雪·十五要点与两套不原则)+1sources",
+  "done_date": "2026-10-14"
  },
  "63": {
   "idx": 63,
