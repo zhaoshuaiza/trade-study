@@ -401,7 +401,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，89 页）
+### 抽象概念（`concepts/`，91 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/三好股票框架]]
@@ -454,6 +454,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/波浪嵌套与级别]]
 - [[concepts/涨停基因]]
 - [[concepts/灯塔线]]
+- [[concepts/特殊类型转债]]
 - [[concepts/王牌柱三级]]
 - [[concepts/现场直憨]]
 - [[concepts/百日低量与百日低量群]]
@@ -473,6 +474,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/走势中枢]]
 - [[concepts/走势的多义性]]
 - [[concepts/走势级别与递归]]
+- [[concepts/转债术语速查]]
 - [[concepts/转债条款博弈]]
 - [[concepts/通道线]]
 - [[concepts/道氏理论的适用边界]]
