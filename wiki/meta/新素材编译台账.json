@@ -75,33 +75,33 @@
   "idx": 10,
   "name": "量价分析 量价分析创始人威科夫",
   "batch": "B2",
-  "status": "pending",
-  "note": "威科夫1，已抽8.3万字",
-  "done_date": ""
+  "status": "done",
+  "note": "库林《量价分析》95%覆盖，已出威科夫判据页",
+  "done_date": "2026-10-14"
  },
  "11": {
   "idx": 11,
   "name": "新威科夫操盘法",
   "batch": "B2",
-  "status": "pending",
-  "note": "已抽全文，待精读编译",
+  "status": "done",
+  "note": "孟洪涛85%覆盖，已出威科夫判据页",
   "done_date": "2026-10-14"
  },
  "12": {
   "idx": 12,
   "name": "威科夫操盘理论在中国股市的实战",
   "batch": "B2",
-  "status": "ocr",
-  "note": "258页需OCR",
+  "status": "blocked",
+  "note": "物理文件不存在，仅manifest登记258页/17字每页",
   "done_date": ""
  },
  "13": {
   "idx": 13,
   "name": "行为金融学：洞察非理性投资心理",
   "batch": "B2",
-  "status": "pending",
-  "note": "蒙蒂尔，已抽，本库0页",
-  "done_date": ""
+  "status": "done",
+  "note": "蒙蒂尔100%覆盖，33偏差/19判据/61实证",
+  "done_date": "2026-10-14"
  },
  "14": {
   "idx": 14,
@@ -308,7 +308,7 @@
   "name": "可转债：投资小白躺赚指南",
   "batch": "B3",
   "status": "ocr",
-  "note": "300页",
+  "note": "OCR完成300页/15.1万字，待编译",
   "done_date": ""
  },
  "40": {

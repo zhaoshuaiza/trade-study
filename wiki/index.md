@@ -63,6 +63,8 @@ updated: 2026-10-07
 | ⭐⭐ [可转债优势与局限](concepts/可转债优势与局限.md) | ⚠️ **低利率失效** —— 所有"债底保护"的隐含前提 |
 | ⭐ [可转债交易成本与税负](concepts/可转债交易成本与税负.md) | ⚠️ **转债卖出不交印花税**；买卖差价暂免个税（⚠️ 实务惯例）|
 | ⭐⭐⭐ [可转债黄金宝典·阿秋独有判据](concepts/可转债黄金宝典·阿秋独有判据.md) | **★ 补上本库最大的缺口：组合级止盈规则** —— 回落止盈10% + 分批阶梯 + 7类套利（含安全垫公式）|
+| ⭐⭐⭐ [威科夫体系·吸筹派发判据](concepts/威科夫体系·吸筹派发判据.md) | **41条可机械复核判据 + 60形态** —— ⚠️ **高量柱解读可能与量柱体系相反** |
+| ⭐⭐⭐ [行为金融学·蒙蒂尔心理偏差清单](concepts/行为金融学·蒙蒂尔心理偏差清单.md) | **33个偏差，但只有4个给了对策** —— 实证金融学，不是心理自助书 |
 | ⭐⭐⭐ [可转债体系总览](syntheses/可转债体系总览.md) | **★ 转债9 页一图看完** —— 四条铁律 + 三市速查 + 14条阈值 |
 | [可转债投资黄金宝典（阿秋）](sources/可转债投资黄金宝典.md) | **218页OCR** · 强赎制霸+回售摸彩两个实盘组合 |
 | ⭐⭐⭐ **胜率不是越高越好**（本库最大缺口的补齐） | [[concepts/胜率不是越高越好]] ⭐⭐⭐ |
@@ -403,7 +405,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，97 页）
+### 抽象概念（`concepts/`，99 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
@@ -441,6 +443,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/唐奇安通道]]
 - [[concepts/均线吻与转折]]
 - [[concepts/太极线]]
+- [[concepts/威科夫体系·吸筹派发判据]]
 - [[concepts/峰谷线]]
 - [[concepts/峰顶线与平衡线总纲]]
 - [[concepts/常识选股与画不出来的公司]]
@@ -474,6 +477,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/背驰与转折]]
 - [[concepts/胜率不是越高越好]]
 - [[concepts/获利机会的绝对分类]]
+- [[concepts/行为金融学·蒙蒂尔心理偏差清单]]
 - [[concepts/表象规律与本质规律]]
 - [[concepts/调整浪形态]]
 - [[concepts/谷底线]]
@@ -516,13 +520,14 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，20 页）
+### 一本资料一页（`sources/`，22 页）
 
 - [[sources/一个农民的亿万传奇]]
 - [[sources/传奇投资人的智慧]]
 - [[sources/可转债投资魔法书]]
 - [[sources/可转债投资黄金宝典]]
 - [[sources/可转债每日掘金]]
+- [[sources/威科夫体系（库林+孟洪涛）]]
 - [[sources/战胜华尔街]]
 - [[sources/教你炒股票全3册]]
 - [[sources/新手学炒股一本就够]]
@@ -530,6 +535,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/海龟交易法则]]
 - [[sources/盘口解读技术]]
 - [[sources/缠论108课]]
+- [[sources/行为金融学（蒙蒂尔）]]
 - [[sources/走出幻觉走向成熟]]
 - [[sources/道氏理论]]
 - [[sources/量柱擒涨停]]
