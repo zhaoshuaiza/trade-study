@@ -62,7 +62,9 @@ updated: 2026-10-07
 | ⭐ [可转债债性指标](concepts/可转债债性指标.md) | YTM 怎么算 · 评级 · 违约评估框架（辉丰完整链条）|
 | ⭐⭐ [可转债优势与局限](concepts/可转债优势与局限.md) | ⚠️ **低利率失效** —— 所有"债底保护"的隐含前提 |
 | ⭐ [可转债交易成本与税负](concepts/可转债交易成本与税负.md) | ⚠️ **转债卖出不交印花税**；买卖差价暂免个税（⚠️ 实务惯例）|
+| ⭐⭐⭐ [可转债黄金宝典·阿秋独有判据](concepts/可转债黄金宝典·阿秋独有判据.md) | **★ 补上本库最大的缺口：组合级止盈规则** —— 回落止盈10% + 分批阶梯 + 7类套利（含安全垫公式）|
 | ⭐⭐⭐ [可转债体系总览](syntheses/可转债体系总览.md) | **★ 转债9 页一图看完** —— 四条铁律 + 三市速查 + 14条阈值 |
+| [可转债投资黄金宝典（阿秋）](sources/可转债投资黄金宝典.md) | **218页OCR** · 强赎制霸+回售摸彩两个实盘组合 |
 | ⭐⭐⭐ **胜率不是越高越好**（本库最大缺口的补齐） | [[concepts/胜率不是越高越好]] ⭐⭐⭐ |
 | [可转债每日掘金](sources/可转债每日掘金.md) | 28 篇 / 15 万字 · 已入库 `raw/academic/` |
 | ⭐ [五套体系的仓位与风控对照](claims/五套体系的仓位与风控对照.md) | **开局三问**：止损按哪套？做哪个品种？熊市怎么办？ |
@@ -401,11 +403,10 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，96 页）
+### 抽象概念（`concepts/`，97 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/A股分板块交易制度差异]]
-- [[concepts/_涨停密码·黄金三角与新判据]]
 - [[concepts/_黑马王子6-9册·新判据提取]]
 - [[concepts/一剑封喉]]
 - [[concepts/三好股票框架]]
@@ -436,6 +437,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/可转债债性指标]]
 - [[concepts/可转债复合资产特性]]
 - [[concepts/可转债定价模型]]
+- [[concepts/可转债黄金宝典·阿秋独有判据]]
 - [[concepts/唐奇安通道]]
 - [[concepts/均线吻与转折]]
 - [[concepts/太极线]]
@@ -458,6 +460,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/正确率与赔率的互损原则]]
 - [[concepts/波浪嵌套与级别]]
 - [[concepts/涨停基因]]
+- [[concepts/涨停密码·新判据与黄金三角缺证]]
 - [[concepts/灯塔线]]
 - [[concepts/特殊类型转债]]
 - [[concepts/王牌柱三级]]
@@ -513,11 +516,12 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，19 页）
+### 一本资料一页（`sources/`，20 页）
 
 - [[sources/一个农民的亿万传奇]]
 - [[sources/传奇投资人的智慧]]
 - [[sources/可转债投资魔法书]]
+- [[sources/可转债投资黄金宝典]]
 - [[sources/可转债每日掘金]]
 - [[sources/战胜华尔街]]
 - [[sources/教你炒股票全3册]]
