@@ -401,7 +401,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，84 页）
+### 抽象概念（`concepts/`，88 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/三好股票框架]]
@@ -409,12 +409,15 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/三类买卖点]]
 - [[concepts/下修博弈]]
 - [[concepts/两个平均指数相互确认]]
+- [[concepts/中枢级别扩张]]
 - [[concepts/主力控盘与对敲识破]]
 - [[concepts/亏损与回本的非线性]]
 - [[concepts/五套体系的适用市场]]
 - [[concepts/仓位管理]]
 - [[concepts/价值投资四原则]]
 - [[concepts/供求关系与主要矛盾]]
+- [[concepts/倍量伸缩]]
+- [[concepts/假阳真阴]]
 - [[concepts/全球分散与逆向投资]]
 - [[concepts/农产品期货七条规律]]
 - [[concepts/分型笔与线段]]
@@ -451,6 +454,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/波浪嵌套与级别]]
 - [[concepts/涨停基因]]
 - [[concepts/灯塔线]]
+- [[concepts/王牌柱三级]]
 - [[concepts/现场直憨]]
 - [[concepts/百日低量与百日低量群]]
 - [[concepts/盘口与风险优先原则]]
