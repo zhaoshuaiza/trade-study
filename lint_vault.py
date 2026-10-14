@@ -207,18 +207,25 @@ else:
     print('  ✅ 全部具备')
 
 # 4 占位页
-print('\n【4】占位页（仍有"待编译"）')
+# ⭐ 2026-10-14 精确化：区分「真占位」与「引用旧错的说明文字」
+#    真占位 = 未完成清单里的 - [ ] xxx 待编译  或  明确的「待编译：」段落
+#    误报   = 正文在引用/更正一个历史上的错误标注（如现场直憨页引用旧错）
+print('\n【4】真占位页（存在未完成的待编译项）')
 ph = []
+# 4-1 未勾选的待编译任务项
+pat_task = re.compile(r'^\s*-\s*\[\s\]\s*.*待编译', flags=re.M)
+# 4-2 明确的待编译汇总行
+pat_sum = re.compile(r'^\s*待编译[:：]', flags=re.M)
+# 4-3 frontmatter 标记
+pat_fm = re.compile(r'compiled_from:\s*pending', flags=re.M)
 for rel, txt in pages.items():
-    # ⭐ 历史存档页提到"待编译"是描述过去的状态，不是当前占位（2026-10-10）
     if re.search(r'^status:\s*superseded', txt, flags=re.M):
         continue
     if is_tool_output(rel):
         continue
-    # 进度表/记录里出现"待编译"是描述现状，不是占位
     if rel in ('从这里开始.md', 'wiki/index.md', 'wiki/log.md'):
         continue
-    if '待编译' in txt or 'compiled_from: pending' in txt:
+    if pat_task.search(txt) or pat_sum.search(txt) or pat_fm.search(txt):
         ph.append(rel)
 if ph:
     for r in ph:

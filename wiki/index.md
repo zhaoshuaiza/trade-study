@@ -401,7 +401,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，82 页）
+### 抽象概念（`concepts/`，84 页）
 
 - [[concepts/ATR与N值]]
 - [[concepts/三好股票框架]]
@@ -477,10 +477,12 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/量柱六元素]]
 - [[concepts/量线七元素]]
 - [[concepts/量线系统]]
+- [[concepts/长腿踩线]]
 - [[concepts/面值高价折扣法与三条安全线]]
 - [[concepts/黄金仓]]
 - [[concepts/黄金六层面]]
 - [[concepts/黄金劫与凹口淘金]]
+- [[concepts/黄金十字架]]
 - [[concepts/黄金柱]]
 - [[concepts/黄金梯]]
 - [[concepts/黄金线]]
@@ -559,10 +561,11 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[meta/素材分流判定]]
 - [[meta/编译队列]]
 
-### 治理 / lint 报告（`meta/lint/`，2 页）
+### 治理 / lint 报告（`meta/lint/`，3 页）
 
 - [[meta/lint/2026-10-09-首次完整体检]]
 - [[meta/lint/2026-10-10-结构借鉴与修复]]
+- [[meta/lint/术语覆盖率报告]]
 
 ### 入口页（`_root/`，2 页）
 
