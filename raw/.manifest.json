@@ -361,10 +361,42 @@
       "extracted": "raw/distilled/可转债投资魔法书-全文.txt",
       "concepts_extracted": 1,
       "note": "⭐ 补转债建仓层。⭐⭐纠正: 网上流传的\"三线-复式\"原书正文\"复式\"0次, 真实策略名=面值-高价折扣法(92次)"
+    },
+    "可转债投资小白躺赚指南.pdf": {
+      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/5_可转债——投资小白躺赚指南/可转债：投资小白躺赚指南 (于佳蓉) (Z-Library).pdf",
+      "type": "pdf",
+      "compiled": true,
+      "pages": 300,
+      "words": 103530,
+      "text_layer": true,
+      "published": "2021-01",
+      "isbn": "9787121399671",
+      "extracted": "raw/distilled/可转债投资小白躺赚指南-全文.txt",
+      "concepts_extracted": 2,
+      "compiled_at": "2026-10-15",
+      "compiled_chapters": [
+        5
+      ],
+      "note": "⭐补一级市场(信用打新)与策略全景(10种,4种库内无)。⚠️数据为2021年,打新收益已变化"
+    },
+    "可转债投资黄金宝典.pdf": {
+      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf",
+      "type": "pdf",
+      "compiled": false,
+      "pages": 218,
+      "text_layer": false,
+      "reason": "伪文字层: 每页仅一行「公众号：财金视界」, 正文0字",
+      "registered_at": "2026-10-15"
+    },
+    "攻守-可转债投资实用手册.mobi": {
+      "path": "E:/电子书/理财交易类/202061010投资电子书/04基金、可转债/7_攻守--可转债投资实用手册/攻守：可转债投资实用手册（饕餮海、定风波、优美著，雪球大V带你全流程玩转可转债... (Z-Library).mobi",
+      "type": "mobi",
+      "compiled": false,
+      "reason": "mobi非zip结构, 需专用工具解析"
     }
   },
   "path_convention": "用正斜杠 /，避免 JSON 转义问题",
-  "compiled_count": 12,
+  "compiled_count": 13,
   "total_books": 18,
   "concepts_total": 61,
   "compiled": {

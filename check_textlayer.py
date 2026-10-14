@@ -23,6 +23,10 @@ NOISE_KEYS = [
     "手续费", "开户", "PDF电子书", "微信公众号", "7help", "kxiangou",
     "期货开户", "QQ群", "加微信", "扫码", "更多金融", "下载更多",
     "www.", "http://", "https://", "淘宝", "支付宝", "客服",
+    # ⭐ 2026-10-15 新增：Z-Library 版PDF 的页眉水印
+    # 实测案例《可转债投资黄金宝典》218 页正文 0 字，
+    # 每一页只有一行「公众号：财金视界」—— 因按"行数占比"算被稀释到 0.50 而漏判
+    "公众号", "财金视界", "Z-Library", "更多免费金融投资理财电子书",
 ]
 
 # 正文特征词（技术分析书常见）
@@ -49,6 +53,8 @@ def check(path, sample_pages=12):
 
     total_chars = 0
     noise_lines = 0
+    real_chars = 0
+    noise_chars = 0
     real_lines = 0
     samples = []
 
@@ -61,19 +67,29 @@ def check(path, sample_pages=12):
                 continue
             if any(k in line for k in NOISE_KEYS):
                 noise_lines += 1
+                noise_chars += len(line)
             elif len(line) >= 8:
                 real_lines += 1
+                real_chars += len(line)
                 if len(samples) < 3:
                     samples.append(line[:60])
     d.close()
 
     ratio = real_lines / (real_lines + noise_lines) if (real_lines + noise_lines) else 0
-    # 判定
+    # ⭐ 2026-10-15 新增：字数占比（比行数占比更硬）
+    # 为什么需要：实测《可转债投资黄金宝典》218 页正文 0 字，
+    #  每页仅一行「公众号：财金视界」。按行数算 = 1:1 → 占比0.50 漏判为可用。
+    #  按字数算 = 广告8字 : 正文0字 → 占比 0.00 → 正确判为伪文字层。
+    char_ratio = real_chars / (real_chars + noise_chars) if (real_chars + noise_chars) else 0
+
+    # 判定：两个指标都要过
     if real_lines == 0:
         verdict = "伪文字层❌（全是广告，正文0字）——必须OCR"
+    elif char_ratio < 0.3:
+        verdict = "伪文字层❌（广告占字数主体，正文极少）——必须OCR"
     elif ratio < 0.3:
         verdict = "伪文字层⚠️（正文占比低）——建议抽样验证"
-    elif ratio > 0.7:
+    elif ratio > 0.7 and char_ratio > 0.7:
         verdict = "真文字层✅（可直接抽文本）"
     else:
         verdict = "混合⚠️（含较多噪声，需清洗）"
@@ -85,6 +101,7 @@ def check(path, sample_pages=12):
         "real_lines": real_lines,
         "noise_lines": noise_lines,
         "content_ratio": round(ratio, 2),
+        "char_ratio": round(char_ratio, 2),
         "verdict": verdict,
         "samples": samples,
     }
@@ -112,7 +129,7 @@ def main():
         print(f"\n📄 {name}")
         print(f"   {r['pages']} 页 · 采样 {r['sampled']} 页 · 平均 {r['avg_chars']} 字/页")
         print(f"   正文行 {r['real_lines']} / 噪声行 {r['noise_lines']}"
-              f"  → 正文占比 {r['content_ratio']}")
+              f"  → 正文行占比 {r['content_ratio']} / 字数占比 {r['char_ratio']}")
         print(f"   判定：{r['verdict']}")
         if r["samples"]:
             print("   正文样例：")
