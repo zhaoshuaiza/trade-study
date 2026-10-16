@@ -132,17 +132,22 @@ def shard_path(p):
 buf, chunk_start, done, failed, skipped = [], START, 0, [], 0
 t0 = time.time()
 
-for i in range(START-1, END):
-    pg = i + 1
+# 📌 2026-10-16 修复：改为 while 显式控制。
+# 事故：原 for 循环里「跳过分片」只推进了 chunk_start，而 for 的 i 仍逐页 +1，
+# 两者永久失步 → 跳过后又去 OCR 已有的页，且写片条件 `done % CHUNK` 与
+# chunk_start 失相位 → 分片名整体 +1 偏移（p0001-0010 后出现 p0002-0011），相邻重叠 1 页。
+pg = START
+while pg <= END:
     # ⭐ 断点续跑：若该分片已存在且非空，则跳过整片（避免从头重跑）
     sp = shard_path(chunk_start)
     if chunk_start == pg and os.path.exists(sp) \
        and os.path.getsize(sp) > 100:
         skipped += 1
-        done += CHUNK
-        buf, chunk_start = [], pg + 1
+        pg = chunk_start + CHUNK
+        chunk_start = pg
         continue
 
+    i = pg - 1
     text = ocr_page(i)
     if text is None:
         buf.append(f'=== 第{pg}页 ===\n[OCR失败]')
@@ -152,38 +157,47 @@ for i in range(START-1, END):
             text = cc.convert(text)
         buf.append(f'=== 第{pg}页 ===\n{text}')
     done += 1
+    pg += 1
 
-    if done % CHUNK == 0 or pg == END:
+    if pg - chunk_start >= CHUNK or pg > END:
         os.makedirs(SHARD_DIR, exist_ok=True)   # 目录可能被外部清理，每片自愈
         with io.open(shard_path(chunk_start), 'w', encoding='utf-8') as f:
             f.write('\n\n'.join(buf))
         el = time.time() - t0
-        eta = el/done*(END-pg)
-        json.dump({'done': pg, 'total': END, 'elapsed': round(el),
+        eta = el/done*(END-pg) if pg <= END else 0
+        json.dump({'done': pg-1, 'total': END, 'elapsed': round(el),
                    'eta_sec': round(eta), 'failed': len(failed)},
                   io.open(PROGRESS, 'w'), ensure_ascii=False)
-        print(f'  {pg}/{END}  {el:.0f}s  ETA {eta:.0f}s  失败{len(failed)}', flush=True)
-        buf, chunk_start = [], pg + 1
+        print(f'  {pg-1}/{END}  {el:.0f}s  ETA {eta:.0f}s  失败{len(failed)}', flush=True)
+        buf, chunk_start = [], pg
 
-# 合并
-parts = []
-for sp in sorted(glob.glob(f'{SHARD_DIR}/p*.txt')):
-    parts.append(io.open(sp, encoding='utf-8').read())
-merged = '\n\n'.join(parts)
-
+# 合并：走健壮合并器（按页号归并，容忍历史重叠分片）
 # ⛔ 防护：校验页号无重复且覆盖完整（历史教训：bug 期重跑产生重叠分片）
-_pg = re.findall(r'^=== 第(\d+)页 ===', merged, re.M)
-if len(_pg) != len(set(_pg)):
-    from collections import Counter
-    dup = [p for p, c in Counter(_pg).items() if c > 1]
-    print(f'\n⛔⛔ 中止：合并后有 {len(dup)} 个重复页号（分片区间重叠）', flush=True)
-    print(f'   重复页号示例: {sorted(dup, key=int)[:10]}', flush=True)
-    print(f'   分片目录: {SHARD_DIR}', flush=True)
-    print('   → 需人工清理重叠分片后重跑，本次未写出全文。', flush=True)
+try:
+    import subprocess, sys as _sys
+    _safe = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         'merge_shards_safe.py')
+    _r = subprocess.run([_sys.executable, _safe, SHARD_DIR, FULL],
+                        capture_output=True, text=True, encoding='utf-8')
+    print(_r.stdout, flush=True)
+    if _r.returncode != 0:
+        print(_r.stderr, flush=True)
+        print('   → 合并失败，未写出全文。', flush=True)
+        sys.exit(1)
+    # 二次闸门：确认写出文件非空且页数完整
+    _chk = io.open(FULL, encoding='utf-8').read()
+    _pg2 = re.findall(r'^===== 第(\d+)页 =====', _chk, re.M)
+    if len(_chk) < 5000 or not _pg2:
+        print(f'⛔⛔ 中止：写出内容异常（{len(_chk)} 字符 / {len(_pg2)} 页），已删除。', flush=True)
+        os.remove(FULL)
+        sys.exit(1)
+    print(f'\n✓ 完成 -> {FULL}（{len(_pg2)} 页）', flush=True)
+except SystemExit:
+    raise
+except Exception as e:
+    print(f'⛔ 合并异常：{e}', flush=True)
     sys.exit(1)
 
-io.open(FULL, 'w', encoding='utf-8').write(merged)
-print(f'\n✓ 完成 -> {FULL}（{len(_pg)} 页）', flush=True)
 if skipped:
     print(f'⏭跳过 {skipped} 个已有分片（断点续跑）', flush=True)
 print(f'耗时 {time.time()-t0:.0f}s，失败 {len(failed)} 页: {failed[:30]}', flush=True)

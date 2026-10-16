@@ -1,0 +1,403 @@
+=== 第181页 ===
+金融投资
+第12章看涨期权、看跌期权、认股权和权证159
+低风险、高利润
+当你买进任何一只股票的权证时，你能够损失的全部是你为这种
+权证支付的价格。如果股票上涨，权证也上涨，因此你可以从权证上
+赚钱，此时你要求股票或执行你的权证。
+下面，我们给出了一些可以通过买进权证获利的例子。
+三角洲公司
+三角洲公司（Tri-ContinentalCorporation）是一家普通的管理投
+资信托公司，而且这只股票的交易一直十分活跃。1941和1942年，其
+权证的价格低达1/32美元。而在1936年，它们曾卖到高达5°/美元。如
+果你在1941或1942年投资1000.00美元，并买进这只权证，那么你就
+可以买32000张权证。如果你在1946年以5美元的价格卖掉，那么它们
+将值160000.00美元，这是在4年内凭1000.00美元赚了159000.00美元
+减去很小佣金。
+梅里特一查普曼&斯科特公司
+梅里特-查普曼&斯科特公司（Merritt-Chapman&Scott）是美国
+领先的承包商之一，它承接各种建筑工程，而且在国外也有建筑项目。
+它的普通股交易十分活跃，而且每年派发1.60美元的红利。
+在1938、1939、1940、1941、1942和1943年，这只股票的权证曾
+卖的低达1/4美元和3/8美元。而到了1946年，权证却卖到了12/2美元。
+在这种权证卖1/4美元的时候投资1000.00美元，就可以买到4000张权
+证。如果你在1946年以12美元的价格卖出，那么它们将值48000.00美
+元，或者说凭1000.00美元的投资得到47000.00美元的利润。
+
+=== 第182页 ===
+160
+江恩华尔街45年
+华章经典
+大力神公司
+大力神公司（AtiasCorporation）是一家投资、信托和控股公司。
+1941和1942年，其权证卖得低达每张1/4美元，或者说25美分。
+而在1946年，它们卖得高达135/美元。1942年，1000.00美元在
+1/4美元每张可以买4000张权证。1946年初，这些权证可以卖13
+美元，总值达52000.00美元，或者说凭1000.00美元的投资赚了
+51000.00美元的利润。
+上述利润并非仅作为例外挑选出来。其他不同品种的股票权证已
+经显示过同等巨大的获利机会。
+下面我们给出了一份清单，它们是在纽约股票交易所和纽约场外
+交易所（NewYorkCurbExchange）的交易活跃的权证和认股权。
+这些大约是6月30日的。
+纽约股票交易所和纽约场外交易所的活跃权证
+股票和权证的相对价格区间
+证券名
+当前价
+(日期)
+（价格区间）
+ACF布雷尔公司（A.C.F.Brill)
+1944~1949年
+19~2
+股票
+权证（1950年1月1日到期，每股
+12美元，1955年1月1日到期，
+11/~3/4
+每股15美元）
+3/4
+美国与国外电力公司
+1929~1949年
+(American & Foreign Power)
+199/~1/4
+股票
+19/g
+权证（任何时候每股25美元）
+174~1/32
+e美国股票交易所（American StockExchange，AMEX）的前身，其历史可以追溯到
+1849年。当时所有未在纽约股票交易所上市的股票，场外经纪人就在道旁买卖。1908
+年，这个交易场所正式定名为纽约场外交易社（NewYorkCurbAgency）。1929~1953
+年，改称纽约场外交易所，并在1953年更名为AMEX，沿用至今。目前AMEX已与
+NASDAQ合并，成为美国第二大股票交易所。一译者注
+
+=== 第183页 ===
+金融投资
+第12章
+看涨期权、看跌期权、认股权和权证
+161
+(续)
+股票和权证的相对价格区间
+证券名
+当前价
+（日期）
+（价格区间）
+大力神公司
+1936~1949年
+(Atlas)
+股票·
+34°/g~5/g
+20
+13°/g~1/4
+权证（任何时候每股25美元）….
+4/g
+科罗拉多燃料与钢铁公司
+1936~1949年
+(ColoradoFuel&Iron)
+25′/g~4'/2
+股票
+12'/2
+权证（1950年2月1日到期，每股
+12/2~1/2
+17/美元）
+7/8
+联邦与南方公司
+1930~1949年
+(Commonwealth&Southern)
+20'/~1/8
+股票.
+3'/2
+权证（任何时候每股30美元）…
+6′/~1/256
+1/16
+电力电灯公司
+1926~1949年
+(Electric Power&Light)
+103'/~5/8
+股票
+24'/4
+78'/g~1/16
+权证（每张25美元）
+赫斯曼一利高尼亚公司
+1945~1949年
+(Hussmann-Ligonier)
+股票（经1947年7月1日的2比1拆
+18/2~9
+股调整)
+10/
+权证（1950年5月15日到期，每股
+14'/~3'/2
+8.45美元）
+梅里特一查普曼&斯科特公司
+1936~1949年
+27/~1/
+股票·
+18%g
+12'/2~1/4
+权证（任何时候每股28.99美元）…
+4'/2~5′/2
+尼亚拉加哈德森公司
+1937~1949年
+(Niagara Hudson)
+167/~7/8
+股票
+9′/2
+33/g~1/32
+权证（任何时候每股42.86美元）
+5/32B
+三角洲公司
+1930~1949年
+(Tri-Continental)
+20/~5/8
+股票
+
+=== 第184页 ===
+162
+江恩华尔街45年
+华章经典
+(续)
+股票和权证的相对价格区间
+证券名
+当前价
+（日期）
+（价格区间）
+权证（任何时候每1.27股17.76美
+9~1/32
+2'%g
+联合公司（UnitedCorp.）
+1930~1949年
+股票·
+52~3/16
+307/g~1/256
+权证（任何时候每股27.50美元）.….
+1/8
+沃德银行公司（WardBakingCo.）
+1945~1949年
+197/g~8/4
+股票·
+12
+权证（1951年4月1日到期，每股
+12.50美元，1955年4月1日到期，
+9'/g~2
+每股15美元）
+214
+
+=== 第185页 ===
+第13章
+Chapter13
+新发现和新发明
+matter of trust."
+Hiissummatcnoftl
+KEPTTHEEXCHANGE OP
+Judhcarysubommittee,
+Tuckerotprfortof short sellingin
+listened market,under any cone
+Thispractice
+"sn
+Government Regulation Would
+WALL ST,DISCUSSES
+avaraffects
+Breakdown in Efficiency.He De
+short sening wo
+SHORT STOCK SALES
+the activities
+acrordingtobrok!
+TRADING PROVIDES CHE
+Ferspreferamar
+Canbuyorsell at
+Friends and Foes of Practice
+Shorts "smeoth the Waves.
+Biow to Tradil
+Affect the Tides." He
+Barrmig of short
+tail Trading Sharply
+SPECAI N THE NIH YOR
+rhangtfrms.whost
+bun redarer during
+WASHINGTON.Foh.
+BRO
+wcars bythenecrease
+Finance&Investing
+HUAZHANGCLASSIC
+PROBLEMS CITED
+tnityandthdecl
+selling:is useential to
+prirts.Sincetheircomnm
+tenanee of stock cxch
+With BI
+Wjththeprices ot see
+stoek oxchanges aren
+Reduced, Value of
+prowide a markrt fo
+Membi
+cimeofmorethan7o
+Rirhard Whitney.pres
+inExchangeAlso
+NewYork Stock Exch
+Would Shrink.
+House judiciary gubce
+thrse revenuts.ln Seplu
+moretha
+hadheenn
+Agitanoasinjolitiealandi
+irclesagaustshortselhin
+cntiesmarks
+SUORT SEING C
+
+=== 第186页 ===
+164江恩华尔街45年
+华章经典
+历史上，每次萧条过后，某种新发现或新发明刺激了商业和进步，
+并带来另一次繁荣。富尔顿（Fulton）发明的蒸汽机和惠特尼
+（Whitney）发明的轧棉机开启了进步的新时代。
+1849年，在加利福尼亚发现金矿引发了一轮繁荣的浪潮。从那时
+起，铁路的进步开拓了美国的中部和西部地区，这种新的运输方式带
+来了巨大进步。
+圣经告诉我们，旧的去了，新的会来取代它们。运河船以及公共
+马车的消失为铁路
+一一种更加迅速的运输方式一一扫清了道路。接
+着还出现了新发现、新发明以及新的炼钢方式，美国成了一个工业国，
+并取得了巨大的进步。20世纪初，汽车的发明与发展变革了运输，并
+启动了另一轮给成千上万人带来就业机会的繁荣浪潮。随后出现了各
+种化学的发现与发明，人造丝和其他化学产品的新发现一起帮助了进
+步与繁荣。常常，当我们处在萧条的深渊而且万物皆废的时候，某种
+新发现或新发明总能引发经济上的转折以及另一轮繁荣。
+莱特（Wright）兄弟发明的飞机启动了另一轮繁荣浪潮，并导
+致了还未达到顶点的运输速度的提高。这种最伟大的运输方式使世界
+各地更紧密地联系在一起，并使人们为和平和经济目的联合起来。飞
+机将来能带来多大的繁荣仍需观察，但是它在各个运输领域内的作用
+正在日复一日地增进，而且它的机会是无限的。飞机带来一个问题，
+也就是，它需要更便宜和更轻的燃油。这个问题背定会得到解决。当
+燃油载荷下降，并变成有效载荷时，航空运输对于快运、货物和乘客
+1765一1815。罗伯特·富尔顿（RobertFulton）。美国发明家、工程师和艺术家。他将
+蒸汽船从试验阶段带入了商业应用阶段。一一译者注
+1765一1825。艾利·惠特尼（EliWhitney）。美国发明家和机械工程师。他不仅发明了
+轧棉机，还提出了大生产（Mass-production）的概念。译者注
+分别是奥维尔·莱特（OrvilleWright），1871一1948，和威尔伯·莱特（WilburWright），
+1867一1912。美国发明家和航空先驱。莱特兄弟在1903年12月17日进行了首次有动力的、
+持续的和可操纵的飞行。一译者注
+
+=== 第187页 ===
+金融投资
+第13章新发现和新发明165
+来说都将成为世界上最便宜，也是最快的运输方式。这将有助于革新
+商业，并带来另一轮繁荣浪潮。
+原子能
+1945年，美国通过使用自已研制的原子弹赢得了战争。尽管原子
+弹以许多生命为代价给日本造成了巨大的破坏，但它缩短了战争，并
+拯救了无数本会因为战争的拖延而失去的生命。这种力量的伟大发明
+所具有的可能性超乎普通人的理解，而且它可能正是解决飞机最大难
+题的力量，它能给飞机廉价的燃料，并通过将现在的燃油负载转变为
+有效负载而极大地减轻飞机的重量，这不仅可以提高速度，还可以增
+加所载的货物和乘客量。当燃料能限制在有限的空间里，而有更大的
+能量时，它可以给乘客和货物更大的空间。原子能一旦完善到比人类
+发明的其他燃料都便宜时，就有可能得到大量的生产。这将会变革航
+空运输业，并有助于带来更大的繁荣。不仅原子能，而且太阳能和风
+能都有可能在将来带来廉价的能源，并在许多方面变革制造业。这可
+以降低生产成本，使消费者得益，并使消费者的钱更值钱，因此增加
+了购买力，因为当成本降低时消费就会增加是众所周知的事实。当物
+价在我们的承受范围内时，我们总可以买无限量的东西。原子能掌握
+着未来廉价能源的钥匙，而且这种新发现的可能性超乎想象。
+
+=== 第188页 ===
+[OCR失败]
+
+=== 第189页 ===
+第14章
+Chapter14
+从前的大炒家
+matfer of trust.
+mtiesoid
+Hissummationoft
+KEPT THEEXCHANGE OP
+juicary subeommittee,of
+cffectof-hortsellingin
+Renresentative Tucker of
+histened
+market.uuderanycon
+inat
+thispractice"sn
+Government Regulation Wouid
+WALL ST,DISCUSSES
+averaffects
+Breakdown in Efficiency.He De
+short seling wo
+SHORT STOCK SALES
+thtactivines
+accordingtoisrok
+TRADING PROVIDES CHEO
+ersprefera mar
+cun buyor sell at
+Friends and Foes of Practice
+Shorts Smooth the Waves,
+Blow to Tradin
+Agree a Law Against it Would Cur-
+Affect the Tides,"He s
+Barring of short
+tail Trading Sharply.
+creasetheproblem
+changefirms.whos
+PFCALTOTERIYORK
+beenreduced during
+vears by the derrease
+WASHINGTON.Feh.2
+BRL
+Finance&investing
+HUAZHANG CLASSIC
+华章经典·
+PROBLEMS CITED
+tivityand thedeeli
+selling:is cssential to
+prices.Smeetheircomn
+tenunce of stock exch
+With B
+·金融投资
+with the prices of sec
+stock exchanges are n
+ReducedValuef
+decline of more than 70
+provide a market fon
+Membi
+Richard Whitney,pres
+in Exchange Also
+the average of stork
+resulted ina large rec
+NewYorkStockExch
+Would Shrink.
+these revenues.n Septnp
+House judiciary subco
+more thank
+day.
+hadheenng
+Agitation in potitiral and oth
+rcles againstshort sellinal
+CODTCC
+curitesm
+
+=== 第190页 ===
+168江恩华尔街45年
+华章经典
+笔者回忆了1893~1896年的大恐慌，当时棉花在南方卖每磅3美分
+那样低，而且一场大恐慌横扫全国，人们认为那是历史上最糟的一次。
+小麦和其他商品的价格也很低，我记得第一次读到的囤积事件，是莱
+特（Lighter）在芝加哥囤积小麦。在这场战役中，莱特把小麦的价格
+从每蒲式耳1.00美元到了1.85美元。他曾在账面上累积了巨额利润，
+但还是破了产。从研究以往的大炒家的历史中，我们能够吸取的古老
+而宝贵的教训是，什么使他们在聚敛了一大笔财富后破产了。就莱特
+来说，是不了解的东西导致了他的败落。因为他不相信小麦会在芝加
+哥得到大量交割以压制市场，但是阿默（Armour）比莱特料想的要聪
+明，他让人用特快载货汽车运小麦来交割。他打破了垄断，因此莱特
+破产了。没有人会如此聪明，而且意外会出现并导致他损失所有挣来
+的钱，或是他的财产的大部分。因此，我们从他人的错误中应吸取的
+教训是，不要犯同样的错误。大多数炒家亏钱是因为他们失去了所有
+的均衡感，他们只渴望金钱能够带来的力量，而且要垒断市场。垄断
+迫使价格变得很高，并使消费者遭受痛苦，结果几乎所有试图这样做
+的人都落得了同样的下场。他们破产了。
+在1903~1904年萨利（Sully）的战役期间，我在棉花市场中。萨
+利通过买进棉花，在很短的时间里赚了几百万美元。他犯了一个所有
+大炒家都犯过的错误，认为自已有很大的能耐，因而他可以开始拉抬
+价格。结果是萨利爆了仓，并遭到了破产。
+：西奥多·普莱斯（TheodoreH.Price）一一另一位他那个时代的
+棉花大炒家，也犯了同样的错误，他买的太多而且低估了突发事件，
+所以也破产了。但要谈到对他的回忆，必须承认普莱斯做到了历史上
+所有人中最伟大的东山再起之一，并挽回了几百万美元，而且向债权
+人归还了数不清的钱。另一个从几百美元起家赚了几百万美元，然后
+破产的炒家是尤金·斯凯勒斯（EugeneScales）。斯凯勒斯为什么会在
