@@ -450,7 +450,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，162 页）
+### 抽象概念（`concepts/`，163 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -558,6 +558,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/特殊类型转债]]
 - [[concepts/王牌柱三级]]
 - [[concepts/现场直憨]]
+- [[concepts/白话投资·基金套利与制度性硬约束]]
 - [[concepts/百日低量与百日低量群]]
 - [[concepts/盘口与风险优先原则]]
 - [[concepts/看盘方法与技巧一本通·盘口与量价判据]]
@@ -629,7 +630,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，79 页）
+### 一本资料一页（`sources/`，80 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -681,6 +682,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/海龟交易法则]]
 - [[sources/涨停密码黑马王子]]
 - [[sources/漫步华尔街（马尔基尔）]]
+- [[sources/白话投资（北落的师门）]]
 - [[sources/盘口解读技术]]
 - [[sources/看盘方法与技巧一本通（老牛）]]
 - [[sources/短线交易秘诀（拉里威廉斯）]]
