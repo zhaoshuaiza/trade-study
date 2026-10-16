@@ -8,8 +8,21 @@
 import pymupdf, io, os, time, json, sys, glob, re
 
 BASE = 'E:/Work Buddy/交易学习/raw/distilled'
+# 📌 2026-10-16 补齐：与 ocr_book.py 的 SRC_DIRS 保持一致。
+# 缺失这些目录会导致「未找到 PDF」而静默失败（第二批素材库都在 E:/电子书/ 下）。
 SRC_DIRS = ['E:/笔记Obsidian/电子书',
-            'E:/笔记Obsidian/电子书/黑马王子系列']
+            'E:/笔记Obsidian/电子书/黑马王子系列',
+            'E:/电子书/202061010投资电子书',
+            'E:/电子书/202061010投资电子书/01价值投资',
+            'E:/电子书/202061010投资电子书/02趋势技术',
+            'E:/电子书/202061010投资电子书/03游资超短',
+            'E:/电子书/202061010投资电子书/04基金、可转债',
+            'E:/电子书/202061010投资电子书/05其他']
+
+def _safe_name(k):
+    """⭐ 必须与 ocr_book.py 完全一致，否则找不到分片目录。
+    ocr_book.py 用 re.sub(r'[^\w]','_',kw)；历史上两脚本规则不一致导致全文清零。"""
+    return re.sub(r'[^\w]', '_', k)
 
 kw = sys.argv[1]
 
@@ -109,26 +122,22 @@ for sp, pages in by_shard.items():
     io.open(sp, 'w', encoding='utf-8').write(txt)
 
 # 2) 重新合并全文
-parts = []
-for sp2 in sorted(glob.glob(f'{SHARD_DIR}/p*.txt')):
-    parts.append(io.open(sp2, encoding='utf-8').read())
-
-# ⛔ 防护：分片为空时绝不覆盖全文（否则会把已有成果清零）
-if not parts:
-    print(f'\n⛔⛔ 中止：未找到任何分片（目录 {SHARD_DIR}）', flush=True)
-    print(f'   为避免清空 {FULL}，已跳过合并。', flush=True)
-    print(f'   请检查 kw 参数与ocr_book.py 是否一致。', flush=True)
+# 📌 2026-10-16：改走健壮合并器（按页号归并，容忍历史重叠分片）。
+# 原实现是 50 片直接拼接，遇到历史重叠分片会写出重复页全文
+#（江恩那次 17.3万 → 34.3万 字，页数翻倍）。
+# ⛔ 防护：合并器自带闸门（解析为空 / 总字数<5000 / 页号缺失）→ 拒绝写出。
+import subprocess, sys as _sys
+_safe = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'merge_shards_safe.py')
+_r = subprocess.run([_sys.executable, _safe, SHARD_DIR, FULL],
+                    capture_output=True, text=True, encoding='utf-8')
+print(_r.stdout, flush=True)
+if _r.returncode != 0:
+    print(_r.stderr, flush=True)
+    print('   ⛔ 合并失败，已跳过写出，原全文保持不变。', flush=True)
     sys.exit(1)
 
-merged = '\n\n'.join(parts)
-if len(merged.strip()) < 100:
-    print(f'\n⛔⛔ 中止：分片合并后内容过短（{len(merged)} 字节），疑似异常', flush=True)
-    print(f'   为避免清空 {FULL}，已跳过合并。', flush=True)
-    sys.exit(1)
-
-io.open(FULL, 'w', encoding='utf-8').write(merged)
 print(f'\n✓ 修复 {len(fixed)} 页，仍失败 {len(still)} 页: {still}', flush=True)
 if fixed:
     print(f'  修复页: {sorted(fixed)}', flush=True)
-print(f'✓ 已重新合并 -> {FULL}（{len(merged)} 字符，{len(parts)} 片）', flush=True)
+print(f'✓ 已重新合并 -> {FULL}（走 merge_shards_safe.py 按页号归并）', flush=True)
 print(f'耗时 {time.time()-t0:.0f}s', flush=True)
