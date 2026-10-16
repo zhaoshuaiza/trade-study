@@ -92,7 +92,7 @@
   "name": "威科夫操盘理论在中国股市的实战",
   "batch": "B2",
   "status": "blocked",
-  "note": "物理文件不存在，仅manifest登记258页/17字每页",
+  "note": "源PDF不在磁盘(仅manifest登记),需用户提供路径",
   "done_date": ""
  },
  "13": {
@@ -651,8 +651,8 @@
   "idx": 82,
   "name": "奥马哈之雾",
   "batch": "B0",
-  "status": "pending",
-  "note": "交易词97次，留交易库待精读",
+  "status": "blocked",
+  "note": "源PDF未找到",
   "done_date": ""
  },
  "83": {
@@ -699,16 +699,16 @@
   "idx": 88,
   "name": "价值评估 公司价值的衡量与管理",
   "batch": "B4",
-  "status": "ocr",
-  "note": "640页，价值评估权威",
+  "status": "blocked",
+  "note": "源PDF不在磁盘(仅manifest登记),需用户提供路径",
   "done_date": ""
  },
  "89": {
   "idx": 89,
   "name": "价值投资从格雷厄姆到巴菲特",
   "batch": "B4",
-  "status": "ocr",
-  "note": "264页",
+  "status": "blocked",
+  "note": "源PDF未找到",
   "done_date": ""
  },
  "90": {
