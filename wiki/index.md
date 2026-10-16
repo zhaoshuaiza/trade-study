@@ -450,7 +450,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，163 页）
+### 抽象概念（`concepts/`，164 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -567,6 +567,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/神奇支撑线]]
 - [[concepts/精准线]]
 - [[concepts/组合热度]]
+- [[concepts/美股70年行情复盘·周期起止时间点史料]]
 - [[concepts/股市极客思考录·题材与热点判据]]
 - [[concepts/股市长线法宝5版·200日均线实证与估值分位]]
 - [[concepts/股票魔法师三册·SEPA与趋势模板]]
@@ -630,7 +631,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，80 页）
+### 一本资料一页（`sources/`，81 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -688,6 +689,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/短线交易秘诀（拉里威廉斯）]]
 - [[sources/祖鲁法则（Jim Slater）]]
 - [[sources/缠论108课]]
+- [[sources/美股70年1948～2018年美国股市行情复盘·来源]]
 - [[sources/聪明的投资者（格雷厄姆）]]
 - [[sources/股市极客思考录]]
 - [[sources/股市趋势技术分析（爱德华兹迈吉）]]
