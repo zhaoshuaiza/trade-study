@@ -450,7 +450,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，160 页）
+### 抽象概念（`concepts/`，161 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -545,6 +545,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/止损的争议]]
 - [[concepts/正法模型与龙头九则]]
 - [[concepts/正确率与赔率的互损原则]]
+- [[concepts/江恩华尔街45年·规则与百分比体系]]
 - [[concepts/波浪嵌套与级别]]
 - [[concepts/涨停基因]]
 - [[concepts/涨停密码·新判据与黄金三角缺证]]
@@ -627,7 +628,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，77 页）
+### 一本资料一页（`sources/`，78 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -673,6 +674,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/新手学炒股一本就够]]
 - [[sources/日本蜡烛图技术（尼森）]]
 - [[sources/构建量化动量选股系统（格雷沃格尔）]]
+- [[sources/江恩华尔街45年（威廉D江恩）]]
 - [[sources/波浪理论]]
 - [[sources/海龟交易法则]]
 - [[sources/涨停密码黑马王子]]
