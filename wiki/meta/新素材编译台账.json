@@ -91,9 +91,9 @@
   "idx": 12,
   "name": "威科夫操盘理论在中国股市的实战",
   "batch": "B2",
-  "status": "blocked",
-  "note": "源PDF不在磁盘(仅manifest登记),需用户提供路径",
-  "done_date": ""
+  "status": "done",
+  "note": "已全本OCR(258页0失败)+编译(威科夫A股实战·报价带判据与制度适配)",
+  "done_date": "2026-10-14"
  },
  "13": {
   "idx": 13,

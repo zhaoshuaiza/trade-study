@@ -450,7 +450,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，161 页）
+### 抽象概念（`concepts/`，162 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -511,6 +511,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/复利信徒·PB等于PE乘ROE与对象时机力度框架]]
 - [[concepts/大钱细思·内在价值四要素与收益率筛选]]
 - [[concepts/太极线]]
+- [[concepts/威科夫A股实战·报价带判据与制度适配]]
 - [[concepts/威科夫体系·吸筹派发判据]]
 - [[concepts/峰谷线]]
 - [[concepts/峰顶线与平衡线总纲]]
@@ -628,7 +629,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，78 页）
+### 一本资料一页（`sources/`，79 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -659,6 +660,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/复利信徒（李杰）]]
 - [[sources/大钱细思]]
 - [[sources/威科夫体系（库林+孟洪涛）]]
+- [[sources/威科夫操盘理论在中国股市的实战]]
 - [[sources/学会估值轻松投资（达摩达兰）]]
 - [[sources/巴菲特的护城河（多尔西）]]
 - [[sources/彼得林奇投资经典全集]]
