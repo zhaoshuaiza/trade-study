@@ -450,7 +450,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，159 页）
+### 抽象概念（`concepts/`，160 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -488,6 +488,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/分型笔与线段]]
 - [[concepts/分时图实战·日内形态判据]]
 - [[concepts/利弗莫尔·关键点与情绪控制]]
+- [[concepts/半小时漫画股票实战法·常用指标判据与出处判定]]
 - [[concepts/华尔街幽灵·三条交易规则与仓位纪律]]
 - [[concepts/双阴出货]]
 - [[concepts/可转债三大经典策略]]
@@ -626,7 +627,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，76 页）
+### 一本资料一页（`sources/`，77 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -644,6 +645,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/传奇投资人的智慧]]
 - [[sources/像欧奈尔信徒一样交易二（莫拉雷斯卡彻）]]
 - [[sources/分时图实战（杨金）]]
+- [[sources/半小时漫画股票实战法（财经杂质）]]
 - [[sources/华尔街幽灵（辛普森）]]
 - [[sources/可转债投资小白躺赚指南]]
 - [[sources/可转债投资魔法书]]
