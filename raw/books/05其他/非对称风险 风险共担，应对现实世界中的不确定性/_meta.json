@@ -8,9 +8,10 @@
     "05其他/9_非对称风险  风险共担，应对现实世界中的不确定性/非对称风险 风险共担，应对现实世界中的不确定性 (【美】纳西姆▪尼古拉斯▪塔勒布（Nassim Nicholas Taleb）) (Z-Library).pdf"
   ],
   "picked_file": "05其他/9_非对称风险  风险共担，应对现实世界中的不确定性/非对称风险 风险共担，应对现实世界中的不确定性 (【美】纳西姆▪尼古拉斯▪塔勒布（Nassim Nicholas Taleb）) (Z-Library).pdf",
-  "chars": 2225,
-  "cjk": 1246,
+  "chars": 537896,
+  "cjk": 149499,
   "body_ratio": 1.0,
-  "extract_status": "suspicious",
-  "extract_sec": 0.5
+  "extract_status": "ok",
+  "extract_sec": 0.5,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\非对称风险 风险共担，应对现实世界中的不确定性 (【美】纳西姆▪尼古拉斯▪塔勒布.txt"
 }
