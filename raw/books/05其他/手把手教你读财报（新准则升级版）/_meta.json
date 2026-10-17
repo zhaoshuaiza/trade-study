@@ -7,6 +7,10 @@
   "files": [
     "05其他/29_手把手教你读财报（新准则升级版）/手把手教你读财报2021(新准则升级版) (唐朝) (Z-Library).pdf"
   ],
-  "extract_status": "fail",
-  "extract_error": null
+  "extract_status": "ok",
+  "extract_error": null,
+  "chars": 626224,
+  "cjk": 174421,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\手把手教你读财报2021(新准则升级版) (唐朝) (Z-Library).txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }

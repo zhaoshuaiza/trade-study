@@ -8,9 +8,11 @@
     "01价值投资/4_价值投资：从格雷厄姆到巴菲特的头号投资法则/价值投资 从格雷厄姆到巴菲特的头号投资法则 The Little Book of Value Investing(Chinese Edition) ( etc.) (Z-Library).pdf"
   ],
   "picked_file": "01价值投资/4_价值投资：从格雷厄姆到巴菲特的头号投资法则/价值投资 从格雷厄姆到巴菲特的头号投资法则 The Little Book of Value Investing(Chinese Edition) ( etc.) (Z-Library).pdf",
-  "chars": 156,
-  "cjk": 96,
+  "chars": 345056,
+  "cjk": 95349,
   "body_ratio": 1.0,
-  "extract_status": "suspicious",
-  "extract_sec": 1.0
+  "extract_status": "ok",
+  "extract_sec": 1.0,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\价值投资 从格雷厄姆到巴菲特的头号投资法则 The Little Book of.txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }

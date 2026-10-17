@@ -8,9 +8,11 @@
     "01价值投资/21_价值评估 公司价值的衡量与管理 第四版/价值评估  公司价值的衡量与管理  第四版 (（美）蒂姆·科勒，戴维·威赛尔斯，（荷）马克·戈德哈特著) (Z-Library).pdf"
   ],
   "picked_file": "01价值投资/21_价值评估 公司价值的衡量与管理 第四版/价值评估  公司价值的衡量与管理  第四版 (（美）蒂姆·科勒，戴维·威赛尔斯，（荷）马克·戈德哈特著) (Z-Library).pdf",
-  "chars": 168,
-  "cjk": 101,
+  "chars": 1203033,
+  "cjk": 300297,
   "body_ratio": 1.0,
-  "extract_status": "suspicious",
-  "extract_sec": 0.8
+  "extract_status": "ok",
+  "extract_sec": 0.8,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\价值评估  公司价值的衡量与管理  第四版 (（美）蒂姆·科勒，戴维·威赛尔斯，.txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }

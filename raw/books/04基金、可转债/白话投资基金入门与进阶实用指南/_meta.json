@@ -7,6 +7,10 @@
   "files": [
     "04基金、可转债/2_白话投资基金入门与进阶实用指南/白话投资：基金入门与进阶实用指南 (陈姗姗白话投资北落的师门) (Z-Library).pdf"
   ],
-  "extract_status": "fail",
-  "extract_error": null
+  "extract_status": "ok",
+  "extract_error": null,
+  "chars": 584003,
+  "cjk": 152069,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\白话投资：基金入门与进阶实用指南 (陈姗姗白话投资北落的师门) (Z-Libra.txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }

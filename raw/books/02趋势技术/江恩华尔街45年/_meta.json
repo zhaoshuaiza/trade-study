@@ -8,9 +8,11 @@
     "02趋势技术/7_江恩华尔街45年/江恩华尔街45年 (（美）威廉·D·江恩著) (Z-Library).pdf"
   ],
   "picked_file": "02趋势技术/7_江恩华尔街45年/江恩华尔街45年 (（美）威廉·D·江恩著) (Z-Library).pdf",
-  "chars": 294,
-  "cjk": 189,
+  "chars": 359975,
+  "cjk": 80790,
   "body_ratio": 1.0,
-  "extract_status": "suspicious",
-  "extract_sec": 0.8
+  "extract_status": "ok",
+  "extract_sec": 0.8,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\江恩华尔街45年 (（美）威廉·D·江恩著) (Z-Library).txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }

@@ -7,6 +7,10 @@
   "files": [
     "05其他/4_交易心理分析  用自信 自律和赢家心态掌控市场/交易心理分析：用自信、自律和赢家心态掌控市场 (马克·道格拉斯,Mark Douglas) (Z-Library).pdf"
   ],
-  "extract_status": "fail",
-  "extract_error": null
+  "extract_status": "ok",
+  "extract_error": null,
+  "chars": 414722,
+  "cjk": 120229,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\交易心理分析：用自信、自律和赢家心态掌控市场 (马克·道格拉斯,Mark Dou.txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }

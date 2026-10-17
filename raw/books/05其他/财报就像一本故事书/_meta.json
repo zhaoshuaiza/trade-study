@@ -7,6 +7,10 @@
   "files": [
     "05其他/27_财报就像一本故事书/财报就像一本故事书 (刘顺仁) (Z-Library).pdf"
   ],
-  "extract_status": "fail",
-  "extract_error": null
+  "extract_status": "ok",
+  "extract_error": null,
+  "chars": 496331,
+  "cjk": 132637,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\财报就像一本故事书 (刘顺仁) (Z-Library).txt",
+  "note": "复用 doubao 已完成 OCR，未重跑"
 }
