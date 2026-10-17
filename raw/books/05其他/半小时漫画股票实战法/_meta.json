@@ -1,0 +1,16 @@
+{
+  "book": "半小时漫画股票实战法",
+  "category": "05其他",
+  "kind": "扫描PDF",
+  "pages": 628,
+  "verdict": "需OCR",
+  "files": [
+    "05其他/11_半小时漫画股票实战法/半小时漫画股票实战法 (财经杂质) (Z-Library).pdf"
+  ],
+  "picked_file": "05其他/11_半小时漫画股票实战法/半小时漫画股票实战法 (财经杂质) (Z-Library).pdf",
+  "chars": 104944,
+  "cjk": 45475,
+  "body_ratio": 0.99,
+  "extract_status": "ok",
+  "extract_sec": 1.6
+}

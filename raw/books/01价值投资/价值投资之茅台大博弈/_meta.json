@@ -1,0 +1,16 @@
+{
+  "book": "价值投资之茅台大博弈",
+  "category": "01价值投资",
+  "kind": "扫描PDF",
+  "pages": 321,
+  "verdict": "需OCR",
+  "files": [
+    "01价值投资/24_价值投资之茅台大博弈/价值投资之茅台大博弈 (董宝珍) (Z-Library).pdf"
+  ],
+  "picked_file": "01价值投资/24_价值投资之茅台大博弈/价值投资之茅台大博弈 (董宝珍) (Z-Library).pdf",
+  "chars": 214821,
+  "cjk": 137676,
+  "body_ratio": 1.0,
+  "extract_status": "ok",
+  "extract_sec": 1.6
+}

@@ -1,0 +1,16 @@
+{
+  "book": "林园炒股秘籍",
+  "category": "01价值投资",
+  "kind": "扫描PDF",
+  "pages": 276,
+  "verdict": "需OCR",
+  "files": [
+    "01价值投资/18_林园炒股秘籍/林园炒股秘籍 (林园) (Z-Library).pdf"
+  ],
+  "picked_file": "01价值投资/18_林园炒股秘籍/林园炒股秘籍 (林园) (Z-Library).pdf",
+  "chars": 170294,
+  "cjk": 120158,
+  "body_ratio": 0.83,
+  "extract_status": "ok",
+  "extract_sec": 2.1
+}

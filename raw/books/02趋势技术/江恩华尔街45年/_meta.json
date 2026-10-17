@@ -1,0 +1,16 @@
+{
+  "book": "江恩华尔街45年",
+  "category": "02趋势技术",
+  "kind": "扫描PDF",
+  "pages": 244,
+  "verdict": "需OCR",
+  "files": [
+    "02趋势技术/7_江恩华尔街45年/江恩华尔街45年 (（美）威廉·D·江恩著) (Z-Library).pdf"
+  ],
+  "picked_file": "02趋势技术/7_江恩华尔街45年/江恩华尔街45年 (（美）威廉·D·江恩著) (Z-Library).pdf",
+  "chars": 294,
+  "cjk": 189,
+  "body_ratio": 1.0,
+  "extract_status": "suspicious",
+  "extract_sec": 0.8
+}

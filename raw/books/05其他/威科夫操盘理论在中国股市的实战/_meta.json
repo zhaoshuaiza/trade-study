@@ -1,0 +1,16 @@
+{
+  "book": "威科夫操盘理论在中国股市的实战",
+  "category": "05其他",
+  "kind": "扫描PDF",
+  "pages": 258,
+  "verdict": "需OCR",
+  "files": [
+    "05其他/威科夫操盘理论在中国股市的实战.pdf"
+  ],
+  "picked_file": "05其他/威科夫操盘理论在中国股市的实战.pdf",
+  "chars": 4902,
+  "cjk": 4128,
+  "body_ratio": 1.0,
+  "extract_status": "ok",
+  "extract_sec": 0.7
+}

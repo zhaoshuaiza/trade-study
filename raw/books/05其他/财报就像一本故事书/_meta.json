@@ -1,0 +1,12 @@
+{
+  "book": "财报就像一本故事书",
+  "category": "05其他",
+  "kind": "扫描PDF",
+  "pages": 295,
+  "verdict": "需OCR",
+  "files": [
+    "05其他/27_财报就像一本故事书/财报就像一本故事书 (刘顺仁) (Z-Library).pdf"
+  ],
+  "extract_status": "fail",
+  "extract_error": null
+}

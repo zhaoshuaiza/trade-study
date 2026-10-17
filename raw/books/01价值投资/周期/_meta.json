@@ -1,0 +1,16 @@
+{
+  "book": "周期",
+  "category": "01价值投资",
+  "kind": "扫描PDF",
+  "pages": 341,
+  "verdict": "需OCR",
+  "files": [
+    "01价值投资/17_周期/周期 (霍华德·马克斯 [霍华德·马克斯]) (Z-Library).pdf"
+  ],
+  "picked_file": "01价值投资/17_周期/周期 (霍华德·马克斯 [霍华德·马克斯]) (Z-Library).pdf",
+  "chars": 221566,
+  "cjk": 188899,
+  "body_ratio": 1.0,
+  "extract_status": "ok",
+  "extract_sec": 0.9
+}

@@ -40,3 +40,7 @@ $RECYCLE.BIN/
 
 # ===== 个人持仓数据（不入库）=====
 raw/bonds.json
+
+# 书籍蒸馏中间产物（分片/临时图），正文与_meta.json 要入库
+raw/books/**/_shards/
+raw/books/**/_tmp*.png

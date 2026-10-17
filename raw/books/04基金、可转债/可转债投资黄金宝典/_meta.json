@@ -1,0 +1,16 @@
+{
+  "book": "可转债投资黄金宝典",
+  "category": "04基金、可转债",
+  "kind": "扫描PDF",
+  "pages": 218,
+  "verdict": "需OCR",
+  "files": [
+    "04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf"
+  ],
+  "picked_file": "04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf",
+  "chars": 2227,
+  "cjk": 1557,
+  "body_ratio": 1.0,
+  "extract_status": "suspicious",
+  "extract_sec": 0.5
+}
