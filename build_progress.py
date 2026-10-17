@@ -87,9 +87,16 @@ def main():
             })
 
     ORDER = ['待OCR', '待提取', '提取失败', '待编译', '待编译(字少)', '已编译']
+    # ⭐ 已按CLAUDE.md 零之二判定为「非交易内容，应进hedge 库」的书
+    DIVERTED = {
+        '乌合之众', '小狗钱钱', '小岛经济学', '繁荣与衰退',
+        '赢 有钱人和你想的不一样', '伟大的博弈', '大癫狂', '客户的游艇在哪里',
+    }
     cnt = {}
     for r in rows:
         cnt[r['state']] = cnt.get(r['state'], 0) + 1
+    # 分流计数
+    div = [r for r in rows if any(d in r['book'] for d in DIVERTED)]
 
     L = []
     L.append('# 📊 书籍蒸馏进度总台账')
@@ -111,11 +118,20 @@ def main():
     }
     for s in ORDER:
         L.append(f'| {s} | {cnt.get(s,0)} | {MEAN[s]} |')
-    done = cnt.get('已编译', 0)
+    L.append(f'| **已分流 hedge** | **{len(div)}** | 非交易内容，按 `CLAUDE.md` 零之二不入交易库 |')
     L.append(f'| **合计** | **{len(rows)}** | — |')
     L.append('')
-    L.append(f'**完成率：{done}/{len(rows)} = {done*100//max(len(rows),1)}%**')
+    done = cnt.get('已编译', 0)
+    real = done + len(div)
+    L.append(f'**完成率：{real}/{len(rows)} = {real*100//max(len(rows),1)}%**'
+             f'（已编译 {done} + 已分流 {len(div)}）')
     L.append('')
+    if div:
+        L.append('### 已分流到 hedge 库的书（判定依据：不能落成「看盘时用得上的动作」）')
+        L.append('')
+        for r in div:
+            L.append(f'- {r["book"]}')
+        L.append('')
 
     for s in ORDER:
         sub = [r for r in rows if r['state'] == s]

@@ -453,7 +453,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，164 页）
+### 抽象概念（`concepts/`，169 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -491,6 +491,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/分型笔与线段]]
 - [[concepts/分时图实战·日内形态判据]]
 - [[concepts/利弗莫尔·关键点与情绪控制]]
+- [[concepts/利润不等于现金流·四组不等与杜邦三局限]]
 - [[concepts/半小时漫画股票实战法·常用指标判据与出处判定]]
 - [[concepts/华尔街幽灵·三条交易规则与仓位纪律]]
 - [[concepts/双阴出货]]
@@ -524,6 +525,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/平衡线]]
 - [[concepts/弹性价值]]
 - [[concepts/彼得林奇·十五倍与四大股票分类]]
+- [[concepts/心理账户与庄家的钱效应]]
 - [[concepts/怎样选择成长股·十五要点与两套不原则]]
 - [[concepts/慢慢变富·八不投负面清单与5性九刀估值模型]]
 - [[concepts/戴维斯王朝·戴维斯双击与选股检查清单]]
@@ -571,7 +573,6 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/精准线]]
 - [[concepts/组合热度]]
 - [[concepts/美股70年行情复盘·周期起止时间点史料]]
-- [[concepts/追寻价值之路·A股周期起止时间点与制度史史料]]
 - [[concepts/股市极客思考录·题材与热点判据]]
 - [[concepts/股市长线法宝5版·200日均线实证与估值分位]]
 - [[concepts/股票魔法师三册·SEPA与趋势模板]]
@@ -597,7 +598,9 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/转债条款博弈]]
 - [[concepts/转债策略全景对照]]
 - [[concepts/达摩达兰·估值方法与模型参数]]
+- [[concepts/追寻价值之路·A股周期起止时间点与制度史史料]]
 - [[concepts/通道线]]
+- [[concepts/遍历性与生存优先]]
 - [[concepts/道氏理论的适用边界]]
 - [[concepts/道氏的三种运动]]
 - [[concepts/邓普顿逆向投资·逆向买入判据]]
@@ -611,6 +614,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/霍华德马克斯周期·周期钟与钟摆]]
 - [[concepts/面值高价折扣法与三条安全线]]
 - [[concepts/韭菜的自我修养·入场时机与回报风险比]]
+- [[concepts/题材优先·七大沃土与四条好题材标准]]
 - [[concepts/黄金仓]]
 - [[concepts/黄金六层面]]
 - [[concepts/黄金劫与凹口淘金]]
@@ -635,7 +639,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，81 页）
+### 一本资料一页（`sources/`，84 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -643,6 +647,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/一个投资家的20年（杨天南）]]
 - [[sources/一小时漫画缠论实战法（管鹏）]]
 - [[sources/一本书搞懂龙头股战法曹明成]]
+- [[sources/一本书读懂财报（全新修订版）]]
 - [[sources/主力の思維]]
 - [[sources/交易之路（陈凯）]]
 - [[sources/交易圣经（范撒普）]]
@@ -692,10 +697,9 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/看盘方法与技巧一本通（老牛）]]
 - [[sources/短线交易秘诀（拉里威廉斯）]]
 - [[sources/祖鲁法则（Jim Slater）]]
-- [[sources/缠论108课]]
 - [[sources/笑傲股市（欧奈尔）]]
+- [[sources/缠论108课]]
 - [[sources/美股70年1948～2018年美国股市行情复盘·来源]]
-- [[sources/追寻价值之路1990～2020年中国股市行情复盘·来源]]
 - [[sources/聪明的投资者（格雷厄姆）]]
 - [[sources/股市极客思考录]]
 - [[sources/股市趋势技术分析（爱德华兹迈吉）]]
@@ -710,6 +714,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/走出幻觉走向成熟]]
 - [[sources/趋势永存（Clenow）]]
 - [[sources/躺着赚钱的漫画基金书（三折人生）]]
+- [[sources/追寻价值之路1990～2020年中国股市行情复盘·来源]]
 - [[sources/道氏理论]]
 - [[sources/邓普顿教你逆向投资]]
 - [[sources/量柱擒涨停]]
@@ -721,13 +726,15 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/黑马王子系列]]
 - [[sources/龙头价值与赛道]]
 
-### 方法论冲突（`claims/`，7 页）
+### 方法论冲突（`claims/`，9 页）
 
+- [[claims/三本C类书实测后推翻]]
 - [[claims/三种止损方法的适用边界]]
 - [[claims/五套体系的仓位与风控对照]]
 - [[claims/估值与仓位·五本书六处冲突]]
 - [[claims/周金涛断言的可验证性核查]]
 - [[claims/基金能否跑赢指数]]
+- [[claims/流动比率阈值的两种相反主张]]
 - [[claims/离场理由分歧·量价离场vs 基本面离场]]
 - [[claims/缠论能否量化]]
 
@@ -735,7 +742,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[comparisons/五套体系总览对比]]
 
-### 跨体系（`syntheses/`，15 页）
+### 跨体系（`syntheses/`，16 页）
 
 - [[syntheses/九套体系冲突全解·根因与优劣]]
 - [[syntheses/五套体系的共识与分歧]]
@@ -746,6 +753,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[syntheses/方法论对比·五条路线九套体系]]
 - [[syntheses/时间窗与数量参数总纲]]
 - [[syntheses/离场判据总纲]]
+- [[syntheses/笑傲股市-CANSLIM完整蒸馏与学习指南]]
 - [[syntheses/缠师原文核查·中枢扩展与级别扩张]]
 - [[syntheses/缠师原文核查·说话人结案]]
 - [[syntheses/缠论108课-完整蒸馏与学习指南]]
@@ -757,9 +765,10 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[questions/问答与纠错机制]]
 
-### 治理/体检（`meta/`，8 页）
+### 治理/体检（`meta/`，9 页）
 
 - [[meta/OCR与编译踩坑记录]]
+- [[meta/全量蒸馏计划]]
 - [[meta/完成状态清单]]
 - [[meta/新素材库分流判定]]
 - [[meta/新素材编译计划]]

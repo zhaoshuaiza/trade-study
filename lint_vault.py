@@ -250,7 +250,11 @@ for rel in pages:
     if rel in ('wiki/index.md',):
         continue
     # 以下不是内容页，不应登记进索引
+    # ⭐ meta/ 是台账与计划类（progress/skills/进度报告），它们会随每次运行重生成，
+    #   登记进 index 只会造成永久性漂移噪音。2026-10-17 起排除。
     if rel.startswith('templates/') or rel == 'wiki/hot.md':
+        continue
+    if rel.startswith('wiki/meta/'):
         continue
     stem = os.path.splitext(os.path.basename(rel))[0]
     if stem in ('README',):
