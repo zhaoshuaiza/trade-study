@@ -644,7 +644,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，97 页）
+### 一本资料一页（`sources/`，98 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -723,6 +723,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/股票魔法师系列（Minervini）]]
 - [[sources/行为投资学手册（蒙蒂尔）]]
 - [[sources/行为金融学（蒙蒂尔）]]
+- [[sources/见龙在田（短线王国）]]
 - [[sources/证券投机的艺术（大投机家科斯托拉尼精选集）]]
 - [[sources/财报掘金（王洪张晓曦）]]
 - [[sources/资本回报（Chancellor）]]
