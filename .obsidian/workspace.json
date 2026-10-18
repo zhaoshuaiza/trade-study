@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "d82a50cb0a1105f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3f30fb650680f03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a5cd6a4b373ccdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/books/01价值投资/巴菲特的护城河.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "巴菲特的护城河"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0513f02882011c12",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0e7a07a37dbafae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8685b41823c1e6ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fcb69df77ae4fe90",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4820d43f4e07c5fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "943ff7b1f1480847",
+    "type": "split",
+    "children": [
+      {
+        "id": "c18e3a5571fe315d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6ac82b26e0c794d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/entities/RAG论文2020.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "023199660257dcdd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/entities/RAG论文2020.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "edf5c4717eecc583",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "3fc343655926c5f0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "075392605cb6afc8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/entities/RAG论文2020.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "2a5cd6a4b373ccdc",
+  "lastOpenFiles": [
+    "_set_digest.py",
+    "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
+    "wiki/claims/仓位决定输赢的是实力还是配置.md",
+    "wiki/sources/100倍超级强势股（Stine）.md",
+    "_read_tool.py",
+    "raw/distilled/shards_筹码分布/p0011-0020.txt",
+    "raw/distilled/_ocr_筹码分布_progress.json",
+    "raw/distilled/shards_筹码分布/p0001-0010.txt",
+    "raw/distilled/shards_筹码分布",
+    "raw/distilled/_tmp_cpb1.png",
+    "raw/distilled/cpb1_shards",
+    "ocr_book2.py",
+    "wiki/concepts/量价关系与陷阱.md",
+    "raw/distilled/_tmp_fix_操盘手记.png",
+    "wiki/concepts/太极线.md",
+    "wiki/concepts/灯塔线.md",
+    "raw/distilled/操盘手记5-5-OCR-简体.txt",
+    "raw/distilled/shards_操盘手记5_5/p0261-0269.txt",
+    "raw/distilled/shards_操盘手记5_5/p0251-0260.txt",
+    "wiki/sources/新手学炒股一本就够.md",
+    "wiki/sources/你不可不知的人性.md",
+    "wiki/entities/龙头价值赛道.md",
+    "wiki/syntheses/量柱体系在可转债上的适用性.md",
+    "wiki/sources/黑马王子操盘手记.md",
+    "wiki/concepts/双阴出货.md",
+    "wiki/concepts/谷底线.md",
+    "wiki/entities/黑马王子.md",
+    "raw/_tmp/g.png",
+    "raw/_tmp/f.png",
+    "wiki/concepts/正法模型与龙头九则.md",
+    "raw/distilled/_tmp_ocr.png",
+    "wiki/sources/龙头价值与赛道.md",
+    "wiki/sources/教你炒股票全3册.md",
+    "wiki/syntheses/缠师原文核查·说话人结案.md",
+    "wiki/sources/量柱擒涨停.md",
+    "wiki/sources/量线捉涨停.md",
+    "wiki/sources/可转债每日掘金.md",
+    "wiki/meta/lint/2026-10-10-结构借鉴与修复.md",
+    "wiki/syntheses/可转债体系总览.md",
+    "wiki/sources/波浪理论.md",
+    "wiki/学习系统-四周上手计划.md",
+    "raw/distilled/_tmp_量柱擒涨停.png",
+    "raw/distilled/_tmp_fix_量柱擒涨停.png"
+  ]
+}
