@@ -8,9 +8,11 @@
     "05其他/20_机构投资的创新之路/机构投资的创新之路 (大卫·F·史文森) (Z-Library).pdf"
   ],
   "picked_file": "05其他/20_机构投资的创新之路/机构投资的创新之路 (大卫·F·史文森) (Z-Library).pdf",
-  "chars": 827,
-  "cjk": 605,
+  "chars": 925947,
+  "cjk": 258813,
   "body_ratio": 1.0,
-  "extract_status": "suspicious",
-  "extract_sec": 0.5
+  "extract_status": "ok",
+  "extract_sec": 0.5,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\机构投资的创新之路 (大卫·F·史文森) (Z-Library).txt",
+  "note": "原PDF为目录型伪文字层（2138字节），改用 doubao OCR 全文"
 }

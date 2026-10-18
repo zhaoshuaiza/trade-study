@@ -8,9 +8,11 @@
     "05其他/威科夫操盘理论在中国股市的实战.pdf"
   ],
   "picked_file": "05其他/威科夫操盘理论在中国股市的实战.pdf",
-  "chars": 4902,
-  "cjk": 4128,
+  "chars": 163318,
+  "cjk": 103206,
   "body_ratio": 1.0,
   "extract_status": "ok",
-  "extract_sec": 0.7
+  "extract_sec": 0.7,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\威科夫操盘理论在中国股市的实战.txt",
+  "note": "原PDF为目录/盗版广告型伪文字层，改用 doubao OCR 全文"
 }

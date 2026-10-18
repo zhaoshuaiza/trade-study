@@ -8,9 +8,11 @@
     "04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf"
   ],
   "picked_file": "04基金、可转债/4_可转债投资黄金宝典/可转债投资黄金宝典 (阿秋) (Z-Library).pdf",
-  "chars": 2227,
-  "cjk": 1557,
+  "chars": 106646,
+  "cjk": 42456,
   "body_ratio": 1.0,
-  "extract_status": "suspicious",
-  "extract_sec": 0.5
+  "extract_status": "ok",
+  "extract_sec": 0.5,
+  "reused_from": "E:/doubao/电子书蒸馏项目/转换文字版/OCR\\可转债投资黄金宝典 (阿秋) (Z-Library).txt",
+  "note": "原PDF为目录/盗版广告型伪文字层，改用 doubao OCR 全文"
 }

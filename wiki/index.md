@@ -639,7 +639,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，84 页）
+### 一本资料一页（`sources/`，85 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -686,6 +686,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/教你炒股票全3册]]
 - [[sources/新手学炒股一本就够]]
 - [[sources/日本蜡烛图技术（尼森）]]
+- [[sources/机构投资的创新之路]]
 - [[sources/构建量化动量选股系统（格雷沃格尔）]]
 - [[sources/江恩华尔街45年（威廉D江恩）]]
 - [[sources/波浪理论]]
@@ -726,11 +727,12 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/黑马王子系列]]
 - [[sources/龙头价值与赛道]]
 
-### 方法论冲突（`claims/`，9 页）
+### 方法论冲突（`claims/`，10 页）
 
 - [[claims/三本C类书实测后推翻]]
 - [[claims/三种止损方法的适用边界]]
 - [[claims/五套体系的仓位与风控对照]]
+- [[claims/仓位决定输赢的是实力还是配置]]
 - [[claims/估值与仓位·五本书六处冲突]]
 - [[claims/周金涛断言的可验证性核查]]
 - [[claims/基金能否跑赢指数]]
