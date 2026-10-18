@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/books/01价值投资/聪明的投资者(投资圣经).md",
+                "file": "wiki/books/01价值投资/大钱细思：优秀投资者如何思考和决断.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "聪明的投资者(投资圣经)"
+              "title": "大钱细思：优秀投资者如何思考和决断"
             }
           }
         ]
@@ -190,6 +190,12 @@
   },
   "active": "844142bb92cadd2e",
   "lastOpenFiles": [
+    "wiki/concepts/指数基金投资指南·独有判据.md",
+    "wiki/concepts/题材与龙头.md",
+    "_tmp_fill_cards.py",
+    "_tmp_quotes.py",
+    "_tmp_analyze.py",
+    "wiki/books/01价值投资/聪明的投资者(投资圣经).md",
     "wiki/books/05其他/小岛经济学 鱼、美元的经济的故事.md",
     "wiki/books/01价值投资/彼得林奇投资经典全集.md",
     "wiki/books/01价值投资/巴菲特致股东的信：投资者和公司高管教程.md",
@@ -204,9 +210,6 @@
     "raw/distilled/shards_价值投资之茅台大博弈/p0246-0255.txt",
     "raw/distilled/shards_价值投资之茅台大博弈/p0236-0245.txt",
     "raw/distilled/shards_价值投资之茅台大博弈/p0226-0235.txt",
-    "raw/distilled/shards_价值投资之茅台大博弈/p0216-0225.txt",
-    "raw/distilled/shards_价值投资之茅台大博弈/p0206-0215.txt",
-    "raw/distilled/shards_价值投资之茅台大博弈/p0196-0205.txt",
     "_tmp_card27.md",
     "_tmp_card26.md",
     "_tmp_card25.md",
@@ -225,12 +228,9 @@
     "wiki/sources/黑马王子操盘手记.md",
     "wiki/concepts/双阴出货.md",
     "wiki/concepts/谷底线.md",
-    "wiki/entities/黑马王子.md",
     "raw/_tmp/g.png",
     "raw/_tmp/f.png",
-    "wiki/concepts/正法模型与龙头九则.md",
     "raw/distilled/_tmp_ocr.png",
-    "wiki/sources/龙头价值与赛道.md",
     "raw/distilled/_tmp_量柱擒涨停.png",
     "raw/distilled/_tmp_fix_量柱擒涨停.png"
   ]

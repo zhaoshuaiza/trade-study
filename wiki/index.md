@@ -453,7 +453,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，169 页）
+### 抽象概念（`concepts/`，171 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -533,6 +533,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/投资中最简单的事·三问框架与行业格局判据]]
 - [[concepts/投资最重要的事·周期判断与风险分层]]
 - [[concepts/拉里威廉斯·周期与指标参数]]
+- [[concepts/指数基金投资指南·独有判据]]
 - [[concepts/指数基金投资指南·盈利收益率与博格公式]]
 - [[concepts/推动浪五浪结构]]
 - [[concepts/攻守冲防]]
@@ -614,6 +615,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/霍华德马克斯周期·周期钟与钟摆]]
 - [[concepts/面值高价折扣法与三条安全线]]
 - [[concepts/韭菜的自我修养·入场时机与回报风险比]]
+- [[concepts/题材与龙头]]
 - [[concepts/题材优先·七大沃土与四条好题材标准]]
 - [[concepts/黄金仓]]
 - [[concepts/黄金六层面]]
