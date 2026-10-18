@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/books/01价值投资/巴菲特致股东的信：投资者和公司高管教程.md",
+                "file": "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "巴菲特致股东的信：投资者和公司高管教程"
+              "title": "奥马哈之雾（珍藏版）"
             }
           }
         ]
@@ -190,6 +190,16 @@
   },
   "active": "2a5cd6a4b373ccdc",
   "lastOpenFiles": [
+    "raw/distilled/价值投资之茅台大博弈-OCR-简体.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0021-0025.txt",
+    "_tmp_card26.md",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0011-0020.txt",
+    "raw/distilled/_ocr_价值投资之茅台大博弈_progress.json",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0001-0010.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈",
+    "_tmp_card25.md",
+    "wiki/books/01价值投资/巴菲特致股东的信：投资者和公司高管教程.md",
+    "_clean_spans.py",
     "_tmp_card24.md",
     "_tmp_card22.md",
     "_fill_card.py",
@@ -200,17 +210,11 @@
     "wiki/sources/100倍超级强势股（Stine）.md",
     "_read_tool.py",
     "raw/distilled/shards_筹码分布/p0011-0020.txt",
-    "raw/distilled/_ocr_筹码分布_progress.json",
-    "raw/distilled/shards_筹码分布/p0001-0010.txt",
-    "raw/distilled/shards_筹码分布",
     "raw/distilled/_tmp_cpb1.png",
-    "raw/distilled/cpb1_shards",
-    "ocr_book2.py",
     "wiki/concepts/量价关系与陷阱.md",
     "raw/distilled/_tmp_fix_操盘手记.png",
     "wiki/concepts/太极线.md",
     "wiki/concepts/灯塔线.md",
-    "raw/distilled/操盘手记5-5-OCR-简体.txt",
     "wiki/sources/新手学炒股一本就够.md",
     "wiki/sources/你不可不知的人性.md",
     "wiki/entities/龙头价值赛道.md",
@@ -227,10 +231,6 @@
     "wiki/sources/教你炒股票全3册.md",
     "wiki/syntheses/缠师原文核查·说话人结案.md",
     "wiki/sources/量柱擒涨停.md",
-    "wiki/sources/量线捉涨停.md",
-    "wiki/sources/可转债每日掘金.md",
-    "wiki/meta/lint/2026-10-10-结构借鉴与修复.md",
-    "wiki/syntheses/可转债体系总览.md",
     "raw/distilled/_tmp_量柱擒涨停.png",
     "raw/distilled/_tmp_fix_量柱擒涨停.png"
   ]
