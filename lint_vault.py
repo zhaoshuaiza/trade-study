@@ -256,6 +256,10 @@ for rel in pages:
         continue
     if rel.startswith('wiki/meta/'):
         continue
+    # ⭐ wiki/books/ 是 96 张阅读入口卡片，按分类目录自组织，
+    #   逐条登记进 index.md 只会造成永久性漂移噪音（与 meta/ 同逻辑）。2026-10-19 起排除。
+    if rel.startswith('wiki/books/'):
+        continue
     stem = os.path.splitext(os.path.basename(rel))[0]
     if stem in ('README',):
         continue
