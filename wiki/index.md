@@ -644,7 +644,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，96 页）
+### 一本资料一页（`sources/`，97 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -691,6 +691,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/投资中最简单的事]]
 - [[sources/投资最重要的事]]
 - [[sources/指数基金投资指南（银行螺丝钉）]]
+- [[sources/攻守-可转债投资实用手册]]
 - [[sources/故事与估值（达摩达兰）]]
 - [[sources/教你炒股票全3册]]
 - [[sources/新手学炒股一本就够]]
