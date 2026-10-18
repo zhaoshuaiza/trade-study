@@ -453,7 +453,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，171 页）
+### 抽象概念（`concepts/`，174 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -557,6 +557,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/涨停基因]]
 - [[concepts/涨停密码·新判据与黄金三角缺证]]
 - [[concepts/涨停密码·牛股三绝与涨停板基因]]
+- [[concepts/涨停板战法]]
 - [[concepts/温斯坦·阶段与量价判据]]
 - [[concepts/漫步华尔街·有效市场与指数投资]]
 - [[concepts/灯塔线]]
@@ -569,8 +570,10 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/盘口与风险优先原则]]
 - [[concepts/看盘方法与技巧一本通·盘口与量价判据]]
 - [[concepts/真底真顶与量线七元素]]
+- [[concepts/短线止损]]
 - [[concepts/祖鲁法则·市盈增长比率与三道筛选]]
 - [[concepts/神奇支撑线]]
+- [[concepts/筹码分布CYQ]]
 - [[concepts/精准线]]
 - [[concepts/组合热度]]
 - [[concepts/美股70年行情复盘·周期起止时间点史料]]
@@ -641,7 +644,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，85 页）
+### 一本资料一页（`sources/`，86 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -723,6 +726,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/量柱擒涨停]]
 - [[sources/量线捉涨停]]
 - [[sources/金融怪杰：华尔街的顶级交易员（典藏版）]]
+- [[sources/陈浩筹码分布]]
 - [[sources/韭菜的自我修养（2019）]]
 - [[sources/高胜算操盘]]
 - [[sources/黑马王子操盘手记]]
