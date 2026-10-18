@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
+                "file": "wiki/claims/仓位决定输赢的是实力还是配置.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "奥马哈之雾（珍藏版）"
+              "title": "仓位决定输赢的是实力还是配置"
             }
           }
         ]
@@ -190,26 +190,27 @@
   },
   "active": "2a5cd6a4b373ccdc",
   "lastOpenFiles": [
-    "raw/distilled/价值投资之茅台大博弈-OCR-简体.txt",
-    "raw/distilled/shards_价值投资之茅台大博弈/p0021-0025.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0206-0215.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0196-0205.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0186-0195.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0176-0185.txt",
+    "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0166-0175.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0156-0165.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0146-0155.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0136-0145.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0126-0135.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0116-0125.txt",
+    "raw/distilled/shards_价值投资之茅台大博弈/p0106-0115.txt",
+    "_tmp_card27.md",
     "_tmp_card26.md",
-    "raw/distilled/shards_价值投资之茅台大博弈/p0011-0020.txt",
-    "raw/distilled/_ocr_价值投资之茅台大博弈_progress.json",
-    "raw/distilled/shards_价值投资之茅台大博弈/p0001-0010.txt",
-    "raw/distilled/shards_价值投资之茅台大博弈",
     "_tmp_card25.md",
     "wiki/books/01价值投资/巴菲特致股东的信：投资者和公司高管教程.md",
-    "_clean_spans.py",
     "_tmp_card24.md",
     "_tmp_card22.md",
-    "_fill_card.py",
     "wiki/books/01价值投资/巴菲特的护城河.md",
-    "_set_digest.py",
-    "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
     "wiki/claims/仓位决定输赢的是实力还是配置.md",
     "wiki/sources/100倍超级强势股（Stine）.md",
-    "_read_tool.py",
-    "raw/distilled/shards_筹码分布/p0011-0020.txt",
     "raw/distilled/_tmp_cpb1.png",
     "wiki/concepts/量价关系与陷阱.md",
     "raw/distilled/_tmp_fix_操盘手记.png",
@@ -230,7 +231,6 @@
     "wiki/sources/龙头价值与赛道.md",
     "wiki/sources/教你炒股票全3册.md",
     "wiki/syntheses/缠师原文核查·说话人结案.md",
-    "wiki/sources/量柱擒涨停.md",
     "raw/distilled/_tmp_量柱擒涨停.png",
     "raw/distilled/_tmp_fix_量柱擒涨停.png"
   ]
