@@ -49,6 +49,7 @@ updated: 2026-10-15
 | ⭐⭐ [OCR与编译踩坑记录](meta/OCR与编译踩坑记录.md) | ⭐ **伪文字层三代判据** + 格式成本排序 + 6 类工具误报 |
 | ⭐ [目录英文名对照表](目录英文名对照表.md) | **看不懂英文目录名查这张** |
 | ⭐ [学习系统 · 四周上手计划](学习系统-四周上手计划.md) | **按周学什么**。四周计划 + 勾选清单 |
+| ⭐⭐ [刻意练习与复盘计划](syntheses/刻意练习与复盘计划.md) | **🚨 2026-10-20 新建** —— **训练层**：怎么把 175 个概念页练成自动反应。三阶段路线 + 每日/每周复盘模板 + 16 组件拆解清单 + 升阶判据 |
 | ⭐ [问答与纠错机制](questions/问答与纠错机制.md) | **有问题问这里，发现写错也改这里** |
 | ⭐ [五套体系总览对比](comparisons/五套体系总览对比.md) | 五套体系是什么关系、先学哪个 |
 | ⭐⭐ [九套体系横向对比·共识与冲突](syntheses/六套体系横向对比·共识与冲突.md) | **编译9本后的总总结**：共识在哪、分歧在哪 |
@@ -456,7 +457,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，175 页）
+### 抽象概念（`concepts/`，177 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -479,8 +480,6 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/交易之路·构建交易系统的步骤]]
 - [[concepts/交易圣经·系统化交易判据]]
 - [[concepts/交易心流与学习循环]]
-- [[concepts/表现金字塔·技术战术策略]]
-- [[concepts/认知日志与ABC争论法]]
 - [[concepts/交易心理分析·心理状态与操作纪律]]
 - [[concepts/仓位管理]]
 - [[concepts/以交易为生·三重滤网动力系统与市场宽度]]
@@ -592,7 +591,9 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/获利机会的绝对分类]]
 - [[concepts/行为投资学手册·独有事象与检验清单]]
 - [[concepts/行为金融学·蒙蒂尔心理偏差清单]]
+- [[concepts/表现金字塔·技术战术策略]]
 - [[concepts/表象规律与本质规律]]
+- [[concepts/认知日志与ABC争论法]]
 - [[concepts/证券投机的艺术·科斯托拉尼的鸡蛋与量能判据]]
 - [[concepts/调整浪形态]]
 - [[concepts/谷底线]]
@@ -769,12 +770,13 @@ python scan_library.py --add     # 确认后登记进manifest
 
 - [[comparisons/五套体系总览对比]]
 
-### 跨体系（`syntheses/`，16 页）
+### 跨体系（`syntheses/`，17 页）
 
 - [[syntheses/九套体系冲突全解·根因与优劣]]
 - [[syntheses/五套体系的共识与分歧]]
 - [[syntheses/体系适用性矩阵·股票与期货]]
 - [[syntheses/六套体系横向对比·共识与冲突]]
+- [[syntheses/刻意练习与复盘计划]]
 - [[syntheses/可转债体系总览]]
 - [[syntheses/实盘验证清单]]
 - [[syntheses/方法论对比·五条路线九套体系]]
