@@ -453,7 +453,7 @@ python scan_library.py --add     # 确认后登记进manifest
 
 > 本区块由 `sync_index.py` 自动生成，**不要手工编辑**。
 
-### 抽象概念（`concepts/`，174 页）
+### 抽象概念（`concepts/`，175 页）
 
 - [[concepts/100倍超级强势股·强势股筛选与交易系统]]
 - [[concepts/ATR与N值]]
@@ -475,6 +475,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[concepts/五套体系的适用市场]]
 - [[concepts/交易之路·构建交易系统的步骤]]
 - [[concepts/交易圣经·系统化交易判据]]
+- [[concepts/交易心流与学习循环]]
 - [[concepts/交易心理分析·心理状态与操作纪律]]
 - [[concepts/仓位管理]]
 - [[concepts/以交易为生·三重滤网动力系统与市场宽度]]
@@ -644,7 +645,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[entities/黑马王子]]
 - [[entities/龙头价值赛道]]
 
-### 一本资料一页（`sources/`，98 页）
+### 一本资料一页（`sources/`，99 页）
 
 - [[sources/100倍超级强势股（Stine）]]
 - [[sources/cis股票交易术]]
@@ -656,6 +657,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/主力の思維]]
 - [[sources/交易之路（陈凯）]]
 - [[sources/交易圣经（范撒普）]]
+- [[sources/交易者的超级心流训练（史丁巴格）]]
 - [[sources/以交易为生（亚历山大埃尔德）]]
 - [[sources/价值投资实战手册]]
 - [[sources/价值评估（科勒）]]
