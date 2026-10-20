@@ -154,7 +154,8 @@ def main():
             L.append('')
 
     p = f'{OUT}/书籍蒸馏进度.md'
-    io.open(p, 'w', encoding='utf-8').write('\n'.join(L))
+    fm = '---\ntype: meta\nstatus: auto-generated\ngenerated_by: build_progress.py\ntags: [meta, 进度]\n---\n\n'
+    io.open(p, 'w', encoding='utf-8').write(fm + '\n'.join(L))
 
     with io.open(f'{BOOKS}/_progress.csv', 'w', encoding='utf-8-sig', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))

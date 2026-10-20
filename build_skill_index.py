@@ -142,7 +142,8 @@ def main():
         L.append('')
 
     p = f'{OUT}/doubao技能索引.md'
-    io.open(p, 'w', encoding='utf-8').write('\n'.join(L))
+    fm = '---\ntype: meta\nstatus: auto-generated\ngenerated_by: build_skill_index.py\ntags: [meta, 技能索引]\n---\n\n'
+    io.open(p, 'w', encoding='utf-8').write(fm + '\n'.join(L))
     print(f'技能索引已生成: {p}')
     print(f'共 {len(skills)} 个技能，{len(fams)} 个体系')
     for f in sorted(fams, key=lambda x: -len(fams[x]))[:12]:

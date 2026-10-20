@@ -1,3 +1,10 @@
+---
+type: meta
+status: auto-generated
+generated_by: build_skill_index.py
+tags: [meta, 技能索引]
+---
+
 # 📦 doubao 技能包索引（243 个）
 
 > 来源：`E:/doubao/电子书蒸馏项目/蒸馏_*/技能包/`
