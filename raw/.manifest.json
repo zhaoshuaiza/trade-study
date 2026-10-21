@@ -1,7 +1,7 @@
 {
  "version": 2,
  "created": "2026-10-07",
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "note": "资料源在E:/笔记Obsidian/电子书/，本库不存PDF，只记编译状态",
  "sources": {
   "道氏理论.pdf": {
@@ -613,12 +613,57 @@
     "认知日志与ABC争论法"
    ],
    "note": "Brett N. Steenbarger《Enhancing Trader Performance》(2006) 繁中版逐章导读，页码以繁体版实体书为准"
+  },
+  "每日交易心理训练 101条规则把您训练成交易心理学家.pdf": {
+   "path": "E:/电子书/每日交易心理训练 101条规则把您训练成交易心理学家.pdf",
+   "size": "33.8MB",
+   "type": "pdf",
+   "author": "[美] Brett N. Steenbarger（布里特·N·斯蒂恩博格）",
+   "translator": "沈阳格微翻译服务中心 译，张轶 校订",
+   "publisher": "万卷出版公司",
+   "published": "2010-07",
+   "isbn": "978-7-5470-0785-3",
+   "original": "The Daily Trading Coach: 101 Lessons for Becoming Your Own Trading Psychologist (Wiley, 2009)",
+   "pages": 344,
+   "text_layer": true,
+   "chars_per_page": 785,
+   "body_line_ratio": 0.96,
+   "ocr": {
+    "status": "not_needed",
+    "note": "真文字层，正文行占比0.96，0 OCR"
+   },
+   "sha256_16": "d43bd5729e5cecaf",
+   "compiled": true,
+   "compiled_at": "2026-10-21",
+   "compiled_chapters": [
+    "第01章 改变(001-010)",
+    "第02章 压力和痛苦(011-020)",
+    "第03章 心理满足(021-030)",
+    "第04章 走向自我完善(031-040)",
+    "第05章 打破旧模式(041-050)",
+    "第06章 转换思想(051-060)",
+    "第07章 学习新的行为模式(061-070)",
+    "第08章 训练交易这门生意(071-080)",
+    "第09章 从专家身上学习(081-090)",
+    "第10章 寻找优势：用Excel研究历史数据(091-100)",
+    "结束语(101)"
+   ],
+   "lesson_count": 101,
+   "extracted": "raw/distilled/每日交易心理训练101条规则-全书.txt",
+   "work_draft": "raw/distilled/每日交易心理训练-蒸馏工作稿.md",
+   "pages_created": [
+    "sources/每日交易心理训练（史丁巴格）.md",
+    "concepts/交易心理训练·自我教练工具箱.md",
+    "comparisons/史丁巴格两书对照·心流训练vs每日教练.md"
+   ],
+   "concepts_extracted": 1,
+   "note": "与库内《交易者的超级心流训练》(2006)同一作者第二本书；课程编号经全文核对001-101连续无跳号；页码双轨：PDF页=书内页码+8；文字层有盗版广告水印噪声已按上下文校正"
   }
  },
  "path_convention": "用正斜杠 /，避免 JSON 转义问题",
- "compiled_count": 22,
- "total_books": 23,
- "concepts_total": 67,
+ "compiled_count": 23,
+ "total_books": 24,
+ "concepts_total": 68,
  "compiled": {
   "articles/著名的海龟式期货交易系统完整版来了！值得收藏！.md": {
    "date": "2026-10-09",
