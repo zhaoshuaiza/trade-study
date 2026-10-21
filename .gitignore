@@ -3,3 +3,9 @@ _set_digest.py
 _tmp_card*.md
 价值投资之茅台大博弈
 _clean_spans.py
+
+# ===== Obsidian 第三方插件：不入库 =====
+# 插件源码（main.js 等）体积大且在各 vault 重复存放，不纳入 git 跟踪；
+# 仅用 .obsidian/community-plugins.json 记录已安装插件清单，
+# 换机/复原时按该清单重装即可。
+.obsidian/plugins/
