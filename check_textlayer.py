@@ -35,6 +35,17 @@ CONTENT_KEYS = [
     "均线", "成交量", "趋势", "投资者", "期货", "股票", "盈利",
 ]
 
+# ⭐ 2026-10-23 新增：乱码层检测（CID 字体映射损坏型）
+# 实测《交易者的101堂心理訓練課(繁体).pdf》（寰宇 2010 扫描件）：
+#   正文行占比 0.91 被原标准判为「真文字层✅」，但实际字符系统性错映射
+#   （市場→市埸、，→9、。→°），根本无法引用——行/字占比抓不到这种损坏。
+# 判别信号（30 页采样实测）：
+#   乱码层：中文标点占比 0.005（，。：；几乎消失）、怪符号占比 0.037
+#   正常层：中文标点占比 0.030、怪符号占比 0.008
+# 两个条件同时满足才判乱码，避免误伤英文书/无标点排版。
+CN_PUNCT = "，。：；、？！"
+GARBLE_SYMS = "9°`′″∷≡〓"
+
 
 def check(path, sample_pages=12):
     try:
@@ -57,10 +68,15 @@ def check(path, sample_pages=12):
     noise_chars = 0
     real_lines = 0
     samples = []
+    # 乱码层检测累计器
+    punct_chars = 0
+    garble_chars = 0
 
     for i in idxs:
         t = d[i].get_text()
         total_chars += len(t.strip())
+        punct_chars += sum(t.count(c) for c in CN_PUNCT)
+        garble_chars += sum(t.count(c) for c in GARBLE_SYMS)
         for line in t.split("\n"):
             line = line.strip()
             if not line:
@@ -82,11 +98,18 @@ def check(path, sample_pages=12):
     #  按字数算 = 广告8字 : 正文0字 → 占比 0.00 → 正确判为伪文字层。
     char_ratio = real_chars / (real_chars + noise_chars) if (real_chars + noise_chars) else 0
 
+    # 乱码层指标：中文标点异常稀少 + 怪符号异常密集 = 字体映射损坏
+    punct_ratio = punct_chars / total_chars if total_chars else 0
+    garble_ratio = garble_chars / total_chars if total_chars else 0
+    garbled = punct_ratio < 0.012 and garble_ratio > 0.02
+
     # 判定：两个指标都要过
     if real_lines == 0:
         verdict = "伪文字层❌（全是广告，正文0字）——必须OCR"
     elif char_ratio < 0.3:
         verdict = "伪文字层❌（广告占字数主体，正文极少）——必须OCR"
+    elif garbled:
+        verdict = "乱码层❌（CID映射损坏，字符系统性错映射，如「市場」→「市埸」）——必须OCR或换版本"
     elif ratio < 0.3:
         verdict = "伪文字层⚠️（正文占比低）——建议抽样验证"
     elif ratio > 0.7 and char_ratio > 0.7:
@@ -102,6 +125,8 @@ def check(path, sample_pages=12):
         "noise_lines": noise_lines,
         "content_ratio": round(ratio, 2),
         "char_ratio": round(char_ratio, 2),
+        "punct_ratio": round(punct_ratio, 3),
+        "garble_ratio": round(garble_ratio, 3),
         "verdict": verdict,
         "samples": samples,
     }
@@ -130,6 +155,7 @@ def main():
         print(f"   {r['pages']} 页 · 采样 {r['sampled']} 页 · 平均 {r['avg_chars']} 字/页")
         print(f"   正文行 {r['real_lines']} / 噪声行 {r['noise_lines']}"
               f"  → 正文行占比 {r['content_ratio']} / 字数占比 {r['char_ratio']}")
+        print(f"   标点占比 {r['punct_ratio']} · 怪符号占比 {r['garble_ratio']}")
         print(f"   判定：{r['verdict']}")
         if r["samples"]:
             print("   正文样例：")
