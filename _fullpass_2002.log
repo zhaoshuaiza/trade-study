@@ -1,0 +1,50 @@
+[init] 已有去重散列: 0
+[start] 当前章节《?》
+  [shard] idx=0 b64enc=False rawlen=508 head=b'D134CBA01456F613' | decoded_len=356 head=b'<?xml version="1.0" encoding="'
+  [shard] idx=2 b64enc=False rawlen=14097 head=b'830D5EA73BB64BBF' | decoded_len=10546 head=b'/** \xe5\xb0\x81\xe9\x9d\xa2 **/\r\n.frontCover {\r'
+  [shard] idx=1 b64enc=False rawlen=508 head=b'55A52D282DB587B4' | decoded_len=356 head=b'yRightTitle" id="heading_id_2"'
+  [shard] idx=3 b64enc=False rawlen=509 head=b'898C06D4894DE40C' | decoded_len=356 head=b'\x87\xba\xe7\x89\x88\xe6\x97\xb6\xe9\x97\xb4\xef\xbc\x9a2026-06-03</p>\r\n'
+  [shard] idx=0 b64enc=False rawlen=887 head=b'40ADDC2AF3B3D253' | decoded_len=640 head=b'<?xml version="1.0" encoding="'
+  [shard] idx=1 b64enc=False rawlen=887 head=b'CC12316B435ECD24' | decoded_len=640 head=b'\xee\x0f\x92\xea;\x9a*\x03\x9ar\xbf\x96"\x1b\x9azC\x9a"[\x96~\xeb\x9ar\xb3\xa6v\x8b\xa2'
+  [shard] idx=3 b64enc=False rawlen=887 head=b'FACF6F014B07F98D' | decoded_len=None head=None
+  [shard] idx=2 b64enc=False rawlen=14097 head=b'830D5EA73BB64BBF' | decoded_len=10546 head=b'/** \xe5\xb0\x81\xe9\x9d\xa2 **/\r\n.frontCover {\r'
+=== 阶段 回卷(当前位置→书首)(ArrowLeft) ===
+  [确认落盘] 0000.txt    303字
+[回卷(当前位置→书首) 第0000页] ✓ 落盘1段 | 《?》 | 磁盘共1
+[回卷(当前位置→书首) 第0000页] 锚点=? | 《?》 | 磁盘1
+[回卷(当前位置→书首) 第0020页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=20 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首) 第0040页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=40 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首) 第0060页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=60 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首) 第0080页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=80 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首) 第0100页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=100 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首) 第0120页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=120 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首) 第0140页] 锚点=? | 《?》 | 磁盘1
+   ...回卷(当前位置→书首) idle=140 resp=8 docs=1 fail=0 empty=0
+[回卷(当前位置→书首)] 连续150页无新内容,本阶段结束
+[收尾] 强制结算残留组...
+[done] 本次新增:1 | docs:1 fail:0 empty:0 dup:0 | 磁盘文件数:1
+=== 阶段 正向精读(书首→书尾)(ArrowRight) ===
+[正向精读(书首→书尾) 第0000页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=20 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0020页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=40 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0040页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=60 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0060页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=80 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0080页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=100 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0100页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=120 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0120页] 锚点=? | 《?》 | 磁盘1
+   ...正向精读(书首→书尾) idle=140 resp=8 docs=1 fail=0 empty=0
+[正向精读(书首→书尾) 第0140页] 锚点=? | 《?》 | 磁盘1
+[正向精读(书首→书尾)] 连续150页无新内容,本阶段结束
+[收尾] 强制结算残留组...
+[done] 本次新增:1 | docs:1 fail:0 empty:0 dup:0 | 磁盘文件数:1

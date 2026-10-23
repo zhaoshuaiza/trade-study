@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <title>404 Not Found</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta content="no-siteapp" http-equiv="Cache-Control"/>
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no,email=no,address=no,date=no" />
+    <meta name="keywords" content="微信读书" />
+    <meta name="description" content="微信读书" />
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_16h.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png"/>
+    <link rel="icon" type="image/png" sizes="48x48" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_48h.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/appleTouchIcon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/appleTouchIcon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/appleTouchIcon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/appleTouchIcon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/appleTouchIcon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/appleTouchIcon/apple-touch-icon-152x152.png">
+    <style>
+
+        body,
+        html {
+            height: 100%;
+            background-color: #252525;
+            padding: 0;
+            margin: 0;
+        }
+
+        .notFound_container {
+            display: table;
+            width: 100%;
+            height: 100%;
+        }
+
+        .notFound_content {
+            display: table-cell;
+            vertical-align: middle;
+            padding-bottom: 80px;
+        }
+
+        .notFound_content p {
+            font-weight: 300;
+            font-size: 36px;
+            text-align: center;
+            color: #EEF0F4;
+        }
+    </style>
+</head>
+<body>
+<div class="notFound_container">
+    <div class="notFound_content">
+        <p>404 Not Found</p>
+    </div>
+</div>
+</body>
+</html>

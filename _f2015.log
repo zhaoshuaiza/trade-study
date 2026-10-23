@@ -1,0 +1,13 @@
+[init] existing chunks: 7 next idx: 7
+CONNECTED OK
+[cdp] cache disabled
+[round 00] no new (stall 1) total=0 groups=6 docs=0 dup=0 fail=6
+[round 01] no new (stall 2) total=0 groups=6 docs=0 dup=0 fail=6
+[round 02] no new (stall 3) total=0 groups=6 docs=0 dup=0 fail=6
+[round 03] no new (stall 4) total=0 groups=6 docs=0 dup=0 fail=6
+[round 04] no new (stall 5) total=0 groups=6 docs=0 dup=0 fail=6
+[round 05] no new (stall 6) total=0 groups=6 docs=0 dup=0 fail=6
+[round 06] no new (stall 7) total=0 groups=6 docs=0 dup=0 fail=6
+[round 07] no new (stall 8) total=0 groups=6 docs=0 dup=0 fail=6
+[end] reached end of book.
+[done] files: 7 | new: 0 | stats: {'resp': 24, 'groups': 6, 'docs': 0, 'dup': 0, 'short': 0, 'fail': 6}

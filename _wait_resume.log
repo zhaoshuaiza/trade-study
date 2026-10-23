@@ -1,0 +1,12 @@
+[  0.2min] 第1次探测 -> status=200 len=2
+[  8.2min] 第2次探测 -> status=200 len=2
+[ 16.2min] 第3次探测 -> status=ERR len=Page.evaluate: Execution context was destroyed, most likely 
+[ 24.2min] 第4次探测 -> status=ERR len=Page.evaluate: Execution context was destroyed, most likely 
+[ 32.2min] 第5次探测 -> status=ERR len=Page.evaluate: Execution context was destroyed, most likely 
+[ 40.2min] 第6次探测 -> status=ERR len=Page.evaluate: Execution context was destroyed, most likely 
+[ 48.2min] 第7次探测 -> status=ERR len=Page.evaluate: Target page, context or browser has been clos
+[ 56.2min] 第8次探测 -> status=ERR len=Page.evaluate: Target page, context or browser has been clos
+[ 64.2min] 第9次探测 -> status=ERR len=Page.evaluate: Target page, context or browser has been clos
+[ 72.2min] 第10次探测 -> status=ERR len=Page.evaluate: Target page, context or browser has been clos
+[ 80.2min] 第11次探测 -> status=ERR len=Page.evaluate: Target page, context or browser has been clos
+[ 88.2min] 第12次探测 -> status=ERR len=Page.evaluate: Target page, context or browser has been clos

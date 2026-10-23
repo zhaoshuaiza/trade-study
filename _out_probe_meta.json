@@ -1,0 +1,22 @@
+{
+ "outline": {
+  "status": 200,
+  "len": 27930,
+  "head": "{\"itemsArray\":[{\"chapterUid\":1,\"version\":0},{\"chapterUid\":2,\"version\":0},{\"chapterUid\":3,\"version\":0},{\"items\":[{\"text\":\"最佳实践#23：通过同步阅读来提升创造力\",\"bookId\":\"3300129049\",\"level\":1},{\"text\":\"同步阅读的定义和效果\",\"bookId\":\"3300129049\",\"range\":\"611-657\",\"uniqId\":\"3300129049-90-1-1\",\"uiIdx\":\"1\",\"level\":2},{\"text\":\"同步阅读是一次性在许多书中查阅同样的主题，而不是从头到尾读一本书。\",\"bookId\":\"3300129049\",\"range\":\"611-657\",\"uniqId\":\"3300129049-90-2-1\",\"uiIdx\":\"1.1\",\"level\":3},{\"text\":\"同步阅读能帮助我们获得更多的想法，然后借助这些想法来产生我们自己的想法\",\"bookId\":\"3300129049\",\"range\":\"1182-1237\",\"uniqId\":\"3300129049-90-3-1\",\"uiIdx\":\"1.2\",\"level\":3},{\"text\":\"通过在不同的视角审视同一个主题，就好似在不同作者之间产生了一种虚拟的对话。\",\"bookId\":\"3300129049\",\"range\":\"852-892\",\"uniqId\":\"3300129049-90-4-1\",\"level\":4},{\"text\":\"同步阅读的方法和实践\",\"bookId\":\"3300129049\",\"range\":\"770-795\",\"uniqId\":\"3300129049-90-5-1\",\"uiIdx\":\"2\",\"level\":2},{\"text\":\"快速浏览书籍并找到同样主题的文本，选定的文本将引导主题的选择\",\"bookId\":\"3300129049\",\"range\":\"770-795\",\"uniqId\":"
+ },
+ "chapterInfos": {
+  "status": 200,
+  "len": 23806,
+  "head": "{\"data\":[{\"bookId\":\"3300129049\",\"soldOut\":0,\"clearAll\":0,\"chapterUpdateTime\":1760167260,\"updated\":[{\"chapterUid\":1,\"chapterIdx\":1,\"updateTime\":1735886257,\"readAhead\":0,\"tar\":\"https://res.weread.qq.com/wrco/tar_CB_3300129049_1\",\"title\":\"封面\",\"wordCount\":1,\"price\":0,\"paid\":0,\"isMPChapter\":0,\"level\":1,\"files\":[\"Text/cover.xhtml\"]},{\"chapterUid\":2,\"chapterIdx\":2,\"updateTime\":1760167260,\"readAhead\":0,\"tar\":\"\",\"title\":\"版权信息\",\"wordCount\":151,\"price\":0,\"paid\":0,\"isMPChapter\":0,\"level\":1,\"files\":[\"Text/copyright.xhtml\"]},{\"chapterUid\":3,\"chapterIdx\":3,\"updateTime\":1735886257,\"readAhead\":0,\"tar\":\"\",\"title\":\"文前\",\"wordCount\":43,\"price\":0,\"paid\":0,\"isMPChapter\":0,\"level\":1,\"files\":[\"Text/chapter.xhtml\"]},{\"chapterUid\":4,\"chapterIdx\":4,\"updateTime\":1735886257,\"readAhead\":0,\"tar\":\"\",\"title\":\"前言\",\"wordCount\":2413,\"price\":0,\"paid\":0,\"isMPChapter\":0,\"level\":1,\"files\":[\"Text/chapter1.xhtml\"]},{\"chapterUid\":"
+ },
+ "toc": {
+  "status": 404,
+  "len": 2768,
+  "head": "<!DOCTYPE html>\n<html lang=\"zh-cmn\">\n<head>\n    <title>404 Not Found</title>\n    <meta charset=\"UTF-8\"/>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"/>\n    <meta content=\"no-siteapp\" http-equiv=\"Cache-Control\"/>\n    <meta name=\"viewport\" content=\"viewport-fit=cover, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no,date=no\" />\n    <meta name=\"keywords\" content=\"微信读书\" />\n    <meta name=\"description\" content=\"微信读书\" />\n    <meta name=\"robots\" content=\"noindex\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_16h.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png\"/>\n    <link rel=\"icon\" "
+ },
+ "getToc": {
+  "status": 404,
+  "len": 2768,
+  "head": "<!DOCTYPE html>\n<html lang=\"zh-cmn\">\n<head>\n    <title>404 Not Found</title>\n    <meta charset=\"UTF-8\"/>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"/>\n    <meta content=\"no-siteapp\" http-equiv=\"Cache-Control\"/>\n    <meta name=\"viewport\" content=\"viewport-fit=cover, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no,date=no\" />\n    <meta name=\"keywords\" content=\"微信读书\" />\n    <meta name=\"description\" content=\"微信读书\" />\n    <meta name=\"robots\" content=\"noindex\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_16h.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png\"/>\n    <link rel=\"icon\" "
+ }
+}

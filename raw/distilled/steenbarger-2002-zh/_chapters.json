@@ -1,0 +1,436 @@
+[
+ {
+  "chapterUid": 1,
+  "chapterIdx": 1,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_1",
+  "title": "封面",
+  "wordCount": 1,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/cover.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 2,
+  "chapterIdx": 2,
+  "updateTime": 1785143522,
+  "readAhead": 0,
+  "tar": "",
+  "title": "版权信息",
+  "wordCount": 606,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/copyright.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 3,
+  "chapterIdx": 3,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "",
+  "title": "文前",
+  "wordCount": 399,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter1.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 4,
+  "chapterIdx": 4,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "",
+  "title": "译者序",
+  "wordCount": 1137,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter3.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 5,
+  "chapterIdx": 5,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_5",
+  "title": "前言",
+  "wordCount": 4156,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter4.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 6,
+  "chapterIdx": 6,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_6",
+  "title": "第1章 NLP交易训练：学习股票交易赢家心理",
+  "wordCount": 21080,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter5.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "1.1 为什么个人投资者最终会失败",
+    "anchor": "A7ab20010-aca7-46fc-8a17-4e90ab19330d",
+    "level": 2
+   },
+   {
+    "title": "1.2 5个步骤成为交易赢家",
+    "anchor": "A86d80030-0ca7-4967-abcc-c72db27c8927",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 7,
+  "chapterIdx": 7,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_7",
+  "title": "第2章 自我认识",
+  "wordCount": 23390,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter6.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "2.1 无意识的欲望是行动的核心",
+    "anchor": "A14e1003e-a948-4aed-a090-7e597df0fb46",
+    "level": 2
+   },
+   {
+    "title": "2.2 了解自己作为交易者的全部现状",
+    "anchor": "A31eb0055-541d-4938-b7bd-7c12c7bca7e6",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 8,
+  "chapterIdx": 8,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_8",
+  "title": "第3章 目标设定",
+  "wordCount": 10937,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter7.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "3.1 系统地整理交易赢家的思维方法",
+    "anchor": "A2759006c-0fcd-4033-a466-97ee605c9bc4",
+    "level": 2
+   },
+   {
+    "title": "3.2 确定理想的模式",
+    "anchor": "Aebc3007f-50c6-4664-a90c-569bcc396f8e",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 9,
+  "chapterIdx": 9,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_9",
+  "title": "第4章 问题解决及策略",
+  "wordCount": 17115,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter8.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "4.1 资金管理的心理学",
+    "anchor": "Afa390086-2cb3-4558-a34a-112ea19d4a08",
+    "level": 2
+   },
+   {
+    "title": "4.2 找出问题点和解决策略",
+    "anchor": "A2c040093-47ae-47fd-818d-c6f773030390",
+    "level": 2
+   },
+   {
+    "title": "4.3 更深层次地挖掘信念",
+    "anchor": "A0f90009f-43e9-4212-846f-ad119553e9d0",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 10,
+  "chapterIdx": 10,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_10",
+  "title": "第5章 心理改善的技巧",
+  "wordCount": 15942,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter9.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "5.1 解决策略的实际贯彻",
+    "anchor": "A1d0100b0-e91f-426c-a485-a099434bd2a6",
+    "level": 2
+   },
+   {
+    "title": "5.2 营造环境",
+    "anchor": "Aefed00b9-ed98-4f56-9a95-9eb98795de51",
+    "level": 2
+   },
+   {
+    "title": "5.3 改变视角",
+    "anchor": "A571500bf-76d5-4e6b-945a-f82226787101",
+    "level": 2
+   },
+   {
+    "title": "5.4 改变记忆影响下的情绪",
+    "anchor": "A362d00c4-fe47-4f8d-ae54-c565559b140e",
+    "level": 2
+   },
+   {
+    "title": "5.5 从根本上改正不良习惯",
+    "anchor": "A600800cb-855d-4e6f-83dd-eee56ee79cf2",
+    "level": 2
+   },
+   {
+    "title": "5.6 认识并消除偏见",
+    "anchor": "Ae24300cf-fe4a-4aad-a64b-2ad16b049fe7",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 11,
+  "chapterIdx": 11,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_11",
+  "title": "第6章 事业计划",
+  "wordCount": 5870,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter10.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "养成维护策略的计划和习惯",
+    "anchor": "A46b200d5-5263-47fc-8a5b-a313ae98e3e2",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 12,
+  "chapterIdx": 12,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_12",
+  "title": "第7章 交易赢家访谈",
+  "wordCount": 43580,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter11.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "7.1 拉里·威廉斯（个人投资家）",
+    "anchor": "Adf9c00e4-cd1a-4882-8fad-b8e5c1f33977",
+    "level": 2
+   },
+   {
+    "title": "7.2 斯科特·拉姆齐（迪纳利资产管理公司代表）",
+    "anchor": "A298d00ef-0b20-4a38-bad0-ddadcf6f00a5",
+    "level": 2
+   },
+   {
+    "title": "7.3 肯·雅各扎克先生（KMJ资本公司代表）",
+    "anchor": "A334500fa-5b5d-4f54-aa74-b8760edd869a",
+    "level": 2
+   },
+   {
+    "title": "7.4 克里斯托弗·斯坦顿（日出资本合伙公司）",
+    "anchor": "A31680101-8d61-40f3-b87f-d98d755550c1",
+    "level": 2
+   },
+   {
+    "title": "7.5 马克·休赖斯（操盘手训练员）",
+    "anchor": "A3e1b0110-9caa-4e27-9afb-9e1f0eb80bb5",
+    "level": 2
+   },
+   {
+    "title": "7.6 齐藤正章（个人投资者）",
+    "anchor": "A4c610122-fdaa-4df8-920f-643468aa302d",
+    "level": 2
+   },
+   {
+    "title": "7.7 访谈小结",
+    "anchor": "A04ca0132-78c2-4bc4-a1b5-33d2479370dc",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 13,
+  "chapterIdx": 13,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "",
+  "title": "后记",
+  "wordCount": 1340,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter12.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 14,
+  "chapterIdx": 14,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_14",
+  "title": "附录 关于系统型交易",
+  "wordCount": 9409,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter13.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "A.1 制定交易规则",
+    "anchor": "A13000137-795d-419c-97ad-d60f01349e63",
+    "level": 2
+   },
+   {
+    "title": "A.2 系统型交易常见的失败案例",
+    "anchor": "Adf1c0142-282e-41a3-b459-4695a7a03765",
+    "level": 2
+   },
+   {
+    "title": "A.3 用验证软件回测",
+    "anchor": "A9f370146-ed57-474e-ab42-0f00a6cc4166",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "chapterUid": 15,
+  "chapterIdx": 15,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_15",
+  "title": "参考文献",
+  "wordCount": 5,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter14.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 16,
+  "chapterIdx": 16,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300220786_16",
+  "title": "推荐阅读",
+  "wordCount": 5,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter15.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 17,
+  "chapterIdx": 17,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "",
+  "title": "作者简介",
+  "wordCount": 484,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter16.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 18,
+  "chapterIdx": 18,
+  "updateTime": 1785142590,
+  "readAhead": 0,
+  "tar": "",
+  "title": "本书中的大师观点",
+  "wordCount": 747,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter17.xhtml"
+  ]
+ }
+]

@@ -1,0 +1,34 @@
+[init] existing chunks: 8 next idx: 9
+CONNECTED OK
+[catalog] visible: False
+[catalog] items: 156
+[toc] saved 156 titles
+[warn] catalog closed at 0
+  [click fail] 0: Locator.click: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator(".read
+[  0/156] 版权信息                           new=0 total=0
+[warn] catalog closed at 1
+  [click fail] 1: Locator.click: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator(".read
+[  1/156] 文前                             new=0 total=0
+[warn] catalog closed at 2
+  [click fail] 2: Locator.click: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator(".read
+[  2/156] 前言                             new=0 total=0
+[warn] catalog closed at 3
+  [click fail] 3: Locator.click: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator(".read
+[  3/156] 引言                             new=0 total=0
+[warn] catalog closed at 4
+  [click fail] 4: Locator.click: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator(".read
+[  4/156] 序言                             new=0 total=0
+[warn] catalog closed at 5
+  [click fail] 5: Locator.click: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator(".read

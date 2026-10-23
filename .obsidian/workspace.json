@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "_类目状态"
             }
+          },
+          {
+            "id": "17af2dd8826565b2",
+            "type": "leaf",
+            "state": {
+              "type": "apex-dashboard-view",
+              "state": {},
+              "icon": "home",
+              "title": "工作台"
+            }
+          },
+          {
+            "id": "9df93f4ec8d74d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/market/2026-10-19.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-10-19"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302.3000183105469
   },
   "right": {
     "id": "943ff7b1f1480847",
@@ -118,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/entities/RAG论文2020.md",
+                "file": "wiki/books/02趋势技术/100倍超级强势股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/entities/RAG论文2020.md",
+                "file": "wiki/market/2026-10-19.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,13 +194,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "4cc45ab66188ab89",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,33 +220,52 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "apex-dashboard:打开工作台": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "iconic:打开规则书": false,
+      "obsidian-git:Open Git source control": false,
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "844142bb92cadd2e",
+  "active": "9df93f4ec8d74d34",
   "lastOpenFiles": [
-    "wiki/books/03游资超短/伏击涨停+涨停密码(套装共2册).md",
-    "wiki/books/03游资超短/_类目状态.md",
-    "wiki/books/03游资超短/一本书搞懂龙头股战法.md",
-    "wiki/books/03游资超短/黑马王子操盘手记（套装6-9册）.md",
-    "wiki/books/03游资超短/股市极客思考录 十年磨一剑之龙头股战法揭秘.md",
-    "wiki/concepts/_黑马王子6-9册·精读工作稿.md",
-    "raw/books/03游资超短/黑马王子操盘手记（套装6-9册）/_index.json",
-    "wiki/books/05其他/半小时漫画股票实战法.md",
-    "templates/synthesis.md",
-    "templates/source.md",
-    "templates/README.md",
-    "templates/question.md",
-    "templates/entity.md",
-    "templates/concept.md",
-    "templates/comparison.md",
-    "templates/claim.md",
-    "wiki/books/04基金、可转债/攻守--可转债投资实用手册.md",
-    "wiki/books/04基金、可转债/白话投资基金入门与进阶实用指南.md",
+    "books/032-zouchuhuanjue/candidates/counter-examples.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/057-幸福专题：感恩.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/056-幸福专题：亲密关系.md",
+    "books/032-zouchuhuanjue/candidates/glossary.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/089-57项交易成功所需的最佳实践.md",
+    "books/032-zouchuhuanjue/candidates/cases.md",
+    "books/032-zouchuhuanjue/PIPELINE_STATE.md",
+    "books/032-zouchuhuanjue/rejected",
+    "books/032-zouchuhuanjue/candidates",
     "wiki/books/02趋势技术/100倍超级强势股.md",
-    "wiki/books/01价值投资/股市进阶之道 一个散户的自我修养 典藏版.md",
-    "wiki/books/01价值投资/复利信徒：一个职业投资人的思考札记.md",
-    "wiki/books/01价值投资/邓普顿教你逆向投资.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/088-在流程改进方面的一些思考.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/003-文前.md",
+    "_canvas_chunk2.log",
+    "raw/distilled/steenbarger-2015-zh/canvas/004-前言.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/002-版权信息.md",
+    "_canvas_chunk1.log",
+    "raw/distilled/steenbarger-2015-zh/canvas/_old/003-文前.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/_old/002-版权信息.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/_old/001-封面.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/001-封面.md",
+    "_canvas_t.log",
+    "_canvas_full_2015.log",
+    "raw/distilled/steenbarger-2015-zh/canvas/_old/89_partial_maxpages3.md",
+    "raw/distilled/steenbarger-2015-zh/canvas/_old",
+    "raw/distilled/steenbarger-2015-zh/canvas/001-57项交易成功所需的最佳实践.md",
+    "_canvas_t89.log",
+    "_diag_canvas.py",
+    "raw/distilled/steenbarger-2015-zh/canvas/_index.json",
+    "wiki/sources/巴菲特的护城河（多尔西）.md",
+    "raw/weread/网格交易法：数学+传统智慧战胜华尔街.md",
+    "wiki/sources/100倍超级强势股（Stine）.md",
+    "raw/weread/吴国平操盘手记：主力拉升策略.md",
+    "raw/weread/富爸爸投资指南.md",
+    "raw/weread/投资最重要的事（全新升级版）.md",
+    "raw/weread/战胜华尔街Beating the Street（修订版）.md",
+    "raw/weread/一本书读懂K线图：股票K线技法快速入门到精通.md",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_97.png",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_96.png",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_95.png",
@@ -221,20 +275,6 @@
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_91.png",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_90.png",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_89.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_88.png",
-    "_extract_hedge.py",
-    "_ocr_jlt_v3.py",
-    "wiki/books/01价值投资/戴维斯王朝.md",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/book.txt",
-    "_ocr_jlt_v2.py",
-    "wiki/sources/攻守-可转债投资实用手册.md",
-    "_tmp_rel.py",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式",
-    "_ocr_jlt.py",
-    "wiki/books/01价值投资/大钱细思：优秀投资者如何思考和决断.md",
-    "wiki/sources/价值评估（科勒）.md",
-    "wiki/sources/故事与估值（达摩达兰）.md",
-    "raw/books/01价值投资/资本回报/book.txt",
-    "raw/books/01价值投资/资本回报"
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_88.png"
   ]
 }

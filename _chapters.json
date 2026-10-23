@@ -1,0 +1,1842 @@
+[
+ {
+  "chapterUid": 1,
+  "chapterIdx": 1,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_1",
+  "title": "封面",
+  "wordCount": 1,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/cover.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 2,
+  "chapterIdx": 2,
+  "updateTime": 1760167260,
+  "readAhead": 0,
+  "tar": "",
+  "title": "版权信息",
+  "wordCount": 151,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/copyright.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 3,
+  "chapterIdx": 3,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "文前",
+  "wordCount": 43,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 4,
+  "chapterIdx": 4,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "前言",
+  "wordCount": 2413,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter1.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 5,
+  "chapterIdx": 5,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "引言",
+  "wordCount": 2005,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter2.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 6,
+  "chapterIdx": 6,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "序言",
+  "wordCount": 600,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter3.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 7,
+  "chapterIdx": 7,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "第1章 最佳过程#1：适应变化",
+  "wordCount": 57,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter4.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 8,
+  "chapterIdx": 8,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "埃米尔的餐厅",
+  "wordCount": 2050,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter5.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 9,
+  "chapterIdx": 9,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "适应改变的最大障碍",
+  "wordCount": 2417,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter6.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 10,
+  "chapterIdx": 10,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "保持灵活性的能力",
+  "wordCount": 5563,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter7.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 11,
+  "chapterIdx": 11,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "灵活性与交易",
+  "wordCount": 2868,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter8.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 12,
+  "chapterIdx": 12,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "马克斯韦尔的例子",
+  "wordCount": 7152,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter9.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 13,
+  "chapterIdx": 13,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "过度自信之误",
+  "wordCount": 3747,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter10.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 14,
+  "chapterIdx": 14,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "挖掘核心动机",
+  "wordCount": 2248,
+  "price": 0,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter11.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 15,
+  "chapterIdx": 15,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "为何纪律约束不起作用",
+  "wordCount": 1811,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter12.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 16,
+  "chapterIdx": 16,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "目的之目的",
+  "wordCount": 3326,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter13.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 17,
+  "chapterIdx": 17,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "让适应成为习惯",
+  "wordCount": 2790,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter14.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 18,
+  "chapterIdx": 18,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易纪律的局限",
+  "wordCount": 2242,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter15.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 19,
+  "chapterIdx": 19,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "高情商交易者",
+  "wordCount": 2876,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter16.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 20,
+  "chapterIdx": 20,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "做好改变的准备",
+  "wordCount": 4041,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter17.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 21,
+  "chapterIdx": 21,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_21",
+  "title": "加剧紧迫感",
+  "wordCount": 2301,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter18.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 22,
+  "chapterIdx": 22,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "看—感受—改变：乐观的重要性",
+  "wordCount": 3499,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter19.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 23,
+  "chapterIdx": 23,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易员被孤立的危险",
+  "wordCount": 1579,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter20.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 24,
+  "chapterIdx": 24,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "改变内心对话",
+  "wordCount": 3019,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter21.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 25,
+  "chapterIdx": 25,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "完美中的缺陷",
+  "wordCount": 1017,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter22.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 26,
+  "chapterIdx": 26,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "复发",
+  "wordCount": 2794,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter23.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 27,
+  "chapterIdx": 27,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "小结：从思想到行动",
+  "wordCount": 2842,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter24.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 28,
+  "chapterIdx": 28,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "采取行动并持续下去：识别机会",
+  "wordCount": 2783,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter25.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 29,
+  "chapterIdx": 29,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "采取行动并持续下去：识别威胁",
+  "wordCount": 2581,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter26.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 30,
+  "chapterIdx": 30,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "哪里去找寻新方向",
+  "wordCount": 1538,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter27.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 31,
+  "chapterIdx": 31,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "第2章 最佳过程#2：从你的优势出发",
+  "wordCount": 90,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter28.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 32,
+  "chapterIdx": 32,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "没落的交易员",
+  "wordCount": 4052,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter29.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 33,
+  "chapterIdx": 33,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "为何你的优势是表现好坏的关键",
+  "wordCount": 3149,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter30.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 34,
+  "chapterIdx": 34,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "细心寻找不易察觉的优势",
+  "wordCount": 1549,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter31.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 35,
+  "chapterIdx": 35,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "你都有哪些优势",
+  "wordCount": 2582,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter32.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "自我评估练习",
+    "anchor": "sigil_toc_id_1",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "chapterUid": 36,
+  "chapterIdx": 36,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "你的优势之间是如何相互作用来带给你成功经历的",
+  "wordCount": 2553,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter33.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 37,
+  "chapterIdx": 37,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "哪些优势是你没有的",
+  "wordCount": 2066,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter34.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 38,
+  "chapterIdx": 38,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "你的优势会成为弱点吗",
+  "wordCount": 5203,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter35.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 39,
+  "chapterIdx": 39,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "强化我们的优势",
+  "wordCount": 2902,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter36.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 40,
+  "chapterIdx": 40,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "卓越的根源",
+  "wordCount": 1957,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter37.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 41,
+  "chapterIdx": 41,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "学会养成好习惯的习惯",
+  "wordCount": 2575,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter38.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 42,
+  "chapterIdx": 42,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "性格优势一瞥",
+  "wordCount": 2068,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter39.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 43,
+  "chapterIdx": 43,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_43",
+  "title": "不同优势间的高阶结合方式",
+  "wordCount": 2913,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter40.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 44,
+  "chapterIdx": 44,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "发展乘数效应回顾",
+  "wordCount": 3085,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter41.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 45,
+  "chapterIdx": 45,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "主观幸福感：交易心理学中最重要的情绪",
+  "wordCount": 3909,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter42.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "自我评测",
+    "anchor": "sigil_toc_id_2",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "chapterUid": 46,
+  "chapterIdx": 46,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "幸福与人格",
+  "wordCount": 1242,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter43.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 47,
+  "chapterIdx": 47,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "关于幸福，研究告诉我们什么",
+  "wordCount": 2770,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter44.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 48,
+  "chapterIdx": 48,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "如何培养幸福感",
+  "wordCount": 4497,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter45.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 49,
+  "chapterIdx": 49,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "学会保持能量，避免无谓消耗",
+  "wordCount": 3105,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter46.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 50,
+  "chapterIdx": 50,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "恪尽职守：被低估的成功要素",
+  "wordCount": 1927,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter47.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 51,
+  "chapterIdx": 51,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_51",
+  "title": "利用生物反馈提升幸福感",
+  "wordCount": 2876,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter48.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 52,
+  "chapterIdx": 52,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "冥想可以让你变得更积极",
+  "wordCount": 1982,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter49.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 53,
+  "chapterIdx": 53,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "利用自我催眠培养积极情绪",
+  "wordCount": 2976,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter50.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 54,
+  "chapterIdx": 54,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "锻炼你的身心",
+  "wordCount": 2146,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter51.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 55,
+  "chapterIdx": 55,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "幸福专题：爱",
+  "wordCount": 6285,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter52.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 56,
+  "chapterIdx": 56,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "幸福专题：亲密关系",
+  "wordCount": 1104,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter53.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 57,
+  "chapterIdx": 57,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "幸福专题：感恩",
+  "wordCount": 2649,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter54.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 58,
+  "chapterIdx": 58,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易＋优势＋幸福",
+  "wordCount": 2798,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter55.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 59,
+  "chapterIdx": 59,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "第3章 最佳过程#3：培养你的创造力",
+  "wordCount": 51,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter56.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 60,
+  "chapterIdx": 60,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易员要有企业家精神",
+  "wordCount": 1776,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter57.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 61,
+  "chapterIdx": 61,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "艾伦——交易领域的“企业家”",
+  "wordCount": 3781,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter58.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 62,
+  "chapterIdx": 62,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_62",
+  "title": "“交易员”企业家的成功",
+  "wordCount": 3273,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter59.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 63,
+  "chapterIdx": 63,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易与管理危机",
+  "wordCount": 2310,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter60.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 64,
+  "chapterIdx": 64,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易与创造力危机",
+  "wordCount": 3239,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter61.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 65,
+  "chapterIdx": 65,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力使我们保持优势",
+  "wordCount": 2844,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter62.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 66,
+  "chapterIdx": 66,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创新的过程是怎样的",
+  "wordCount": 7491,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter63.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 67,
+  "chapterIdx": 67,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "发现问题也是寻找答案的一部分",
+  "wordCount": 1809,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter64.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 68,
+  "chapterIdx": 68,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "我们能变得更具创造力吗",
+  "wordCount": 1989,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter65.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 69,
+  "chapterIdx": 69,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "交易失误与每况愈下的创造力",
+  "wordCount": 2392,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter66.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 70,
+  "chapterIdx": 70,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力的本质：重新定义问题",
+  "wordCount": 2973,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter67.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 71,
+  "chapterIdx": 71,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力技能：模式切换",
+  "wordCount": 2317,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter68.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 72,
+  "chapterIdx": 72,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力技能：思维效率提升",
+  "wordCount": 2730,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter69.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 73,
+  "chapterIdx": 73,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_73",
+  "title": "创造力技能：寻找全新的组合方式",
+  "wordCount": 3258,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter70.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 74,
+  "chapterIdx": 74,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力技能：类比思维",
+  "wordCount": 4935,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter71.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 75,
+  "chapterIdx": 75,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力与生活方式",
+  "wordCount": 963,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter72.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 76,
+  "chapterIdx": 76,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_76",
+  "title": "集体中的创造力",
+  "wordCount": 2661,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter73.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 77,
+  "chapterIdx": 77,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "头脑风暴管用吗",
+  "wordCount": 3845,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter74.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 78,
+  "chapterIdx": 78,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "在独立工作中利用团队创造力",
+  "wordCount": 1536,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter75.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 79,
+  "chapterIdx": 79,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "创造力最主要的能量之源",
+  "wordCount": 1117,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter76.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 80,
+  "chapterIdx": 80,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "将这一切完美结合",
+  "wordCount": 525,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter77.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 81,
+  "chapterIdx": 81,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "第4章 最佳过程#4：探索与整合",
+  "wordCount": 49,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter78.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 82,
+  "chapterIdx": 82,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "什么才是最好的实践",
+  "wordCount": 4127,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter79.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 83,
+  "chapterIdx": 83,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "将最佳实践汇集为最佳过程",
+  "wordCount": 3224,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter80.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 84,
+  "chapterIdx": 84,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "成为一名过程驱动型交易员",
+  "wordCount": 2641,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter81.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 85,
+  "chapterIdx": 85,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "究竟有多少交易机构是流程驱动的",
+  "wordCount": 5453,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter82.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 86,
+  "chapterIdx": 86,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "如何成为流程驱动的交易员",
+  "wordCount": 2127,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter83.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 87,
+  "chapterIdx": 87,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "通过以下20个提问对你的交易流程进行反思",
+  "wordCount": 3283,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter84.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "信息的收集与分析",
+    "anchor": "sigil_toc_id_3",
+    "level": 3
+   },
+   {
+    "title": "将信息综合为交易策略",
+    "anchor": "sigil_toc_id_4",
+    "level": 3
+   },
+   {
+    "title": "交易与风险管理",
+    "anchor": "sigil_toc_id_5",
+    "level": 3
+   },
+   {
+    "title": "自我管理",
+    "anchor": "sigil_toc_id_6",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "chapterUid": 88,
+  "chapterIdx": 88,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "在流程改进方面的一些思考",
+  "wordCount": 2165,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter85.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 89,
+  "chapterIdx": 89,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "57项交易成功所需的最佳实践",
+  "wordCount": 30766,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter86.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "最佳实践#1：对一篮子股票行情进行追踪分析，预测未来主题及市场走势",
+    "anchor": "sigil_toc_id_7",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#2：追踪波动率与行业间的相关性",
+    "anchor": "sigil_toc_id_8",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#3：追踪价格变动 波动率以及不同资产类别之间的相关性",
+    "anchor": "sigil_toc_id_9",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#4：利用跳动指数来追踪实时买压与卖压数据",
+    "anchor": "sigil_toc_id_10",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#5：利用道氏跳动指数追踪程序交易",
+    "anchor": "sigil_toc_id_11",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#6：利用股市宽度数据及市场相关性判断市场周期",
+    "anchor": "sigil_toc_id_12",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#7：利用头寸管理来控制风险",
+    "anchor": "sigil_toc_id_13",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#8：管理风险，把握机会",
+    "anchor": "sigil_toc_id_14",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#9：对盈利与亏损的交易进行剖析",
+    "anchor": "sigil_toc_id_15",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#10：收集交易相关的统计数据",
+    "anchor": "sigil_toc_id_16",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#11：收集个人数据",
+    "anchor": "sigil_toc_id_17",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#12：保持对市场的热爱",
+    "anchor": "sigil_toc_id_18",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#13：让情绪丰富起来",
+    "anchor": "sigil_toc_id_19",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#14：寻找机会锤炼自身优势",
+    "anchor": "sigil_toc_id_20",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#15：提升我们的创造力",
+    "anchor": "sigil_toc_id_21",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#16：避免自我否定",
+    "anchor": "sigil_toc_id_22",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#17：训练自己保持专注和冷静",
+    "anchor": "sigil_toc_id_23",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#18：保持认知上的专注",
+    "anchor": "sigil_toc_id_24",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#19：把辅导与指导相结合",
+    "anchor": "sigil_toc_id_25",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#20：加入或组建一个团队",
+    "anchor": "sigil_toc_id_26",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#21：让自己的每一天都充满灵感",
+    "anchor": "sigil_toc_id_27",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#22：追随市场变化和每日结构",
+    "anchor": "sigil_toc_id_28",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "chapterUid": 90,
+  "chapterIdx": 90,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_90",
+  "title": "最佳实践#23：通过同步阅读来提升创造力",
+  "wordCount": 38953,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 3,
+  "files": [
+   "Text/chapter86-1.xhtml"
+  ],
+  "anchors": [
+   {
+    "title": "最佳实践#24：为你的风险管理立下规矩",
+    "anchor": "sigil_toc_id_29",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#25：保持自己的巅峰状态",
+    "anchor": "sigil_toc_id_30",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#26：利用冥想来提升决策能力",
+    "anchor": "sigil_toc_id_31",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#27：通过想象重新规划我们的思想",
+    "anchor": "sigil_toc_id_32",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#28：定期反思你的交易",
+    "anchor": "sigil_toc_id_33",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#29：通过回顾图表来提升创造力",
+    "anchor": "sigil_toc_id_34",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#30：训练自己面对不确定性",
+    "anchor": "sigil_toc_id_35",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#31：用规则制约你的实战交易",
+    "anchor": "sigil_toc_id_36",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#32：通过生物反馈来管理交易压力",
+    "anchor": "sigil_toc_id_37",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#33：通过社交媒体建立学习网络",
+    "anchor": "sigil_toc_id_38",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#34：寻找并专注于你的交易优势",
+    "anchor": "sigil_toc_id_39",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#35：优化你的工作流",
+    "anchor": "sigil_toc_id_40",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#36：建立你的交易仪式",
+    "anchor": "sigil_toc_id_41",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#37：通过场景预先设想来适应市场",
+    "anchor": "sigil_toc_id_42",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#38：在交易与你的其他工作之间寻找平衡",
+    "anchor": "sigil_toc_id_43",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#39：在交易中培养自律的习惯",
+    "anchor": "sigil_toc_id_44",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#40：摒弃消极行为",
+    "anchor": "sigil_toc_id_45",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#41：精心安排你的业绩回顾",
+    "anchor": "sigil_toc_id_46",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#42：对机会进行甄选",
+    "anchor": "sigil_toc_id_47",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#43：经营好你的交易",
+    "anchor": "sigil_toc_id_48",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#44：通过运动来更好地把控认知和情绪",
+    "anchor": "sigil_toc_id_49",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#45：全面检查你的交易",
+    "anchor": "sigil_toc_id_50",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#46：合理安排你的日常例程",
+    "anchor": "sigil_toc_id_51",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#47：优化你的交易结构",
+    "anchor": "sigil_toc_id_52",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#48：将你的业务流程化繁为简",
+    "anchor": "sigil_toc_id_53",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#49：将你的信息处理能力最大化",
+    "anchor": "sigil_toc_id_54",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#50：为你的交易做好计划",
+    "anchor": "sigil_toc_id_55",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#51：为你的表现做好思想准备",
+    "anchor": "sigil_toc_id_56",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#52：创建一份有效的交易日记",
+    "anchor": "sigil_toc_id_57",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#53：通过视频来回顾你的交易",
+    "anchor": "sigil_toc_id_58",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#54：安排好交易日早晨的时间",
+    "anchor": "sigil_toc_id_59",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#55：情景导向的规划",
+    "anchor": "sigil_toc_id_60",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#56：详细安排你的交易流程",
+    "anchor": "sigil_toc_id_61",
+    "level": 3
+   },
+   {
+    "title": "最佳实践#57：节省",
+    "anchor": "sigil_toc_id_62",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "chapterUid": 91,
+  "chapterIdx": 91,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "小结",
+  "wordCount": 478,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 2,
+  "files": [
+   "Text/chapter87.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 92,
+  "chapterIdx": 92,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "结论",
+  "wordCount": 1141,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter88.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 93,
+  "chapterIdx": 93,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "后记",
+  "wordCount": 557,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter89.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 94,
+  "chapterIdx": 94,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "https://res.weread.qq.com/wrco/tar_CB_3300129049_94",
+  "title": "参考文献",
+  "wordCount": 9,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter90.xhtml"
+  ]
+ },
+ {
+  "chapterUid": 95,
+  "chapterIdx": 95,
+  "updateTime": 1735886257,
+  "readAhead": 0,
+  "tar": "",
+  "title": "译后记",
+  "wordCount": 830,
+  "price": -1,
+  "paid": 0,
+  "isMPChapter": 0,
+  "level": 1,
+  "files": [
+   "Text/chapter91.xhtml"
+  ]
+ }
+]

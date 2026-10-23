@@ -1,0 +1,23 @@
+[init] 已有去重散列: 48
+[start] 当前章节《?》
+  [shard] idx=2 b64enc=False rawlen=6417 head=b'277D9304A153F3F2' | decoded_len=4786 head=b'/** \xe5\xb0\x81\xe9\x9d\xa2 **/\r\n.frontCover {\r'
+  [shard] idx=3 b64enc=False rawlen=58629 head=b'99AFBC946FED0492' | decoded_len=43945 head=b'\xba\xe7\x9f\xb3\xe3\x80\x82\xe7\x84\xb6\xe8\x80\x8c\xef\xbc\x8c\xe8\xbf\x99\xe5\xb9\xb6\xe4\xb8\x8d\xe6\x84\x8f\xe5\x91'
+  [shard] idx=1 b64enc=False rawlen=58628 head=b'9918A4D28342EB89' | decoded_len=43946 head=b'\xe5\x9c\xa8\xe7\xba\xbd\xe4\xba\xa4\xe6\x89\x80\xe5\xbc\x80\xe7\x9b\x98\xe5\x89\x8d\xe4\xb8\x80\xe7\xa7\x92\xe6\x89\x8d'
+  [shard] idx=0 b64enc=False rawlen=58628 head=b'1E99B5633CFE8C23' | decoded_len=43946 head=b'<?xml version="1.0" encoding="'
+=== 阶段 回卷(当前位置→书首)(ArrowLeft) ===
+   ...回卷(当前位置→书首) idle=10 resp=4 docs=1 fail=0 empty=0
+[收尾] 强制结算残留组...
+[done] 本次新增:0 | docs:1 fail:0 empty:0 dup:1 | 磁盘文件数:54
+Traceback (most recent call last):
+  File "E:\Work Buddy\交易学习\_capture_v3.py", line 361, in <module>
+    main()
+    ~~~~^^
+  File "E:\Work Buddy\交易学习\_capture_v3.py", line 357, in main
+    b.close()
+    ~~~~~~~^^
+  File "C:\Users\admi\.workbuddy\binaries\python\envs\default\Lib\site-packages\playwright\sync_api\_generated.py", line 1349, in close
+    self._sync(self._impl_obj.close(reason=reason))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admi\.workbuddy\binaries\python\envs\default\Lib\site-packages\playwright\_impl\_sync_base.py", line 101, in _sync
+    raise Error("Event loop is closed! Is Playwright already stopped?")
+playwright._impl._errors.Error: Event loop is closed! Is Playwright already stopped?

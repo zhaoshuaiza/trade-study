@@ -1,0 +1,52 @@
+[init] existing chunks: 8 next idx: 9
+CONNECTED OK
+pages: 1
+[start] after left keys, title: 
+[round 00] no new (stall 1) total=0  at= resp=333 chap=36 dup=0
+[round 01] no new (stall 2) total=0  at= resp=359 chap=48 dup=0
+  [saved] ch0009   503字
+[round 02] +1 chunks  total=1  at=
+[round 03] no new (stall 1) total=1  at= resp=442 chap=84 dup=0
+[round 04] no new (stall 2) total=1  at= resp=489 chap=104 dup=1
+[round 05] no new (stall 3) total=1  at= resp=548 chap=132 dup=5
+[round 06] no new (stall 4) total=1  at= resp=594 chap=152 dup=5
+[round 07] no new (stall 5) total=1  at= resp=630 chap=168 dup=5
+  [saved] ch0010   644字
+  [saved] ch0011  1003字
+[round 08] +2 chunks  total=3  at=
+  [saved] ch0012  1477字
+[round 09] +1 chunks  total=4  at=
+  [saved] ch0013   588字
+  [saved] ch0014   905字
+[round 10] +2 chunks  total=6  at=
+  [saved] ch0015   868字
+  [saved] ch0016   973字
+[round 11] +2 chunks  total=8  at=
+  [saved] ch0017   527字
+[round 12] +1 chunks  total=9  at=
+  [saved] ch0018   883字
+  [saved] ch0019  2376字
+[round 13] +2 chunks  total=11  at=
+  [saved] ch0020   898字
+[round 14] +1 chunks  total=12  at=
+  [saved] ch0021   853字
+  [saved] ch0022  1592字
+  [saved] ch0023   240字
+  [saved] ch0024   773字
+[round 15] +4 chunks  total=16  at=
+  [saved] ch0025  1224字
+  [saved] ch0026   297字
+[round 16] +2 chunks  total=18  at=
+  [saved] ch0027  1737字
+  [saved] ch0028   644字
+[round 17] +2 chunks  total=20  at=
+  [saved] ch0029 10527字
+[round 18] +1 chunks  total=21  at=
+[round 19] no new (stall 1) total=21  at= resp=1068 chap=360 dup=6
+[round 20] no new (stall 2) total=21  at= resp=1075 chap=364 dup=6
+[round 21] no new (stall 3) total=21  at= resp=1106 chap=364 dup=6
+[round 22] no new (stall 4) total=21  at= resp=1106 chap=364 dup=6
+[round 23] no new (stall 5) total=21  at= resp=1106 chap=364 dup=6
+[round 24] no new (stall 6) total=21  at= resp=1163 chap=384 dup=8
+[end] reached end of book.
+[done] files: 30 | new: 21 | chapter-resp: 384 dup: 8 notdec: 255

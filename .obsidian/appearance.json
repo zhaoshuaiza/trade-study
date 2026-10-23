@@ -3,5 +3,6 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "vault-colors"
-  ]
+  ],
+  "accentColor": ""
 }

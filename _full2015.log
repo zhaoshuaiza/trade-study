@@ -1,0 +1,67 @@
+[init] existing chunks: 0 next idx: 0
+CONNECTED OK
+[cdp] cache disabled
+[jump] attempt 0, at_end=False
+  [saved] ch0000   2069字
+  [saved] ch0001   2455字
+[round 00] +2 chunks total=2
+  [saved] ch0002   7257字
+  [saved] ch0003   3784字
+[round 01] +2 chunks total=4
+  [saved] ch0004   3361字
+  [saved] ch0005   2821字
+  [saved] ch0006   2263字
+  [saved] ch0007   2898字
+[round 02] +4 chunks total=8
+  [saved] ch0008   2332字
+  [saved] ch0009   1593字
+  [saved] ch0010   2830字
+  [saved] ch0011   2867字
+[round 03] +4 chunks total=12
+  [saved] ch0012   2614字
+  [saved] ch0013   4094字
+  [saved] ch0014   3177字
+[round 04] +3 chunks total=15
+  [saved] ch0015   2681字
+  [saved] ch0016   2594字
+  [saved] ch0017   2080字
+  [saved] ch0018   5286字
+  [saved] ch0019   2973字
+[round 05] +5 chunks total=20
+  [saved] ch0020   1972字
+  [saved] ch0021   2943字
+  [saved] ch0022   3973字
+[round 06] +3 chunks total=23
+  [saved] ch0023   2800字
+[round 07] +1 chunks total=24
+  [saved] ch0024   6371字
+[round 08] +1 chunks total=25
+[round 09] no new (stall 1) total=25 groups=60 docs=25 dup=0 fail=35
+[round 10] no new (stall 2) total=25 groups=66 docs=25 dup=0 fail=41
+  [saved] ch0025   2351字
+[round 11] +1 chunks total=26
+[round 12] no new (stall 1) total=26 groups=77 docs=26 dup=0 fail=51
+  [saved] ch0026    529字
+  [saved] ch0027   3251字
+[round 13] +2 chunks total=28
+[round 14] no new (stall 1) total=28 groups=91 docs=28 dup=0 fail=63
+[round 15] no new (stall 2) total=28 groups=91 docs=28 dup=0 fail=63
+  [saved] ch0028  26440字
+[round 16] +1 chunks total=29
+[round 17] no new (stall 1) total=29 groups=93 docs=29 dup=0 fail=64
+[round 18] no new (stall 2) total=29 groups=93 docs=29 dup=0 fail=64
+  [saved] ch0029    484字
+  [saved] ch0030    841字
+[round 19] +2 chunks total=31
+[round 20] no new (stall 1) total=31 groups=99 docs=32 dup=0 fail=67
+[round 21] no new (stall 2) total=31 groups=99 docs=32 dup=0 fail=67
+[round 22] no new (stall 3) total=31 groups=99 docs=32 dup=0 fail=67
+[round 23] no new (stall 4) total=31 groups=99 docs=32 dup=0 fail=67
+[round 24] no new (stall 5) total=31 groups=99 docs=32 dup=0 fail=67
+[round 25] no new (stall 6) total=31 groups=99 docs=32 dup=0 fail=67
+[round 26] no new (stall 7) total=31 groups=99 docs=32 dup=0 fail=67
+[round 27] no new (stall 8) total=31 groups=99 docs=32 dup=0 fail=67
+[round 28] no new (stall 9) total=31 groups=99 docs=32 dup=0 fail=67
+[round 29] no new (stall 10) total=31 groups=99 docs=32 dup=0 fail=67
+[end] reached end of book.
+[done] files: 31 | new: 31 | stats: {'resp': 376, 'groups': 99, 'docs': 32, 'dup': 0, 'short': 1, 'fail': 67}
