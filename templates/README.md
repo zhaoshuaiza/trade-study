@@ -1,6 +1,6 @@
 # templates/ · 页面模板
 
-> 七个模板，与 `wiki/` 的分型**一一对应**。
+> 八个模板，与 `wiki/` 的分型**一一对应**。
 
 ---
 
@@ -15,6 +15,7 @@
 | `comparison.md` | `wiki/comparisons/` | 对比 |
 | `synthesis.md` | `wiki/syntheses/` | 综合理解 |
 | `question.md` | `wiki/questions/` | 问答存档 |
+| `market.md` | `wiki/market/` | 行情实证（每日复盘联动，2026-10-23 新增） |
 
 ---
 
