@@ -299,6 +299,13 @@ raw/
 | 涨停形态/多标签题材/封单额 | `ztTHSYYYYMMDD.xlsx`（同花顺导表） | 交叉验证，不跨源比连板高度 |
 | 涨停/炸板/跌停/龙虎榜 | akshare → 东财公开接口（`ak_market.py`，带缓存） | 补三缺口：**炸板率口径修正**、**TOP-5 龙虎榜验证**、**上榜后N日表现** |
 | 日 K 线 | 本地通达信 `vipdoc/*.day`（到某日）+ MCP `tdx_kline` 补最新 | 结构层分析用 |
+| **聚合层** | `review.db`（SQLite，`review_db.py`） | 跨日查询/历史统计。**派生层**：删了可一条命令从 xlsx 重建，不取代原始文件 |
+
+**关于要不要装数据库**：不需要安装任何数据库软件。Python 标准库自带 SQLite，
+单文件 `E:/股票/复盘数据/review.db`，5 天数据 0.43 MB，一年约 10 万行也毫无压力。
+MySQL/PostgreSQL 是给多用户服务端用的，单机单人纯属负担。
+日常零额外操作：`sync_review.py` 发现 DB 不存在会自动创建并导入；
+手动操作用 `python review_db.py rebuild|import|status|demo|sql "..."`。
 
 **两个口径纪律**（已写进生成页面）：
 
