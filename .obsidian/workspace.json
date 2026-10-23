@@ -13,40 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/books/03游资超短/_类目状态.md",
+                "file": "books/032-zouchuhuanjue/candidates/principles.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_类目状态"
-            }
-          },
-          {
-            "id": "17af2dd8826565b2",
-            "type": "leaf",
-            "state": {
-              "type": "apex-dashboard-view",
-              "state": {},
-              "icon": "home",
-              "title": "工作台"
-            }
-          },
-          {
-            "id": "9df93f4ec8d74d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/market/2026-10-19.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-19"
+              "title": "principles"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/entities/RAG论文2020.md",
+                "file": "wiki/实体/RAG论文2020.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/books/02趋势技术/100倍超级强势股.md",
+                "file": "wiki/书籍/02趋势技术/100倍超级强势股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -186,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/market/2026-10-19.md",
+                "file": "books/032-zouchuhuanjue/candidates/principles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -228,53 +203,53 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "9df93f4ec8d74d34",
+  "active": "844142bb92cadd2e",
   "lastOpenFiles": [
-    "books/032-zouchuhuanjue/candidates/counter-examples.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/057-幸福专题：感恩.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/056-幸福专题：亲密关系.md",
+    "_diag_freeze.py",
     "books/032-zouchuhuanjue/candidates/glossary.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/089-57项交易成功所需的最佳实践.md",
+    "books/032-zouchuhuanjue/candidates/counter-examples.md",
     "books/032-zouchuhuanjue/candidates/cases.md",
     "books/032-zouchuhuanjue/PIPELINE_STATE.md",
+    "raw/distilled/steenbarger-2002-zh/canvas/009-第4章 问题解决及策略.md.part",
+    "raw/distilled/steenbarger-2002-zh/canvas/008-第3章 目标设定.md",
+    "raw/distilled/steenbarger-2002-zh/canvas/008-第3章 目标设定.md.part",
+    "_v2002_B.log",
+    "books/032-zouchuhuanjue/BOOK_OVERVIEW.md",
+    "books/032-zouchuhuanjue/candidates/principles.md",
+    "从这里开始.md",
+    "_stage2002_B.log",
+    "未命名.base",
+    "新手上手指南.md",
+    "wiki/meta/编译队列.md",
+    "wiki/hot.md",
+    "wiki/学习系统-四周上手计划.md",
+    "wiki/目录英文名对照表.md",
+    "wiki/books/01价值投资/巴菲特的护城河.md",
+    "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
+    "_diag_timing.py",
+    "raw/行情数据/_README.md",
+    "raw/文章/著名的海龟式期货交易系统完整版来了！值得收藏！.md",
+    "raw/文章/交易者的超级心流训练导读（投资圈女混混）/交易者的超级心流训练导读01.md",
+    "raw/微信读书/富爸爸投资指南.md",
+    "raw/微信读书/富爸爸股票投资从入门到精通.md",
+    "raw/微信读书/财务报表分析与股票估值.md",
+    "raw/片段/README.md",
+    "raw/_tmp/g.png",
+    "raw/_tmp/f.png",
+    "raw/学术/可转债每日掘金/42可转债投资逻辑与收益来源风险收益特征.md",
+    "raw/学术/可转债每日掘金/32可转债核心要素与指标股性相关指标.md",
+    "raw/学术/可转债每日掘金/23可转债基础篇市场概况.md",
+    "raw/蒸馏产物/steenbarger-2002-zh/canvas/007-第2章 自我认识.md.part",
     "books/032-zouchuhuanjue/rejected",
     "books/032-zouchuhuanjue/candidates",
-    "wiki/books/02趋势技术/100倍超级强势股.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/088-在流程改进方面的一些思考.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/003-文前.md",
     "_canvas_chunk2.log",
-    "raw/distilled/steenbarger-2015-zh/canvas/004-前言.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/002-版权信息.md",
-    "_canvas_chunk1.log",
-    "raw/distilled/steenbarger-2015-zh/canvas/_old/003-文前.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/_old/002-版权信息.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/_old/001-封面.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/001-封面.md",
-    "_canvas_t.log",
-    "_canvas_full_2015.log",
-    "raw/distilled/steenbarger-2015-zh/canvas/_old/89_partial_maxpages3.md",
-    "raw/distilled/steenbarger-2015-zh/canvas/_old",
-    "raw/distilled/steenbarger-2015-zh/canvas/001-57项交易成功所需的最佳实践.md",
-    "_canvas_t89.log",
-    "_diag_canvas.py",
-    "raw/distilled/steenbarger-2015-zh/canvas/_index.json",
-    "wiki/sources/巴菲特的护城河（多尔西）.md",
-    "raw/weread/网格交易法：数学+传统智慧战胜华尔街.md",
-    "wiki/sources/100倍超级强势股（Stine）.md",
-    "raw/weread/吴国平操盘手记：主力拉升策略.md",
-    "raw/weread/富爸爸投资指南.md",
-    "raw/weread/投资最重要的事（全新升级版）.md",
-    "raw/weread/战胜华尔街Beating the Street（修订版）.md",
-    "raw/weread/一本书读懂K线图：股票K线技法快速入门到精通.md",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_97.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_96.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_95.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_94.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_93.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_92.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_91.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_90.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_89.png",
-    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_88.png"
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_97.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_96.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_95.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_94.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_93.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_92.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_91.png",
+    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_90.png"
   ]
 }
