@@ -5090,3 +5090,24 @@ New pages: wiki/market/reports/（5 份每日报告 + _README）, wiki/market/st
 Scripts: E:/股票/复盘数据/strategy_engine.py（new，信号检测+次日表现+周度统计）, sync_review.py（updated，render_report + 策略引擎接入）, analyze_struct.py（refactored，模块化）
 Key data: S1 63%（19/30）/ S2 22%（2/9）/ S3 71%（10/14）——均为历史事实统计，样本 53 个已验证信号
 ---
+
+## 2026-10-23 · 每日复盘联动（sync_review.py 自动写入）
+
+- 新增 wiki/market/ 第九类页面（行情实证），由 `E:/股票/复盘数据/sync_review.py` 生成
+- 本次入库交易日：2026-10-19、2026-10-20、2026-10-21、2026-10-22、2026-10-23
+- 判据实证台账覆盖：HOT-2、TOP-4、TOP-5、TOP-2、HOT-5、SIZE-1、SIZE-4
+- 数据性质：市场观测（涨停池快照），非回测/非模拟盘/非实盘
+## [2026-10-23] structure | 周报/月报层上线 + 闭环审计
+Source: 用户要求「每周每月都要出报告单独存放文件夹…哪里还有漏洞吗？闭环了吗？」
+Pages affected: wiki/market/_README.md（updated，三层→含周/月报的完整分层图+页面清单+入口顺序+闭环检查清单链接）, CLAUDE.md 4.7（updated，三层结构表补周报/月报/闭环自检行；策略统计行补 report-weekly/report-monthly/update-cards）, wiki/README.md（updated，market 行补三层说明+闭环检查清单）, wiki/index.md（updated，补 weekly/monthly/闭环检查清单等 7 条）
+New pages: wiki/market/reports/weekly/_README.md + 2026-W43.md, wiki/market/reports/monthly/_README.md + 2026-10.md, wiki/market/闭环检查清单.md
+Scripts: E:/股票/复盘数据/strategy_engine.py（updated，新增 weekly_report/monthly_report/update_cards/cumulative_md/market_overview/judge_week_table/unresolved_conflicts + load_checks 读 _cache/checks.json 契约）, sync_review.py（updated，落 _cache/checks.json 数据契约；日报加累计战绩速览+周报条件链接）
+Key data: 闭环 11 环节——8 环全自动、1 环半闭环（claims 回写执行无追踪）、6 个仍存缺口已登记在闭环检查清单；首周报/月报已生成（S1 63%/S2 22%/S3 71%，112 信号）
+---
+
+## 2026-10-23 · 每日复盘联动（sync_review.py 自动写入）
+
+- 新增 wiki/market/ 第九类页面（行情实证），由 `E:/股票/复盘数据/sync_review.py` 生成
+- 本次入库交易日：2026-10-19、2026-10-20、2026-10-21、2026-10-22、2026-10-23
+- 判据实证台账覆盖：HOT-2、TOP-4、TOP-5、TOP-2、HOT-5、SIZE-1、SIZE-4
+- 数据性质：市场观测（涨停池快照），非回测/非模拟盘/非实盘

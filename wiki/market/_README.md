@@ -28,23 +28,31 @@ raw/market/.manifest.json ── 复盘原始数据索引（只索引不复制�
   review.db（SQLite 聚合层，删了可重建）
         │
         ▼
-  sync_review.py 每日跑一次
+  sync_review.py 每交易日跑一次
         │
-        ├─→ market/YYYY-MM-DD.md ──── 数据日页（纯数据快照）
-        ├─→ market/reports/YYYY-MM-DD.md ── 复盘报告（数据+K线结构+策略信号）
-        ├─→ market/strategies/周度统计.md ── 策略信号→次日表现统计
+        ├─→ market/YYYY-MM-DD.md ──────── 数据日页（纯数据快照）
+        ├─→ market/reports/YYYY-MM-DD.md ─ 日报（实战检验：数据+K线结构+当日信号）
+        ▼
+  strategy_engine.py 登记信号 → 补算次日表现
+        │
+        ├─→ market/reports/weekly/YYYY-Www.md ── 周报（策略表现+判据观察+修订建议）
+        ├─→ market/reports/monthly/YYYY-MM.md ── 月报（跨周趋势+判据仲裁）
+        ├─→ market/strategies/周度统计.md ────── 机械统计（与周报同口径）
+        └─→ market/strategies/S1~S3 卡「累计战绩」区自动刷新
+        │
         ▼
 market/判据实证台账.md（判据 × 日期 验证矩阵）
         │
         ▼
   回写：claims/（判据是否被观测支持）、syntheses/（阶段判读表修订）
+  闭环自检：market/闭环检查清单.md（11 个环节逐项核对）
 ```
 
 | 层 | 目录 | 放什么 |
 |---|---|---|
 | 原始数据 | `raw/market/`（[README](../market/../../raw/market/_README.md)） | xlsx 路径/MD5/行数索引，**不复制数据** |
-| 复盘报告 | `market/reports/`（[README](reports/_README.md)） | 每交易日一份完整报告 |
-| 复盘策略 | `market/strategies/`（[README](strategies/_README.md)） | 策略卡 + 周度成功率统计 |
+| 复盘报告 | `market/reports/`（[README](reports/_README.md)） | 日报每交易日一份；周报 `weekly/`；月报 `monthly/` |
+| 复盘策略 | `market/strategies/`（[README](strategies/_README.md)） | 策略卡（战绩自动刷新）+ 周度统计 |
 
 ---
 
@@ -53,12 +61,15 @@ market/判据实证台账.md（判据 × 日期 验证矩阵）
 | 页面 | 内容 | 更新频率 |
 |---|---|---|
 | `YYYY-MM-DD.md` | 单个交易日的数据快照（市场结构 + 题材矩阵 + 判据当日复核） | 每日一页 |
-| `reports/YYYY-MM-DD.md` | 完整复盘报告（数据 + K 线结构 + 策略信号 + 转债视角） | 每日一份 |
-| `strategies/策略总览.md` | 策略索引 + 实盘五步检查顺序 | 手工维护 |
-| `strategies/S1~S3-*.md` | 策略卡（依据/触发/胜定义/战绩/失效模式） | 手工维护 |
-| `strategies/周度统计.md` | 信号→次日表现全量统计 | **自动**（每日刷新，周日人工审阅） |
+| `reports/YYYY-MM-DD.md` | **日报·实战检验**（数据 + K 线结构 + 当日策略信号 + 累计速览 + 转债视角） | 每日一份 |
+| `reports/weekly/YYYY-Www.md` | **周报**（市场回顾 + 逐策略解读 + 判据观察 + 修订建议） | 每周一份（周日 20:00 自动） |
+| `reports/monthly/YYYY-MM.md` | **月报**（跨周趋势 + 判据仲裁 vs claims 门票 + 下月重点） | 每月一份（1 日 20:00 自动） |
+| `strategies/策略总览.md` | 策略索引（胜率自动刷新）+ 实盘五步检查顺序 | 卡片刷新时连带更新 |
+| `strategies/S1~S3-*.md` | 策略卡（依据/触发/胜定义/**累计战绩自动注入**/失效模式） | 战绩区自动，正文手工 |
+| `strategies/周度统计.md` | 信号→次日表现全量统计 | **自动**（每日刷新，周日随周报定稿） |
 | `市场结构时序.md` | 跨交易日指标时间序列 + 阶段判读表 | 每日重建 |
 | `判据实证台账.md` | 判据 × 日期 验证矩阵 + 逐判据累计结论 + **本台账不能说明什么** | 每日重建 |
+| `闭环检查清单.md` | 11 个环节逐项核对闭环状态 + 仍存缺口 | 审计时更新 |
 
 ---
 
@@ -98,12 +109,16 @@ market/判据实证台账.md（判据 × 日期 验证矩阵）
 
 ```bash
 cd E:/股票/复盘数据
-python sync_review.py          # 增量：只处理未入库的新日期（日页+报告+信号+周度统计）
+python sync_review.py          # 增量：只处理未入库的新日期（日页+日报+信号+checks.json）
 python sync_review.py --all    # 重建全部
 python sync_review.py --check  # 只预演不写盘
 
 python strategy_engine.py weekly                          # 刷新周度统计（默认近5个交易日）
 python strategy_engine.py weekly --from 20261019 --to 20261023   # 手动指定区间（不满一周也能统计）
+python strategy_engine.py report-weekly                   # 生成周报 → reports/weekly/
+python strategy_engine.py report-monthly                  # 生成月报 → reports/monthly/
+python strategy_engine.py update-cards                    # 刷新策略卡/总览的累计战绩
+python strategy_engine.py cumulative                      # 控制台看全区间累计战绩
 python strategy_engine.py list                            # 查看信号登记簿
 ```
 
@@ -119,6 +134,8 @@ python strategy_engine.py list                            # 查看信号登记�
 4. `market/判据实证台账.md` → 今天该听哪条判据、哪条已被观测否证
 5. `market/市场结构时序.md` → 当前处于哪个阶段（冰点/修复/扩散/退潮）
 6. 回判据页 → 具体怎么执行
+
+**每周一次的自检入口**：`market/闭环检查清单.md`——11 个环节逐个核对闭环状态。
 
 ---
 

@@ -287,8 +287,9 @@ raw/
 | 层 | 位置 | 内容 | 生成方式 |
 |---|---|---|---|
 | 复盘原始数据 | `raw/market/`（只索引不复制，MD5 防漂移） | xlsx 路径/MD5/行数 manifest + 目录说明 | `sync_review.py` 自动登记 |
-| 复盘报告 | `wiki/market/reports/YYYY-MM-DD.md` | 市场结构 / 题材主线 / 连板梯队 / 判据验证 / **K 线结构** / **当日策略信号** / 局限 / 转债视角 | `sync_review.py render_report()` 每交易日一份 |
-| 复盘策略 | `wiki/market/strategies/` | 策略卡（S1/S2/S3）+ `周度统计.md`（信号→次日表现胜率） | `strategy_engine.py` 自动统计；卡片手工维护 |
+| 复盘报告 | `wiki/market/reports/` | **日报** `YYYY-MM-DD.md`（实战检验：结构/K线/当日信号）；**周报** `weekly/YYYY-Www.md`（策略表现+判据观察+修订建议）；**月报** `monthly/YYYY-MM.md`（跨周趋势+判据仲裁） | 日报 `sync_review.py render_report()`；周/月报 `strategy_engine.py report-weekly/report-monthly` |
+| 复盘策略 | `wiki/market/strategies/` | 策略卡 S1/S2/S3（「累计战绩」区由 `update-cards` 自动注入，勿手改）+ `周度统计.md` | `strategy_engine.py` 自动统计；卡片正文手工 |
+| 闭环自检 | `wiki/market/闭环检查清单.md` | 11 个环节逐项核对闭环状态 + 仍存缺口 | 审计时更新 |
 
 | 项 | 规则 |
 |---|---|
@@ -298,7 +299,7 @@ raw/
 | 个股 | 只作判据验证**样本**，每页显式标注「非荐股」（并入 4.5）|
 | 阈值 | 原书未给量化界线的，页面必须标 `自定义阈值` 或 `仅观测不下结论`（并入 4.1）|
 | 回写 | 某判据被 ≥10 个交易日的观测持续否证 → 在 `claims/` 建页，**由用户拍板是否修订原判据** |
-| 策略统计 | `strategy_engine.py` 每周日刷新（也可 `--from/--to` 手动指定任意区间）；不满一周可手工编辑 `signals.csv` 增补历史信号后重跑 |
+| 策略统计 | `strategy_engine.py`：每周日 `report-weekly`（默认近 5 日，可 `--from/--to` 手动指定任意区间，不满一周也能统计）；每月 1 日 `report-monthly`；`update-cards` 刷新策略卡累计战绩（周日随周报一起跑）。不满一周可手工编辑 `signals.csv` 增补历史信号后重跑 |
 
 **策略引擎纪律**（`strategy_engine.py`）：
 
