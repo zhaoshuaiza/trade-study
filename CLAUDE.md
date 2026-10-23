@@ -298,7 +298,7 @@ raw/
 | 涨停池/热点归因 | `ztYYYYMMDD.xlsx` / `YYYYMMDDRD.xlsx`（东财导表） | 基础口径 |
 | 涨停形态/多标签题材/封单额 | `ztTHSYYYYMMDD.xlsx`（同花顺导表） | 交叉验证，不跨源比连板高度 |
 | 涨停/炸板/跌停/龙虎榜 | akshare → 东财公开接口（`ak_market.py`，带缓存） | 补三缺口：**炸板率口径修正**、**TOP-5 龙虎榜验证**、**上榜后N日表现** |
-| 日 K 线 | 本地通达信 `vipdoc/*.day`（到某日）+ MCP `tdx_kline` 补最新 | 结构层分析用 |
+| 日 K 线 | **方正证券小方 `D:/方正证券/小方/vipdoc/{sh,sz}/lday/*.day`**（10/23 起为最新源，优先）+ 通达信 `new_tdx`（滞后，兜底） | 结构层分析用 |
 | **聚合层** | `review.db`（SQLite，`review_db.py`） | 跨日查询/历史统计。**派生层**：删了可一条命令从 xlsx 重建，不取代原始文件 |
 
 **关于要不要装数据库**：不需要安装任何数据库软件。Python 标准库自带 SQLite，
