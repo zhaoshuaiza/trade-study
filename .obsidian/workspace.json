@@ -88,102 +88,7 @@
   "right": {
     "id": "943ff7b1f1480847",
     "type": "split",
-    "children": [
-      {
-        "id": "c18e3a5571fe315d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a6ac82b26e0c794d",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "wiki/实体/RAG论文2020.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "反向链接"
-            }
-          },
-          {
-            "id": "023199660257dcdd",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "wiki/书籍/02趋势技术/100倍超级强势股.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "出链"
-            }
-          },
-          {
-            "id": "edf5c4717eecc583",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "3fc343655926c5f0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "075392605cb6afc8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "books/032-zouchuhuanjue/candidates/principles.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "4cc45ab66188ab89",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ],
-        "currentTab": 4
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
     "width": 300
   },
@@ -227,29 +132,29 @@
     "wiki/books/01价值投资/巴菲特的护城河.md",
     "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
     "_diag_timing.py",
-    "raw/行情数据/_README.md",
-    "raw/文章/著名的海龟式期货交易系统完整版来了！值得收藏！.md",
-    "raw/文章/交易者的超级心流训练导读（投资圈女混混）/交易者的超级心流训练导读01.md",
-    "raw/微信读书/富爸爸投资指南.md",
-    "raw/微信读书/富爸爸股票投资从入门到精通.md",
-    "raw/微信读书/财务报表分析与股票估值.md",
-    "raw/片段/README.md",
+    "raw/market/_README.md",
+    "raw/articles/著名的海龟式期货交易系统完整版来了！值得收藏！.md",
+    "raw/articles/交易者的超级心流训练导读（投资圈女混混）/交易者的超级心流训练导读01.md",
+    "raw/weread/富爸爸投资指南.md",
+    "raw/weread/富爸爸股票投资从入门到精通.md",
+    "raw/weread/财务报表分析与股票估值.md",
+    "raw/clips/README.md",
     "raw/_tmp/g.png",
     "raw/_tmp/f.png",
-    "raw/学术/可转债每日掘金/42可转债投资逻辑与收益来源风险收益特征.md",
-    "raw/学术/可转债每日掘金/32可转债核心要素与指标股性相关指标.md",
-    "raw/学术/可转债每日掘金/23可转债基础篇市场概况.md",
-    "raw/蒸馏产物/steenbarger-2002-zh/canvas/007-第2章 自我认识.md.part",
+    "raw/academic/可转债每日掘金/42可转债投资逻辑与收益来源风险收益特征.md",
+    "raw/academic/可转债每日掘金/32可转债核心要素与指标股性相关指标.md",
+    "raw/academic/可转债每日掘金/23可转债基础篇市场概况.md",
+    "raw/distilled/steenbarger-2002-zh/canvas/007-第2章 自我认识.md.part",
     "books/032-zouchuhuanjue/rejected",
     "books/032-zouchuhuanjue/candidates",
     "_canvas_chunk2.log",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_97.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_96.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_95.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_94.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_93.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_92.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_91.png",
-    "raw/原书/05其他/见龙在田 做熟一种盈利模式/_tmp_90.png"
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_97.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_96.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_95.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_94.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_93.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_92.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_91.png",
+    "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_90.png"
   ]
 }
