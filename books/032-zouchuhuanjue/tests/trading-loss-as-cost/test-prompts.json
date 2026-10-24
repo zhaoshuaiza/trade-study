@@ -1,0 +1,62 @@
+{
+  "skill": "trading-loss-as-cost",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "今天止损亏了8%，觉得自己好蠢，是不是我不适合炒股",
+      "expected_behavior": "调用 trading-loss-as-cost：把亏损重构为成本/进货费，先安抚再做亏损诊断，不谈参数优化",
+      "notes": "正面：止损后自我否定"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "账户一绿我就不敢打开软件，亏损让我很焦虑",
+      "expected_behavior": "调用 trading-loss-as-cost：指出这是第①/②层境界，亏损是成本不是道德失败",
+      "notes": "正面：不敢看账户"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "怎么才能像书里说的把亏损当成成本而不是失败去接受",
+      "expected_behavior": "调用 trading-loss-as-cost：给盈亏同源+成本观的重构话术",
+      "notes": "正面：主动求亏损观"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "我总是死扛亏损单舍不得割，但稍微赚点就跑",
+      "expected_behavior": "调用 trading-loss-as-cost：解释亏损厌恶与盈亏同源，必要时交叉 loss-maturity-ladder",
+      "notes": "正面：扛亏"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "给我一套能直接上手的趋势跟踪交易系统，包括每笔仓位怎么分",
+      "expected_behavior": "不调用本 Skill；应触发 insect-system-recipe（跨 Skill 混淆）",
+      "notes": "诱饵→昆虫系统"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "我胜率70%但总体还是亏钱，是怎么回事",
+      "expected_behavior": "不调用本 Skill；应触发 high-winrate-trap（跨 Skill 混淆）",
+      "notes": "诱饵→高胜率陷阱"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我看看宁德时代现在该不该买",
+      "expected_behavior": "不调用任何交易心理 Skill；超出范围（个股推荐）",
+      "notes": "诱饵：个股"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我朋友亏了钱很郁闷，我该怎么安慰他",
+      "expected_behavior": "不调用（不是用户自身交易亏损，属安慰朋友，非本 Skill 适用对象）",
+      "notes": "边界：对象不是本人"
+    }
+  ]
+}

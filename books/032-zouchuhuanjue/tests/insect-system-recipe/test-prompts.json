@@ -1,0 +1,62 @@
+{
+  "skill": "insect-system-recipe",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "给我一套能直接上手的趋势跟踪交易系统，包括仓位怎么分",
+      "expected_behavior": "调用 insect-system-recipe：给分散+趋势跟踪+等额+赢冲输缩的配方",
+      "notes": "正面：要系统"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "每笔交易仓位大小应该怎么定",
+      "expected_behavior": "调用 insect-system-recipe：讲等额投资法+根据规则小幅放大",
+      "notes": "正面：仓位"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "趋势跟踪系统具体怎么搭建、资金怎么分配",
+      "expected_behavior": "调用 insect-system-recipe：给四要素配方与落地步骤",
+      "notes": "正面：搭建"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "我想做一个能机械执行的交易体系，不想每天盯盘",
+      "expected_behavior": "调用 insect-system-recipe：强调一致性与等额，减少主观干预",
+      "notes": "正面：机械执行"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "我胜率70%但总体亏钱，赚小亏大怎么改",
+      "expected_behavior": "不调用本 Skill；应触发 high-winrate-trap（跨 Skill 混淆）",
+      "notes": "诱饵→高胜率"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "参数要不要再优化一下提高胜率",
+      "expected_behavior": "不调用本 Skill；应触发 avoid-over-optimization（跨 Skill 混淆）",
+      "notes": "诱饵→优化"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "明天大盘会不会继续跌，我该清仓吗",
+      "expected_behavior": "不调用（大盘预测/择时，超出范围）",
+      "notes": "诱饵：大盘"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我只有2万块本金，也能用这套分散系统吗",
+      "expected_behavior": "可调用但提示小资金分散到多标的的实操限制，给出简化版",
+      "notes": "边界：小资金"
+    }
+  ]
+}

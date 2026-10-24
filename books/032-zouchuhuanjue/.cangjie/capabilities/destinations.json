@@ -1,0 +1,121 @@
+{
+  "bundle_id": "bundle.zouchuhuanjue",
+  "destinations": {
+    "cap.032.loss-as-cost": {
+      "promoted_to": "trading-loss-as-cost",
+      "router_view": "zouchuhuanjue/references/capabilities/trading-loss-as-cost.md"
+    },
+    "cap.032.loss-maturity-ladder": {
+      "promoted_to": "loss-maturity-ladder",
+      "router_view": "zouchuhuanjue/references/capabilities/loss-maturity-ladder.md"
+    },
+    "cap.032.risk-two-points": {
+      "promoted_to": "risk-guard-two-points",
+      "router_view": "zouchuhuanjue/references/capabilities/risk-guard-two-points.md"
+    },
+    "cap.032.avoid-over-optimization": {
+      "promoted_to": "avoid-over-optimization",
+      "router_view": "zouchuhuanjue/references/capabilities/avoid-over-optimization.md"
+    },
+    "cap.032.insect-system": {
+      "promoted_to": "insect-system-recipe",
+      "router_view": "zouchuhuanjue/references/capabilities/insect-system-recipe.md"
+    },
+    "cap.032.high-winrate-trap": {
+      "promoted_to": "high-winrate-trap",
+      "router_view": "zouchuhuanjue/references/capabilities/high-winrate-trap.md"
+    },
+    "cap.032.chasing-tail": {
+      "promoted_to": "learning-effect-chasing-tail",
+      "router_view": "zouchuhuanjue/references/capabilities/learning-effect-chasing-tail.md"
+    },
+    "cap.032.never-open-without-signal": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/never-open-without-signal.md"
+    },
+    "cap.032.good-entry-price": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/good-entry-price.md"
+    },
+    "cap.032.just-right-consolidation": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/just-right-consolidation.md"
+    },
+    "cap.032.gann-warning": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/gann-warning.md"
+    },
+    "cap.032.iceberg": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/iceberg-principle.md"
+    },
+    "cap.032.tree": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/tree-principle.md"
+    },
+    "cap.032.huge-change": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/huge-change-effect.md"
+    },
+    "cap.032.dinosaur": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/dinosaur-effect.md"
+    },
+    "cap.032.pendulum": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/pendulum-effect.md"
+    },
+    "cap.032.learning-effect": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/learning-effect.md"
+    },
+    "cap.032.ostrich": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/ostrich-phenomenon.md"
+    },
+    "cap.032.barrel": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/barrel-theory.md"
+    },
+    "cap.032.penalty": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/penalty-principle.md"
+    },
+    "cap.032.anxiety": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/anxiety-principle.md"
+    },
+    "cap.032.casino": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/casino-principle.md"
+    },
+    "cap.032.attrition": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/attrition-principle.md"
+    },
+    "cap.032.butterfly": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/butterfly-effect.md"
+    },
+    "cap.032.equivalence": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/equivalence-principle.md"
+    },
+    "cap.032.supermarket": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/supermarket-principle.md"
+    },
+    "cap.032.right-wrong": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/right-wrong-paradox.md"
+    },
+    "cap.032.compound": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/compound-paradox.md"
+    },
+    "cap.032.external-flex-internal-rigid": {
+      "served_by": "zouchuhuanjue",
+      "card": "zouchuhuanjue/references/capabilities/external-flex-internal-rigid.md"
+    }
+  }
+}

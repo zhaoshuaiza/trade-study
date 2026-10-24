@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "avoid-over-optimization\\SKILL.md": "aa12787ff4541771144601f8dc0c69f87e5b871d4a99d4d48bec2e4878a019a1",
+    "capability-destinations.json": "8e68f48d0d3c52acc8693d5c8b01635c730be8f6c81379c93013576a263b978c",
+    "high-winrate-trap\\SKILL.md": "62c2d866576a81f63776b0bd78a2dd8d1e11a7754cff410c2cc3d414af13852b",
+    "insect-system-recipe\\SKILL.md": "ee7228a6a7bc7e69b271c86415833a8655fa564eddf1a422f30577ad74320361",
+    "learning-effect-chasing-tail\\SKILL.md": "cfeb284d3b1df3e6cd2a5fef45c1524b999508a24629fe10e1062d14c14bd6da",
+    "loss-maturity-ladder\\SKILL.md": "8877bc65c754246d7324b29ea11e7549a5cac70affea4995664f008837cb350e",
+    "risk-guard-two-points\\SKILL.md": "aabd6eddc976dfe0d86b0dba593f25770a300cfe1a8b2b30585e6515200b4327",
+    "trading-loss-as-cost\\SKILL.md": "1fbe62eb3fc0e0adacfb9dc6e55c61fbe4d0f02b04cf91bdea8463f3aa3d4f7e",
+    "zouchuhuanjue\\references\\capabilities\\avoid-over-optimization.md": "a28e2ecae7237b76c98f2d2cf008fd99d22c0bd60c6cdc480080f7965550694f",
+    "zouchuhuanjue\\references\\capabilities\\high-winrate-trap.md": "2535512e7ea3b74c6a4da50989c974e589c7d13677c83aeeb98b1a89d3ab8a3a",
+    "zouchuhuanjue\\references\\capabilities\\insect-system-recipe.md": "0a4822379436ec26f046711036e1467c350b0406a654c8d317ab32ea39cce054",
+    "zouchuhuanjue\\references\\capabilities\\learning-effect-chasing-tail.md": "65fc6efc69b363e7a3052fa61c26f6d8ae31a576996848a5ad8361258e74b504",
+    "zouchuhuanjue\\references\\capabilities\\loss-maturity-ladder.md": "6b63eb9afa1f3efd833f01f0db986aa7f2ef26b98b38b6afec76560e2590dfd2",
+    "zouchuhuanjue\\references\\capabilities\\risk-guard-two-points.md": "524401682d0ef6aa4c8a21339ceb17006cc6fc07d18776101a6420696ddf331c",
+    "zouchuhuanjue\\references\\capabilities\\trading-loss-as-cost.md": "62c2822963ef05bcaa6de4e4625e76f8a99c3888e0b0f2ed597a3333421a972b",
+    "zouchuhuanjue\\references\\capability-index.md": "326e8a654c457b0910ae295f3342471a1ceec27e8b47d723be0395d13d47e1cc",
+    "zouchuhuanjue\\references\\cheatsheet.md": "34a6ae5bb92895d6e8b0212ef7fd996c7d69f34f42a74e601423320ad62cd5cb",
+    "zouchuhuanjue\\references\\glossary.md": "baa7fcbb5e6a935ef84892f980758ff8849071aa3a6ae4ff5218c5c13507a8b3",
+    "zouchuhuanjue\\references\\overview.md": "2ccb5989842ad93d285250d0e2df14f0443a1399149776f2aa1897acca5c67d2",
+    "zouchuhuanjue\\SKILL.md": "45c6f93aca5c6df84845bf5e8e2db34896de39ab85ba2215ed7f6b95d144e20b"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.zouchuhuanjue",
+  "bundle_sha256": "b2cd04c1b8808cb1cb9545f90bdb824156e1c62a0e3fcc54c49b861fe0988c2a",
+  "variant": "pack",
+  "run_id": "run-20261024-022215-a7f04c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "pack",
+    "selected": "pack",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 7,
+    "reasons": [
+      "用户显式选择 pack，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "single（1 个入口 + 7 张内部能力卡）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

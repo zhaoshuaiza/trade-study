@@ -1,0 +1,13 @@
+  skill: avoid-over-optimization       113 行    7261 字节
+  skill: high-winrate-trap             118 行    7290 字节
+  skill: insect-system-recipe          128 行    8311 字节
+  skill: learning-effect-chasing-tail  121 行    7340 字节
+  skill: loss-maturity-ladder          109 行    6806 字节
+  skill: risk-guard-two-points         107 行    6542 字节
+  skill: trading-loss-as-cost          103 行    6535 字节
+  skill: zouchuhuanjue                  68 行    6029 字节
+
+共扫描 18 个 .md，其中 8 个 SKILL.md
+ERROR [broken-ref] dist\.staging-run-20261024-022104-9e53bf-pack\zouchuhuanjue\SKILL.md: `references/glossary.md` 不存在
+
+结果: 1 errors, 0 warnings

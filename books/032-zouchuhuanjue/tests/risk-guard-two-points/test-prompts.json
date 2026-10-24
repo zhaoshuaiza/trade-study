@@ -1,0 +1,62 @@
+{
+  "skill": "risk-guard-two-points",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "持仓回撤了15%，要不要先出来规避风险",
+      "expected_behavior": "调用 risk-guard-two-points：指出风控只做'保住趋势位置+绝对止损'，回撤不等于风险",
+      "notes": "正面：回撤避险"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "分散持股买十几只能不能降低我的风险",
+      "expected_behavior": "调用 risk-guard-two-points：明确分散是减震器不是风控，真正风控只有两点",
+      "notes": "正面：分散误区"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "到底怎么做风险控制、如何防范爆仓",
+      "expected_behavior": "调用 risk-guard-two-points：给两条风控要点+绝对止损，否定买优质/便宜/分散",
+      "notes": "正面：风控总问"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "我买了好公司长期拿，应该就没风险了吧",
+      "expected_behavior": "调用 risk-guard-two-points：否定'买好公司=风控'，回到两点",
+      "notes": "正面：好公司误区"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "给我一套能直接用的交易系统，仓位怎么定",
+      "expected_behavior": "不调用本 Skill；应触发 insect-system-recipe（跨 Skill 混淆）",
+      "notes": "诱饵→昆虫系统"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "我老是换方法，哪种都不灵怎么办",
+      "expected_behavior": "不调用本 Skill；应触发 learning-effect-chasing-tail（跨 Skill 混淆）",
+      "notes": "诱饵→学习效应"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我算一下这只转债的溢价率和到期收益率",
+      "expected_behavior": "不调用（具体标的量化指标，超出范围）",
+      "notes": "诱饵：转债指标"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我满仓一只股票，现在亏了想设止损但怕一卖就涨",
+      "expected_behavior": "调用：先确认绝对止损点，再处理'怕卖飞'的心理（交叉 loss 类）",
+      "notes": "边界：满仓+止损纠结"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "skill": "high-winrate-trap",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "我胜率很高但总体还是亏钱，怎么回事",
+      "expected_behavior": "调用 high-winrate-trap：解释正确率与赔率互损、赚小亏大",
+      "notes": "正面：高胜率低收益"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "为什么我总是赚一点点就跑，亏了却扛很久",
+      "expected_behavior": "调用 high-winrate-trap：cut winners let losers run，与成本观交叉",
+      "notes": "正面：拿不住盈"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "怎么提高正确率、把胜率做上去",
+      "expected_behavior": "调用 high-winrate-trap：指出追求高胜率是陷阱，应看赔率",
+      "notes": "正面：想提胜率"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "我70%的交易都盈利但账户还在跌，是不是数据错了",
+      "expected_behavior": "调用 high-winrate-trap：不是数据错，是赔率结构问题",
+      "notes": "正面：疑数据"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "亏损了很自责，觉得自己不适合炒股",
+      "expected_behavior": "不调用本 Skill；应触发 trading-loss-as-cost（跨 Skill 混淆）",
+      "notes": "诱饵→亏损心理"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "参数要不要再优化提高胜率",
+      "expected_behavior": "不调用本 Skill；应触发 avoid-over-optimization（跨 Skill 混淆）",
+      "notes": "诱饵→优化"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我统计一下我过去一年交易的胜率",
+      "expected_behavior": "不调用（纯统计任务，非方法论）",
+      "notes": "诱饵：统计"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我胜率只有30%但总体是赚钱的，这正常吗",
+      "expected_behavior": "调用：这正是低胜率高赔率的可盈利结构，确认正常并讲赔率",
+      "notes": "边界：低胜率盈利"
+    }
+  ]
+}

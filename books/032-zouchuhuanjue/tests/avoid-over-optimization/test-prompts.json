@@ -1,0 +1,62 @@
+{
+  "skill": "avoid-over-optimization",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "参数怎么设最好，要不要再优化一下提高胜率",
+      "expected_behavior": "调用 avoid-over-optimization：讲参数两端等效、过度拟合、加过滤器互损",
+      "notes": "正面：想再优化"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "能不能把均线系统和动量系统组合在一起用",
+      "expected_behavior": "调用 avoid-over-optimization：指出叠加方法常互相抵消、损耗效应",
+      "notes": "正面：想叠方法"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "我加了个过滤条件胜率好像高了但总利润反而降了",
+      "expected_behavior": "调用 avoid-over-optimization：这是小蝴蝶/损耗效应的典型症状",
+      "notes": "正面：过滤反效果"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "回测里这个参数特别漂亮，要不要照这个定",
+      "expected_behavior": "调用 avoid-over-optimization：警告过度拟合与样本内美化",
+      "notes": "正面：回测过拟合"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "给我一套趋势跟踪系统，资金怎么分配",
+      "expected_behavior": "不调用本 Skill；应触发 insect-system-recipe（跨 Skill 混淆）",
+      "notes": "诱饵→昆虫系统"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "我胜率很高为什么还亏钱",
+      "expected_behavior": "不调用本 Skill；应触发 high-winrate-trap（跨 Skill 混淆）",
+      "notes": "诱饵→高胜率"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个 Python 脚本自动计算 MACD",
+      "expected_behavior": "不调用（纯编程任务，非交易方法论）",
+      "notes": "诱饵：编程"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想定期再平衡调一下仓位比例，算优化吗",
+      "expected_behavior": "说明'规则内的再平衡≠优化'，若是事先定好的机械规则则不算",
+      "notes": "边界：再平衡"
+    }
+  ]
+}

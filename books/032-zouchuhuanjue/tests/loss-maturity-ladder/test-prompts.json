@@ -1,0 +1,62 @@
+{
+  "skill": "loss-maturity-ladder",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "我明明知道要止损但手就是下不去，怎么回事",
+      "expected_behavior": "调用 loss-maturity-ladder：判定处于第②/③层，先做层级诊断再给行动",
+      "notes": "正面：知行不一"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "怎么判断我现在算什么水平的交易者",
+      "expected_behavior": "调用 loss-maturity-ladder：用五境界分层诊断",
+      "notes": "正面：水平自评"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "我套牢了干脆不看账户，假装没亏",
+      "expected_behavior": "调用 loss-maturity-ladder：判定第①层（拒绝面对），先不动参数",
+      "notes": "正面：第①层"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "我亏损了但心态居然挺平静，是不是境界高了",
+      "expected_behavior": "调用 loss-maturity-ladder：核对是否到第④/⑤层，确认来源",
+      "notes": "正面：境界判断"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "参数怎么设最好，要不要再优化一下提高胜率",
+      "expected_behavior": "不调用本 Skill；应触发 avoid-over-optimization（跨 Skill 混淆）",
+      "notes": "诱饵→优化陷阱"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "给我一套趋势跟踪系统包括资金怎么分配",
+      "expected_behavior": "不调用本 Skill；应触发 insect-system-recipe（跨 Skill 混淆）",
+      "notes": "诱饵→昆虫系统"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "今天大盘跌了3%，我要不要先空仓躲一下",
+      "expected_behavior": "不调用（择时/大盘判断，非境界诊断）",
+      "notes": "诱饵：大盘择时"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我刚入市两周，还没真正亏过钱，想知道自己处在哪个阶段",
+      "expected_behavior": "仍可调用做前置诊断，但需说明'无实亏样本时分层仅作参考'",
+      "notes": "边界：新手无样本"
+    }
+  ]
+}

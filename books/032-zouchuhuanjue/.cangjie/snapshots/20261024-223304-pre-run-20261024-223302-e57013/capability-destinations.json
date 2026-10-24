@@ -1,0 +1,37 @@
+{
+  "generated_by": "cangjie-tools v2.5.0",
+  "bundle_id": "bundle.zouchuhuanjue",
+  "router_entrypoint": "zouchuhuanjue",
+  "entrypoint_count": 8,
+  "capability_count": 7,
+  "destinations": {
+    "cap.032.loss-as-cost": {
+      "promoted_to": "trading-loss-as-cost",
+      "router_view": "zouchuhuanjue/references/capabilities/trading-loss-as-cost.md"
+    },
+    "cap.032.loss-maturity-ladder": {
+      "promoted_to": "loss-maturity-ladder",
+      "router_view": "zouchuhuanjue/references/capabilities/loss-maturity-ladder.md"
+    },
+    "cap.032.risk-two-points": {
+      "promoted_to": "risk-guard-two-points",
+      "router_view": "zouchuhuanjue/references/capabilities/risk-guard-two-points.md"
+    },
+    "cap.032.avoid-over-optimization": {
+      "promoted_to": "avoid-over-optimization",
+      "router_view": "zouchuhuanjue/references/capabilities/avoid-over-optimization.md"
+    },
+    "cap.032.insect-system": {
+      "promoted_to": "insect-system-recipe",
+      "router_view": "zouchuhuanjue/references/capabilities/insect-system-recipe.md"
+    },
+    "cap.032.high-winrate-trap": {
+      "promoted_to": "high-winrate-trap",
+      "router_view": "zouchuhuanjue/references/capabilities/high-winrate-trap.md"
+    },
+    "cap.032.chasing-tail": {
+      "promoted_to": "learning-effect-chasing-tail",
+      "router_view": "zouchuhuanjue/references/capabilities/learning-effect-chasing-tail.md"
+    }
+  }
+}

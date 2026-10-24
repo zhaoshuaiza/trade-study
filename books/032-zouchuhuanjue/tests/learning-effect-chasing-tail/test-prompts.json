@@ -1,0 +1,62 @@
+{
+  "skill": "learning-effect-chasing-tail",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "我老是换方法，哪种都不灵怎么办",
+      "expected_behavior": "调用 learning-effect-chasing-tail：诊断狗咬尾巴循环，建议固定一套",
+      "notes": "正面：换方法"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "学了很多方法反而越做越亏，要不要继续学",
+      "expected_behavior": "调用 learning-effect-chasing-tail：指出学习效应使参数游戏更难，先停学",
+      "notes": "正面：越学越亏"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "最近表现差，我想根据近期结果换套策略",
+      "expected_behavior": "调用 learning-effect-chasing-tail：警告随近期成败切换方法会丢数千万",
+      "notes": "正面：随表现换"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "我每次亏了就改系统，赚了就觉得系统对了",
+      "expected_behavior": "调用 learning-effect-chasing-tail：指出用结果评价对错是学习效应",
+      "notes": "正面：结果评对错"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "给我一套趋势跟踪系统资金怎么分",
+      "expected_behavior": "不调用本 Skill；应触发 insect-system-recipe（跨 Skill 混淆）",
+      "notes": "诱饵→昆虫系统"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "参数要不要再优化一下",
+      "expected_behavior": "不调用本 Skill；应触发 avoid-over-optimization（跨 Skill 混淆）",
+      "notes": "诱饵→优化"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "推荐几本适合新手看的交易书",
+      "expected_behavior": "不调用（书单推荐，非方法论）",
+      "notes": "诱饵：书单"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我刚学完缠论想换成海龟法则试试，算不算狗咬尾巴",
+      "expected_behavior": "调用：若是无样本就切换属学习效应；若已跑满样本且评估后切换则不算，需区分",
+      "notes": "边界：换体系动机"
+    }
+  ]
+}
