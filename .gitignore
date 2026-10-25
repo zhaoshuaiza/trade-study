@@ -11,3 +11,6 @@ _clean_spans.py
 # 仅用 .obsidian/community-plugins.json 记录已安装插件清单，
 # 换机/复原时按该清单重装即可。
 .obsidian/plugins/
+
+# ===== OCR 转换临时产物（碎片化/可再生成）：不入库 =====
+md阅读版/
