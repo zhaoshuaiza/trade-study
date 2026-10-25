@@ -14,3 +14,11 @@ _clean_spans.py
 
 # ===== OCR 转换临时产物（碎片化/可再生成）：不入库 =====
 md阅读版/
+
+# ===== 蒸馏流水线缓存 / 其他临时：不入库 =====
+.cangjie/
+_backup_md.py
+
+# ===== Obsidian 运行时缓存（保留 workspace.json 布局同步）=====
+.obsidian/cache/
+.trash/
