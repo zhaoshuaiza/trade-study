@@ -1,6 +1,8 @@
 _read_tool.py
 _set_digest.py
 _tmp_card*.md
+_ocr_*_progress.json
+_tmp_*.png
 价值投资之茅台大博弈
 _clean_spans.py
 
