@@ -16,13 +16,13 @@
 | 阶段 | 状态 | 产出 | 完成时间 |
 |---|---|---|---|
 | 0 整书理解 | ✅ 已完成（用户授权免确认，2026-10-25） | BOOK_OVERVIEW.md | 2026-10-25 |
-| 1 并行提取 | 🔄 进行中 | candidates/*.md | |
-| 1.5 三重验证 | ⏸ 待开始 | verified.md + rejected/ | |
-| 1.6 晋级门 | ⏸ 待开始 | destinations.json | |
-| 2 RIA++ 能力卡 | ⏸ 待开始 | verified.yaml + cards/ | |
-| 3 Zettelkasten | ⏸ 待开始 | GLOSSARY.md | |
-| 4 压力测试 | ⏸ 待开始 | tests/ | |
-| 5 编译交付 | ⏸ 待开始 | dist/pack + DIGEST.md | |
+| 1 并行提取 | ✅ 已完成 | candidates/（framework/principle/case/counter-example/glossary 五类）| 2026-10-25 |
+| 1.5 三重验证 | ✅ 已完成 | verified.md（38 单元通过）+ rejected/（3 淘汰）| 2026-10-25 |
+| 1.6 晋级门 | ⏸ 跳过 | — | 按库惯例以概念页交付，未编译独立 skill |
+| 2 RIA++ 能力卡 | ⏸ 跳过 | — | 同上 |
+| 3 Zettelkasten | ⏸ 跳过 | — | 同上 |
+| 4 压力测试 | ⏸ 跳过 | — | 同上 |
+| 5 编译交付 | ✅ 以概念页交付 | [[01_新建笔记/日本蜡烛图技术详解·酒田78条战法判据]] | 2026-10-25 |
 
 ## 源文本事实
 - `books/021-jiutian78/source.txt`：198,202 字符 / 375 页（OCR 首跑 3 页 ONNX 瞬时崩溃，237/238/240 已补扫成功，最终 0 失败页）
