@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/032-zouchuhuanjue/candidates/principles.md",
+                "file": "wiki/market/2026-10-21.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "principles"
+              "title": "2026-10-21"
             }
           }
         ]
@@ -88,9 +88,94 @@
   "right": {
     "id": "943ff7b1f1480847",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "069e600bc1958d60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a51b6de603cc4f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "books/032-zouchuhuanjue/candidates/_v15/rejected.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "d188cf878467654e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "books/032-zouchuhuanjue/candidates/_v15/rejected.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "9de01df4a662da7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "806af2ca58a1b6ac",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2c22dfa450e6b74e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "books/032-zouchuhuanjue/candidates/_v15/rejected.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -110,44 +195,44 @@
   },
   "active": "844142bb92cadd2e",
   "lastOpenFiles": [
-    "_diag_freeze.py",
+    "raw/distilled/jiutian78_shards/p0331-0340.txt",
+    "wiki/market/2026-10-20.md",
+    "wiki/market/2026-10-19.md",
+    "wiki/market/_README.md",
+    "wiki/sources/交易心理学（村居孝美·NLP交易训练）.md",
+    "raw/distilled/jiutian78_shards/p0321-0330.txt",
+    "wiki/books/03游资超短/黑马王子操盘手记（套装6-9册）.md",
+    "wiki/books/03游资超短/股市极客思考录 十年磨一剑之龙头股战法揭秘.md",
+    "raw/distilled/jiutian78_shards/p0191-0200.txt",
+    "ocr_jike_full.py",
+    "raw/distilled/jiutian78_shards/p0181-0190.txt",
+    "wiki/books/03游资超短/伏击涨停+涨停密码(套装共2册).md",
+    "wiki/books/03游资超短/_类目状态.md",
+    "raw/distilled/jiutian78_shards/p0171-0180.txt",
+    "raw/distilled/jiutian78_shards/p0161-0170.txt",
+    "raw/distilled/jiutian78_shards/p0151-0160.txt",
+    "raw/distilled/jiutian78_shards/p0141-0150.txt",
+    "raw/distilled/jiutian78_shards/p0131-0140.txt",
+    "raw/distilled/jiutian78_shards/p0121-0130.txt",
+    "wiki/syntheses/短线体系总览.md",
+    "wiki/books/05其他/金融怪杰 华尔街的顶级交易员（典藏版）.md",
+    "wiki/books/05其他/cis股票交易术.md",
+    "wiki/books/05其他/半小时漫画股票实战法.md",
+    "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
+    "books/021-jiutian78/PIPELINE_STATE.md",
+    "books/032-zouchuhuanjue/candidates/_v15/rejected.md",
+    "books/032-zouchuhuanjue/candidates/cases.md",
+    "books/032-zouchuhuanjue/candidates/principles.md",
     "books/032-zouchuhuanjue/candidates/glossary.md",
     "books/032-zouchuhuanjue/candidates/counter-examples.md",
-    "books/032-zouchuhuanjue/candidates/cases.md",
     "books/032-zouchuhuanjue/PIPELINE_STATE.md",
-    "raw/distilled/steenbarger-2002-zh/canvas/009-第4章 问题解决及策略.md.part",
     "raw/distilled/steenbarger-2002-zh/canvas/008-第3章 目标设定.md",
-    "raw/distilled/steenbarger-2002-zh/canvas/008-第3章 目标设定.md.part",
-    "_v2002_B.log",
     "books/032-zouchuhuanjue/BOOK_OVERVIEW.md",
-    "books/032-zouchuhuanjue/candidates/principles.md",
     "从这里开始.md",
-    "_stage2002_B.log",
-    "未命名.base",
     "新手上手指南.md",
     "wiki/meta/编译队列.md",
-    "wiki/hot.md",
-    "wiki/学习系统-四周上手计划.md",
-    "wiki/目录英文名对照表.md",
-    "wiki/books/01价值投资/巴菲特的护城河.md",
-    "wiki/books/01价值投资/奥马哈之雾（珍藏版）.md",
-    "_diag_timing.py",
-    "raw/market/_README.md",
-    "raw/articles/著名的海龟式期货交易系统完整版来了！值得收藏！.md",
-    "raw/articles/交易者的超级心流训练导读（投资圈女混混）/交易者的超级心流训练导读01.md",
-    "raw/weread/富爸爸投资指南.md",
-    "raw/weread/富爸爸股票投资从入门到精通.md",
-    "raw/weread/财务报表分析与股票估值.md",
-    "raw/clips/README.md",
     "raw/_tmp/g.png",
     "raw/_tmp/f.png",
-    "raw/academic/可转债每日掘金/42可转债投资逻辑与收益来源风险收益特征.md",
-    "raw/academic/可转债每日掘金/32可转债核心要素与指标股性相关指标.md",
-    "raw/academic/可转债每日掘金/23可转债基础篇市场概况.md",
-    "raw/distilled/steenbarger-2002-zh/canvas/007-第2章 自我认识.md.part",
-    "books/032-zouchuhuanjue/rejected",
-    "books/032-zouchuhuanjue/candidates",
-    "_canvas_chunk2.log",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_97.png",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_96.png",
     "raw/books/05其他/见龙在田 做熟一种盈利模式/_tmp_95.png",
