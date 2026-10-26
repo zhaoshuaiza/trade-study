@@ -22,3 +22,6 @@ _backup_md.py
 # ===== Obsidian 运行时缓存（保留 workspace.json 布局同步）=====
 .obsidian/cache/
 .trash/
+
+# ===== 同步临时目录（ima/飞牛同步缓存）：不入库 =====
+.sync_temp_dir/
