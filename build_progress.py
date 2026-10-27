@@ -11,6 +11,7 @@ from datetime import datetime
 
 ROOT = 'E:/Work Buddy/交易学习'
 BOOKS = f'{ROOT}/raw/books'
+SRC = 'E:/电子书/202061010投资电子书'
 OUT = f'{ROOT}/wiki/meta/progress'
 os.makedirs(OUT, exist_ok=True)
 
@@ -86,7 +87,47 @@ def main():
                 'note': m.get('extract_error', '') or '',
             })
 
-    ORDER = ['待OCR', '待提取', '提取失败', '待编译', '待编译(字少)', '已编译']
+    ORDER = ['待OCR', '待提取', '提取失败', '待编译', '待编译(字少)', '未登记', '已编译']
+    # ⭐ 源库对账（2026-10-27 新增）
+    #   盲区背景：台账只扫 raw/books/*/*/_meta.json，源目录里「从没入库」的书
+    #   台账完全看不见 → 六态恒为 0 会给人「全部做完了」的错觉。
+    #   源目录的书名带 "1_"/"2_" 数字前缀，raw/books 里已去掉 → 比对时两边都要归一化。
+    def strip_idx(s):
+        return re.sub(r'^\d+_', '', s).replace('  ', ' ').strip()
+
+    registered = {(r['cat'], strip_idx(r['dir'])) for r in rows}
+    if os.path.isdir(SRC):
+        for cat in sorted(os.listdir(SRC)):
+            cp = os.path.join(SRC, cat)
+            if not os.path.isdir(cp):
+                continue
+            for b in sorted(os.listdir(cp)):
+                full = os.path.join(cp, b)
+                if os.path.isdir(full):
+                    name = b
+                    inner = []
+                    try:
+                        inner = os.listdir(full)
+                    except OSError:
+                        pass
+                    kind = ('目录/' + ','.join(
+                        sorted({os.path.splitext(x)[1].lower() or '无扩展名'
+                                for x in inner}))) if inner else '目录'
+                    note = '；'.join(inner[:4])
+                else:
+                    name = os.path.splitext(b)[0]
+                    kind = os.path.splitext(b)[1].lower() or '未知'
+                    note = '散落文件（不在目录里）'
+                key = (cat, strip_idx(name))
+                if key in registered:
+                    continue
+                registered.add(key)
+                rows.append({
+                    'cat': cat, 'dir': f'源库/{cat}/{name}', 'book': strip_idx(name),
+                    'kind': kind, 'pages': 0, 'cjk': 0,
+                    'state': '未登记', 'note': note,
+                })
+
     # ⭐ 已按CLAUDE.md 零之二判定为「非交易内容，应进hedge 库」的书
     DIVERTED = {
         '乌合之众', '小狗钱钱', '小岛经济学', '繁荣与衰退',
@@ -114,6 +155,7 @@ def main():
         '提取失败': '提取报错，需人工介入',
         '待编译': '文本已就绪，等读完后建概念页',
         '待编译(字少)': '文本偏少，可能是公版/目录型书，需人工判断',
+        '未登记': '源库里有、但从未登记进 raw/books（台账盲区，需人工处理）',
         '已编译': '库内已有对应来源页或概念页',
     }
     for s in ORDER:
@@ -122,9 +164,12 @@ def main():
     L.append(f'| **合计** | **{len(rows)}** | — |')
     L.append('')
     done = cnt.get('已编译', 0)
-    real = done + len(div)
+    # ⭐ 分流的 8 本本身就是「已编译」的子集（它们在 05其他 类目里，也被 in_wiki 判成已编译），
+    #   旧公式 real = done + len(div) 会把它们重复计入分子 → 完成率 106/98 = 108%（>100%）。
+    #   2026-10-27 修正：分子只取已编译，分流数单独标注。
+    real = done
     L.append(f'**完成率：{real}/{len(rows)} = {real*100//max(len(rows),1)}%**'
-             f'（已编译 {done} + 已分流 {len(div)}）')
+             f'（已编译 {done}；其中 {len(div)} 本已分流 hedge 库，已含在分子里，不重复计数）')
     L.append('')
     if div:
         L.append('### 已分流到 hedge 库的书（判定依据：不能落成「看盘时用得上的动作」）')

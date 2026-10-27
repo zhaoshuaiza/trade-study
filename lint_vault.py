@@ -14,12 +14,23 @@ WIKI = os.path.join(ROOT, 'wiki')
 # 原因：raw/ 是只读原始资料，没有双链是正常的。
 #把它算进来会让"孤立页面"被几十篇原始资料刷屏，真正的孤立知识页被淹没。
 EXCLUDE_DIRS = {'.obsidian', '.git', 'raw', '.raw'}
+# ⭐ 蒸馏流水线产物目录：与 raw/ 同理——是只读素材/缓存，没有双链是正常的。
+#   .cangjie/ 已在 .gitignore 声明为「蒸馏流水线缓存，不入库」；
+#   books/<id>/{candidates,dist,tests,rejected,snapshots}/ 是女娲/蒸馏技能
+#   的构建产物（2026-10-27 巡检：它们把页面总数从 ~460 顶到 789，淹没真实问题）。
+SKIP_DIRS = {'交易学习'}
+ARTIFACT_SUBDIRS = {'.cangjie', 'candidates', 'dist', 'tests',
+                    'rejected', 'snapshots', 'references', 'pack'}
 pages = {}
+unreadable = []
 for base_dir in (WIKI, ROOT):
     for dirpath, dirnames, filenames in os.walk(base_dir):
-        dirnames[:] = [d for d in dirnames if d not in EXCLUDE_DIRS]
+        dirnames[:] = [d for d in dirnames
+                       if d not in EXCLUDE_DIRS and d not in SKIP_DIRS]
         if base_dir == WIKI and ROOT in dirpath:
             continue  # 根目录已扫过
+        # 流水线构建产物子目录（books/<id>/candidates 等）不计入知识层
+        dirnames[:] = [d for d in dirnames if d not in ARTIFACT_SUBDIRS]
         for fn in filenames:
             if not fn.endswith('.md'):
                 continue
@@ -27,7 +38,10 @@ for base_dir in (WIKI, ROOT):
             rel = os.path.relpath(full, ROOT).replace('\\', '/')
             if rel in pages:
                 continue
-            pages[rel] = io.open(full, encoding='utf-8').read()
+            try:
+                pages[rel] = io.open(full, encoding='utf-8').read()
+            except OSError as e:
+                unreadable.append((rel, e))
 
 RESOURCE_STEMS = set()
 
@@ -54,7 +68,9 @@ for _attach in (os.path.join(ROOT, '.attachments'),):
 # 非 md 资源（图片等），链接到它们不算死链
 assets = set()
 for dirpath, dirnames, filenames in os.walk(ROOT):
-    dirnames[:] = [d for d in dirnames if d not in EXCLUDE_DIRS]
+    dirnames[:] = [d for d in dirnames
+                   if d not in EXCLUDE_DIRS and d not in SKIP_DIRS
+                   and d not in ARTIFACT_SUBDIRS]
     for fn in filenames:
         if not fn.endswith('.md'):
             assets.add(os.path.splitext(fn)[0])
@@ -149,6 +165,10 @@ print('=' * 72)
 print('交易学习库 lint 报告')
 print('=' * 72)
 print(f'页面总数：{len(pages)}')
+if unreadable:
+    print(f'（跳过 {len(unreadable)} 个不可读文件）')
+    for rel, e in unreadable[:10]:
+        print(f'  ⚠ {rel} — {e}')
 
 # 1 孤立页面
 print('\n【1】孤立页面（无入链且无出链）')
