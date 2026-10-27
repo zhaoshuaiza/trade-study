@@ -52,5 +52,14 @@
     "rows": 55,
     "page": "wiki/market/2026-10-26.md",
     "synced_at": "2026-10-26T22:19:38"
+  },
+  "2026-10-27": {
+    "zt": "E:/股票/复盘数据/zt20261027.xlsx",
+    "zt_hash": "513b7899173f8fcb8d91f2aa3d305405",
+    "rd": "E:/股票/复盘数据/20261027RD.xlsx",
+    "rd_hash": "4de329537824d0385780d90eedb269ce",
+    "rows": 41,
+    "page": "wiki/market/2026-10-27.md",
+    "synced_at": "2026-10-27T21:41:54"
   }
 }
