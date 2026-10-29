@@ -61,5 +61,23 @@
     "rows": 41,
     "page": "wiki/market/2026-10-27.md",
     "synced_at": "2026-10-27T21:41:54"
+  },
+  "2026-10-28": {
+    "zt": "E:/股票/复盘数据/zt20261028.xlsx",
+    "zt_hash": "3a7d4eaff2cb46ec08903aa1c5e22523",
+    "rd": "E:/股票/复盘数据/20261028RD.xlsx",
+    "rd_hash": "f3243e91a0b7defa7f837a22e79e17a9",
+    "rows": 69,
+    "page": "wiki/market/2026-10-28.md",
+    "synced_at": "2026-10-28T20:57:00"
+  },
+  "2026-10-29": {
+    "zt": "E:/股票/复盘数据/zt20261029.xlsx",
+    "zt_hash": "0e3867453de4ac94b67a2e630cb116c1",
+    "rd": "E:/股票/复盘数据/20261029RD.xlsx",
+    "rd_hash": "f18cbbf12176710761a9ee3f94615880",
+    "rows": 39,
+    "page": "wiki/market/2026-10-29.md",
+    "synced_at": "2026-10-29T21:20:15"
   }
 }
