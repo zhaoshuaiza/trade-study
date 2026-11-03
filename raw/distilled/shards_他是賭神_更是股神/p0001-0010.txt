@@ -1,0 +1,204 @@
+=== 第1页 ===
+城連赢到華爾街的天才數學家，關於風、财富和人生的第一手告白
+他是赌神,
+更是股神
+《金融时報》2017年
+最佳財經書决選
+AMANFORALLMARKETS
+以二十一點算牌法勝莊家；
+打造第一部穿戴式電腦赢輪盤；
+FromLasVegastoWallStreet,HowIBeattheDealerandtheMarket
+發明選選權定价公式再撃败大盤！
+爱德華·索普教你：
+打败市場是可能的，
+而且每個人都能做到！
+传奇數學家、計量金融之父
+愛德華·索普EdwardO.Thorp著
+唐祖荫
+查理·蒙格巴菲特合人、《翁查理的普通常識》作者|納西姆·塔雷伯《黑天鹅效應》作者|姜林杰祐高雄科技大學金融资訊系所教授
+吴牧恩台北科技大學资訊與财金管理系助理教授|财報狗台灣最大基本面資訊平台|韓传祥清華大學計量财務金融學系副教授推
+TABLE 5.Player's Advantage Against Various Up Cards
+You
+10*
+have
+Dealer shows-
+Player'dvantae whentedealer'supcadis
+Player's
+145
+056-040-173
+-040
+-173
+236
+056
+-173
+19
+overall
+1*
+229
+145
+057
+-041
+144
+-208
+18
+10
+advantage*
+094
+021
+-104
+061
+008
+-174
+-364
+105
+-171
+2.3
+-0021
+-393
+184
+030
+111
+169
+3.3*
+-0034
+-351
+031
+076
+160
+3.3
+17
+-0038
+081
+-178
+Standing
+-373
+-0272
+166
+1.51.3
+Numbers
+0142
+371
+154
+1.31.2
+0189
+-374
+184
+VA
+Soft standing
+0236
+-369
+179
+385
+Hard standing
+0329
+171
+0187
+364
+159
+0125
+-356
+131
+343
+S000
+346
+-0091
+307
+385
+249
+264
+-0215
+0189
+404
+219
+186
+0394
+nd
+0070
+商業周刊
+紅沙龍
+
+=== 第2页 ===
+他是赌神,
+更是股神
+AMANFORALLMARKETS
+From Las Vegas to Wall Street, How I Beat the Dealer and the Market
+傅奇数學家、計量金融之父
+爱德華·索普EdwardO.Thorp著
+唐組蕊
+
+=== 第3页 ===
+本書獻給薇薇安丶三個孩子和他們的家人：
+恩丶布莱恩丶艾娃；
+凱倫丶理察丶克莱兒丶愛德華；
+夫丶麗莎、凱莉和湯瑪斯
+
+=== 第4页 ===
+[OCR失败]
+
+=== 第5页 ===
+索普五時·
+
+=== 第6页 ===
+11
+這張照片拍攝於索普居住的南加州的小镇洛米塔，他在那裡上納伯高
+
+=== 第7页 ===
+34
+18121
+撃败輪盤的穿戴式電腦；於1961年6月由克帝·夏（Claude
+Shannon）和索普合作完成；在拉斯維加斯成功使用，目前展示於
+MIT博物館·
+
+=== 第8页 ===
+W/E
+0.6
+·Actualprice
+×Normalprice
+0.5
+0.43
+0.4
+Univ.
+Amer.
+Sperry
+Rand
+0.3
+Pacific
+Petroleums
+18months
+Normalprice:
+12 months
+Gen.Accpt,
+0.2
+RioAlgom
+6months
+0.14
+0.1
+line
+1.5months
+value
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1. 1
+12
+When stock is below O.3
+times adjusted exercise
+Usea3to1mixwhensfockisbetween
+price sell short warrant
+0.3times and 1.2timesexerciseprice.
+but do not buy common.
+Figure 6.3.Picking the most profitable warrants to sell short, July 21,1966.
+權證套利’1966年，引引自《勝市場》
+
+=== 第9页 ===
+算牌和計算優勢的簡式機械装置’1964年製作
+
+=== 第10页 ===
+1964年在熱带花園酒店（Tropicana Hotel）算牌°

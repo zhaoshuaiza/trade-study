@@ -19,7 +19,9 @@ SRC_DIRS = ['E:/笔记Obsidian/电子书',
             'E:/电子书/202061010投资电子书/04基金、可转债',
             'E:/电子书/202061010投资电子书/05其他',
             # ⭐⭐ 2026-10-27 新增：公众号每日更新批次（82本，百度盘同步60本）
-            'E:/Work Buddy/电子书/电子书资料每日更新（公众号私信 01 获取）']
+            'E:/Work Buddy/电子书/电子书资料每日更新（公众号私信 01 获取）',
+            # ⭐⭐ 2026-10-28 新增：E盘新路径
+            'E:/电子书/电子书资料每日更新（公众号私信 01 获取）']
 
 DPI = 160
 CHUNK = 10
@@ -43,12 +45,12 @@ def find_pdf(k):
                 if k in fn and fn.lower().endswith('.pdf'):
                     hits.append(os.path.join(root, fn))
     # ⚠️ 同一本书可能同时存在于多个源目录（路径分隔符不同但内容同一），
-    # 按 realpath 去重，避免被误判为「多册歧义」。
-    uniq, seen = [], set()
+    # 按文件名去重，避免被误判为「多册歧义」。
+    uniq, seen_names = [], set()
     for h in hits:
-        rp = os.path.realpath(h).replace('\\', '/')
-        if rp not in seen:
-            seen.add(rp); uniq.append(h)
+        bn = os.path.basename(h)
+        if bn not in seen_names:
+            seen_names.add(bn); uniq.append(h)
     hits = uniq
     if not hits:
         return None
