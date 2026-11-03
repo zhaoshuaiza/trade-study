@@ -50,17 +50,17 @@ def is_logged_in(page):
 
 def main():
     open(LOG, "w", encoding="utf-8").close()
-    log("launch edge ...")
+    log("launch edge (persistent) ...")
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(
+        browser = pw.chromium.launch_persistent_context(
+            user_data_dir=PROFILE,
             headless=False,
             executable_path=EDGE,
-            args=[f"--user-data-dir={PROFILE}",
-                  f"--remote-debugging-port={PORT}",
+            args=[f"--remote-debugging-port={PORT}",
                   "--no-first-run", "--no-default-browser-check",
                   "--window-size=480,720"],
         )
-        ctx = browser.contexts[0] if browser.contexts else browser.new_context()
+        ctx = browser
         page = ctx.new_page()
         page.goto("https://weread.qq.com/", wait_until="domcontentloaded", timeout=60000)
         time.sleep(3)

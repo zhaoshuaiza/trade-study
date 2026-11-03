@@ -35,6 +35,10 @@ BOOKS = {
         "vid": "5ea329c0813abbcbeg01667b",
         "dir": os.path.join(ROOT, "raw", "distilled", "steenbarger-2002-zh"),
     },
+    "2002tw": {
+        "vid": "72a327c0811e260b2g017333",
+        "dir": os.path.join(ROOT, "raw", "distilled", "steenbarger-2002-tradepsych-zh"),
+    },
 }
 
 EDGE_PATHS = [
@@ -709,7 +713,7 @@ def export_chapter_v4(page, url_base, k, out_path, expect_title="",
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--book", required=True, choices=["2015", "2002"])
+    ap.add_argument("--book", required=True, choices=["2015", "2002", "2002tw"])
     ap.add_argument("--only", default="", help="只导某些 uid, 逗号分隔")
     ap.add_argument("--pause", type=float, default=0.8)
     ap.add_argument("--urlmode", default="slash", choices=["slash", "query"],
