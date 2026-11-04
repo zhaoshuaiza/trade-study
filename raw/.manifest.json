@@ -679,13 +679,20 @@
     "script": "_ocr_qys.py",
     "shards": "raw/distilled/shards_qys/ (28 个分片, 页号 1~277, 缺失 0, 重复 0)"
    },
-   "note": "Hamilton 1922 原著《The Stock Market Barometer》，机械工业出版社·华章 2008 中译。⭐ 道氏理论一手原始文献（库内 sources/道氏理论 为 Rhea 1931 第三方系统阐述）。纯图像扫描件，已 OCR + 繁转简。⚠️ 华章版第2章「电影中的华尔街」为编者导言，非汉密尔顿文字。",
+   "note": "Hamilton 1922 原著《The Stock Market Barometer》，机械工业出版社·华章 2008 中译。⭐ 道氏理论一手原始文献（库内 sources/道氏理论 为 Rhea 1931 第三方系统阐述）。纯图像扫描件，已 OCR + 繁转简。二轮复核确认：正文 22 章全部为汉密尔顿文字（第2章初判「编者导言」系误判，1997年卡尔森文字是推荐序 P10–12）。",
    "extracted": "raw/distilled/股市晴雨表-OCR-简体.txt",
    "concepts_extracted": 5,
-   "claims_extracted": 3,
+   "claims_extracted": 4,
    "source_page": "wiki/sources/股市晴雨表.md",
    "status": "compiled",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "second_pass": {
+    "date": "2026-11-05",
+    "method": "4路并行子代理逐章精读 + 引文逐条回原文核验(约312条机器模糊核对+存疑处人工换关键词复核)",
+    "fixed_first_pass_errors": 5,
+    "fixed_transcription_fabrications": 5,
+    "note": "修正的转写虚构引文：3.6明显的顶部句/3.2道不愿写成书(实为3.7纳尔逊)+不预测股市说(出自中文版附录编者简介P277)/4.3提前9个月/4.5同步分歧句(实为1.5节)/5.5相隔4个月"
+   }
   }
  },
  "path_convention": "用正斜杠 /，避免 JSON 转义问题",

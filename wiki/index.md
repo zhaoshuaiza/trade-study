@@ -887,7 +887,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[sources/黑马王子系列]]
 - [[sources/龙头价值与赛道]]
 
-### 方法论冲突（`claims/`，16 页）
+### 方法论冲突（`claims/`，17 页）
 
 - [[claims/1922年华尔街日报对多头走势的预测]]
 - [[claims/三本C类书实测后推翻]]
@@ -903,6 +903,7 @@ python scan_library.py --add     # 确认后登记进manifest
 - [[claims/离场理由分歧·量价离场vs 基本面离场]]
 - [[claims/缠论能否量化]]
 - [[claims/缩量三一二一能否预报批量涨停]]
+- [[claims/股市晴雨表在1914年预见一战]]
 - [[claims/股市晴雨表在1917年提前预见停战]]
 - [[claims/股市晴雨表对1907年恐慌的预警]]
 
