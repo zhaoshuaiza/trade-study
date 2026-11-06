@@ -1,0 +1,38 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\zhuli-deception-defense.md": "91a985b20beb3f66db85b1303950ae8876a7a44c5487c59d6a3a2df918128265",
+    "references\\capabilities\\zhuli-exit-discipline.md": "1ea2a565167f5a98853b049a50c2191f116708b89c0fb782cc24b8bdd5b6f934",
+    "references\\capabilities\\zhuli-intent-inference.md": "5df33ba0fbad631a284e6cdb9f39c412f8b5d587d422efd96c0e2cbcdd803baf",
+    "references\\capabilities\\zhuli-market-regime-filter.md": "e676ab3f2aa990875e93bf53b56535bf8570a6e3d4de8d215faec57e45d64f63",
+    "references\\capabilities\\zhuli-orderbook-language.md": "3b870e1a0c82d65567c92a9d8fe46edffdc8b65446adb22f7aa7edeeeaedcf34",
+    "references\\capabilities\\zhuli-stage-model.md": "d47a018e608e72aee6ebf8edb7c938091751c62c6c3399f3795f9d5e1d4d2170",
+    "references\\capabilities\\zhuli-turnover-volume.md": "02a874f4511e8faab5d8870629297d66e3eba17f4d5142f0ec79b52917c6116d",
+    "references\\capabilities\\zhuli-washout-vs-distribution.md": "4c618b6f51f20377de9ccf7ef86ac7bdfd42a8eaf24bfd7a00e3ee1f1c0bc3a6",
+    "references\\capability-index.md": "8ddf42475e7b6600805a89a9856fd8005e50acba57c0aa4fd632b76b5633db84",
+    "references\\cheatsheet.md": "18765728d2f141572f55b066845bf1375a95381c8d468c984fd0bda91b8edd4d",
+    "references\\glossary.md": "92fc38f858e26fd427fb27888aae6ac9c952395519afc6dc252e51317b661072",
+    "references\\overview.md": "db86233be935658230161e8a8e1eaa322af6d9c5ad5b256c20ac43de0aa38b20",
+    "SKILL.md": "ef8b43594bc28a5befeddd2fdc5dc41a3fc18e6867556140eb1ede46ad53ecc7"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.zhuli",
+  "bundle_sha256": "e79a91445c47df0e7dc44be90434503f2128c37a6a1a68e1ffeea76f58961744",
+  "variant": "single",
+  "run_id": "run-20261107-074155-a7f807",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 8,
+    "capability_count": 8,
+    "reasons": [
+      "用户目的为 learning → single"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 8 个晋级 Skill，共 9 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\sanjiao-confirmation-rule-form.md": "e8382ea069808c563229abc1f4e85ce81eeb3c77dd643f69e4e3890aa5f62ab4",
+    "references\\capabilities\\sanjiao-geometry-mysticism.md": "3e25e30c32d40cc41c84c96005a35968681b74fa16b34635d40e171fb9b4ba71",
+    "references\\capabilities\\sanjiao-post-hoc-detection.md": "eafc35cb9742581576f2e9f6ede1801086d763879094e38ae48c4673be693655",
+    "references\\capabilities\\sanjiao-review-unfalsifiability.md": "079e2b3190ffc656592ce91571e797563cd3601ef582e06c1ca1fd660cd8e8ac",
+    "references\\capabilities\\sanjiao-selective-bookkeeping.md": "eef596784916cc3ba54ef376fb5ccb54f6e12cfe2a47c7e65d3e145517bc69dd",
+    "references\\capability-index.md": "ba9cb53fffed48b60bbd3dba1c86ceeb9cb435005bcf1c4651fcf9b4465e1499",
+    "references\\cheatsheet.md": "22302a681941ce82b3ea33d89bba72a25d185d11d7dd744bdf3fd9a6d5a5280c",
+    "references\\glossary.md": "a9aa53be69d6c1a6a1f015066fbc80ee3670f7d1b1833afe31ffd1edf8c7bd53",
+    "references\\overview.md": "ab7819cd8558ae0a8a98b6f7f159047c391d2863e96673d5500bdfaec6c2c634",
+    "SKILL.md": "2b89e2e31cae4c4130d3ca176029603a58aad29e752a20b1e0c8ec2e19b4e527"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.sanjiaoxing",
+  "bundle_sha256": "6aec8b71ea6a564d3cb2124061c764bf12aef61f242fe926117b0aedeb651cfc",
+  "variant": "single",
+  "run_id": "run-20261107-074157-7e1c8f",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 5,
+    "capability_count": 5,
+    "reasons": [
+      "用户目的为 learning → single"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 5 个晋级 Skill，共 6 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}

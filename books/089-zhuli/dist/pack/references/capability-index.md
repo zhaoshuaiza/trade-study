@@ -1,0 +1,12 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.089.zhuli-intent-inference | 从痕迹反推意图——先证伪、再交叉校验、后等确认 | critical | 看到放量/急涨急跌/大挂单/出消息，问「主力是不是在吸货/出货/洗盘」；拿单一信号直接下结论（放量=建仓、破位=出货、大买单=进货）想核对；困惑「利好出了反而跌」「该涨不涨」，想读懂盘面背后的意图；想判断「这个信号能不能信、会不会是画出来的」；what is the smart money doing / read the tape / intent inference | 痕迹反推意图、反事实推理、基线偏离、证据分级、重心、等确认、intent-inference | capabilities/zhuli-intent-inference.md |
+| cap.089.zhuli-orderbook-language | 盘口委托单语言——先分类、再证伪、后按位置校准 | high | 盘口出现巨量买单/卖单，问「是不是主力在进货/压盘」；看到上压板、下托板、夹板想知道怎么读；想判断挂单是不是假的、会不会撤；开盘/尾盘时段异动、支撑阻力突破怎么解读；read the order book / spoofing / large bid ask | 盘口委托单、上压板、下托板、夹板、证据分级、虚假申报、orderbook-language | capabilities/zhuli-orderbook-language.md |
+| cap.089.zhuli-turnover-volume | 换手率五态与量能连续性——分态读数、位置校准、证伪做量 | high | 换手率 3%/10%/1% 各说明什么、要不要介入；突然放量/底部放量是不是主力建仓；地量是不是见底、缩量上涨是不是坏事；周换手率怎么换算；turnover rate / volume spike / accumulation volume | 换手率五态、量价三态、量能连续性、地量、量价教条、turnover-volume | capabilities/zhuli-turnover-volume.md |
+| cap.089.zhuli-washout-vs-distribution | 洗盘 vs 出货——五维判别、延迟到关键位、跌破才离场 | critical | 手里的股票大跌，是洗盘还是出货、该不该卖；高位放量震荡/长上影是不是在派发；跌破 60 日线/关键支撑要不要离场；洗盘一般多久、跌多少算洗盘；washout or distribution / shakeout vs sell-off | 洗盘vs出货、五维判别、60日线、延迟判定、卖出离场、washout-distribution | capabilities/zhuli-washout-vs-distribution.md |
+| cap.089.zhuli-deception-defense | 骗术识别与防范——在所有正向判据之上加一层证伪（零可执行操作） | critical | 假突破/假填权/尾盘拉升/长影线是不是骗线；对倒放量、涨停板反复打开是不是出货；多头陷阱/空头陷阱怎么辨别、怎么防范；高位利好消息是不是配合出货的假消息；bull trap / bear trap / spoofing / paint the tape | 骗线、成交量骗术、多空陷阱、养套杀、信息战术、零可执行操作、deception-defense | capabilities/zhuli-deception-defense.md |
+| cap.089.zhuli-stage-model | 坐庄阶段模型——先定阶段、再解信号（事后叙事训练） | high | 这只股现在处于主力操盘的哪个阶段；底部跌停/金针探底/双底突破是不是建仓或试盘；试盘一般多久、怎么判断试盘成功；拉升阶段有哪些特征、还能不能跟；accumulation / markup / distribution stages | 坐庄十阶段、阶段优先于信号、三段式、试盘闭环、事后叙事、stage-model | capabilities/zhuli-stage-model.md |
+| cap.089.zhuli-exit-discipline | 弃庄 / 离场 / 止损——把退出写成进场前就定好的规则 | critical | 套牢了要不要割肉、能不能补仓摊平；什么情况下该弃庄离场、止损设在哪；高位放量长阴/涨停股 3 日不涨要不要卖；满仓还是轻仓、要不要分批；cut losses / stop loss / position sizing / exit rule | 弃庄、离场触发器、鳄鱼法则止损、中间仓位、分批、克服贪婪恐惧、exit-discipline | capabilities/zhuli-exit-discipline.md |
+| cap.089.zhuli-market-regime-filter | 大盘环境过滤——先看 beta、再谈 alpha，用共同下行期做压力测试 | high | 大盘在跌，个股逆势拉升能不能跟；弱市里要不要空仓、利好该不该信；怎么判断个股强是自身强还是大盘带的；主力控盘是不是必然涨；beta vs alpha / regime filter / don't fight the tape | 大盘环境过滤、弱市不介入、逆市压测、beta优先、主力不是万能、regime-filter | capabilities/zhuli-market-regime-filter.md |
