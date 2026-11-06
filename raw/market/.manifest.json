@@ -88,5 +88,50 @@
     "rows": 47,
     "page": "wiki/market/2026-10-30.md",
     "synced_at": "2026-11-01T20:58:06"
+  },
+  "2026-11-02": {
+    "zt": "E:/股票/复盘数据/zt20261102.xlsx",
+    "zt_hash": "0f505c27a5d23c0394327e16758d29d2",
+    "rd": "E:/股票/复盘数据/20261102RD.xlsx",
+    "rd_hash": "bb3582b7ba60c3f1882cb5891ab7143f",
+    "rows": 125,
+    "page": "wiki/market/2026-11-02.md",
+    "synced_at": "2026-11-07T06:36:16"
+  },
+  "2026-11-03": {
+    "zt": "E:/股票/复盘数据/zt20261103.xlsx",
+    "zt_hash": "ab49216c02777582e4363bbe5c984864",
+    "rd": "E:/股票/复盘数据/20261103RD.xlsx",
+    "rd_hash": "207d972694dfd212209fd7a9cc1ba074",
+    "rows": 48,
+    "page": "wiki/market/2026-11-03.md",
+    "synced_at": "2026-11-07T06:36:17"
+  },
+  "2026-11-04": {
+    "zt": "E:/股票/复盘数据/zt20261104.xlsx",
+    "zt_hash": "538fe05bb36a1bcaf83818817e0c1e12",
+    "rd": "E:/股票/复盘数据/20261104RD.xlsx",
+    "rd_hash": "9151a69ed20c20f1fff40321dd9f3b66",
+    "rows": 116,
+    "page": "wiki/market/2026-11-04.md",
+    "synced_at": "2026-11-07T06:36:17"
+  },
+  "2026-11-05": {
+    "zt": "E:/股票/复盘数据/zt20261105.xlsx",
+    "zt_hash": "fa894440435d0b0e93aeae5bed5cf12a",
+    "rd": "E:/股票/复盘数据/20261105RD.xlsx",
+    "rd_hash": "dadae02994b9acd226b8a19d5c4628b4",
+    "rows": 83,
+    "page": "wiki/market/2026-11-05.md",
+    "synced_at": "2026-11-07T06:36:18"
+  },
+  "2026-11-06": {
+    "zt": "E:/股票/复盘数据/zt20261106.xlsx",
+    "zt_hash": "ef477a9a467f7177fe1cd7cae5bfdacf",
+    "rd": "E:/股票/复盘数据/20261106RD.xlsx",
+    "rd_hash": "630b3528064ce5ce562effa218963090",
+    "rows": 32,
+    "page": "wiki/market/2026-11-06.md",
+    "synced_at": "2026-11-07T06:36:18"
   }
 }

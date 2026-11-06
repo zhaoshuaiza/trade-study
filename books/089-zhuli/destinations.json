@@ -1,0 +1,344 @@
+{
+  "bundle_id": "bundle.zhuli",
+  "book": {
+    "source_id": "src-main-book",
+    "title": "主力操盘手法揭秘",
+    "author": "蒋幸霖 编著",
+    "source_pack": "books/089-zhuli",
+    "published": "清华大学出版社 2013-05",
+    "cases_era": "2009-2011 旧庄股生态"
+  },
+  "promotion_budget": 8,
+  "stage": "1.5+1.6",
+  "format_align": "books/085-manzaikuai/destinations.json",
+  "segments": ["R", "I", "A1", "A2", "E", "B"],
+
+  "global_guardrails": {
+    "compliance": "成书2013、案例2009-2011旧庄股生态；对倒·对敲·虚假申报·连续交易·约定交易·自买自卖·多账户分仓·散布消息配合做盘·涨停板撤单，在2020年新《证券法》、交易所L2逐笔穿透与账户关联核查下多已明确违法且极易被识别——所有『识别类』条目只能作为防范对象晋级，绝不可晋级为可执行操作；输出契约仅允许『散户如何识别与防范』，严禁生成挂撤单/做量/分仓/散布消息/拉抬打压动作",
+    "user_constraint": "A股单边做多、不做空、不做期货、主做可转债+股票；全书股票判据(T+1/10%涨跌停/集合竞价/五档委托/换手率/60日线/除权填权)不可平移可转债(T+0/无涨跌停有临停/20%或30%涨跌幅限制/与正股联动/强赎下修)；『假填权出货』『高送转诱多』在可转债上无对应物",
+    "g14_disambiguation": "g14『做空/诱空/逼空/空头陷阱/反手做多』是A股口语(打压卖出/制造恐慌诱人离场/急速打压/跌势/看空离场观望/逢低买入)，≠融券卖出、≠股指期货或期权做空、≠任何双向或杠杆机制；成书前提即『我国股市不存在做空机制，必须低买高卖』(原文第658/903行实证)；晋级时必须保留此消歧，否则下游会生成用户明令禁止的做空/双向/期货动作。原文实测17+处此类口语，误用风险真实高频",
+    "action_whitelist": "可晋级为『可执行动作』的仅限：卖出离场/不买/轻仓/中间仓位/分批/观望/等确认/预设止损(均A股单边做多框架内、散户对自身、用户约束允许)；动作黑名单：做空/融券/期货/期权/双向/杠杆/对倒/对敲/虚假申报/分仓/挂撤单做量/散布消息"
+  },
+
+  "promotion_boundary": {
+    "识别类": "只作防范对象晋级：订单/换手率/骗术/陷阱/阶段/盘口等识别卡输出『信号+证伪+位置校准+风险提示+不模仿』，零主力手法操作",
+    "可执行类": "仅 zhuli-exit-discipline(及 washout-distribution 卖出触发器、intent-inference/follow-playbook 的等待/空仓)承载，动作严格限于 action_whitelist",
+    "落地机制": "每个 module 带 class+output_contract+guardrails 三键；判据4 actionable 对识别类一律解读为『actionable 于识别与防范』；g14 消歧作为全局卡被所有模块 B 段引用"
+  },
+
+  "promotion_semantics": {
+    "promoted_to": "frameworks 的 GO 锚点 = 8 张 promoted canonical 卡的独立发现入口(对应 verdict=GO)",
+    "served_by": "其余全部(principles/counter-examples 的 GO+CONDITIONAL、frameworks 的 CONDITIONAL、全部 glossary/cases)经来源路由入口或能力卡访问；按 1.6 硬规则『知识保留与 Skill 数量解耦』，GO ≠ 必单独发现",
+    "status_reference": "NO 的 glossary/cases，术语卡/案例卡，status: reference，不进 rejected/、不失联",
+    "router": "来源路由入口 zhuli 自身"
+  },
+
+  "modules": {
+    "zhuli-intent-inference": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "簇③锚点：从痕迹反推意图/信息四分/反事实推理/基线偏离/净效果vs符号/多维交叉/等确认",
+      "class": "识别-推理",
+      "output_contract": "纯跨域方法论，输出『怎么读痕迹、怎么证伪、怎么交叉校验』，不产生任何交易动作",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；对倒/虚假申报/分仓等新证券法2020下多已违法→识别类仅作防范对象晋级，绝不晋级为可执行操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；股票T+1/涨跌停/五档/换手率/60日线判据不可平移可转债",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli-orderbook-language": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "盘口委托单语言/上压板下托板夹板/证据分级/开盘尾盘时段/支撑阻力",
+      "class": "识别-防范",
+      "output_contract": "输出委托单形态分类+反事实证伪+位置校准；挂撤单/虚假申报/夹板仅作识别防范对象，绝不作为可执行操作",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；虚假申报/挂撤单/夹板在新证券法2020下多已违法→仅识别防范对象，绝不作为操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；五档委托/T+1/集合竞价判据不可平移可转债(T+0)",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli-turnover-volume": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "簇①：换手率五态/量价三态/周换算/地量/量能连续性证伪/量价教条",
+      "class": "识别-防范",
+      "output_contract": "输出五态阈值+位置校准+量能连续性证伪；对倒做量仅识别防范，与量柱体系立场冲突须交叉校验",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；对倒放量/做量新证券法2020下多已违法→仅识别防范对象，绝不作为操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；换手率基于股票流通盘+T+1，可转债T+0/无涨跌停/正股联动，阈值不可平移",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli-washout-vs-distribution": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "簇②前半：洗盘vs出货五维/60日线延迟判定/出货特征/离场触发器",
+      "class": "识别-防范 + 合规卖出",
+      "output_contract": "输出五维判别+延迟到关键位判定；可执行的仅『跌破关键位卖出/离场』(A股单边做多框架内)，买入跟进只作模式识别训练",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；对敲震仓/温和派发新证券法2020下多已违法→仅识别防范对象；事前区分度未验证、不可证伪",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；60日线/缩量/均线判据不可平移可转债；离场为卖出非做空",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli-deception-defense": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "簇②③共享：骗线四式/成交量骗术/多空陷阱/养套杀/信息战术/十八种反例",
+      "class": "识别-防范（零可执行操作）",
+      "output_contract": "只能输出『骗术识别信号+风险提示+不模仿』；严禁生成任何挂撤单/对倒/分仓/做量/散布消息/做空动作；g14 消歧在此硬加载",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；骗线/对倒/虚假申报/散布消息/涨停撤单新证券法2020下多已违法→全部仅识别防范对象，绝不作为可执行操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；股票关口/形态/涨跌停判据不可平移可转债，假填权/高送转诱多无可转债对应物",
+        "g14_disambiguation": "★头号：做空/诱空/逼空/空头陷阱/反手做多为A股口语(打压卖出/看空离场)，≠融券或期货做空；『大力做空』须译为打压卖出，绝不生成做空动作"
+      }
+    },
+    "zhuli-stage-model": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "簇④：坐庄十阶段/五段三段式/建仓试盘洗盘拉升出货各阶段特征",
+      "class": "识别-推理",
+      "output_contract": "输出阶段判别三段式+各阶段盘面特征；属模式识别/事后叙事训练(不可证伪)，不作『处于某段必涨』的确定性预测，跟进动作仅参考",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；各阶段对敲/对倒/分仓新证券法2020下多已违法→仅识别防范对象，绝不作为操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；股票阶段/涨跌停/形态判据不可平移可转债",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli-exit-discipline": {
+      "segment": ["R", "I", "A1", "A2", "E", "B"],
+      "promotion": "promoted_to",
+      "theme": "簇⑤：弃庄/离场触发器/止损鳄鱼法则/中间仓位分批/克服贪婪恐惧",
+      "class": "合规可执行动作（唯一主动作模块）",
+      "output_contract": "动作白名单：卖出离场/不买/轻仓/中间仓位/分批/观望/等确认/预设止损；不含做空/杠杆/期货/对倒/分仓",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；出货/题材炒作/散布消息新证券法2020下多已违法→仅识别防范对象；止损为卖出离场非做空",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；周KDJ/均线/亏损比例判据基于股票，不可平移可转债；分批示例仅作历史方法参考",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；『弃庄/止损』一律为卖出离场，绝不生成做空动作"
+      }
+    },
+    "zhuli-market-regime-filter": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "promoted_to",
+      "theme": "大盘环境过滤/弱市不介入/逆市压测/主力不是万能/beta vs alpha",
+      "class": "识别-推理 + 合规过滤",
+      "output_contract": "输出beta优先/弱市不介入/逆市压力测试；可执行的仅『弱市不介入/观望』，标注板块轮动语境已变与单一归因偏误",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；护盘/逆市拉升中的对敲新证券法2020下多已违法→仅识别防范对象",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；大盘/板块联动语境为2010前后，当下节奏已变；股票判据不可平移可转债",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；『空头市场』指跌势非做空机制"
+      }
+    },
+    "zhuli-follow-playbook": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "served_by",
+      "theme": "超预算router卡：跟庄实战清单/发现主力9特征/地量4阶段/破绽7条/强庄股/突然放量缩量涨停跌停应对",
+      "class": "识别-防范 + 模式识别训练",
+      "output_contract": "破绽/地量/强庄股清单全为事后图例、2013桌面软件史料；只作模式识别训练，不作确定买卖指令",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；对敲甄别/逆市做盘/涨停撤单新证券法2020下多已违法→仅识别防范对象，绝不作为操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；榜单/OBV/量比/涨跌停判据为2013软件语境且基于股票，不可平移可转债",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli-actor-typology": {
+      "segment": ["R", "I", "A1", "A2", "B"],
+      "promotion": "served_by",
+      "theme": "超预算router卡：主力类型/周期分类/短中长庄/目标点位公式/长中线策略",
+      "class": "识别-推理 + 估算谦逊",
+      "output_contract": "主体分类+按类型切换判据；目标点位公式仅示范『估算+主观系数+失效条件』态度，非可用计算器",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；多账户分仓新证券法2020下多已违法→仅识别防范对象；主体分类语境随注册制/量化改变",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；信心系数2无统计支撑；持仓占比/流通盘/拉升空间基于股票，可转债有强赎下修、不可平移",
+        "g14_disambiguation": "做空/诱空/逼空=A股口语(打压卖出/看空离场)，≠融券或期货做空；晋级必须保留此消歧"
+      }
+    },
+    "zhuli": {
+      "segment": ["R", "I", "A1", "A2", "E", "B"],
+      "promotion": "router",
+      "theme": "来源路由入口：全部术语卡/案例卡/全局边界卡(g14消歧·ce35不可证伪·ce36时效合规)兜底统一入口",
+      "class": "router",
+      "output_contract": "不直接产出交易动作；承载全局边界卡并路由到各 canonical 卡",
+      "guardrails": {
+        "compliance": "2013旧生态(案例2009-2011)；对倒/虚假申报/分仓新证券法2020下多已违法→识别类仅作防范对象，绝不晋级为可执行操作",
+        "user_constraint": "A股单边/不做空/不期货/主做可转债+股票；股票判据不可平移可转债",
+        "g14_disambiguation": "★全局硬边界：g14/ce35/ce36 三张边界卡被所有 10 个模块 B 段引用；做空/诱空/逼空=A股口语≠融券或期货做空"
+      }
+    }
+  },
+
+  "destinations": {
+    "f01": { "module": "zhuli-intent-inference", "segment": "R", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO 簇③锚点：从可观测痕迹反推不可观测意图，强跨域；纯推理框架零操作" },
+    "f02": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO：信息按发送者意图四分，强跨域" },
+    "f03": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO：反事实推理识破展示性行为，强跨域；兼盘口证伪基础" },
+    "f04": { "module": "zhuli-orderbook-language", "segment": "R", "promotion": "promoted_to", "canonical_card": "orderbook-language", "note": "GO：盘口委托单语言框架(识别-防范，挂撤单/夹板禁作操作)" },
+    "f05": { "module": "zhuli-stage-model", "segment": "I", "promotion": "promoted_to", "canonical_card": "stage-model", "note": "GO：阶段优先于信号，强跨域" },
+    "f06": { "module": "zhuli-stage-model", "segment": "R", "promotion": "promoted_to", "canonical_card": "stage-model", "note": "GO 簇④锚点：坐庄五阶段三段式；各阶段对敲分仓仅识别防范" },
+    "f07": { "module": "zhuli-turnover-volume", "segment": "I", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①锚点：换手率五态，股票专属阈值不可平移可转债" },
+    "f08": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO：基线偏离检测(排除共因看残差)，强跨域" },
+    "f09": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO：位置为纲多维交叉校验，强跨域" },
+    "f10": { "module": "zhuli-orderbook-language", "segment": "I", "promotion": "promoted_to", "canonical_card": "orderbook-language", "note": "GO：证据分级(一手挂单成交 vs 可造假衍生指标)，强跨域" },
+    "f11": { "module": "zhuli-stage-model", "segment": "I", "promotion": "promoted_to", "canonical_card": "stage-model", "note": "GO：试盘闭环(探测→反馈→分支)，强跨域(灰度/A-B/试探)" },
+    "f12": { "module": "zhuli-washout-vs-distribution", "segment": "R", "promotion": "promoted_to", "canonical_card": "washout-distribution", "note": "GO 簇②锚点：洗盘vs出货五维+延迟判定；仅卖出离场为合规动作" },
+    "f13": { "module": "zhuli-washout-vs-distribution", "segment": "I", "promotion": "promoted_to", "canonical_card": "washout-distribution", "note": "GO：量能连续性证伪单日巨量，强跨域；与换手率/量柱体系交叉" },
+    "f14": { "module": "zhuli-deception-defense", "segment": "R", "promotion": "promoted_to", "canonical_card": "deception-defense", "note": "GO 簇②③共享：骗术反向校验层，纯识别防范零可执行操作" },
+    "f15": { "module": "zhuli-deception-defense", "segment": "I", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：多空陷阱设置与辨别，含做空口语须随 g14 消歧" },
+    "f16": { "module": "zhuli-deception-defense", "segment": "I", "promotion": "promoted_to", "canonical_card": "deception-defense", "note": "GO：养套杀/培养惯性思维，强跨域" },
+    "f17": { "module": "zhuli-deception-defense", "segment": "I", "promotion": "promoted_to", "canonical_card": "deception-defense", "note": "GO：消息与题材验证(实质vs价格反应错配)，强跨域；关联弃庄触发器" },
+    "f18": { "module": "zhuli-market-regime-filter", "segment": "R", "promotion": "promoted_to", "canonical_card": "market-regime-filter", "note": "GO：大盘环境过滤(弱市不介入/逆市压测)，强跨域" },
+    "f19": { "module": "zhuli-actor-typology", "segment": "I", "promotion": "served_by", "canonical_card": "actor-typology", "note": "CONDITIONAL：主力类型/周期分类，router卡，语境随注册制/量化改变" },
+    "f20": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO：等确认/跟破绽而非跟突破，强跨域；空仓等待为非交易操作动作" },
+    "f21": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "promoted_to", "canonical_card": "intent-inference", "note": "GO：表象与实质背离(净效果vs符号)，强跨域" },
+    "f22": { "module": "zhuli-exit-discipline", "segment": "E", "promotion": "promoted_to", "canonical_card": "exit-discipline", "note": "GO：不确定时中间仓位与分批渐进下注，合规可执行动作(不含做空杠杆期货)" },
+    "f23": { "module": "zhuli-exit-discipline", "segment": "R", "promotion": "promoted_to", "canonical_card": "exit-discipline", "note": "GO 簇⑤锚点：弃庄/离场触发器(预设退出条件)，强跨域" },
+    "f24": { "module": "zhuli-actor-typology", "segment": "I", "promotion": "served_by", "canonical_card": "actor-typology", "note": "CONDITIONAL：目标点位公式，信心系数2无统计支撑、股票专属" },
+
+    "p01": { "module": "zhuli-orderbook-language", "segment": "A2", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：开盘三个10分钟/观察30分钟，股票集合竞价专属" },
+    "p02": { "module": "zhuli-orderbook-language", "segment": "A2", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：尾市收红长下影/星期五降仓；尾盘做价仅识别防范" },
+    "p03": { "module": "zhuli-orderbook-language", "segment": "A2", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "GO：阻力/支撑突破互换，通用阈值判断(识别-防范，关口造假仅识别)" },
+    "p04": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：日换手>10%且成交火爆=将逆转" },
+    "p05": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：1%-10%按原趋势加速" },
+    "p06": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：<1%观望；与 g16 地量看似冲突须位置校准" },
+    "p07": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：3%为短线拉升必备条件" },
+    "p08": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：>10%/连续>7%/累计涨幅过大警戒(高位校准)" },
+    "p09": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：周换手率五态=日值×5" },
+    "p10": { "module": "zhuli-orderbook-language", "segment": "A2", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：平开放量上冲异动定义(先排大盘共因)" },
+    "p11": { "module": "zhuli-orderbook-language", "segment": "A2", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：急涨急跌几分钟>3%，股票专属" },
+    "p12": { "module": "zhuli-orderbook-language", "segment": "A2", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：振幅×量比×位置四情形矩阵" },
+    "p13": { "module": "zhuli-turnover-volume", "segment": "A2", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "CONDITIONAL 簇①：底部放量换手10%特大量/进货需两周；对倒放量仅识别防范" },
+    "p14": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：温和上涨建仓买阴不买阳/放巨量分批出局" },
+    "p15": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "GO：跌停不盲目杀跌；跌停挂撤单吃筹属虚假申报仅识别防范、禁作操作" },
+    "p16": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：底部形态突破必须放量确认/双底间隔≥1月；假突破仅识别防范" },
+    "p17": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：试盘时间/空间阈值，方向随大盘强弱切换" },
+    "p18": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：低开高走>3%/试盘后走强即进场(等确认不抢探底)" },
+    "p19": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：金针探底四条件才是最佳买点" },
+    "p20": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL 簇②：洗盘时间(3天/1周/1-3月)与空间(10%/30%-50%)" },
+    "p21": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：筹码比例(20%冬眠/控盘30%则50%浮筹)，旧庄股不可平移可转债" },
+    "p22": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL 簇②：关键位延迟判定，跌破60日线达3%考虑出货" },
+    "p23": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL 簇②：关键位进出清单(放量突破跟进/跌破离场)" },
+    "p24": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL 簇②：洗盘均线特征(10日线上/不破30日线)与结束四标志" },
+    "p25": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL 簇②：洗盘后创新高跟进/趋势未坏比主力更有耐心" },
+    "p26": { "module": "zhuli-market-regime-filter", "segment": "A2", "promotion": "served_by", "canonical_card": "market-regime-filter", "note": "GO：弱市不介入/对个股利好谨慎，合规可执行的过滤开关" },
+    "p27": { "module": "zhuli-stage-model", "segment": "A2", "promotion": "served_by", "canonical_card": "stage-model", "note": "CONDITIONAL：拉升时间/升幅/控盘量化阈值，旧庄股专属" },
+    "p28": { "module": "zhuli-exit-discipline", "segment": "A2", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：拔高阶段逃命(量价背离+放量长阴)，卖出离场非做空" },
+    "p29": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL：主力出货五时机清单，与p30-p33同簇合并" },
+    "p30": { "module": "zhuli-exit-discipline", "segment": "A2", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：跌破关键价位即考虑出货(出货早期不需量)，硬离场触发器" },
+    "p31": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL：出货时间/空间阈值(2-3天/半月-3月/≥20%空间)" },
+    "p32": { "module": "zhuli-exit-discipline", "segment": "A2", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：出货离场触发器清单(放量连阴/高位跌停/破5日线)，卖出离场非做空" },
+    "p33": { "module": "zhuli-washout-vs-distribution", "segment": "A2", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "CONDITIONAL：出货特征(长上影+换手20%+/均线死叉)" },
+    "p34": { "module": "zhuli-deception-defense", "segment": "A2", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO：落入多头陷阱短线斩仓/长线先验基本面/假突破止损(识别-防范)" },
+    "p35": { "module": "zhuli-deception-defense", "segment": "A2", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO：空头陷阱辨别三技巧；含做空口语随g14消歧，禁生成做空动作" },
+    "p36": { "module": "zhuli-deception-defense", "segment": "A2", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：上影线试盘应对，与ce05/p19影线簇重叠" },
+    "p37": { "module": "zhuli-deception-defense", "segment": "A2", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO：消息位置校验(高位利好八成配合出货假消息)；散布假消息仅识别防范" },
+    "p38": { "module": "zhuli-deception-defense", "segment": "A2", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO：成交量骗术识别/放巨量涨停十之八九出货；对倒放量/涨停撤单仅识别防范绝不作为操作" },
+    "p39": { "module": "zhuli-follow-playbook", "segment": "A2", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "GO：发现主力9特征+地量4阶段进场清单(事后图例非统计验证)" },
+    "p40": { "module": "zhuli-follow-playbook", "segment": "A2", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "GO：操盘破绽7条，与f21重心呼应" },
+    "p41": { "module": "zhuli-follow-playbook", "segment": "A2", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "GO：强庄股筛选与跟进清单(2013软件史料，不可平移可转债)" },
+    "p42": { "module": "zhuli-follow-playbook", "segment": "A2", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "GO：突然放量四情形+对敲甄别10法；对敲仅识别防范" },
+    "p43": { "module": "zhuli-follow-playbook", "segment": "A2", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "GO：突然缩量应对/缩量空涨非坏事/regime-change重估" },
+    "p44": { "module": "zhuli-exit-discipline", "segment": "A2", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：涨停股卖出/出局清单(3日不涨/5日线走平/回调1%)，卖出触发器" },
+    "p45": { "module": "zhuli-follow-playbook", "segment": "E", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "GO：突然跌停放量打开即买/介入须分批增量；分批为合规可执行动作" },
+    "p46": { "module": "zhuli-follow-playbook", "segment": "A2", "promotion": "served_by", "canonical_card": "follow-playbook", "note": "CONDITIONAL：特殊开收盘应对/周五尾盘拉高不贸然介入；控制开收盘价仅识别防范" },
+    "p47": { "module": "zhuli-actor-typology", "segment": "A2", "promotion": "served_by", "canonical_card": "actor-typology", "note": "CONDITIONAL：长/中线庄策略(经济周期初介入/捂股/仓位60%-80%)，旧生态语境" },
+    "p48": { "module": "zhuli-exit-discipline", "segment": "A2", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO 簇⑤：弃庄/止损/解套总清单(鳄鱼法则/亏损阈值)，止损为卖出非做空" },
+
+    "g01": { "module": "zhuli-intent-inference", "segment": "R", "promotion": "served_by", "canonical_card": "intent-inference", "status": "reference", "note": "术语卡：主力/庄家(意图性归因的待验证假设，见ce34)" },
+    "g02": { "module": "zhuli-stage-model", "segment": "R", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "术语卡：坐庄/控盘(控盘50%为旧生态前提)" },
+    "g03": { "module": "zhuli-turnover-volume", "segment": "R", "promotion": "served_by", "canonical_card": "turnover-volume", "status": "reference", "note": "术语卡 簇①：换手率五态；B段写死不可平移可转债" },
+    "g04": { "module": "zhuli-orderbook-language", "segment": "R", "promotion": "served_by", "canonical_card": "orderbook-language", "status": "reference", "note": "术语卡：上压板(展示性挂单，识别防范)" },
+    "g05": { "module": "zhuli-orderbook-language", "segment": "R", "promotion": "served_by", "canonical_card": "orderbook-language", "status": "reference", "note": "术语卡：下托板" },
+    "g06": { "module": "zhuli-orderbook-language", "segment": "R", "promotion": "served_by", "canonical_card": "orderbook-language", "status": "reference", "note": "术语卡：夹板" },
+    "g07": { "module": "zhuli-stage-model", "segment": "R", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "术语卡：试盘(探测闭环f11)" },
+    "g08": { "module": "zhuli-washout-vs-distribution", "segment": "R", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "术语卡：洗盘(事前区分度未验证)" },
+    "g09": { "module": "zhuli-washout-vs-distribution", "segment": "R", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "术语卡：出货/派发(跌破关键位才离场)" },
+    "g10": { "module": "zhuli-stage-model", "segment": "R", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "术语卡：建仓/吸筹" },
+    "g11": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "术语卡+识别防范对象硬边界：对敲/对倒/虚假申报，新证券法下违法绝不作为操作" },
+    "g12": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "术语卡+消歧：多头陷阱(做空为A股口语)" },
+    "g13": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "术语卡+消歧：空头陷阱(最易误用词/做空为A股口语)" },
+    "g14": { "module": "zhuli", "segment": "B", "promotion": "served_by", "canonical_card": "zhuli", "status": "reference", "note": "★头号全局消歧卡：做空/诱空/逼空=A股口语≠融券或期货做空；主去向来源路由入口，被所有10个模块B段强制引用，不得降级为动作" },
+    "g15": { "module": "zhuli-deception-defense", "segment": "R", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "术语卡：骗线/做影线(识别之后要怀疑)" },
+    "g16": { "module": "zhuli-turnover-volume", "segment": "R", "promotion": "served_by", "canonical_card": "turnover-volume", "status": "reference", "note": "术语卡：地量(与p06观望看似冲突须位置校准；不可平移可转债)" },
+    "g17": { "module": "zhuli-intent-inference", "segment": "I", "promotion": "served_by", "canonical_card": "intent-inference", "status": "reference", "note": "术语卡：重心(净效果vs符号)" },
+    "g18": { "module": "zhuli-washout-vs-distribution", "segment": "R", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "术语卡：60日线(延迟判定+未经统计验证)" },
+    "g19": { "module": "zhuli-stage-model", "segment": "I", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "术语卡：筹码/控盘度(旧庄股结构语言)" },
+    "g20": { "module": "zhuli-follow-playbook", "segment": "R", "promotion": "served_by", "canonical_card": "follow-playbook", "status": "reference", "note": "术语卡：破绽(事后图例非统计信号)" },
+    "g21": { "module": "zhuli-actor-typology", "segment": "R", "promotion": "served_by", "canonical_card": "actor-typology", "status": "reference", "note": "术语卡：短庄/中线庄/长庄" },
+    "g22": { "module": "zhuli-actor-typology", "segment": "R", "promotion": "served_by", "canonical_card": "actor-typology", "status": "reference", "note": "术语卡：涨停板敢死队/闪电战术(边拉边出，识别防范)" },
+    "g23": { "module": "zhuli-follow-playbook", "segment": "R", "promotion": "served_by", "canonical_card": "follow-playbook", "status": "reference", "note": "术语卡：强庄股(2013软件史料+单一主力归因偏误)" },
+    "g24": { "module": "zhuli-actor-typology", "segment": "R", "promotion": "served_by", "canonical_card": "actor-typology", "status": "reference", "note": "术语卡：目标点位公式(信心系数2无统计支撑)" },
+    "g25": { "module": "zhuli-deception-defense", "segment": "R", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "术语卡：养套杀/见光死，关联exit-discipline弃庄触发器" },
+
+    "c01": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：西藏发展横盘建仓(f06/p13/p14)，旧生态事后图例" },
+    "c02": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：特力A温和上涨建仓(f06/p14)" },
+    "c03": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：德赛电池快速拉升建仓(f06/f08/p13)" },
+    "c04": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：上海辅仁跌停式建仓(f06/p15/f22)；跌停挂撤单仅识别防范" },
+    "c05": { "module": "zhuli-follow-playbook", "segment": "A1", "promotion": "served_by", "canonical_card": "follow-playbook", "status": "reference", "note": "案例卡：襄阳轴承圆形底配地量(p16/p39/f20)" },
+    "c06": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：莫高股份矩形建仓放量确认(p16/p23/f14)" },
+    "c07": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：深纺织A 2009-10-12高开低走试盘(f11/p18/f05)" },
+    "c08": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：酒鬼酒低开高走试盘(f11/p18/f05)" },
+    "c09": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：中青旅尾盘打压试盘(f11/p19/f20)" },
+    "c10": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：深赤湾A双针探底(f11/p19/f20)" },
+    "c11": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：万家乐长下影洗盘+冲高回落试盘(f11/p36/f05)" },
+    "c12": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：中信海直2010-07-29早盘冲高回落(f08/f11/p10)" },
+    "c13": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：大唐发电跌停式洗盘(f12/p15/p22)" },
+    "c14": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：梅花伞上涨初期接连跌停洗盘(f12/p15/p22)" },
+    "c15": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：成飞集成爆炒股短时平台洗盘(f12/p23/f05)" },
+    "c16": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：科学城分时大幅震荡洗盘易误读出货(f12/p12/p11)" },
+    "c17": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：太极集团以60日线为依托拉升(p23/f12/p22)" },
+    "c18": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：ST罗顿海南国际旅游岛消息火箭式拉升(f17/p27/p26)" },
+    "c19": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：包钢稀土多重利好接连拉升(f17/p26/f23)" },
+    "c20": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡(失败)：中金黄金填权后震荡下跌(f17/p28/f23)" },
+    "c21": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：维维股份收购贵州醇连续5涨停(p27/p32/f17)" },
+    "c22": { "module": "zhuli-stage-model", "segment": "A1", "promotion": "served_by", "canonical_card": "stage-model", "status": "reference", "note": "案例卡：中山公用洗盘后连续缩量涨停(p28/p43/f13)" },
+    "c23": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：深康佳A高位宽幅震荡出货(p29/p30/f21)" },
+    "c24": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：浙江富润涨停板反复打开派发(p32/p38/f14)" },
+    "c25": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡(失败)：金岭矿业假填权出货；可转债无对应物" },
+    "c26": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：金山开发2011-04-01高位放量震荡出货(p29/p32/p33)" },
+    "c27": { "module": "zhuli-washout-vs-distribution", "segment": "A1", "promotion": "served_by", "canonical_card": "washout-distribution", "status": "reference", "note": "案例卡：绿景控股一字涨停尾盘跳水出货(p32/p46/f23)" },
+    "c28": { "module": "zhuli-deception-defense", "segment": "A1", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "案例卡(失败)：凤凰股份2011-06-01午后拉高派发(f08/f14/p10/p38)" },
+    "c29": { "module": "zhuli-deception-defense", "segment": "A1", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "案例卡(失败)：旭飞投资尾盘拉涨停后大阴线(f14/p46/p02)" },
+    "c30": { "module": "zhuli-deception-defense", "segment": "A1", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "案例卡(失败)：中原环保放量假突破诱多(f14/f13/p38)" },
+    "c31": { "module": "zhuli-deception-defense", "segment": "A1", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "案例卡(失败)：中瑞思创高送转见光死(f14/f17/f23/p37)" },
+    "c32": { "module": "zhuli-deception-defense", "segment": "A1", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "案例卡(失败)：吉峰农机高送转公告拉涨停诱多(f14/f15/p37)" },
+    "c33": { "module": "zhuli-deception-defense", "segment": "A1", "promotion": "served_by", "canonical_card": "deception-defense", "status": "reference", "note": "案例卡(失败)：中山公用空头陷阱急跌50%后450%涨停；做空为A股口语随g14消歧" },
+    "c34": { "module": "zhuli-exit-discipline", "segment": "A1", "promotion": "served_by", "canonical_card": "exit-discipline", "status": "reference", "note": "案例卡(失败)：ST罗顿题材两轮炒作见光死(f23/f17/p26)，弃庄时机" },
+
+    "ce01": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO 簇③锚点：骗线总纲，纯识别防范零操作" },
+    "ce02": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：尾盘拉升假进真出，与ce01/ce13/p46尾盘簇重叠" },
+    "ce03": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：假突破高位整理平台，与ce12/c30/p16同簇" },
+    "ce04": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：假填权，与ce12/c25/p37同簇；可转债无对应物" },
+    "ce05": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：做影线机械解读，与p36/ce22影线簇重叠" },
+    "ce06": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：多头陷阱诱多，与ce25/f15/g12同簇；做多态势为画出的表演" },
+    "ce07": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO：空头陷阱(最易误用词)，大力做空=打压卖出，强制随g14消歧" },
+    "ce08": { "module": "zhuli-orderbook-language", "segment": "B", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：盘口委托单骗术，与ce22/f03/g04-g06同簇" },
+    "ce09": { "module": "zhuli-orderbook-language", "segment": "B", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "GO：虚假申报(识别防范对象)，新证券法下违法绝不作为操作" },
+    "ce10": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "GO：对敲/对倒自买自卖(识别防范对象)，新证券法下违法绝不作为操作" },
+    "ce11": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：对倒放量拉升(量骗术一)，与ce10/ce12/ce24同簇" },
+    "ce12": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：久盘后突然放量突破(量骗术二)，与ce03/c30/p38同簇" },
+    "ce13": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：反弹制造假突破(量骗术三)，与ce02/ce03同簇" },
+    "ce14": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：涨跌停板骗术跌停引诱抄底盘，与p32/p45/ce26同簇" },
+    "ce15": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：盘口异动瞬间砸低又复原，与ce08/p42同簇" },
+    "ce16": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：信息战术，与f17/p37/ce06信息战簇重叠" },
+    "ce17": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：折磨战术，与f16/ce18养套杀簇重叠" },
+    "ce18": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：养套杀/培养惯性思维，与f16/g25/ce17同簇" },
+    "ce19": { "module": "zhuli-washout-vs-distribution", "segment": "B", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "GO 簇②：误判洗盘为出货低位被吓出筹码；事前区分度未验证" },
+    "ce20": { "module": "zhuli-washout-vs-distribution", "segment": "B", "promotion": "served_by", "canonical_card": "washout-distribution", "note": "GO 簇②：误判出货为洗盘高位死守抢反弹，与ce19对称" },
+    "ce21": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：把对倒放量(短庄边拉边出)误读建仓，与ce10/f13/p42同簇" },
+    "ce22": { "module": "zhuli-orderbook-language", "segment": "B", "promotion": "served_by", "canonical_card": "orderbook-language", "note": "CONDITIONAL：把上压板/大买单读成进货，与ce08/f03/g04同簇" },
+    "ce23": { "module": "zhuli-intent-inference", "segment": "B", "promotion": "served_by", "canonical_card": "intent-inference", "note": "GO：孤立看单一信号，强跨域(多源交叉反面)" },
+    "ce24": { "module": "zhuli-turnover-volume", "segment": "B", "promotion": "served_by", "canonical_card": "turnover-volume", "note": "GO：照搬经典量价理论，与量柱体系立场冲突须交叉校验" },
+    "ce25": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：追高被套忘掉多头风险，与ce06/f15同簇" },
+    "ce26": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：抢反弹/跌停抄底不及时止损深套，不卖不亏自欺" },
+    "ce27": { "module": "zhuli-deception-defense", "segment": "B", "promotion": "served_by", "canonical_card": "deception-defense", "note": "CONDITIONAL：把真空头市场当陷阱/洗盘；含做空口语随g14消歧" },
+    "ce28": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：满仓/重仓无资金管理，对应f22中间仓位" },
+    "ce29": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：亏损后补仓摊平违逆鳄鱼法则，绝不补仓摊平为合规可执行禁令" },
+    "ce30": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：不止损/不卖不亏式自欺，止损是唯一保命绝招" },
+    "ce31": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：贪婪死顶硬扛/抱仓过久，强跨域人性弱点" },
+    "ce32": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：恐惧暴跌中低位交筹，与贪婪对称" },
+    "ce33": { "module": "zhuli-exit-discipline", "segment": "B", "promotion": "served_by", "canonical_card": "exit-discipline", "note": "GO：未预设弃庄/离场触发器，预设退出" },
+    "ce34": { "module": "zhuli-market-regime-filter", "segment": "B", "promotion": "served_by", "canonical_card": "market-regime-filter", "note": "GO：主力不是万能/幸存者偏差(第532行实证)，忽略无单一主力解释" },
+    "ce35": { "module": "zhuli", "segment": "B", "promotion": "served_by", "canonical_card": "zhuli", "note": "GO ★全局边界卡：作者自相矛盾/不可证伪(信号可伪造与可反推不能同真)，被所有模块B段引用" },
+    "ce36": { "module": "zhuli", "segment": "B", "promotion": "served_by", "canonical_card": "zhuli", "note": "GO ★全局护栏总卡：时代/合规失效(新证券法违法清单/可转债不可平移/做空口语)，被所有模块B段引用" }
+  }
+}
