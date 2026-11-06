@@ -1,0 +1,38 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\psychology-chaos-dominates.md": "8c5eea66bf7b87a4442cbaca6fb43f746018eba822035c579106bde140d977cd",
+    "references\\capabilities\\psychology-cognitive-bias.md": "bc90184e003f7bb33d1b8efde0341a1e64eae6fa6c1bb2f36f6e7065bf63019f",
+    "references\\capabilities\\psychology-destruction-path.md": "863f120a161c60806c0d1595e4881187d05fd01fe2cbd3fa0da0e4b57ce1ae43",
+    "references\\capabilities\\psychology-inverted-thinking.md": "a77cdea36924c0f8f9343fa7dbd1ef9ed5d6bcc380b746c645694fb84c6fad58",
+    "references\\capabilities\\psychology-irrationality.md": "f5a1b7ae178ef86b357731003c87fcf3fbbb77d77881aaae7e5068e1d8e05a1f",
+    "references\\capabilities\\psychology-market-discounts.md": "b34de89ae1fa2222b3fa5c61f934e6ed08d50a7df65e8890ff3016b5ca529a8f",
+    "references\\capabilities\\psychology-risk-exposure.md": "dd1e8c85993015b9f1831c2d4c2b45a5820e66b471c05743f24f33798b3784ad",
+    "references\\capabilities\\psychology-self-fulfilling-patterns.md": "7d403e295dbd429bad9726667a8a8d18432e260c5166f1bee46fced887cef601",
+    "references\\capability-index.md": "60f2dd3334f480dbc75467120813366bcec74adaaf0319564676c6f1948fb000",
+    "references\\cheatsheet.md": "de013f3aa2997c697646396582a030c113b55ead8c25108a3188b6e7f1fef1a8",
+    "references\\glossary.md": "b3e368b41a4704f26bae03968290cc242ec066e418f1659a1b3a48ca89b1cf74",
+    "references\\overview.md": "b10500e3b98a2bc849f7274d51aa3061bdc9d4ac2915294ec3894ff981e9627e",
+    "SKILL.md": "3b1ae246ed3f8368eec0673b906e8bbed4e6e4cd1c2209981f70b735279eafe1"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.jinrongxinlixue",
+  "bundle_sha256": "fffd6dde17516624176464ea52daf38d2626619a434081ca2a711c53a720d4b9",
+  "variant": "single",
+  "run_id": "run-20261107-055401-afbda8",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 8,
+    "capability_count": 8,
+    "reasons": [
+      "用户目的为 learning → single"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 8 个晋级 Skill，共 9 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\manzai-cycle-thinking.md": "a320ebae2a305498914269a5b5747a45092fbfc55674a6a5c7492606c910eae3",
+    "references\\capabilities\\manzai-davis-double.md": "0d4a960a70ab6221d869d02ceebbda70a2c0691f1fdd1647e7fc6bf913eaf108",
+    "references\\capabilities\\manzai-inverted-thinking.md": "c0bbad40ad3346d2e8f24768b49aa63a0d15cb797b9242deeccd9cbc042a2a62",
+    "references\\capabilities\\manzai-mean-reversion.md": "de983632555028152e2b33c4b74ec629717f155837c2e816eefa5f5ea93c2a31",
+    "references\\capabilities\\manzai-patience-discipline.md": "7822b8099f7b516e3f8bebe3e7bdb9db8ce69b887288a41f07a5735b957b869f",
+    "references\\capabilities\\manzai-position-control.md": "4999b765919c081761a18b331d43b32ac4c23e0ebe73a4ef405a94373d708927",
+    "references\\capabilities\\manzai-quality-price.md": "7cfdb8c95de2c7f22c6b7b2c42a7bc042af1512b1046e987fd41235ccc5fde4c",
+    "references\\capabilities\\manzai-risk-no-leverage.md": "3db6aad1d4f7ea9839d31747b50be2d3804b8a539f18431c0de0df5eac171741",
+    "references\\capability-index.md": "3fe34b0e22b23cca9ebcf24f1539d3d3cd4bb7fed3aff3152643ee46fac4dfc8",
+    "references\\cheatsheet.md": "cab4ba777fc87a76a645bc9b4a6e59a285611c1d238303b4df6cc2125d971c90",
+    "references\\glossary.md": "aea6ebd7353e3eae394f22360bb21f7deb8799121cf460ed0dc36f8ad66240b7",
+    "references\\overview.md": "17cd25ffd2f69beb1d53c6c1bc492d5395a03abc6117af9357283270995ed65b",
+    "SKILL.md": "25947aad16711683f616af8d435286f37a0e5889847e6d3583a00727ae417444"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.manzaikuai",
+  "bundle_sha256": "409925fbdcfe7b4883891acc608639cae82c2bd3599339e9685621ebe408d654",
+  "variant": "single",
+  "run_id": "run-20261107-055403-ed910c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 8,
+    "capability_count": 8,
+    "reasons": [
+      "用户目的为 learning → single"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 8 个晋级 Skill，共 9 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}

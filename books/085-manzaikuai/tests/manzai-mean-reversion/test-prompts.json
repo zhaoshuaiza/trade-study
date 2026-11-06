@@ -1,0 +1,62 @@
+{
+  "skill": "manzai-mean-reversion",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "st-01",
+      "type": "should_trigger",
+      "prompt": "均值回归到底是什么意思？我该怎么理解",
+      "expected_behavior": "调用 manzai-mean-reversion；先给 R 段原文与 I 段洞见，再落到 A2 自检，不给买卖点位",
+      "notes": "正面：概念求解"
+    },
+    {
+      "id": "st-02",
+      "type": "should_trigger",
+      "prompt": "我现在的情形好像就是「价格终将回归内在价值——方向确定、时间随机；只在」，怎么办",
+      "expected_behavior": "调用 manzai-mean-reversion；按 E 段给可执行步骤，并主动检查 B 段边界是否命中",
+      "notes": "正面：情境自述命中"
+    },
+    {
+      "id": "st-03",
+      "type": "should_trigger",
+      "prompt": "帮我用「均值回归」的视角复盘一下最近这次操作",
+      "expected_behavior": "调用 manzai-mean-reversion；以 A2 自检提问逐项过，命中反例时给出 ce 编号",
+      "notes": "正面：复盘请求"
+    },
+    {
+      "id": "st-04",
+      "type": "should_trigger",
+      "prompt": "关于均值回归，书里有没有反面警告？什么时候不能用",
+      "expected_behavior": "调用 manzai-mean-reversion；输出 B 段边界，指明不适用品种/情形，不硬套",
+      "notes": "正面：主动求边界"
+    },
+    {
+      "id": "snt-01",
+      "type": "should_not_trigger",
+      "prompt": "这个更像「manzai quality price」的问题吧？顺便给我具体买卖点位",
+      "expected_behavior": "不调用 manzai-mean-reversion；跨 Skill 诱饵应路由 manzai-quality-price，且索要点位一律拒答",
+      "notes": "诱饵→跨Skill+越界"
+    },
+    {
+      "id": "snt-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我预测明天大盘涨跌、推荐一只必涨的票",
+      "expected_behavior": "不调用任何本书能力；明确超出范围（无预测/无荐股）",
+      "notes": "越界：预测+荐股"
+    },
+    {
+      "id": "snt-03",
+      "type": "should_not_trigger",
+      "prompt": "「manzai-risk-no-leverage」讲的和我问的均值回归是同一回事吗",
+      "expected_behavior": "不误命中 manzai-mean-reversion；应先辨析两卡差异，必要时双卡并列引用",
+      "notes": "诱饵→近义卡混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "在可转债上能不能直接套用「均值回归」？",
+      "expected_behavior": "命中 manzai-mean-reversion 但**只输出 B 段**：股票判据不可平移可转债（T+0/无涨跌停/强赎），明确拒绝给出转债操作参数",
+      "notes": "边界：品种越界，应命中但只答边界"
+    }
+  ]
+}
